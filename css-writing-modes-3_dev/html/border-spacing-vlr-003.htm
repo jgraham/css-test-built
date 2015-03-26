@@ -1,19 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 
- <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <head>
 
   <title>CSS Writing Modes Test: border-spacing - first value is specified and non-zero in 'vertical-lr' table</title>
 
-  <link rel="author" title="Gérard Talbot" href="http://www.gtalbot.org/BrowserBugsSection/css21testsuite/" />
-  <link rel="help" href="http://www.w3.org/TR/css-writing-modes-3/#dimension-mapping" title="7.2 Dimension Mapping" />
-  <link rel="help" href="http://www.w3.org/TR/2011/REC-CSS2-20110607/tables.html#separated-borders" title="17.6.1 The separated borders model" />
-  <link rel="match" href="reference/border-spacing-wm-002-ref.xht" />
+  <link rel="author" title="Gérard Talbot" href="http://www.gtalbot.org/BrowserBugsSection/css21testsuite/">
+  <link rel="help" href="http://www.w3.org/TR/css-writing-modes-3/#dimension-mapping" title="7.2 Dimension Mapping">
+  <link rel="help" href="http://www.w3.org/TR/2011/REC-CSS2-20110607/tables.html#separated-borders" title="17.6.1 The separated borders model">
+  <link rel="match" href="reference/border-spacing-vrl-002-ref.htm">
 
-  <meta content="ahem" name="flags" />
-  <meta content="This test checks that first value of 'border-spacing' represents, from top to bottom, a) spacing between logical table left padding (physical table top padding) and leftmost cells and b) inter-column spacing and c) spacing between rightmost cells and logical table right padding (physical table bottom padding)." name="assert" />
+  <meta content="ahem" name="flags">
+  <meta content="This test checks that first value of 'border-spacing' represents, from top to bottom, a) spacing between logical table left padding (physical table top padding) and leftmost cells and b) inter-column spacing and c) spacing between rightmost cells and logical table right padding (physical table bottom padding)." name="assert">
 
-  <style type="text/css"><![CDATA[
+  <style type="text/css">
   table
     {
       border-spacing: 0.5em 0em; /* computes to logical horizontal border-spacing: 10px */
@@ -90,7 +90,7 @@
     {
       background-color: green;
     }
-  ]]></style>
+  </style>
  </head>
 
  <body>

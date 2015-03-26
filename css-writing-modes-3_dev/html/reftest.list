@@ -220,10 +220,10 @@ block-plaintext-001.htm == reference/block-plaintext-001.htm
 block-plaintext-002.htm == reference/block-plaintext-002.htm
 block-plaintext-003.htm == reference/block-plaintext-003.htm
 block-plaintext-004.htm == reference/block-plaintext-004.htm
-border-spacing-wm-002.htm == reference/border-spacing-wm-002-ref.htm
-border-spacing-wm-003.htm == reference/border-spacing-wm-002-ref.htm
-border-spacing-wm-004.htm == reference/border-spacing-wm-002-ref.htm
-border-spacing-wm-005.htm == reference/border-spacing-wm-002-ref.htm
+border-spacing-vlr-003.htm == reference/border-spacing-vrl-002-ref.htm
+border-spacing-vlr-005.htm == reference/border-spacing-vrl-002-ref.htm
+border-spacing-vrl-002.htm == reference/border-spacing-vrl-002-ref.htm
+border-spacing-vrl-004.htm == reference/border-spacing-vrl-002-ref.htm
 border-vlr-007.htm == reference/margin-vrl-002-ref.htm
 border-vrl-006.htm == reference/margin-vrl-002-ref.htm
 box-offsets-rel-pos-vlr-003.htm == reference/abs-pos-non-replaced-vlr-013-ref.htm

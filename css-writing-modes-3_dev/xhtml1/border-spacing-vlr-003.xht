@@ -3,15 +3,15 @@
 
  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <title>CSS Writing Modes Test: border-spacing - first value is specified and non-zero in 'vertical-rl' table</title>
+  <title>CSS Writing Modes Test: border-spacing - first value is specified and non-zero in 'vertical-lr' table</title>
 
   <link rel="author" title="Gérard Talbot" href="http://www.gtalbot.org/BrowserBugsSection/css21testsuite/" />
   <link rel="help" href="http://www.w3.org/TR/css-writing-modes-3/#dimension-mapping" title="7.2 Dimension Mapping" />
   <link rel="help" href="http://www.w3.org/TR/2011/REC-CSS2-20110607/tables.html#separated-borders" title="17.6.1 The separated borders model" />
-  <link rel="match" href="reference/border-spacing-wm-002-ref.xht" />
+  <link rel="match" href="reference/border-spacing-vrl-002-ref.xht" />
 
   <meta content="ahem" name="flags" />
-  <meta content="This test checks that first value of 'border-spacing' represents, from top to bottom, a) spacing between logical table right padding (physical table top padding) and rightmost cells and b) inter-column spacing and c) spacing between leftmost cells and logical table left padding (physical table bottom padding)." name="assert" />
+  <meta content="This test checks that first value of 'border-spacing' represents, from top to bottom, a) spacing between logical table left padding (physical table top padding) and leftmost cells and b) inter-column spacing and c) spacing between rightmost cells and logical table right padding (physical table bottom padding)." name="assert" />
 
   <style type="text/css"><![CDATA[
   table
@@ -19,7 +19,7 @@
       border-spacing: 0.5em 0em; /* computes to logical horizontal border-spacing: 10px */
       font: 1.25em/1 Ahem; /* computes to 20px/20px */
       padding: 1.25em 0em; /* computes to padding-top: 25px and padding-bottom: 25px */
-      writing-mode: vertical-rl;
+      writing-mode: vertical-lr;
     }
 
   td
@@ -40,7 +40,7 @@
          |    with red background=color    |                              \ /
          |    with red background=color    |                               v
          ===================================    25px (1.25em)
-         |logical righ border-spacing: 10px|
+         |logical left border-spacing: 10px|
          |    with red background=color    |
          ===================================    35px (1.75em)
          |  height of 1st td 10px (0.5em)  |                              |||
@@ -52,7 +52,7 @@
          |  height of 2nd td 10px (0.5em)  |
          |    with red background=color    |
          ===================================    65px (3.25em)
-         |logical left border-spacing: 10px|                              |||
+         |logical righ border-spacing: 10px|                              |||
          |    with red background=color    |                              |||
          ===================================    75px (3.75em)           \ ||| /
          |tble padding-bottom 25px (1.25em)|                             \   /

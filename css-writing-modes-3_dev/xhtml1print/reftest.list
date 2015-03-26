@@ -220,10 +220,10 @@ block-plaintext-001.xht == reference/block-plaintext-001.xht
 block-plaintext-002.xht == reference/block-plaintext-002.xht
 block-plaintext-003.xht == reference/block-plaintext-003.xht
 block-plaintext-004.xht == reference/block-plaintext-004.xht
-border-spacing-wm-002.xht == reference/border-spacing-wm-002-ref.xht
-border-spacing-wm-003.xht == reference/border-spacing-wm-002-ref.xht
-border-spacing-wm-004.xht == reference/border-spacing-wm-002-ref.xht
-border-spacing-wm-005.xht == reference/border-spacing-wm-002-ref.xht
+border-spacing-vlr-003.xht == reference/border-spacing-vrl-002-ref.xht
+border-spacing-vlr-005.xht == reference/border-spacing-vrl-002-ref.xht
+border-spacing-vrl-002.xht == reference/border-spacing-vrl-002-ref.xht
+border-spacing-vrl-004.xht == reference/border-spacing-vrl-002-ref.xht
 border-vlr-007.xht == reference/margin-vrl-002-ref.xht
 border-vrl-006.xht == reference/margin-vrl-002-ref.xht
 box-offsets-rel-pos-vlr-003.xht == reference/abs-pos-non-replaced-vlr-013-ref.xht
