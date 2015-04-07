@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Abstract Box Layout (229 tests)</h2>
+  <h2>Abstract Box Layout (232 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -2410,7 +2410,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.6">+</a>
         <a href="http://www.w3.org/TR/css-writing-modes-3/#physical-only">7.6 Purely Physical Mappings</a></th></tr>
-      <!-- 16 tests -->
+      <!-- 19 tests -->
       <tr id="background-position-vlr-003-7.6" class="primary image interact">
         <td><strong>
             <a href="background-position-vlr-003.xht">background-position-vlr-003</a></strong></td>
@@ -2584,6 +2584,39 @@
         <td>'background-position: right bottom' and 'vertical-rl'
           <ul class="assert">
             <li>This test checks that 'background-position: right bottom' will make background-image start at lower right corner of page (even in case there is resizing of the window) because background properties should not be affected by vertical writing-mode.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="background-position-vrl-018-7.6" class="primary image interact">
+        <td><strong>
+            <a href="background-position-vrl-018.xht">background-position-vrl-018</a></strong></td>
+        <td><a href="reference/background-position-vrl-018-ref.xht">=</a> </td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
+        <td>'background-position: left top' and 'vertical-rl' when document root element does not fill viewport width
+          <ul class="assert">
+            <li>This test checks that 'background-position: left top' will make background-image start at left side of document root element (even in case there is resizing of the window) because background properties should not be affected by vertical writing-mode.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="background-position-vrl-020-7.6" class="primary image interact">
+        <td><strong>
+            <a href="background-position-vrl-020.xht">background-position-vrl-020</a></strong></td>
+        <td><a href="reference/background-position-vrl-018-ref.xht">=</a> </td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
+        <td>'background-position: left center' and 'vertical-rl' when document root element does not fill viewport width
+          <ul class="assert">
+            <li>This test checks that 'background-position: left center' will make background-image start at left side of document root element (even in case there is resizing of the window) because background properties should not be affected by vertical writing-mode.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="background-position-vrl-022-7.6" class="primary image interact">
+        <td><strong>
+            <a href="background-position-vrl-022.xht">background-position-vrl-022</a></strong></td>
+        <td><a href="reference/background-position-vrl-018-ref.xht">=</a> </td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
+        <td>'background-position: left bottom' and 'vertical-rl' when document root element does not fill viewport width
+          <ul class="assert">
+            <li>This test checks that 'background-position: left bottom' will make background-image start at left side of document root element (even in case there is resizing of the window) because background properties should not be affected by vertical writing-mode.</li>
           </ul>
         </td>
       </tr>
