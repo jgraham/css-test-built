@@ -3,6 +3,18 @@
 # http://test.csswg.org/suites/css-text-3_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname    result  comment
+html4/bidi-005.htm	?	
+xhtml1/bidi-005.xht	?	
+html4/bidi-006.htm	?	
+xhtml1/bidi-006.xht	?	
+html4/bidi-007.htm	?	
+xhtml1/bidi-007.xht	?	
+html4/bidi-008.htm	?	
+xhtml1/bidi-008.xht	?	
+html4/bidi-009.htm	?	
+xhtml1/bidi-009.xht	?	
+html4/bidi-010.htm	?	
+xhtml1/bidi-010.xht	?	
 html4/css3-text-line-break-baspglwj-001.htm	?	
 xhtml1/css3-text-line-break-baspglwj-001.xht	?	
 html4/css3-text-line-break-baspglwj-002.htm	?	
