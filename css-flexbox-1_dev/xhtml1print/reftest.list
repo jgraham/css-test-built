@@ -253,6 +253,12 @@ flexbox-whitespace-handling-002.xht == reference/flexbox-whitespace-handling-002
 flexbox-with-pseudo-elements-001.xht == reference/flexbox-with-pseudo-elements-001-ref.xht
 flexbox-with-pseudo-elements-002.xht == reference/flexbox-with-pseudo-elements-002-ref.xht
 flexbox-with-pseudo-elements-003.xht == reference/flexbox-with-pseudo-elements-003-ref.xht
+flexbox-writing-mode-001.xht == reference/flexbox-writing-mode-001-ref.xht
+flexbox-writing-mode-002.xht == reference/flexbox-writing-mode-002-ref.xht
+flexbox-writing-mode-003.xht == reference/flexbox-writing-mode-003-ref.xht
+flexbox-writing-mode-004.xht == reference/flexbox-writing-mode-004-ref.xht
+flexbox-writing-mode-005.xht == reference/flexbox-writing-mode-005-ref.xht
+flexbox-writing-mode-006.xht == reference/flexbox-writing-mode-006-ref.xht
 flexbox_absolute-atomic.xht == reference/flexbox_absolute-atomic-ref.xht
 flexbox_align-content-center.xht == reference/flexbox_align-content-center-ref.xht
 flexbox_align-content-flexend.xht == reference/flexbox_align-content-flexend-ref.xht

@@ -253,6 +253,12 @@ flexbox-whitespace-handling-002.htm == reference/flexbox-whitespace-handling-002
 flexbox-with-pseudo-elements-001.htm == reference/flexbox-with-pseudo-elements-001-ref.htm
 flexbox-with-pseudo-elements-002.htm == reference/flexbox-with-pseudo-elements-002-ref.htm
 flexbox-with-pseudo-elements-003.htm == reference/flexbox-with-pseudo-elements-003-ref.htm
+flexbox-writing-mode-001.htm == reference/flexbox-writing-mode-001-ref.htm
+flexbox-writing-mode-002.htm == reference/flexbox-writing-mode-002-ref.htm
+flexbox-writing-mode-003.htm == reference/flexbox-writing-mode-003-ref.htm
+flexbox-writing-mode-004.htm == reference/flexbox-writing-mode-004-ref.htm
+flexbox-writing-mode-005.htm == reference/flexbox-writing-mode-005-ref.htm
+flexbox-writing-mode-006.htm == reference/flexbox-writing-mode-006-ref.htm
 flexbox_absolute-atomic.htm == reference/flexbox_absolute-atomic-ref.htm
 flexbox_align-content-center.htm == reference/flexbox_align-content-center-ref.htm
 flexbox_align-content-flexend.htm == reference/flexbox_align-content-flexend-ref.htm
