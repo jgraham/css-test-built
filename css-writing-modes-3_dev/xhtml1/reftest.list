@@ -105,6 +105,9 @@ baseline-inline-non-replaced-004.xht == reference/ref-filled-green-100px-square.
 baseline-inline-non-replaced-005.xht == reference/ref-filled-green-100px-square.xht
 baseline-inline-replaced-002.xht == reference/baseline-inline-replaced-002-ref.xht
 baseline-inline-replaced-003.xht == reference/baseline-inline-replaced-002-ref.xht
+bidi-001.xht == reference/bidi-001-ref.xht
+bidi-002.xht == reference/bidi-002-ref.xht
+bidi-003.xht == reference/bidi-003-ref.xht
 bidi-embed-001.xht == reference/bidi-embed-001.xht
 bidi-embed-002.xht == reference/bidi-embed-002.xht
 bidi-embed-003.xht == reference/bidi-embed-003.xht

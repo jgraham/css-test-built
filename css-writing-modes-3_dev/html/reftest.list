@@ -105,6 +105,9 @@ baseline-inline-non-replaced-004.htm == reference/ref-filled-green-100px-square.
 baseline-inline-non-replaced-005.htm == reference/ref-filled-green-100px-square.htm
 baseline-inline-replaced-002.htm == reference/baseline-inline-replaced-002-ref.htm
 baseline-inline-replaced-003.htm == reference/baseline-inline-replaced-002-ref.htm
+bidi-001.htm == reference/bidi-001-ref.htm
+bidi-002.htm == reference/bidi-002-ref.htm
+bidi-003.htm == reference/bidi-003-ref.htm
 bidi-embed-001.htm == reference/bidi-embed-001.htm
 bidi-embed-002.htm == reference/bidi-embed-002.htm
 bidi-embed-003.htm == reference/bidi-embed-003.htm

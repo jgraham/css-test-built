@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Inline Direction and Bidirectionality (101 tests)</h2>
+  <h2>Inline Direction and Bidirectionality (104 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -1217,7 +1217,40 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s2.4">+</a>
         <a href="http://www.w3.org/TR/css-writing-modes-3/#bidi-box-model">2.4 Box model for inline boxes in bidirectional context</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 3 tests -->
+      <tr id="bidi-001-2.4" class="primary">
+        <td><strong>
+            <a href="bidi-001.xht">bidi-001</a></strong></td>
+        <td><a href="reference/bidi-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>RLO/PDF bidi reordering across closing inline element boundary
+          <ul class="assert">
+            <li>Tests that RLO + closing inline element boundary + PDF reorders text, splitting inline and rendering borders and padding appropriately.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-002-2.4" class="primary">
+        <td><strong>
+            <a href="bidi-002.xht">bidi-002</a></strong></td>
+        <td><a href="reference/bidi-002-ref.xht">=</a> </td>
+        <td></td>
+        <td>RLO/PDF bidi reordering across closing inline element boundary + soft line break
+          <ul class="assert">
+            <li>Tests that RLO + closing inline element boundary + soft line break + PDF reorders text, placing text correctly on each line while also splitting inline and rendering borders and padding appropriately.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-003-2.4" class="primary">
+        <td><strong>
+            <a href="bidi-003.xht">bidi-003</a></strong></td>
+        <td><a href="reference/bidi-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>RLO/PDF bidi reordering across closing inline element boundary + opening inline boundary
+          <ul class="assert">
+            <li>Tests that RLO + closing inline element boundary + opening inline element boundary + PDF reorders text, splitting inlines and rendering their borders and padding appropriately.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
   </table>
 
