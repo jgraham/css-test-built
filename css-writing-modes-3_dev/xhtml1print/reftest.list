@@ -96,9 +96,6 @@ abs-pos-non-replaced-vrl-092.xht == reference/abs-pos-non-replaced-vrl-004-ref.x
 abs-pos-non-replaced-vrl-094.xht == reference/abs-pos-non-replaced-vlr-009-ref.xht
 abs-pos-non-replaced-vrl-096.xht == reference/abs-pos-non-replaced-vrl-012-ref.xht
 autoheight-regions-in-autoheight-flexbox-002.xht == reference/autoheight-regions-in-autoheight-flexbox-002-ref.xht
-background-position-vrl-018.xht == reference/background-position-vrl-018-ref.xht
-background-position-vrl-020.xht == reference/background-position-vrl-018-ref.xht
-background-position-vrl-022.xht == reference/background-position-vrl-018-ref.xht
 baseline-inline-non-replaced-002.xht == reference/ref-filled-green-100px-square.xht
 baseline-inline-non-replaced-003.xht == reference/ref-filled-green-100px-square.xht
 baseline-inline-non-replaced-004.xht == reference/ref-filled-green-100px-square.xht
