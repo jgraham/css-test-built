@@ -750,7 +750,6 @@ bidi-001.xht == reference/bidi-001-ref.xht
 bidi-002.xht == reference/bidi-002-ref.xht
 bidi-003.xht == reference/bidi-003-ref.xht
 bidi-004.xht == reference/bidi-004-ref.xht
-bidi-004a.xht == reference/bidi-004a-ref.xht
 bidi-005a.xht == reference/bidi-005a-ref.xht
 bidi-005b.xht == reference/bidi-005b-ref.xht
 bidi-006a.xht == reference/bidi-005a-ref.xht
