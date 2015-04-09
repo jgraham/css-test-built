@@ -251,6 +251,22 @@ css-flexbox-row-wrap.htm == reference/css-flexbox-row-ref.htm
 css-flexbox-row-wrap-reverse.htm == reference/css-flexbox-row-ref.htm
 different-block-flow-dir-001.htm == reference/ref-filled-green-100px-square.htm
 different-block-flow-dir-002.htm == reference/ref-filled-green-100px-square.htm
+direction-001.htm == reference/direction-001-ref.htm
+direction-002.htm == reference/direction-002-ref.htm
+direction-003.htm == reference/direction-002-ref.htm
+direction-applies-to-001.htm == reference/direction-applies-to-001-ref.htm
+direction-applies-to-002.htm == reference/direction-applies-to-001-ref.htm
+direction-applies-to-003.htm == reference/direction-applies-to-001-ref.htm
+direction-applies-to-004.htm == reference/direction-applies-to-001-ref.htm
+direction-applies-to-005.htm == reference/direction-applies-to-001-ref.htm
+direction-applies-to-006.htm == reference/direction-applies-to-001-ref.htm
+direction-applies-to-007.htm == reference/direction-applies-to-007-ref.htm
+direction-applies-to-008.htm == reference/direction-applies-to-008-ref.htm
+direction-applies-to-009.htm == reference/direction-applies-to-007-ref.htm
+direction-applies-to-012.htm == reference/direction-applies-to-007-ref.htm
+direction-applies-to-013.htm == reference/direction-applies-to-007-ref.htm
+direction-applies-to-014.htm == reference/direction-applies-to-007-ref.htm
+direction-applies-to-015.htm == reference/direction-applies-to-007-ref.htm
 direction-vlr-003.htm == reference/direction-vlr-003-ref.htm
 direction-vlr-005.htm == reference/ref-filled-green-100px-square.htm
 direction-vrl-002.htm == reference/direction-vrl-002-ref.htm
@@ -415,6 +431,23 @@ text-orientation-sideways-002.htm == reference/text-orientation-sideways-left-00
 text-orientation-sideways-left-001.htm == reference/text-orientation-sideways-left-001-ref.htm
 text-orientation-sideways-right-001.htm == reference/text-orientation-sideways-right-001-ref.htm
 text-orientation-upright-001.htm == reference/text-orientation-upright-001-ref.htm
+unicode-bidi-001.htm == reference/direction-002-ref.htm
+unicode-bidi-002.htm == reference/unicode-bidi-002-ref.htm
+unicode-bidi-003.htm == reference/direction-002-ref.htm
+unicode-bidi-004.htm == reference/direction-002-ref.htm
+unicode-bidi-applies-to-001.htm == reference/direction-applies-to-008-ref.htm
+unicode-bidi-applies-to-002.htm == reference/direction-applies-to-008-ref.htm
+unicode-bidi-applies-to-003.htm == reference/direction-applies-to-008-ref.htm
+unicode-bidi-applies-to-004.htm == reference/direction-applies-to-008-ref.htm
+unicode-bidi-applies-to-005.htm == reference/direction-applies-to-008-ref.htm
+unicode-bidi-applies-to-006.htm == reference/direction-applies-to-008-ref.htm
+unicode-bidi-applies-to-007.htm == reference/direction-applies-to-008-ref.htm
+unicode-bidi-applies-to-008.htm == reference/direction-applies-to-008-ref.htm
+unicode-bidi-applies-to-009.htm == reference/unicode-bidi-applies-to-009-ref.htm
+unicode-bidi-applies-to-012.htm == reference/direction-applies-to-008-ref.htm
+unicode-bidi-applies-to-013.htm == reference/direction-applies-to-008-ref.htm
+unicode-bidi-applies-to-014.htm == reference/direction-applies-to-008-ref.htm
+unicode-bidi-applies-to-015.htm == reference/direction-applies-to-008-ref.htm
 value-all-002.htm == reference/vertical-ahem-1x1-ref.htm != reference/horizontal-ahem-1x1-notref.htm
 value-all-003.htm == reference/vertical-ahem-1x1-ref.htm != reference/horizontal-ahem-1x1-notref.htm
 value-all-and-inherit-001.htm == reference/value-all-and-inherit-001-ref.htm

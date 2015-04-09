@@ -251,6 +251,22 @@ css-flexbox-row-wrap.xht == reference/css-flexbox-row-ref.xht
 css-flexbox-row-wrap-reverse.xht == reference/css-flexbox-row-ref.xht
 different-block-flow-dir-001.xht == reference/ref-filled-green-100px-square.xht
 different-block-flow-dir-002.xht == reference/ref-filled-green-100px-square.xht
+direction-001.xht == reference/direction-001-ref.xht
+direction-002.xht == reference/direction-002-ref.xht
+direction-003.xht == reference/direction-002-ref.xht
+direction-applies-to-001.xht == reference/direction-applies-to-001-ref.xht
+direction-applies-to-002.xht == reference/direction-applies-to-001-ref.xht
+direction-applies-to-003.xht == reference/direction-applies-to-001-ref.xht
+direction-applies-to-004.xht == reference/direction-applies-to-001-ref.xht
+direction-applies-to-005.xht == reference/direction-applies-to-001-ref.xht
+direction-applies-to-006.xht == reference/direction-applies-to-001-ref.xht
+direction-applies-to-007.xht == reference/direction-applies-to-007-ref.xht
+direction-applies-to-008.xht == reference/direction-applies-to-008-ref.xht
+direction-applies-to-009.xht == reference/direction-applies-to-007-ref.xht
+direction-applies-to-012.xht == reference/direction-applies-to-007-ref.xht
+direction-applies-to-013.xht == reference/direction-applies-to-007-ref.xht
+direction-applies-to-014.xht == reference/direction-applies-to-007-ref.xht
+direction-applies-to-015.xht == reference/direction-applies-to-007-ref.xht
 direction-vlr-003.xht == reference/direction-vlr-003-ref.xht
 direction-vlr-005.xht == reference/ref-filled-green-100px-square.xht
 direction-vrl-002.xht == reference/direction-vrl-002-ref.xht
@@ -415,6 +431,23 @@ text-orientation-sideways-002.xht == reference/text-orientation-sideways-left-00
 text-orientation-sideways-left-001.xht == reference/text-orientation-sideways-left-001-ref.xht
 text-orientation-sideways-right-001.xht == reference/text-orientation-sideways-right-001-ref.xht
 text-orientation-upright-001.xht == reference/text-orientation-upright-001-ref.xht
+unicode-bidi-001.xht == reference/direction-002-ref.xht
+unicode-bidi-002.xht == reference/unicode-bidi-002-ref.xht
+unicode-bidi-003.xht == reference/direction-002-ref.xht
+unicode-bidi-004.xht == reference/direction-002-ref.xht
+unicode-bidi-applies-to-001.xht == reference/direction-applies-to-008-ref.xht
+unicode-bidi-applies-to-002.xht == reference/direction-applies-to-008-ref.xht
+unicode-bidi-applies-to-003.xht == reference/direction-applies-to-008-ref.xht
+unicode-bidi-applies-to-004.xht == reference/direction-applies-to-008-ref.xht
+unicode-bidi-applies-to-005.xht == reference/direction-applies-to-008-ref.xht
+unicode-bidi-applies-to-006.xht == reference/direction-applies-to-008-ref.xht
+unicode-bidi-applies-to-007.xht == reference/direction-applies-to-008-ref.xht
+unicode-bidi-applies-to-008.xht == reference/direction-applies-to-008-ref.xht
+unicode-bidi-applies-to-009.xht == reference/unicode-bidi-applies-to-009-ref.xht
+unicode-bidi-applies-to-012.xht == reference/direction-applies-to-008-ref.xht
+unicode-bidi-applies-to-013.xht == reference/direction-applies-to-008-ref.xht
+unicode-bidi-applies-to-014.xht == reference/direction-applies-to-008-ref.xht
+unicode-bidi-applies-to-015.xht == reference/direction-applies-to-008-ref.xht
 value-all-002.xht == reference/vertical-ahem-1x1-ref.xht != reference/horizontal-ahem-1x1-notref.xht
 value-all-003.xht == reference/vertical-ahem-1x1-ref.xht != reference/horizontal-ahem-1x1-notref.xht
 value-all-and-inherit-001.xht == reference/value-all-and-inherit-001-ref.xht
