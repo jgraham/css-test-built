@@ -108,6 +108,7 @@ baseline-inline-replaced-003.xht == reference/baseline-inline-replaced-002-ref.x
 bidi-001.xht == reference/bidi-001-ref.xht
 bidi-002.xht == reference/bidi-002-ref.xht
 bidi-003.xht == reference/bidi-003-ref.xht
+bidi-011.xht == reference/bidi-011-ref.xht
 bidi-embed-001.xht == reference/bidi-embed-001.xht
 bidi-embed-002.xht == reference/bidi-embed-002.xht
 bidi-embed-003.xht == reference/bidi-embed-003.xht
