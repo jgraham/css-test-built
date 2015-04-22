@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Inline Direction and Bidirectionality (146 tests)</h2>
+  <h2>Inline Direction and Bidirectionality (162 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -1359,7 +1359,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s2.2">+</a>
         <a href="http://www.w3.org/TR/css-writing-modes-3/#unicode-bidi">2.2 Embeddings and Overrides: the unicode-bidi property</a></th></tr>
-      <!-- 18 tests -->
+      <!-- 19 tests -->
+      <tr id="bidi-alt-001-2.2" class="primary">
+        <td><strong>
+            <a href="bidi-alt-001.xht">bidi-alt-001</a></strong></td>
+        <td></td>
+        <td></td>
+        <td>unicode-bidi: bidi-override in alt text
+          <ul class="assert">
+            <li>If alt text is not treated as replaced content, then unicode-bidi applies to image alt text.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="unicode-bidi-001-2.2" class="primary">
         <td><strong>
             <a href="unicode-bidi-001.xht">unicode-bidi-001</a></strong></td>
@@ -1602,7 +1613,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s2.4">+</a>
         <a href="http://www.w3.org/TR/css-writing-modes-3/#bidi-box-model">2.4 Box model for inline boxes in bidirectional context</a></th></tr>
-      <!-- 10 tests -->
+      <!-- 25 tests -->
       <tr id="bidi-001-2.4" class="primary">
         <td><strong>
             <a href="bidi-001.xht">bidi-001</a></strong></td>
@@ -1690,6 +1701,171 @@
         <td><a href="reference/bidi-011-ref.xht">=</a> </td>
         <td></td>
         <td>The bidi algorithm and inlines in CSS wrapping bidi formatting characters
+        </td>
+      </tr>
+      <tr id="bidi-box-model-001-2.4" class="primary">
+        <td><strong>
+            <a href="bidi-box-model-001.xht">bidi-box-model-001</a></strong></td>
+        <td><a href="reference/bidi-box-model-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>bidirection box model - borders on inline in normal block
+          <ul class="assert">
+            <li>Border sides should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-002-2.4" class="primary">
+        <td><strong>
+            <a href="bidi-box-model-002.xht">bidi-box-model-002</a></strong></td>
+        <td><a href="reference/bidi-box-model-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>bidirection box model - borders on inline in embed block
+          <ul class="assert">
+            <li>Border sides should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-003-2.4" class="primary">
+        <td><strong>
+            <a href="bidi-box-model-003.xht">bidi-box-model-003</a></strong></td>
+        <td><a href="reference/bidi-box-model-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>bidirection box model - borders on inline in bidi-override block
+          <ul class="assert">
+            <li>Border sides should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-004-2.4" class="primary">
+        <td><strong>
+            <a href="bidi-box-model-004.xht">bidi-box-model-004</a></strong></td>
+        <td><a href="reference/bidi-box-model-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>bidirection box model - borders on normal inline
+          <ul class="assert">
+            <li>Border sides should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-005-2.4" class="primary">
+        <td><strong>
+            <a href="bidi-box-model-005.xht">bidi-box-model-005</a></strong></td>
+        <td><a href="reference/bidi-box-model-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>bidirection box model - borders on embed inline
+          <ul class="assert">
+            <li>Border sides should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-006-2.4" class="primary">
+        <td><strong>
+            <a href="bidi-box-model-006.xht">bidi-box-model-006</a></strong></td>
+        <td><a href="reference/bidi-box-model-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>bidirection box model - borders on bidi-override inline
+          <ul class="assert">
+            <li>Border sides should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-007-2.4" class="primary">
+        <td><strong>
+            <a href="bidi-box-model-007.xht">bidi-box-model-007</a></strong></td>
+        <td><a href="reference/bidi-box-model-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>bidirection box model - borders on normal block
+          <ul class="assert">
+            <li>Border sides should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-008-2.4" class="primary">
+        <td><strong>
+            <a href="bidi-box-model-008.xht">bidi-box-model-008</a></strong></td>
+        <td><a href="reference/bidi-box-model-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>bidirection box model - borders on embed block
+          <ul class="assert">
+            <li>Border sides should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-009-2.4" class="primary">
+        <td><strong>
+            <a href="bidi-box-model-009.xht">bidi-box-model-009</a></strong></td>
+        <td><a href="reference/bidi-box-model-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>bidirection box model - borders on bidi-override block
+          <ul class="assert">
+            <li>Border sides should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-034-2.4" class="primary ahem">
+        <td><strong>
+            <a href="bidi-box-model-034.xht">bidi-box-model-034</a></strong></td>
+        <td><a href="reference/bidi-box-model-034-ref.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>bidirection box model - padding-left on bidi-override block
+          <ul class="assert">
+            <li>Side padding should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-035-2.4" class="primary ahem">
+        <td><strong>
+            <a href="bidi-box-model-035.xht">bidi-box-model-035</a></strong></td>
+        <td><a href="reference/bidi-box-model-034-ref.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>bidirection box model - padding-left on normal block
+          <ul class="assert">
+            <li>Side padding should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-036-2.4" class="primary ahem">
+        <td><strong>
+            <a href="bidi-box-model-036.xht">bidi-box-model-036</a></strong></td>
+        <td><a href="reference/bidi-box-model-034-ref.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>bidirection box model - padding-left on embed block
+          <ul class="assert">
+            <li>Side padding should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-043-2.4" class="primary ahem">
+        <td><strong>
+            <a href="bidi-box-model-043.xht">bidi-box-model-043</a></strong></td>
+        <td><a href="reference/bidi-box-model-043-ref.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>bidirection box model - padding-right on bidi-override block
+          <ul class="assert">
+            <li>Side padding should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-044-2.4" class="primary ahem">
+        <td><strong>
+            <a href="bidi-box-model-044.xht">bidi-box-model-044</a></strong></td>
+        <td><a href="reference/bidi-box-model-043-ref.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>bidirection box model - padding-right on normal block
+          <ul class="assert">
+            <li>Side padding should be unaffected by directionality</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="bidi-box-model-045-2.4" class="primary ahem">
+        <td><strong>
+            <a href="bidi-box-model-045.xht">bidi-box-model-045</a></strong></td>
+        <td><a href="reference/bidi-box-model-043-ref.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>bidirection box model - padding-right on embed block
+          <ul class="assert">
+            <li>Side padding should be unaffected by directionality</li>
+          </ul>
         </td>
       </tr>
     </tbody>
