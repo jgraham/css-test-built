@@ -3390,6 +3390,10 @@ inline-svg-margin-padding-border.htm == reference/inline-svg-margin-padding-bord
 inline-table-002a.htm == reference/inline-table-002-ref.htm
 inline-table-002b.htm == reference/inline-table-002-ref.htm
 inline-table-003.htm == reference/inline-table-003-ref.htm
+inline-table-alignment-002.htm == reference/inline-table-alignment-002-ref.htm
+inline-table-alignment-003.htm == reference/inline-table-alignment-003-ref.htm
+inline-table-alignment-004.htm == reference/inline-table-alignment-002-ref.htm
+inline-table-alignment-005.htm == reference/inline-table-alignment-003-ref.htm
 inline-table-height-001.htm == reference/inline-table-height-001-ref.htm
 inline-table-height-002.htm == reference/inline-table-height-002-ref.htm
 inline-table-valign-001.htm == reference/inline-table-valign-001-ref.htm

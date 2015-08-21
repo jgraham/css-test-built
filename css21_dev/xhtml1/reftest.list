@@ -3390,6 +3390,10 @@ inline-svg-margin-padding-border.xht == reference/inline-svg-margin-padding-bord
 inline-table-002a.xht == reference/inline-table-002-ref.xht
 inline-table-002b.xht == reference/inline-table-002-ref.xht
 inline-table-003.xht == reference/inline-table-003-ref.xht
+inline-table-alignment-002.xht == reference/inline-table-alignment-002-ref.xht
+inline-table-alignment-003.xht == reference/inline-table-alignment-003-ref.xht
+inline-table-alignment-004.xht == reference/inline-table-alignment-002-ref.xht
+inline-table-alignment-005.xht == reference/inline-table-alignment-003-ref.xht
 inline-table-height-001.xht == reference/inline-table-height-001-ref.xht
 inline-table-height-002.xht == reference/inline-table-height-002-ref.xht
 inline-table-valign-001.xht == reference/inline-table-valign-001-ref.xht
