@@ -3,26 +3,26 @@
 # http://test.csswg.org/suites/css-ui-3_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
-html/box-sizing-border-box-001.htm	c5cdf6d1b6cfbc79d283a1dec5d2c2caade1c2cd	?
-xhtml1/box-sizing-border-box-001.xht	c5cdf6d1b6cfbc79d283a1dec5d2c2caade1c2cd	?
-html/box-sizing-border-box-002.htm	788dd3b8575e389acd8b5cc169c5b28010ce96ea	?
-xhtml1/box-sizing-border-box-002.xht	788dd3b8575e389acd8b5cc169c5b28010ce96ea	?
-html/box-sizing-border-box-003.htm	9f7e319f985315b8aa670ad38ab1aa15f41e2c59	?
-xhtml1/box-sizing-border-box-003.xht	9f7e319f985315b8aa670ad38ab1aa15f41e2c59	?
-html/box-sizing-border-box-004.htm	e0b7289fb7644222450cdfcbc3deadb9b641e904	?
-xhtml1/box-sizing-border-box-004.xht	e0b7289fb7644222450cdfcbc3deadb9b641e904	?
-html/box-sizing-content-box-001.htm	3e690e79ebf0eda200bbf003d7c10c21701172b8	?
-xhtml1/box-sizing-content-box-001.xht	3e690e79ebf0eda200bbf003d7c10c21701172b8	?
-html/box-sizing-content-box-002.htm	1c2f73d2c628ae2c7fd7bfacde0225107c34865f	?
-xhtml1/box-sizing-content-box-002.xht	1c2f73d2c628ae2c7fd7bfacde0225107c34865f	?
-html/box-sizing-content-box-003.htm	0832ce514f23392781427aac6cff958217486bed	?
-xhtml1/box-sizing-content-box-003.xht	0832ce514f23392781427aac6cff958217486bed	?
-html/box-sizing-replaced-001.htm	883da133947f490fd29a3c971a3fbe405c45b762	?
-xhtml1/box-sizing-replaced-001.xht	883da133947f490fd29a3c971a3fbe405c45b762	?
-html/box-sizing-replaced-002.htm	52a88f82acf6e1a04762ca1c461f0371a117b1b0	?
-xhtml1/box-sizing-replaced-002.xht	52a88f82acf6e1a04762ca1c461f0371a117b1b0	?
-html/box-sizing-replaced-003.htm	b430f0b75fc9343f8a7b2063b91a10eb9bef9dcc	?
-xhtml1/box-sizing-replaced-003.xht	b430f0b75fc9343f8a7b2063b91a10eb9bef9dcc	?
+html/box-sizing-border-box-001.htm	4c63d6fda4dd34a4f89bfb66a943904951cb7f41	?
+xhtml1/box-sizing-border-box-001.xht	4c63d6fda4dd34a4f89bfb66a943904951cb7f41	?
+html/box-sizing-border-box-002.htm	b49ca4e6161e1aa24c4ef8fb9626cea26c1d26a3	?
+xhtml1/box-sizing-border-box-002.xht	b49ca4e6161e1aa24c4ef8fb9626cea26c1d26a3	?
+html/box-sizing-border-box-003.htm	1b41472fdaf436fc11bb1b864a367bd649ab2089	?
+xhtml1/box-sizing-border-box-003.xht	1b41472fdaf436fc11bb1b864a367bd649ab2089	?
+html/box-sizing-border-box-004.htm	dfda8e453a374d002a81b40fdd01dbf56319fa9c	?
+xhtml1/box-sizing-border-box-004.xht	dfda8e453a374d002a81b40fdd01dbf56319fa9c	?
+html/box-sizing-content-box-001.htm	4b3056f655bbe35540eadfe3888d48f1961dfafc	?
+xhtml1/box-sizing-content-box-001.xht	4b3056f655bbe35540eadfe3888d48f1961dfafc	?
+html/box-sizing-content-box-002.htm	51e63ae5f8b3a40e56096e7daa86265f8684e9a8	?
+xhtml1/box-sizing-content-box-002.xht	51e63ae5f8b3a40e56096e7daa86265f8684e9a8	?
+html/box-sizing-content-box-003.htm	397bec8981e201e663ea97b4b265aa45fff08bd5	?
+xhtml1/box-sizing-content-box-003.xht	397bec8981e201e663ea97b4b265aa45fff08bd5	?
+html/box-sizing-replaced-001.htm	a8e28589639906e9ad2c23f3875a1b84b9edc2c3	?
+xhtml1/box-sizing-replaced-001.xht	a8e28589639906e9ad2c23f3875a1b84b9edc2c3	?
+html/box-sizing-replaced-002.htm	d4148a5cae7298ba17c8257c328e4f622edfc689	?
+xhtml1/box-sizing-replaced-002.xht	d4148a5cae7298ba17c8257c328e4f622edfc689	?
+html/box-sizing-replaced-003.htm	1d2967d8d4d8b4ff72c7e533c2c0edc187e7a992	?
+xhtml1/box-sizing-replaced-003.xht	1d2967d8d4d8b4ff72c7e533c2c0edc187e7a992	?
 html/caret-color-001.htm	d51a15636bbc1a93132d4dba71ff6de6c08c1c1f	?
 xhtml1/caret-color-001.xht	d51a15636bbc1a93132d4dba71ff6de6c08c1c1f	?
 html/caret-color-002.htm	02a3dcc0a7054487ffd77b21aa525a3e8cad0dfc	?
