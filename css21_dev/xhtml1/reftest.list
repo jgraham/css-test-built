@@ -5207,7 +5207,6 @@ vertical-align-baseline-008.xht == reference/vertical-align-baseline-008-ref.xht
 vertical-align-baseline-009.xht == reference/vertical-align-baseline-007-ref.xht
 vertical-align-sub-001.xht == reference/vertical-align-sub-001-ref.xht
 vertical-align-super-001.xht == reference/vertical-align-sub-001-ref.xht
-vertical-alignment-new-002.xht == reference/vertical-alignment-new-002-ref.xht
 visibility-005.xht == reference/ref-filled-green-100px-square.xht
 white-space-collapsing-001.xht == reference/white-space-collapsing-001-ref.xht
 white-space-collapsing-002.xht == reference/white-space-collapsing-001-ref.xht
