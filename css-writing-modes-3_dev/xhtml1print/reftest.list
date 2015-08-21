@@ -545,6 +545,10 @@ inline-replaced-vlr-003.xht == reference/inline-replaced-vrl-002-ref.xht
 inline-replaced-vlr-005.xht == reference/inline-replaced-vrl-004-ref.xht
 inline-replaced-vrl-002.xht == reference/inline-replaced-vrl-002-ref.xht
 inline-replaced-vrl-004.xht == reference/inline-replaced-vrl-004-ref.xht
+inline-table-alignment-002.xht == reference/inline-table-alignment-002-ref.xht
+inline-table-alignment-003.xht == reference/inline-table-alignment-003-ref.xht
+inline-table-alignment-004.xht == reference/inline-table-alignment-002-ref.xht
+inline-table-alignment-005.xht == reference/inline-table-alignment-003-ref.xht
 line-box-direction-001.xht == reference/block-flow-direction-001-ref.xht
 line-box-direction-002.xht == reference/block-flow-direction-001-ref.xht
 line-box-direction-003.xht == reference/block-flow-direction-001-ref.xht

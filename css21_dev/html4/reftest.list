@@ -3390,6 +3390,10 @@ inline-svg-margin-padding-border.htm == reference/inline-svg-margin-padding-bord
 inline-table-002a.htm == reference/inline-table-002-ref.htm
 inline-table-002b.htm == reference/inline-table-002-ref.htm
 inline-table-003.htm == reference/inline-table-003-ref.htm
+inline-table-alignment-002.htm == reference/inline-table-alignment-002-ref.htm
+inline-table-alignment-003.htm == reference/inline-table-alignment-003-ref.htm
+inline-table-alignment-004.htm == reference/inline-table-alignment-002-ref.htm
+inline-table-alignment-005.htm == reference/inline-table-alignment-003-ref.htm
 inline-table-height-001.htm == reference/inline-table-height-001-ref.htm
 inline-table-height-002.htm == reference/inline-table-height-002-ref.htm
 inline-table-valign-001.htm == reference/inline-table-valign-001-ref.htm
@@ -5203,7 +5207,6 @@ vertical-align-baseline-008.htm == reference/vertical-align-baseline-008-ref.htm
 vertical-align-baseline-009.htm == reference/vertical-align-baseline-007-ref.htm
 vertical-align-sub-001.htm == reference/vertical-align-sub-001-ref.htm
 vertical-align-super-001.htm == reference/vertical-align-sub-001-ref.htm
-vertical-alignment-new-002.htm == reference/vertical-alignment-new-002-ref.htm
 visibility-005.htm == reference/ref-filled-green-100px-square.htm
 white-space-collapsing-001.htm == reference/white-space-collapsing-001-ref.htm
 white-space-collapsing-002.htm == reference/white-space-collapsing-001-ref.htm
