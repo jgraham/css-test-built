@@ -4758,7 +4758,7 @@ padding-left-039.xht == reference/margin-left-043-ref.xht
 padding-left-040.xht == reference/margin-left-043-ref.xht
 padding-left-045.xht == reference/margin-left-004-ref.xht
 padding-left-046.xht == reference/margin-left-004-ref.xht
-padding-left-047.xht == reference/padding-left-036-ref.xht
+padding-left-047.xht == reference/padding-left-047-ref.xht
 padding-left-048.xht == reference/margin-left-004-ref.xht
 padding-left-049.xht == reference/margin-left-004-ref.xht
 padding-left-050.xht == reference/margin-left-043-ref.xht
@@ -4832,12 +4832,14 @@ padding-right-028.xht == reference/padding-right-028-ref.xht
 padding-right-029.xht == reference/padding-right-028-ref.xht
 padding-right-034.xht == reference/margin-left-004-ref.xht
 padding-right-035.xht == reference/margin-left-004-ref.xht
+padding-right-036.xht == reference/padding-left-036-ref.xht
 padding-right-037.xht == reference/margin-left-004-ref.xht
 padding-right-038.xht == reference/margin-left-004-ref.xht
 padding-right-039.xht == reference/padding-right-039-ref.xht
 padding-right-040.xht == reference/padding-right-039-ref.xht
 padding-right-045.xht == reference/margin-left-004-ref.xht
 padding-right-046.xht == reference/margin-left-004-ref.xht
+padding-right-047.xht == reference/padding-left-047-ref.xht
 padding-right-048.xht == reference/margin-left-004-ref.xht
 padding-right-049.xht == reference/margin-left-004-ref.xht
 padding-right-050.xht == reference/padding-right-039-ref.xht
