@@ -4751,12 +4751,14 @@ padding-left-028.xht == reference/margin-left-031-ref.xht
 padding-left-029.xht == reference/margin-left-031-ref.xht
 padding-left-034.xht == reference/margin-left-004-ref.xht
 padding-left-035.xht == reference/margin-left-004-ref.xht
+padding-left-036.xht == reference/padding-left-036-ref.xht
 padding-left-037.xht == reference/margin-left-004-ref.xht
 padding-left-038.xht == reference/margin-left-004-ref.xht
 padding-left-039.xht == reference/margin-left-043-ref.xht
 padding-left-040.xht == reference/margin-left-043-ref.xht
 padding-left-045.xht == reference/margin-left-004-ref.xht
 padding-left-046.xht == reference/margin-left-004-ref.xht
+padding-left-047.xht == reference/padding-left-036-ref.xht
 padding-left-048.xht == reference/margin-left-004-ref.xht
 padding-left-049.xht == reference/margin-left-004-ref.xht
 padding-left-050.xht == reference/margin-left-043-ref.xht
@@ -4800,7 +4802,9 @@ padding-left-applies-to-004.xht == reference/margin-left-applies-to-001-ref.xht
 padding-left-applies-to-005.xht == reference/margin-left-applies-to-001-ref.xht
 padding-left-applies-to-006.xht == reference/margin-left-applies-to-001-ref.xht
 padding-left-applies-to-007.xht == reference/margin-left-applies-to-009-ref.xht
+padding-left-applies-to-008.xht == reference/padding-left-applies-008-ref.xht
 padding-left-applies-to-009.xht == reference/margin-left-applies-to-009-ref.xht
+padding-left-applies-to-010.xht == reference/padding-left-applies-010-ref.xht
 padding-left-applies-to-012.xht == reference/margin-left-applies-to-009-ref.xht
 padding-left-applies-to-013.xht == reference/margin-left-applies-to-009-ref.xht
 padding-left-applies-to-014.xht == reference/margin-left-applies-to-009-ref.xht
