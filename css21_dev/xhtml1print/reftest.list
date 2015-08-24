@@ -3797,6 +3797,7 @@ line-height-applies-to-015.xht == reference/line-height-applies-to-001-ref.xht
 line-height-applies-to-016.xht == reference/line-height-applies-to-016-ref.xht
 line-height-bleed-001.xht == reference/line-height-bleed-001-ref.xht
 line-height-bleed-002.xht == reference/line-height-bleed-002-ref.xht
+list-style-019.xht == reference/list-style-019-ref.xht
 list-style-021.xht == reference/list-style-021-ref.xht
 list-style-image-004.xht == reference/list-style-image-004-ref.xht
 list-style-image-005.xht == reference/list-style-image-005-ref.xht
@@ -5259,6 +5260,10 @@ separated-border-model-009.xht == reference/separated-border-model-007-ref.xht
 sgml-comments-001.xht == reference/filler-text-below-green.xht
 shand-border-000.xht == reference/shand-border-000-ref.xht
 shand-border-001.xht == reference/ref-if-there-is-no-red.xht
+shand-font-000.xht == reference/shand-font-000-ref.xht
+shand-font-001.xht == reference/shand-font-000-ref.xht
+shand-font-002.xht == reference/shand-font-002-ref.xht
+shand-font-003.xht == reference/shand-font-002-ref.xht
 sibling-selector-002.xht == reference/filler-text-below-green.xht
 sort-by-order-001.xht == reference/ref-filled-green-100px-square.xht
 specificity-001.xht == reference/filler-text-below-green.xht
