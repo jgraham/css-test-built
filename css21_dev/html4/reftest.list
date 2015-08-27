@@ -1264,7 +1264,8 @@ border-bottom-color-026.htm == reference/border-bottom-color-026-ref.htm
 border-bottom-color-027.htm == reference/border-bottom-color-027-ref.htm
 border-bottom-color-028.htm == reference/border-bottom-color-028-ref.htm
 border-bottom-color-029.htm == reference/border-bottom-color-006-ref.htm
-border-bottom-color-030.htm == reference/ref-filled-black-96px-square.htm
+border-bottom-color-030.htm == reference/ref-transparent-or-black-square-transparent.htm
+border-bottom-color-030.htm == reference/ref-transparent-or-black-square-black.htm
 border-bottom-color-031.htm == reference/ref-filled-black-96px-square.htm
 border-bottom-color-032.htm == reference/border-bottom-color-032-ref.htm
 border-bottom-color-033.htm == reference/border-bottom-color-010-ref.htm
@@ -1569,7 +1570,8 @@ border-left-color-026.htm == reference/border-bottom-color-026-ref.htm
 border-left-color-027.htm == reference/border-bottom-color-027-ref.htm
 border-left-color-028.htm == reference/border-bottom-color-028-ref.htm
 border-left-color-029.htm == reference/border-bottom-color-006-ref.htm
-border-left-color-030.htm == reference/ref-filled-black-96px-square.htm
+border-left-color-030.htm == reference/ref-transparent-or-black-square-transparent.htm
+border-left-color-030.htm == reference/ref-transparent-or-black-square-black.htm
 border-left-color-031.htm == reference/ref-filled-black-96px-square.htm
 border-left-color-032.htm == reference/border-bottom-color-032-ref.htm
 border-left-color-033.htm == reference/border-bottom-color-010-ref.htm
@@ -1814,7 +1816,8 @@ border-right-color-026.htm == reference/border-right-color-026-ref.htm
 border-right-color-027.htm == reference/border-right-color-027-ref.htm
 border-right-color-028.htm == reference/border-right-color-028-ref.htm
 border-right-color-029.htm == reference/border-right-color-006-ref.htm
-border-right-color-030.htm == reference/border-right-color-007-ref.htm
+border-right-color-030.htm == reference/ref-transparent-or-black-square-transparent.htm
+border-right-color-030.htm == reference/ref-transparent-or-black-square-black.htm
 border-right-color-031.htm == reference/border-right-color-007-ref.htm
 border-right-color-032.htm == reference/border-right-color-032-ref.htm
 border-right-color-033.htm == reference/border-right-color-010-ref.htm
@@ -2081,7 +2084,8 @@ border-top-color-026.htm == reference/border-bottom-color-026-ref.htm
 border-top-color-027.htm == reference/border-bottom-color-027-ref.htm
 border-top-color-028.htm == reference/border-bottom-color-028-ref.htm
 border-top-color-029.htm == reference/border-bottom-color-006-ref.htm
-border-top-color-030.htm == reference/ref-filled-black-96px-square.htm
+border-top-color-030.htm == reference/ref-transparent-or-black-square-transparent.htm
+border-top-color-030.htm == reference/ref-transparent-or-black-square-black.htm
 border-top-color-031.htm == reference/ref-filled-black-96px-square.htm
 border-top-color-032.htm == reference/border-bottom-color-032-ref.htm
 border-top-color-033.htm == reference/border-bottom-color-010-ref.htm
