@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS 2.1 Conformance Test Suite</h1>
-  <h2>Box model (2326 tests)</h2>
+  <h2>Box model (2330 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -24131,7 +24131,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s8.5.2">+</a>
         <a href="http://www.w3.org/TR/CSS21/box.html#border-color-properties">8.5.2 Border color: 'border-top-color', 'border-right-color', 'border-bottom-color', 'border-left-color', and 'border-color'</a></th></tr>
-      <!-- 682 tests -->
+      <!-- 686 tests -->
+      <tr id="border-bottom-color-8.5.2" class="">
+        <td>
+            <a href="border-bottom-color.htm">border-bottom-color</a></td>
+        <td><a href="reference/ref-transparent-or-black-square-transparent.htm">=</a> </td>
+        <td></td>
+        <td>Border-bottom-color set to hex with three digits with the maximum plus one value of #1000
+          <ul class="assert">
+            <li>The 'border-bottom-color' set to #1000 is a transparent dark red square.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="border-bottom-color-001-8.5.2" class="invalid">
         <td>
             <a href="border-bottom-color-001.htm">border-bottom-color-001</a></td>
@@ -26249,6 +26260,17 @@
           </ul>
         </td>
       </tr>
+      <tr id="border-left-color-8.5.2" class="">
+        <td>
+            <a href="border-left-color.htm">border-left-color</a></td>
+        <td><a href="reference/ref-transparent-or-black-square-transparent.htm">=</a> </td>
+        <td></td>
+        <td>Border-left-color set to hex with three digits with the maximum plus one value of #1000
+          <ul class="assert">
+            <li>The 'border-top-color' set to #1000 is a transparent dark red square.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="border-left-color-001-8.5.2" class="invalid">
         <td>
             <a href="border-left-color-001.htm">border-left-color-001</a></td>
@@ -28028,6 +28050,17 @@
         <td>Border-left-color applied to element with display table-caption
           <ul class="assert">
             <li>The 'border-left-color' properties applies to elements with a display of table-caption.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="border-right-color-8.5.2" class="">
+        <td>
+            <a href="border-right-color.htm">border-right-color</a></td>
+        <td><a href="reference/ref-transparent-or-black-square-transparent.htm">=</a> </td>
+        <td></td>
+        <td>Border-right-color set to hex with three digits with the maximum plus one value of #1000
+          <ul class="assert">
+            <li>The 'border-right-color' set to #1000 is a transparent dark red square.</li>
           </ul>
         </td>
       </tr>
@@ -29846,6 +29879,17 @@
           </ul>
         </td>
       </tr>
+      <tr id="border-top-color-8.5.2" class="">
+        <td>
+            <a href="border-top-color.htm">border-top-color</a></td>
+        <td><a href="reference/ref-transparent-or-black-square-transparent.htm">=</a> </td>
+        <td></td>
+        <td>Border-top-color set to hex with three digits with the maximum plus one value of #1000
+          <ul class="assert">
+            <li>The 'border-top-color' set to #1000 is a transparent dark red square.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="border-top-color-001-8.5.2" class="invalid">
         <td>
             <a href="border-top-color-001.htm">border-top-color-001</a></td>
@@ -31630,7 +31674,18 @@
       </tr>
     </tbody>
     <tbody id="s8.5.2.#propdef-border-bottom-color">
-      <!-- 162 tests -->
+      <!-- 163 tests -->
+      <tr id="border-bottom-color-8.5.2.#propdef-border-bottom-color" class="primary">
+        <td><strong>
+            <a href="border-bottom-color.htm">border-bottom-color</a></strong></td>
+        <td><a href="reference/ref-transparent-or-black-square-transparent.htm">=</a> </td>
+        <td></td>
+        <td>Border-bottom-color set to hex with three digits with the maximum plus one value of #1000
+          <ul class="assert">
+            <li>The 'border-bottom-color' set to #1000 is a transparent dark red square.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="border-bottom-color-001-8.5.2.#propdef-border-bottom-color" class="primary invalid">
         <td><strong>
             <a href="border-bottom-color-001.htm">border-bottom-color-001</a></strong></td>
@@ -33682,7 +33737,18 @@
       </tr>
     </tbody>
     <tbody id="s8.5.2.#propdef-border-left-color">
-      <!-- 162 tests -->
+      <!-- 163 tests -->
+      <tr id="border-left-color-8.5.2.#propdef-border-left-color" class="primary">
+        <td><strong>
+            <a href="border-left-color.htm">border-left-color</a></strong></td>
+        <td><a href="reference/ref-transparent-or-black-square-transparent.htm">=</a> </td>
+        <td></td>
+        <td>Border-left-color set to hex with three digits with the maximum plus one value of #1000
+          <ul class="assert">
+            <li>The 'border-top-color' set to #1000 is a transparent dark red square.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="border-left-color-001-8.5.2.#propdef-border-left-color" class="primary invalid">
         <td><strong>
             <a href="border-left-color-001.htm">border-left-color-001</a></strong></td>
@@ -35467,7 +35533,18 @@
       </tr>
     </tbody>
     <tbody id="s8.5.2.#propdef-border-right-color">
-      <!-- 162 tests -->
+      <!-- 163 tests -->
+      <tr id="border-right-color-8.5.2.#propdef-border-right-color" class="primary">
+        <td><strong>
+            <a href="border-right-color.htm">border-right-color</a></strong></td>
+        <td><a href="reference/ref-transparent-or-black-square-transparent.htm">=</a> </td>
+        <td></td>
+        <td>Border-right-color set to hex with three digits with the maximum plus one value of #1000
+          <ul class="assert">
+            <li>The 'border-right-color' set to #1000 is a transparent dark red square.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="border-right-color-001-8.5.2.#propdef-border-right-color" class="primary invalid">
         <td><strong>
             <a href="border-right-color-001.htm">border-right-color-001</a></strong></td>
@@ -37252,7 +37329,18 @@
       </tr>
     </tbody>
     <tbody id="s8.5.2.#propdef-border-top-color">
-      <!-- 162 tests -->
+      <!-- 163 tests -->
+      <tr id="border-top-color-8.5.2.#propdef-border-top-color" class="primary">
+        <td><strong>
+            <a href="border-top-color.htm">border-top-color</a></strong></td>
+        <td><a href="reference/ref-transparent-or-black-square-transparent.htm">=</a> </td>
+        <td></td>
+        <td>Border-top-color set to hex with three digits with the maximum plus one value of #1000
+          <ul class="assert">
+            <li>The 'border-top-color' set to #1000 is a transparent dark red square.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="border-top-color-001-8.5.2.#propdef-border-top-color" class="primary invalid">
         <td><strong>
             <a href="border-top-color-001.htm">border-top-color-001</a></strong></td>

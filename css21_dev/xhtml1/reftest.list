@@ -1235,6 +1235,7 @@ border-bottom-applies-to-012.xht == reference/border-bottom-applies-to-001-ref.x
 border-bottom-applies-to-013.xht == reference/border-bottom-applies-to-001-ref.xht
 border-bottom-applies-to-014.xht == reference/border-bottom-applies-to-001-ref.xht
 border-bottom-applies-to-015.xht == reference/border-bottom-applies-to-001-ref.xht
+border-bottom-color.xht == reference/ref-transparent-or-black-square-transparent.xht
 border-bottom-color-001.xht == reference/border-bottom-color-001-ref.xht
 border-bottom-color-002.xht == reference/border-bottom-color-001-ref.xht
 border-bottom-color-003.xht == reference/border-bottom-color-003-ref.xht
@@ -1541,6 +1542,7 @@ border-left-applies-to-012.xht == reference/border-left-applies-to-001-ref.xht
 border-left-applies-to-013.xht == reference/border-left-applies-to-001-ref.xht
 border-left-applies-to-014.xht == reference/border-left-applies-to-001-ref.xht
 border-left-applies-to-015.xht == reference/border-left-applies-to-001-ref.xht
+border-left-color.xht == reference/ref-transparent-or-black-square-transparent.xht
 border-left-color-001.xht == reference/border-bottom-color-001-ref.xht
 border-left-color-002.xht == reference/border-bottom-color-001-ref.xht
 border-left-color-003.xht == reference/border-bottom-color-003-ref.xht
@@ -1787,6 +1789,7 @@ border-right-applies-to-012.xht == reference/border-left-applies-to-001-ref.xht
 border-right-applies-to-013.xht == reference/border-left-applies-to-001-ref.xht
 border-right-applies-to-014.xht == reference/border-left-applies-to-001-ref.xht
 border-right-applies-to-015.xht == reference/border-left-applies-to-001-ref.xht
+border-right-color.xht == reference/ref-transparent-or-black-square-transparent.xht
 border-right-color-001.xht == reference/border-right-color-001-ref.xht
 border-right-color-002.xht == reference/border-right-color-001-ref.xht
 border-right-color-003.xht == reference/border-right-color-003-ref.xht
@@ -2055,6 +2058,7 @@ border-top-applies-to-012.xht == reference/border-bottom-applies-to-001-ref.xht
 border-top-applies-to-013.xht == reference/border-bottom-applies-to-001-ref.xht
 border-top-applies-to-014.xht == reference/border-bottom-applies-to-001-ref.xht
 border-top-applies-to-015.xht == reference/border-bottom-applies-to-001-ref.xht
+border-top-color.xht == reference/ref-transparent-or-black-square-transparent.xht
 border-top-color-001.xht == reference/border-bottom-color-001-ref.xht
 border-top-color-002.xht == reference/border-bottom-color-001-ref.xht
 border-top-color-003.xht == reference/border-bottom-color-003-ref.xht

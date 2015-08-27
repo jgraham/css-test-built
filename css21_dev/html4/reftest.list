@@ -1235,6 +1235,7 @@ border-bottom-applies-to-012.htm == reference/border-bottom-applies-to-001-ref.h
 border-bottom-applies-to-013.htm == reference/border-bottom-applies-to-001-ref.htm
 border-bottom-applies-to-014.htm == reference/border-bottom-applies-to-001-ref.htm
 border-bottom-applies-to-015.htm == reference/border-bottom-applies-to-001-ref.htm
+border-bottom-color.htm == reference/ref-transparent-or-black-square-transparent.htm
 border-bottom-color-001.htm == reference/border-bottom-color-001-ref.htm
 border-bottom-color-002.htm == reference/border-bottom-color-001-ref.htm
 border-bottom-color-003.htm == reference/border-bottom-color-003-ref.htm
@@ -1541,6 +1542,7 @@ border-left-applies-to-012.htm == reference/border-left-applies-to-001-ref.htm
 border-left-applies-to-013.htm == reference/border-left-applies-to-001-ref.htm
 border-left-applies-to-014.htm == reference/border-left-applies-to-001-ref.htm
 border-left-applies-to-015.htm == reference/border-left-applies-to-001-ref.htm
+border-left-color.htm == reference/ref-transparent-or-black-square-transparent.htm
 border-left-color-001.htm == reference/border-bottom-color-001-ref.htm
 border-left-color-002.htm == reference/border-bottom-color-001-ref.htm
 border-left-color-003.htm == reference/border-bottom-color-003-ref.htm
@@ -1787,6 +1789,7 @@ border-right-applies-to-012.htm == reference/border-left-applies-to-001-ref.htm
 border-right-applies-to-013.htm == reference/border-left-applies-to-001-ref.htm
 border-right-applies-to-014.htm == reference/border-left-applies-to-001-ref.htm
 border-right-applies-to-015.htm == reference/border-left-applies-to-001-ref.htm
+border-right-color.htm == reference/ref-transparent-or-black-square-transparent.htm
 border-right-color-001.htm == reference/border-right-color-001-ref.htm
 border-right-color-002.htm == reference/border-right-color-001-ref.htm
 border-right-color-003.htm == reference/border-right-color-003-ref.htm
@@ -2055,6 +2058,7 @@ border-top-applies-to-012.htm == reference/border-bottom-applies-to-001-ref.htm
 border-top-applies-to-013.htm == reference/border-bottom-applies-to-001-ref.htm
 border-top-applies-to-014.htm == reference/border-bottom-applies-to-001-ref.htm
 border-top-applies-to-015.htm == reference/border-bottom-applies-to-001-ref.htm
+border-top-color.htm == reference/ref-transparent-or-black-square-transparent.htm
 border-top-color-001.htm == reference/border-bottom-color-001-ref.htm
 border-top-color-002.htm == reference/border-bottom-color-001-ref.htm
 border-top-color-003.htm == reference/border-bottom-color-003-ref.htm
