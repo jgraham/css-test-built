@@ -3000,6 +3000,7 @@ declaration-004.xht == reference/ref-this-text-should-be-green.xht
 declaration-005.xht == reference/ref-this-text-should-be-green.xht
 declaration-006.xht == reference/ref-this-text-should-be-green.xht
 declaration-whitespace-001.xht == reference/filler-text-below-green.xht
+declarations-009.xht == reference/declarations-009-ref.xht
 default-attribute-selector-001.xht == reference/ref-filled-green-100px-square.xht
 default-attribute-selector-002.xht == reference/ref-filled-green-100px-square.xht
 default-attribute-selector-003.xht == reference/ref-filled-green-100px-square.xht
