@@ -535,13 +535,13 @@ at-charset-058	reference/filler-text-below-green	@charset escaped char		http://w
 at-charset-059	reference/filler-text-below-green	@charset missing semi-colon		http://www.w3.org/TR/CSS21/syndata.html#charset	e3e11a52963a303acdef4a0709ab83197901a026	`Microsoft`<http://www.microsoft.com/>	The selector does not match due to the @charset being ignored.
 at-charset-060	at-charset-001	@charset with bogus name		http://www.w3.org/TR/CSS21/syndata.html#charset	a18bd6bc089f82e4750ecb80216c38a473f5e149	`Microsoft`<http://www.microsoft.com/>	The stylesheet is interpreted as UTF-16LE based on BOM.
 at-charset-061	reference/filler-text-below-green	@charset within style block		http://www.w3.org/TR/CSS21/syndata.html#charset	0338e94efe2e1ee58ac138b484b80caf58952bff	`Microsoft`<http://www.microsoft.com/>	The selector does not match due to the @charset being ignored.
-at-charset-071		Stylesheet encodings: ISO-8859-1	http	http://www.w3.org/TR/CSS21/syndata.html#charset	8d34718670f2584d69fe620393ae9e60f0d0bc37	`Ian Hickson`<mailto:ian@hixie.ch>	
-at-charset-072		Stylesheet encodings: ISO-8859-11	http	http://www.w3.org/TR/CSS21/syndata.html#charset	a7b8d3afe25b36b982e2a6f9b196b94320eb76bb	`Ian Hickson`<mailto:ian@hixie.ch>	
-at-charset-073		Stylesheet encodings: ISO-8859-5	http	http://www.w3.org/TR/CSS21/syndata.html#charset	289ef644ec3bf0132eed7b3f6afa552722afbf80	`Ian Hickson`<mailto:ian@hixie.ch>	
-at-charset-074		Stylesheet encodings: ISO-8859-6	http	http://www.w3.org/TR/CSS21/syndata.html#charset	39d34bf2bd1a548f6df57d9a5c11d6de9d08c643	`Ian Hickson`<mailto:ian@hixie.ch>	
-at-charset-075		Stylesheet encodings: ISO-8859-7	http	http://www.w3.org/TR/CSS21/syndata.html#charset	b4c3bb5aa7bedab2251e7ca17efa80d05ac2f7a0	`Ian Hickson`<mailto:ian@hixie.ch>	
-at-charset-076		Stylesheet encodings: ISO-8859-8	http	http://www.w3.org/TR/CSS21/syndata.html#charset	6fcb5909b0055257d8c77e3a056e989ff360dd2c	`Ian Hickson`<mailto:ian@hixie.ch>	
-at-charset-077		Stylesheet encodings: KOI8-R	http	http://www.w3.org/TR/CSS21/syndata.html#charset	8d7cc8b4c7fb8cf68f3e923572a79c2644e7fadb	`Ian Hickson`<mailto:ian@hixie.ch>	
+at-charset-071		Stylesheet encodings: ISO-8859-1	http	http://www.w3.org/TR/CSS21/syndata.html#charset	dac0553249271699cdbc2fb7156ed5484c987835	`Ian Hickson`<mailto:ian@hixie.ch>	
+at-charset-072		Stylesheet encodings: ISO-8859-11	http	http://www.w3.org/TR/CSS21/syndata.html#charset	46472d345e8a2a600759fa2e9b7c595de92275e2	`Ian Hickson`<mailto:ian@hixie.ch>	
+at-charset-073		Stylesheet encodings: ISO-8859-5	http	http://www.w3.org/TR/CSS21/syndata.html#charset	a2dc1feae279053cd7f080fa276e2a9dc26a61a0	`Ian Hickson`<mailto:ian@hixie.ch>	
+at-charset-074		Stylesheet encodings: ISO-8859-6	http	http://www.w3.org/TR/CSS21/syndata.html#charset	6cedd882fff74954a9ac0442916799faac9e8a84	`Ian Hickson`<mailto:ian@hixie.ch>	
+at-charset-075		Stylesheet encodings: ISO-8859-7	http	http://www.w3.org/TR/CSS21/syndata.html#charset	b2046cea100e243923f755c4809f58628f3a82ce	`Ian Hickson`<mailto:ian@hixie.ch>	
+at-charset-076		Stylesheet encodings: ISO-8859-8	http	http://www.w3.org/TR/CSS21/syndata.html#charset	f593bd32aa8b265c15d9cc8917f49b678e8bf2e3	`Ian Hickson`<mailto:ian@hixie.ch>	
+at-charset-077		Stylesheet encodings: KOI8-R	http	http://www.w3.org/TR/CSS21/syndata.html#charset	c25d2e34f5bbf9dff91ce37f2ac3e873d7ade283	`Ian Hickson`<mailto:ian@hixie.ch>	
 at-charset-quotes-001	reference/at-charset-ref	@charset quotes		http://www.w3.org/TR/CSS21/syndata.html#charset	d2a6bcd603dfa2cd437e1470c9c187efe2759f7c	`Boris Zbarsky`<mailto:bzbarsky@mit.edu>,`Mozilla Corporation`<http://mozilla.com/>	
 at-charset-space-001	reference/at-charset-ref	@charset leading-space		http://www.w3.org/TR/CSS21/syndata.html#charset	205c0029324ad9443dbe5f24a8e60ba67929e6ce	`Boris Zbarsky`<mailto:bzbarsky@mit.edu>,`Mozilla Corporation`<http://mozilla.com/>	
 at-charset-space-002	reference/at-charset-ref	@charset trailing-space		http://www.w3.org/TR/CSS21/syndata.html#charset	c4dc14c27e719d3f70e36335cad190ae5f939b1c	`Boris Zbarsky`<mailto:bzbarsky@mit.edu>,`Mozilla Corporation`<http://mozilla.com/>	
