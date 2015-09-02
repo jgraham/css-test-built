@@ -2988,6 +2988,7 @@ counters-002.xht == reference/no-red-filler-text-ref.xht
 counters-003.xht == reference/counters-003-ref.xht
 counters-004.xht == reference/counters-004-ref.xht
 counters-005.xht == reference/counters-003-ref.xht
+counters-006.xht == reference/counters-004-ref.xht
 declaration-whitespace-001.xht == reference/filler-text-below-green.xht
 default-attribute-selector-001.xht == reference/ref-filled-green-100px-square.xht
 default-attribute-selector-002.xht == reference/ref-filled-green-100px-square.xht
