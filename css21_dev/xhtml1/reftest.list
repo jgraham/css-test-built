@@ -3625,6 +3625,8 @@ ignored-rules-004.xht == reference/filler-text-below-green.xht
 ignored-rules-005.xht == reference/filler-text-below-green.xht
 ignored-rules-006.xht == reference/filler-text-below-green.xht
 ignored-rules-007.xht == reference/filler-text-below-green.xht
+import-000.xht == reference/ref-this-text-should-be-green.xht
+import-001.xht == reference/ref-this-text-should-be-green.xht
 inherit-static-offset-001.xht == reference/ref-filled-green-100px-square.xht
 inherit-static-offset-002.xht == reference/ref-filled-green-100px-square.xht
 inherit-static-offset-003.xht == reference/ref-filled-green-100px-square.xht

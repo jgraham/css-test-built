@@ -3625,6 +3625,8 @@ ignored-rules-004.htm == reference/filler-text-below-green.htm
 ignored-rules-005.htm == reference/filler-text-below-green.htm
 ignored-rules-006.htm == reference/filler-text-below-green.htm
 ignored-rules-007.htm == reference/filler-text-below-green.htm
+import-000.htm == reference/ref-this-text-should-be-green.htm
+import-001.htm == reference/ref-this-text-should-be-green.htm
 inherit-static-offset-001.htm == reference/ref-filled-green-100px-square.htm
 inherit-static-offset-002.htm == reference/ref-filled-green-100px-square.htm
 inherit-static-offset-003.htm == reference/ref-filled-green-100px-square.htm
