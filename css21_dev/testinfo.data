@@ -5002,7 +5002,7 @@ escaped-newline-001		Parsing strings with escaped newlines		http://www.w3.org/TR
 escapes-000	reference/escapes-000-ref	Escaped Newline in String		http://www.w3.org/TR/CSS21/syndata.html#characters	0c9b15c13867af28ba7627b2147ee71e0a3e9728	`L. David Baron`<http://dbaron.org/>	
 escapes-001	reference/ref-green-background	Escaped Quote Marks in String		http://www.w3.org/TR/CSS21/syndata.html#characters	009f1fe3b2a45bba323a8e3e85adc84b62e956e1	`L. David Baron`<http://dbaron.org/>	
 escapes-002	reference/ref-green-background	Invalid Punctuation Escapes		http://www.w3.org/TR/CSS21/syndata.html#characters	748487bd6c6c4e64fd38c7d372301b12e286a946	`L. David Baron`<http://dbaron.org/>	
-escapes-003		Class and Keyword Letter Escapes		http://www.w3.org/TR/CSS21/syndata.html#characters	a44df61ff5ec58a376a57f02e7d5ec3f31e21097	`L. David Baron`<http://dbaron.org/>	
+escapes-003	reference/ref-green-background	Class and Keyword Letter Escapes		http://www.w3.org/TR/CSS21/syndata.html#characters	4ce7aa20feeec08352882fc93e323bc4ea23b460	`L. David Baron`<http://dbaron.org/>	
 escapes-004		Unicode Escapes		http://www.w3.org/TR/CSS21/syndata.html#characters	2044a1591ec93198c3629aba577bb6be3440f6f4	`L. David Baron`<http://dbaron.org/>	
 escapes-005		Unicode Escapes and Case Insensitivity		http://www.w3.org/TR/CSS21/syndata.html#characters	81d4490ba64d770fcfa0b8c5559791579bd828c6	`L. David Baron`<http://dbaron.org/>	
 escapes-006		Incorrect Letter Escape (Class Selector)		http://www.w3.org/TR/CSS21/syndata.html#characters	80c6ff44e60b689371740f7fba2f3e72eedb4f8f	`L. David Baron`<http://dbaron.org/>	

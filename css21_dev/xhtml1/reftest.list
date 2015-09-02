@@ -3056,6 +3056,7 @@ escaped-ident-spaces-007.xht == reference/filler-text-below-green.xht
 escapes-000.xht == reference/escapes-000-ref.xht
 escapes-001.xht == reference/ref-green-background.xht
 escapes-002.xht == reference/ref-green-background.xht
+escapes-003.xht == reference/ref-green-background.xht
 escapes-015.xht == reference/ref-if-there-is-no-red.xht
 escapes-016.xht == reference/ref-if-there-is-no-red.xht
 extract-ordered-lists-in-regions-explicit-counters-002.xht == reference/extract-ordered-lists-in-regions-explicit-counters-002-ref.xht
