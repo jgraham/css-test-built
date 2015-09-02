@@ -517,6 +517,7 @@ at-import-004.xht == reference/no-red-filler-text-ref.xht
 at-import-005.xht == reference/filler-text-below-green.xht
 at-import-006.xht == reference/filler-text-below-green.xht
 at-import-007.xht == reference/filler-text-below-green.xht
+at-import-009.xht == reference/ref-this-text-should-be-green.xht
 at-rule-001.xht == reference/filler-text-below-green.xht
 at-rule-002.xht == reference/filler-text-below-green.xht
 at-rule-003.xht == reference/filler-text-below-green.xht
