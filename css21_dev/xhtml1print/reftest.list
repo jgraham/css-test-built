@@ -3725,6 +3725,7 @@ insert-inline-in-blocks-n-inlines-middle-003.xht == reference/insert-inline-in-b
 invalid-at-rule-001.xht == reference/no-red-filler-text-ref.xht
 invalid-decl-at-rule-001.xht == reference/filler-text-below-green.xht
 invalid-decl-at-rule-002.xht == reference/filler-text-below-green.xht
+keywords-000.xht == reference/ref-green-background.xht
 lang-selector-002.xht == reference/no-red-filler-text-ref.xht
 lang-selector-003.xht == reference/filler-text-below-green.xht
 leading-001.xht == reference/leading-001-ref.xht
