@@ -3726,6 +3726,7 @@ invalid-at-rule-001.htm == reference/no-red-filler-text-ref.htm
 invalid-decl-at-rule-001.htm == reference/filler-text-below-green.htm
 invalid-decl-at-rule-002.htm == reference/filler-text-below-green.htm
 keywords-000.htm == reference/ref-green-background.htm
+keywords-001.htm == reference/keywords-001-ref.htm
 lang-selector-002.htm == reference/no-red-filler-text-ref.htm
 lang-selector-003.htm == reference/filler-text-below-green.htm
 leading-001.htm == reference/leading-001-ref.htm
