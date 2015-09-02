@@ -2974,6 +2974,7 @@ content-counter-016.xht == reference/content-counter-000-ref.xht
 content-inherit-002.xht == reference/content-inherit-002-ref.xht
 content-type-000.xht == reference/content-type-000-ref.xht
 content-type-001.xht == reference/content-type-000-ref.xht
+core-syntax-001.xht == reference/core-syntax-001-ref.xht
 core-syntax-009.xht == reference/ref-this-text-should-be-green.xht
 counter-reset-increment-002.xht == reference/counter-reset-increment-002-ref.xht
 counters-001.xht == reference/counters-001-ref.xht
