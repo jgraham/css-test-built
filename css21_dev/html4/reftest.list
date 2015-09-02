@@ -2985,6 +2985,7 @@ core-syntax-009.htm == reference/ref-this-text-should-be-green.htm
 counter-reset-increment-002.htm == reference/counter-reset-increment-002-ref.htm
 counters-001.htm == reference/counters-001-ref.htm
 counters-002.htm == reference/no-red-filler-text-ref.htm
+counters-003.htm == reference/counters-003-ref.htm
 declaration-whitespace-001.htm == reference/filler-text-below-green.htm
 default-attribute-selector-001.htm == reference/ref-filled-green-100px-square.htm
 default-attribute-selector-002.htm == reference/ref-filled-green-100px-square.htm
