@@ -2991,6 +2991,7 @@ counters-005.xht == reference/counters-003-ref.xht
 counters-006.xht == reference/counters-004-ref.xht
 counters-007.xht == reference/counters-003-ref.xht
 counters-008.xht == reference/counters-004-ref.xht
+counters-009.xht == reference/counters-003-ref.xht
 declaration-whitespace-001.xht == reference/filler-text-below-green.xht
 default-attribute-selector-001.xht == reference/ref-filled-green-100px-square.xht
 default-attribute-selector-002.xht == reference/ref-filled-green-100px-square.xht
