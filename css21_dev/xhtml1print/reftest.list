@@ -5641,6 +5641,8 @@ white-space-pre-002.xht == reference/white-space-pre-002-ref.xht
 white-space-pre-005.xht == reference/white-space-normal-005-ref.xht
 white-space-pre-006.xht == reference/white-space-normal-005-ref.xht
 white-space-processing-049.xht == reference/white-space-processing-049-ref.xht
+whitespace-001.xht == reference/no-red-filler-text-ref.xht
+whitespace-002.xht == reference/no-red-filler-text-ref.xht
 width-001.xht == reference/ref-if-there-is-no-red.xht
 width-002.xht == reference/ref-if-there-is-no-red.xht
 width-003.xht == reference/max-width-003-ref.xht
