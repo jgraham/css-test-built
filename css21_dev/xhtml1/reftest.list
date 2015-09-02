@@ -2977,6 +2977,7 @@ content-type-001.xht == reference/content-type-000-ref.xht
 core-syntax-001.xht == reference/core-syntax-001-ref.xht
 core-syntax-002.xht == reference/core-syntax-002-ref.xht
 core-syntax-003.xht == reference/ref-this-text-should-be-green.xht
+core-syntax-004.xht == reference/ref-this-text-should-be-green.xht
 core-syntax-009.xht == reference/ref-this-text-should-be-green.xht
 counter-reset-increment-002.xht == reference/counter-reset-increment-002-ref.xht
 counters-001.xht == reference/counters-001-ref.xht

@@ -4573,7 +4573,7 @@ control-characters-002		Control Characters		http://www.w3.org/TR/CSS21/text.html
 core-syntax-001	reference/core-syntax-001-ref	Nested blocks in unexpected places		http://www.w3.org/TR/CSS21/syndata.html#parsing-errors	8083a54de86162213a3876de01711fb1bda55453	`Ian Hickson`<mailto:ian@hixie.ch>	
 core-syntax-002	reference/core-syntax-002-ref	Nested blocks in unexpected places		http://www.w3.org/TR/CSS21/syndata.html#parsing-errors	7e37a042ce73df682857a6b4c4c94890c24cc4d9	`Ian Hickson`<mailto:ian@hixie.ch>	
 core-syntax-003	reference/ref-this-text-should-be-green	Nested blocks in unexpected places (with no whitespace)		http://www.w3.org/TR/CSS21/syndata.html#parsing-errors	1fcbb868190723c21e7af574ee784217aa6a9e2a	`Ian Hickson`<mailto:ian@hixie.ch>	
-core-syntax-004		Nested blocks in unexpected places (with no whitespace)		http://www.w3.org/TR/CSS21/syndata.html#parsing-errors	e08cc6233aa06515f7f866ee87d3a7302e5ddde5	`Ian Hickson`<mailto:ian@hixie.ch>	
+core-syntax-004	reference/ref-this-text-should-be-green	Nested blocks in unexpected places (with no whitespace)		http://www.w3.org/TR/CSS21/syndata.html#parsing-errors	c48a1e0d48c850e686716edbf17a8fa2ecc2c2a2	`Ian Hickson`<mailto:ian@hixie.ch>	
 core-syntax-006		Parsing invalid '!' declarations		http://www.w3.org/TR/CSS21/syndata.html#parsing-errors	74a3f7993987f38e3f549eda06832ce2cc9c7e50	`Ian Hickson`<mailto:ian@hixie.ch>	
 core-syntax-007		Parsing invalid '!' declarations		http://www.w3.org/TR/CSS21/syndata.html#parsing-errors	04bc57ca78dcf7216a85a7a7d605023c64c1ea39	`Ian Hickson`<mailto:ian@hixie.ch>	
 core-syntax-008		Parsing invalid '!' declarations		http://www.w3.org/TR/CSS21/syndata.html#parsing-errors	03b0d944a77bd154356494ff6c3aedc8b24adc0d	`Ian Hickson`<mailto:ian@hixie.ch>	
