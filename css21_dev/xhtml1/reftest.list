@@ -1236,6 +1236,7 @@ block-replaced-height-006.xht == reference/block-replaced-height-006-ref.xht
 block-replaced-height-007.xht == reference/block-replaced-height-004-ref.xht
 block-replaced-width-002.xht == reference/block-replaced-width-002-ref.xht
 block-replaced-width-006.xht == reference/block-replaced-width-006-ref.xht
+blocks-001.xht == reference/blocks-001-ref.xht
 blocks-002.xht == reference/filler-text-below-green.xht
 blocks-003.xht == reference/filler-text-below-green.xht
 blocks-004.xht == reference/no-red-filler-text-ref.xht
