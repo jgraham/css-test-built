@@ -2635,6 +2635,7 @@ case-sensitive-001.xht == reference/ref-green-background.xht
 case-sensitive-003.xht == reference/case-sensitive-003-ref.xht
 case-sensitive-004.xht == reference/case-sensitive-003-ref.xht
 case-sensitive-005.xht == reference/case-sensitive-005-ref.xht
+case-sensitive-006.xht == reference/filler-text-below-green.xht
 charset-attr-001.xht == reference/at-charset-ref.xht
 class-selector-001.xht == reference/no-red-filler-text-ref.xht
 class-selector-002.xht == reference/filler-text-below-green.xht

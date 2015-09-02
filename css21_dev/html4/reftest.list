@@ -2635,6 +2635,7 @@ case-sensitive-001.htm == reference/ref-green-background.htm
 case-sensitive-003.htm == reference/case-sensitive-003-ref.htm
 case-sensitive-004.htm == reference/case-sensitive-003-ref.htm
 case-sensitive-005.htm == reference/case-sensitive-005-ref.htm
+case-sensitive-006.htm == reference/filler-text-below-green.htm
 charset-attr-001.htm == reference/at-charset-ref.htm
 class-selector-001.htm == reference/no-red-filler-text-ref.htm
 class-selector-002.htm == reference/filler-text-below-green.htm
