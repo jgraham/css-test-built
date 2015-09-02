@@ -531,6 +531,7 @@ at-rule-011.htm == reference/filler-text-below-green.htm
 at-rule-012.htm == reference/filler-text-below-green.htm
 attribute-selector-001.htm == reference/no-red-filler-text-ref.htm
 attribute-selector-002.htm == reference/filler-text-below-green.htm
+attribute-token-selector-002.htm == reference/attribute-token-selector-002-ref.htm
 attribute-value-selector-004.htm == reference/no-red-filler-text-ref.htm
 attribute-value-selector-005.htm == reference/filler-text-below-green.htm
 attribute-value-selector-006.htm == reference/filler-text-below-green.htm
