@@ -3065,6 +3065,7 @@ escapes-008.xht == reference/ref-green-background.xht
 escapes-009.xht == reference/ref-this-text-should-be-green.xht
 escapes-010.xht == reference/ref-this-text-should-be-green.xht
 escapes-011.xht == reference/ref-this-text-should-be-green.xht
+escapes-012.xht == reference/ref-this-text-should-be-green.xht
 escapes-015.xht == reference/ref-if-there-is-no-red.xht
 escapes-016.xht == reference/ref-if-there-is-no-red.xht
 extract-ordered-lists-in-regions-explicit-counters-002.xht == reference/extract-ordered-lists-in-regions-explicit-counters-002-ref.xht
