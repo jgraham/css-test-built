@@ -42,6 +42,7 @@ font-family-invalid-characters-002.xht == reference/font-family-invalid-characte
 font-family-invalid-characters-003.xht == reference/font-family-invalid-characters-002-ref.xht
 font-family-invalid-characters-004.xht == reference/font-family-invalid-characters-002-ref.xht
 font-family-invalid-characters-005.xht == reference/font-family-invalid-characters-005-ref.xht
+font-family-invalid-characters-006.xht == reference/font-family-invalid-characters-006-ref.xht
 font-family-name-001.xht == reference/font-family-name-ref.xht
 font-family-name-002.xht == reference/font-family-name-ref.xht
 font-family-name-003.xht == reference/font-family-name-ref.xht
