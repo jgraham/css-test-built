@@ -2631,6 +2631,7 @@ cascade-009a.xht == reference/cascade-009a-ref.xht
 cascade-009b.xht == reference/cascade-009b-ref.xht
 cascade-012.xht == reference/cascade-012-ref.xht
 case-sensitive-000.xht == reference/ref-green-background.xht
+case-sensitive-001.xht == reference/ref-green-background.xht
 charset-attr-001.xht == reference/at-charset-ref.xht
 class-selector-001.xht == reference/no-red-filler-text-ref.xht
 class-selector-002.xht == reference/filler-text-below-green.xht
