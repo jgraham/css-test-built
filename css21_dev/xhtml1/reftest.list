@@ -5634,6 +5634,8 @@ unterminated-string-001.xht == reference/filler-text-below-green.xht
 uri-001.xht == reference/filler-text-below-green.xht
 uri-002.xht == reference/no-red-filler-text-ref.xht
 uri-003.xht == reference/no-red-filler-text-ref.xht
+uri-004.xht == reference/ref-green-background.xht
+uri-005.xht == reference/ref-green-background.xht
 uri-006.xht == reference/no-red-filler-text-ref.xht
 uri-007.xht == reference/no-red-filler-text-ref.xht
 uri-008.xht == reference/no-red-filler-text-ref.xht
