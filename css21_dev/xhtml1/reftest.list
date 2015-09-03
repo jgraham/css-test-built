@@ -2914,6 +2914,7 @@ colors-002.xht == reference/no-red-filler-text-ref.xht
 colors-003.xht == reference/no-red-filler-text-ref.xht
 colors-004.xht == reference/no-red-filler-text-ref.xht
 colors-005.xht == reference/filler-text-below-green.xht
+colors-006.xht == reference/colors-006-ref.xht
 colors-007.xht == reference/colors-007-ref.xht
 column-visibility-004.xht == reference/column-visibility-004-ref.xht
 combinator-001.xht == reference/filler-text-below-green.xht
