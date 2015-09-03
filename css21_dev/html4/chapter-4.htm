@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS 2.1 Conformance Test Suite</h1>
-  <h2>Syntax and basic data types (438 tests)</h2>
+  <h2>Syntax and basic data types (439 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -2150,7 +2150,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.3.1">+</a>
         <a href="http://www.w3.org/TR/CSS21/syndata.html#numbers">4.3.1 Integers and real numbers</a></th></tr>
-      <!-- 9 tests -->
+      <!-- 10 tests -->
       <tr id="numbers-units-001-4.3.1" class="primary invalid">
         <td><strong>
             <a href="numbers-units-001.htm">numbers-units-001</a></strong></td>
@@ -2187,11 +2187,22 @@
       <tr id="numbers-units-004-4.3.1" class="primary">
         <td><strong>
             <a href="numbers-units-004.htm">numbers-units-004</a></strong></td>
-        <td><a href="reference/ref-filled-black-96px-square.htm">=</a> </td>
+        <td></td>
         <td></td>
         <td>Parsing integer numbers with '+'
           <ul class="assert">
             <li>Integers can be preceded by '+'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="positive-integer-001-4.3.1" class="primary">
+        <td><strong>
+            <a href="positive-integer-001.htm">positive-integer-001</a></strong></td>
+        <td></td>
+        <td></td>
+        <td>Parsing signed integers
+          <ul class="assert">
+            <li>Positively signed integers are treated the same as non-signed integers.</li>
           </ul>
         </td>
       </tr>
@@ -2303,7 +2314,7 @@
       <tr id="c547-indent-000-4.3.2" class="ahem">
         <td>
             <a href="c547-indent-000.htm">c547-indent-000</a></td>
-        <td><a href="reference/c547-indent-000-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>text-indent
         </td>
@@ -2327,7 +2338,7 @@
       <tr id="c5510-padn-000-4.3.2" class="ahem image">
         <td>
             <a href="c5510-padn-000.htm">c5510-padn-000</a></td>
-        <td><a href="reference/c5510-padn-000-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
         <td>padding
         </td>
@@ -2395,7 +2406,7 @@
       <tr id="numbers-units-006-4.3.2" class="primary invalid">
         <td><strong>
             <a href="numbers-units-006.htm">numbers-units-006</a></strong></td>
-        <td><a href="reference/ref-filled-black-96px-square.htm">=</a> </td>
+        <td></td>
         <td><abbr class="invalid" title="Tests invalid CSS">Invalid</abbr></td>
         <td>Unsupported negative values
           <ul class="assert">
@@ -2406,7 +2417,7 @@
       <tr id="numbers-units-007-4.3.2" class="primary ahem">
         <td><strong>
             <a href="numbers-units-007.htm">numbers-units-007</a></strong></td>
-        <td><a href="reference/numbers-units-007-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>Em sizes
           <ul class="assert">
@@ -2417,7 +2428,7 @@
       <tr id="numbers-units-009-4.3.2" class="primary ahem">
         <td><strong>
             <a href="numbers-units-009.htm">numbers-units-009</a></strong></td>
-        <td><a href="reference/numbers-units-009-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>Em size with the font-size set to px size
           <ul class="assert">
@@ -2428,7 +2439,7 @@
       <tr id="numbers-units-010-4.3.2" class="primary ahem">
         <td><strong>
             <a href="numbers-units-010.htm">numbers-units-010</a></strong></td>
-        <td><a href="reference/numbers-units-010-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>Em size with font-size set to inch
           <ul class="assert">
@@ -2439,7 +2450,7 @@
       <tr id="numbers-units-011-4.3.2" class="primary ahem">
         <td><strong>
             <a href="numbers-units-011.htm">numbers-units-011</a></strong></td>
-        <td><a href="reference/numbers-units-011-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>Em size with font-size set to em
           <ul class="assert">
@@ -2450,7 +2461,7 @@
       <tr id="numbers-units-012-4.3.2" class="primary ahem">
         <td><strong>
             <a href="numbers-units-012.htm">numbers-units-012</a></strong></td>
-        <td><a href="reference/numbers-units-012-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>Em size with font-size set to ex
           <ul class="assert">
@@ -2461,7 +2472,7 @@
       <tr id="numbers-units-013-4.3.2" class="primary ahem">
         <td><strong>
             <a href="numbers-units-013.htm">numbers-units-013</a></strong></td>
-        <td><a href="reference/numbers-units-013-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>Em size with font-size set to percentage
           <ul class="assert">
@@ -2472,7 +2483,7 @@
       <tr id="numbers-units-015-4.3.2" class="primary ahem should">
         <td><strong>
             <a href="numbers-units-015.htm">numbers-units-015</a></strong></td>
-        <td><a href="reference/numbers-units-014-ref-a.htm">=</a> <a href="reference/numbers-units-014-ref-b.htm">=</a> </td>
+        <td></td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="should" title="Behavior tested is recommended but not required">Recommend</abbr></td>
         <td>Height of EX
           <ul class="assert">
@@ -2483,7 +2494,7 @@
       <tr id="numbers-units-018-4.3.2" class="primary ahem">
         <td><strong>
             <a href="numbers-units-018.htm">numbers-units-018</a></strong></td>
-        <td><a href="reference/numbers-units-018-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>Specifying em/ex on the root element
           <ul class="assert">
@@ -2494,7 +2505,7 @@
       <tr id="numbers-units-019-4.3.2" class="primary ahem">
         <td><strong>
             <a href="numbers-units-019.htm">numbers-units-019</a></strong></td>
-        <td><a href="reference/numbers-units-019-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>First available font defines the 'ex' unit size
           <ul class="assert">
@@ -2505,7 +2516,7 @@
       <tr id="numbers-units-021-4.3.2" class="primary 96dpi ahem">
         <td><strong>
             <a href="numbers-units-021.htm">numbers-units-021</a></strong></td>
-        <td><a href="reference/numbers-units-021-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="96dpi" title="Only valid on 96dpi displays">96</abbr><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>Root element and the 'em' unit size
           <ul class="assert">
@@ -2578,7 +2589,7 @@
       <tr id="units-005-4.3.2" class="primary">
         <td><strong>
             <a href="units-005.htm">units-005</a></strong></td>
-        <td><a href="reference/units-005-ref.htm">=</a> </td>
+        <td></td>
         <td></td>
         <td>Units: em (0.87em floats)
         </td>
@@ -2734,7 +2745,7 @@
       <tr id="uri-004-4.3.4" class="primary image">
         <td><strong>
             <a href="uri-004.htm">uri-004</a></strong></td>
-        <td><a href="reference/ref-green-background.htm">=</a> </td>
+        <td></td>
         <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
         <td>URL function with URI that has escaped special chars
           <ul class="assert">
@@ -2745,7 +2756,7 @@
       <tr id="uri-005-4.3.4" class="primary image">
         <td><strong>
             <a href="uri-005.htm">uri-005</a></strong></td>
-        <td><a href="reference/ref-green-background.htm">=</a> </td>
+        <td></td>
         <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
         <td>URL function with escaped special chars - single quote
           <ul class="assert">
@@ -2822,7 +2833,7 @@
       <tr id="uri-012-4.3.4" class="primary invalid">
         <td><strong>
             <a href="uri-012.htm">uri-012</a></strong></td>
-        <td><a href="reference/uri-012-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="invalid" title="Tests invalid CSS">Invalid</abbr></td>
         <td>Error handling of broken url() - balancing braces
         </td>
@@ -2830,7 +2841,7 @@
       <tr id="uri-014-4.3.4" class="primary">
         <td><strong>
             <a href="uri-014.htm">uri-014</a></strong></td>
-        <td><a href="reference/ref-green-background.htm">=</a> </td>
+        <td></td>
         <td></td>
         <td>Unquoted commas in url()
           <ul class="assert">
@@ -2841,7 +2852,7 @@
       <tr id="uri-015-4.3.4" class="primary">
         <td><strong>
             <a href="uri-015.htm">uri-015</a></strong></td>
-        <td><a href="reference/ref-green-background.htm">=</a> </td>
+        <td></td>
         <td></td>
         <td>Escaped url() functional notation
           <ul class="assert">
@@ -2852,7 +2863,7 @@
       <tr id="uri-016-4.3.4" class="primary">
         <td><strong>
             <a href="uri-016.htm">uri-016</a></strong></td>
-        <td><a href="reference/uri-016-ref.htm">=</a> </td>
+        <td></td>
         <td></td>
         <td>Error handling of broken url() with open /*
           <ul class="assert">
@@ -3356,7 +3367,7 @@
       <tr id="color-000-4.3.6" class="primary invalid">
         <td><strong>
             <a href="color-000.htm">color-000</a></strong></td>
-        <td><a href="reference/color-000-ref.htm">=</a> </td>
+        <td></td>
         <td><abbr class="invalid" title="Tests invalid CSS">Invalid</abbr></td>
         <td>RGB color syntax error handling
         </td>
@@ -3419,7 +3430,7 @@
       <tr id="colors-006-4.3.6" class="primary">
         <td><strong>
             <a href="colors-006.htm">colors-006</a></strong></td>
-        <td><a href="reference/colors-006-ref.htm">=</a> </td>
+        <td></td>
         <td></td>
         <td>Comparing color keywords and hex values
           <ul class="assert">
@@ -3450,7 +3461,7 @@
       <tr id="escaped-newline-001-4.3.7" class="primary">
         <td><strong>
             <a href="escaped-newline-001.htm">escaped-newline-001</a></strong></td>
-        <td><a href="reference/escaped-newline-001-ref.htm">=</a> </td>
+        <td></td>
         <td></td>
         <td>Parsing strings with escaped newlines
           <ul class="assert">
@@ -3461,7 +3472,7 @@
       <tr id="quoted-string-001-4.3.7" class="primary">
         <td><strong>
             <a href="quoted-string-001.htm">quoted-string-001</a></strong></td>
-        <td><a href="reference/quoted-string-001-ref.htm">=</a> </td>
+        <td></td>
         <td></td>
         <td>Parsing of single quotes inside double quotes
           <ul class="assert">
@@ -3472,7 +3483,7 @@
       <tr id="quoted-string-002-4.3.7" class="primary">
         <td><strong>
             <a href="quoted-string-002.htm">quoted-string-002</a></strong></td>
-        <td><a href="reference/quoted-string-002-ref.htm">=</a> </td>
+        <td></td>
         <td></td>
         <td>Parsing of double quotes inside single quotes
           <ul class="assert">
@@ -3483,7 +3494,7 @@
       <tr id="quoted-string-003-4.3.7" class="primary">
         <td><strong>
             <a href="quoted-string-003.htm">quoted-string-003</a></strong></td>
-        <td><a href="reference/quoted-string-001-ref.htm">=</a> </td>
+        <td></td>
         <td></td>
         <td>Parsing of escaped quotes (single within single)
           <ul class="assert">
@@ -3494,7 +3505,7 @@
       <tr id="quoted-string-004-4.3.7" class="primary">
         <td><strong>
             <a href="quoted-string-004.htm">quoted-string-004</a></strong></td>
-        <td><a href="reference/quoted-string-002-ref.htm">=</a> </td>
+        <td></td>
         <td></td>
         <td>Parsing of escaped double quotes
           <ul class="assert">
@@ -3505,7 +3516,7 @@
       <tr id="strings-000-4.3.7" class="primary">
         <td><strong>
             <a href="strings-000.htm">strings-000</a></strong></td>
-        <td><a href="reference/ref-this-text-should-be-green.htm">=</a> </td>
+        <td></td>
         <td></td>
         <td>Newlines in strings
         </td>

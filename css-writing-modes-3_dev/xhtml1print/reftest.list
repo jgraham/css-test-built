@@ -272,6 +272,7 @@ baseline-inline-replaced-003.xht == reference/baseline-inline-replaced-002-ref.x
 bidi-001.xht == reference/bidi-001-ref.xht
 bidi-002.xht == reference/bidi-002-ref.xht
 bidi-003.xht == reference/bidi-003-ref.xht
+bidi-004.xht == reference/bidi-004-ref.xht
 bidi-011.xht == reference/bidi-011-ref.xht
 bidi-box-model-001.xht == reference/bidi-box-model-001-ref.xht
 bidi-box-model-002.xht == reference/bidi-box-model-001-ref.xht

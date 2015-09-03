@@ -1070,6 +1070,7 @@ before-content-display-018.htm == reference/after-content-display-001-ref.htm
 bidi-001.htm == reference/bidi-001-ref.htm
 bidi-002.htm == reference/bidi-002-ref.htm
 bidi-003.htm == reference/bidi-003-ref.htm
+bidi-004.htm == reference/bidi-004-ref.htm
 bidi-005a.htm == reference/bidi-005a-ref.htm
 bidi-005b.htm == reference/bidi-005b-ref.htm
 bidi-006a.htm == reference/bidi-005a-ref.htm
@@ -2529,7 +2530,6 @@ c541-word-sp-001.htm == reference/c541-word-sp-001-ref.htm
 c542-letter-sp-000.htm == reference/c542-letter-sp-000-ref.htm
 c542-letter-sp-001.htm == reference/c542-letter-sp-001-ref.htm
 c544-valgn-001.htm == reference/c544-valgn-001-ref.htm
-c547-indent-000.htm == reference/c547-indent-000-ref.htm
 c547-indent-001.htm == reference/c547-indent-001-ref.htm
 c548-leadin-000.htm == reference/c548-leadin-000-ref.htm
 c548-ln-ht-000.htm == reference/c548-ln-ht-000-ref.htm
@@ -2592,7 +2592,6 @@ c5509-padn-l-001.htm == reference/c5509-padn-l-001-ref.htm
 c5509-padn-l-002.htm == reference/c5509-padn-l-002-ref.htm
 c5509-padn-l-003.htm == reference/c5509-padn-l-003-ref.htm
 c5510-ipadn-000.htm == reference/c5510-ipadn-000-ref.htm
-c5510-padn-000.htm == reference/c5510-padn-000-ref.htm
 c5510-padn-001.htm == reference/c5510-padn-001-ref.htm
 c5510-padn-002.htm == reference/c5510-padn-002-ref.htm
 c5511-brdr-tw-001.htm == reference/c5511-brdr-tw-001-ref.htm
@@ -2746,7 +2745,6 @@ clip-099.htm == reference/no-red-on-blank-page-ref.htm
 clip-102.htm == reference/no-red-on-blank-page-ref.htm
 collapsing-border-model-010a.htm == reference/ref-filled-green-100px-square.htm
 collapsing-border-model-010b.htm == reference/ref-filled-green-100px-square.htm
-color-000.htm == reference/color-000-ref.htm
 color-001.htm == reference/color-001-ref.htm
 color-002.htm == reference/color-002-ref.htm
 color-003.htm == reference/color-003-ref.htm
@@ -2914,7 +2912,6 @@ colors-002.htm == reference/no-red-filler-text-ref.htm
 colors-003.htm == reference/no-red-filler-text-ref.htm
 colors-004.htm == reference/no-red-filler-text-ref.htm
 colors-005.htm == reference/filler-text-below-green.htm
-colors-006.htm == reference/colors-006-ref.htm
 colors-007.htm == reference/colors-007-ref.htm
 column-visibility-004.htm == reference/column-visibility-004-ref.htm
 combinator-001.htm == reference/filler-text-below-green.htm
@@ -3092,7 +3089,6 @@ escaped-ident-spaces-004.htm == reference/filler-text-below-green.htm
 escaped-ident-spaces-005.htm == reference/filler-text-below-green.htm
 escaped-ident-spaces-006.htm == reference/filler-text-below-green.htm
 escaped-ident-spaces-007.htm == reference/filler-text-below-green.htm
-escaped-newline-001.htm == reference/escaped-newline-001-ref.htm
 escapes-000.htm == reference/escapes-000-ref.htm
 escapes-001.htm == reference/ref-green-background.htm
 escapes-002.htm == reference/ref-green-background.htm
@@ -4728,22 +4724,9 @@ moz-multicol3-column-balancing-break-inside-avoid-1.htm == reference/moz-multico
 multicol-height-002.htm == reference/multicol-height-002.htm
 numbers-units-001.htm == reference/no-red-on-blank-page-ref.htm
 numbers-units-003.htm == reference/no-red-on-blank-page-ref.htm
-numbers-units-004.htm == reference/ref-filled-black-96px-square.htm
 numbers-units-005.htm == reference/no-red-on-blank-page-ref.htm
-numbers-units-006.htm == reference/ref-filled-black-96px-square.htm
-numbers-units-007.htm == reference/numbers-units-007-ref.htm
-numbers-units-009.htm == reference/numbers-units-009-ref.htm
-numbers-units-010.htm == reference/numbers-units-010-ref.htm
-numbers-units-011.htm == reference/numbers-units-011-ref.htm
-numbers-units-012.htm == reference/numbers-units-012-ref.htm
-numbers-units-013.htm == reference/numbers-units-013-ref.htm
-numbers-units-015.htm == reference/numbers-units-014-ref-a.htm
-numbers-units-015.htm == reference/numbers-units-014-ref-b.htm
 numbers-units-016.htm == reference/no-red-on-blank-page-ref.htm
 numbers-units-017.htm == reference/no-red-on-blank-page-ref.htm
-numbers-units-018.htm == reference/numbers-units-018-ref.htm
-numbers-units-019.htm == reference/numbers-units-019-ref.htm
-numbers-units-021.htm == reference/numbers-units-021-ref.htm
 other-attribute-001.htm == reference/no-red-on-blank-page-ref.htm
 outline-applies-to-005.htm == reference/no-red-on-blank-page-ref.htm
 outline-applies-to-006.htm == reference/no-red-on-blank-page-ref.htm
@@ -5213,10 +5196,6 @@ pseudo-015.htm == reference/no-red-filler-text-ref.htm
 pseudo-016.htm == reference/no-red-filler-text-ref.htm
 quoted-keywords-001.htm == reference/no-red-filler-text-ref.htm
 quoted-keywords-002.htm == reference/no-red-filler-text-ref.htm
-quoted-string-001.htm == reference/quoted-string-001-ref.htm
-quoted-string-002.htm == reference/quoted-string-002-ref.htm
-quoted-string-003.htm == reference/quoted-string-001-ref.htm
-quoted-string-004.htm == reference/quoted-string-002-ref.htm
 quotes-035.htm == reference/quotes-035-ref.htm
 quotes-035a.htm == reference/quotes-035-ref.htm
 quotes-036.htm == reference/quotes-035-ref.htm
@@ -5469,7 +5448,6 @@ stack-floats-001.htm == reference/stack-floats-001-ref.htm
 stack-floats-002.htm == reference/stack-floats-001-ref.htm
 stack-floats-003.htm == reference/stack-floats-001-ref.htm
 stack-floats-004.htm == reference/stack-floats-001-ref.htm
-strings-000.htm == reference/ref-this-text-should-be-green.htm
 style-attr-cascade-001.htm == reference/ref-green.htm
 style-attr-cascade-002.htm == reference/ref-green.htm
 style-attr-cascade-003.htm == reference/ref-green.htm
@@ -5632,7 +5610,6 @@ units-001.htm == reference/units-001-ref.htm
 units-002.htm == reference/units-002-ref.htm
 units-003.htm == reference/units-003-ref.htm
 units-004.htm == reference/units-004-ref.htm
-units-005.htm == reference/units-005-ref.htm
 units-006.htm == reference/units-006-ref.htm
 units-008.htm == reference/units-006-ref.htm
 units-009.htm == reference/units-006-ref.htm
@@ -5642,19 +5619,13 @@ unterminated-string-001.htm == reference/filler-text-below-green.htm
 uri-001.htm == reference/filler-text-below-green.htm
 uri-002.htm == reference/no-red-filler-text-ref.htm
 uri-003.htm == reference/no-red-filler-text-ref.htm
-uri-004.htm == reference/ref-green-background.htm
-uri-005.htm == reference/ref-green-background.htm
 uri-006.htm == reference/no-red-filler-text-ref.htm
 uri-007.htm == reference/no-red-filler-text-ref.htm
 uri-008.htm == reference/no-red-filler-text-ref.htm
 uri-009.htm == reference/no-red-filler-text-ref.htm
 uri-010.htm == reference/no-red-filler-text-ref.htm
 uri-011.htm == reference/no-red-filler-text-ref.htm
-uri-012.htm == reference/uri-012-ref.htm
 uri-013.htm == reference/uri-013-ref.htm
-uri-014.htm == reference/ref-green-background.htm
-uri-015.htm == reference/ref-green-background.htm
-uri-016.htm == reference/uri-016-ref.htm
 uri-017.htm == reference/uri-017-ref.htm
 uri-018.htm == reference/ref-this-text-should-be-green.htm
 vertical-align-004.htm == reference/vertical-align-004-ref.htm
