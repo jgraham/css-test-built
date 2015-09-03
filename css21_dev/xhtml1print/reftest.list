@@ -5469,6 +5469,7 @@ stack-floats-001.xht == reference/stack-floats-001-ref.xht
 stack-floats-002.xht == reference/stack-floats-001-ref.xht
 stack-floats-003.xht == reference/stack-floats-001-ref.xht
 stack-floats-004.xht == reference/stack-floats-001-ref.xht
+strings-000.xht == reference/ref-this-text-should-be-green.xht
 style-attr-cascade-001.xht == reference/ref-green.xht
 style-attr-cascade-002.xht == reference/ref-green.xht
 style-attr-cascade-003.xht == reference/ref-green.xht
