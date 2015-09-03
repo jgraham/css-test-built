@@ -7,11 +7,12 @@
             margin: 7%;
             counter-increment: page;
             @top-left { content: "CSS Writing Modes Module Level 3 CR Test Suite"; }
-            @top-right { content: "Test vertical-alignment-new-006-ref"; }
+            @top-right { content: "Test vertical-alignment-004-ref"; }
             @bottom-right { content: counter(page); }
           }
 </style>
   <link rel="author" title="Hajime Shiozawa" href="mailto:hajime.shiozawa@gmail.com" />
+  <link rel="reviewer" title="G?rard Talbot" href="http://www.gtalbot.org/BrowserBugsSection/css21testsuite/" /> <!-- 2015-09-01 -->
   <meta name="flags" content="image" />
   <style type="text/css"><![CDATA[
     img
@@ -21,20 +22,16 @@
 
     img
     {
-      padding-left: 60px; /* = the position of first orange square */
+      padding-left: 60px; /* =  position of orange squares */
     }
 
-    img + br + img
-    {
-      padding-left: 90px; /* = the position of second orange square*/
-    }
   ]]></style>
 
 </head>
 
 <body>
 
-<p>Test passes if the <strong>right edge</strong> of an irregular orange polygon is straight and unbroken.</p>
+<p>Test passes if the <strong>left edge</strong> of an irregular orange polygon is straight and unbroken.</p>
 
 <div>
    <img src="support/swatch-orange.png" width="60" height="60" alt="Image download support must be enabled" /><br /><!--

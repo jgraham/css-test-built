@@ -7,7 +7,7 @@
             margin: 7%;
             counter-increment: page;
             @top-left { content: "CSS Writing Modes Module Level 3 CR Test Suite"; }
-            @top-right { content: "Test vertical-alignment-new-008-ref"; }
+            @top-right { content: "Test vertical-alignment-006-ref"; }
             @bottom-right { content: counter(page); }
           }
 </style>
@@ -19,10 +19,14 @@
       vertical-align: top;
     }
 
-    img#orange
+    img
     {
-      padding-top: 30px; /* = the height of first character */
-      padding-left: 30px;
+      padding-left: 60px; /* = the position of first orange square */
+    }
+
+    img + br + img
+    {
+      padding-left: 90px; /* = the position of second orange square*/
     }
   ]]></style>
 
@@ -30,11 +34,11 @@
 
 <body>
 
-<p>Test passes if the left edge of an blue square is aligned with the right edge of a orange square.</p>
+<p>Test passes if the <strong>right edge</strong> of an irregular orange polygon is straight and unbroken.</p>
 
 <div>
-  <img id="orange" src="support/swatch-orange.png" width="30" height="30" alt="Image download support must be enabled" /><!--
---><img src="support/swatch-blue.png" width="60" height="60" alt="Image download support must be enabled" />
+   <img src="support/swatch-orange.png" width="60" height="60" alt="Image download support must be enabled" /><br /><!--
+--><img src="support/swatch-orange.png" width="30" height="30" alt="Image download support must be enabled" />
 </div>
 
 </body>
