@@ -2592,6 +2592,7 @@ c5509-padn-l-001.xht == reference/c5509-padn-l-001-ref.xht
 c5509-padn-l-002.xht == reference/c5509-padn-l-002-ref.xht
 c5509-padn-l-003.xht == reference/c5509-padn-l-003-ref.xht
 c5510-ipadn-000.xht == reference/c5510-ipadn-000-ref.xht
+c5510-padn-000.xht == reference/c5510-padn-000-ref.xht
 c5510-padn-001.xht == reference/c5510-padn-001-ref.xht
 c5510-padn-002.xht == reference/c5510-padn-002-ref.xht
 c5511-brdr-tw-001.xht == reference/c5511-brdr-tw-001-ref.xht
