@@ -5214,7 +5214,9 @@ pseudo-016.xht == reference/no-red-filler-text-ref.xht
 quoted-keywords-001.xht == reference/no-red-filler-text-ref.xht
 quoted-keywords-002.xht == reference/no-red-filler-text-ref.xht
 quoted-string-001.xht == reference/quoted-string-001-ref.xht
+quoted-string-002.xht == reference/quoted-string-002-ref.xht
 quoted-string-003.xht == reference/quoted-string-001-ref.xht
+quoted-string-004.xht == reference/quoted-string-002-ref.xht
 quotes-035.xht == reference/quotes-035-ref.xht
 quotes-035a.xht == reference/quotes-035-ref.xht
 quotes-036.xht == reference/quotes-035-ref.xht
