@@ -2746,6 +2746,7 @@ clip-099.xht == reference/no-red-on-blank-page-ref.xht
 clip-102.xht == reference/no-red-on-blank-page-ref.xht
 collapsing-border-model-010a.xht == reference/ref-filled-green-100px-square.xht
 collapsing-border-model-010b.xht == reference/ref-filled-green-100px-square.xht
+color-000.xht == reference/color-000-ref.xht
 color-001.xht == reference/color-001-ref.xht
 color-002.xht == reference/color-002-ref.xht
 color-003.xht == reference/color-003-ref.xht
