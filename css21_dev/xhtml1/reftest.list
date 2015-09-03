@@ -3092,6 +3092,7 @@ escaped-ident-spaces-004.xht == reference/filler-text-below-green.xht
 escaped-ident-spaces-005.xht == reference/filler-text-below-green.xht
 escaped-ident-spaces-006.xht == reference/filler-text-below-green.xht
 escaped-ident-spaces-007.xht == reference/filler-text-below-green.xht
+escaped-newline-001.xht == reference/escaped-newline-001-ref.xht
 escapes-000.xht == reference/escapes-000-ref.xht
 escapes-001.xht == reference/ref-green-background.xht
 escapes-002.xht == reference/ref-green-background.xht
