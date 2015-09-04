@@ -443,45 +443,46 @@ anonymous-boxes-001b.xht == reference/anonymous-boxes-001b-ref.xht
 anonymous-boxes-inheritance-001.xht == reference/anonymous-boxes-inheritance-001-ref.xht
 anonymous-inline-whitespace-001.xht == reference/ref-if-there-is-no-red.xht
 anonymous-table-box-width-001.xht == reference/ref-filled-green-100px-square.xht
-at-charset-002.xht == at-charset-001.xht
-at-charset-003.xht == at-charset-001.xht
-at-charset-004.xht == at-charset-001.xht
-at-charset-005.xht == at-charset-001.xht
-at-charset-006.xht == at-charset-001.xht
-at-charset-007.xht == at-charset-001.xht
-at-charset-008.xht == at-charset-001.xht
-at-charset-009.xht == at-charset-001.xht
-at-charset-010.xht == at-charset-001.xht
-at-charset-011.xht == at-charset-001.xht
-at-charset-012.xht == at-charset-001.xht
-at-charset-014.xht == at-charset-001.xht
-at-charset-015.xht == at-charset-001.xht
-at-charset-016.xht == at-charset-001.xht
-at-charset-019.xht == at-charset-001.xht
-at-charset-020.xht == at-charset-001.xht
-at-charset-021.xht == at-charset-001.xht
-at-charset-024.xht == at-charset-001.xht
-at-charset-025.xht == at-charset-001.xht
-at-charset-026.xht == at-charset-001.xht
-at-charset-027.xht == at-charset-001.xht
-at-charset-028.xht == at-charset-001.xht
-at-charset-029.xht == at-charset-001.xht
-at-charset-030.xht == at-charset-001.xht
+at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-002.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-003.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-004.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-005.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-006.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-007.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-008.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-009.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-010.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-011.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-012.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-014.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-015.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-016.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-019.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-020.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-021.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-024.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-025.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-026.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-027.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-028.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-029.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-030.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
 at-charset-033.xht == reference/filler-text-below-green.xht
 at-charset-034.xht == reference/filler-text-below-green.xht
 at-charset-035.xht == reference/filler-text-below-green.xht
 at-charset-036.xht == reference/filler-text-below-green.xht
 at-charset-037.xht == reference/filler-text-below-green.xht
 at-charset-038.xht == reference/filler-text-below-green.xht
-at-charset-040.xht == at-charset-001.xht
-at-charset-041.xht == at-charset-001.xht
-at-charset-042.xht == at-charset-001.xht
-at-charset-043.xht == at-charset-001.xht
-at-charset-044.xht == at-charset-001.xht
-at-charset-045.xht == at-charset-001.xht
-at-charset-046.xht == at-charset-001.xht
-at-charset-047.xht == at-charset-001.xht
-at-charset-048.xht == at-charset-001.xht
+at-charset-040.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-041.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-042.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-043.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-044.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-045.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-046.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-047.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-048.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
 at-charset-049.xht == reference/filler-text-below-green.xht
 at-charset-050.xht == reference/filler-text-below-green.xht
 at-charset-051.xht == reference/filler-text-below-green.xht
@@ -493,7 +494,7 @@ at-charset-056.xht == reference/filler-text-below-green.xht
 at-charset-057.xht == reference/filler-text-below-green.xht
 at-charset-058.xht == reference/filler-text-below-green.xht
 at-charset-059.xht == reference/filler-text-below-green.xht
-at-charset-060.xht == at-charset-001.xht
+at-charset-060.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
 at-charset-061.xht == reference/filler-text-below-green.xht
 at-charset-071.xht == reference/ref-green-background.xht
 at-charset-072.xht == reference/ref-green-background.xht
