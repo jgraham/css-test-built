@@ -8,8 +8,8 @@
   src: url(./Ahem.ttf);
 }
 #a {
-  font-family: MyTestFontName, serif;
+  font-family: MyTestFontName;
 }
 #b {
-  font-family: MyTestFontName2, serif;
+  font-family: MyTestFontName2;
 }
