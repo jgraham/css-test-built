@@ -3889,6 +3889,7 @@ left-offset-002.xht == reference/left-offset-001-ref.xht
 left-offset-003.xht == reference/left-offset-003-ref.xht
 left-offset-percentage-001.xht == reference/left-offset-percentage-001-ref.xht
 left-offset-percentage-002.xht == reference/left-offset-percentage-002-ref.xht
+left-offset-position-fixed-001.xht == reference/left-offset-position-fixed-001-ref.xht
 line-box-height-002.xht == reference/line-box-height-002-ref.xht
 line-breaking-bidi-001.xht == reference/line-breaking-bidi-001-ref.xht
 line-breaking-bidi-002.xht == reference/line-breaking-bidi-002-ref.xht

@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS 2.1 Conformance Test Suite</h1>
-  <h2>Visual formatting model (1246 tests)</h2>
+  <h2>Visual formatting model (1247 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -4869,7 +4869,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s9.3.2">+</a>
         <a href="http://www.w3.org/TR/CSS21/visuren.html#position-props">9.3.2 Box offsets: 'top', 'right', 'bottom', 'left'</a></th></tr>
-      <!-- 296 tests -->
+      <!-- 298 tests -->
       <tr id="background-position-152-9.3.2" class="image">
         <td>
             <a href="background-position-152.xht">background-position-152</a></td>
@@ -6550,6 +6550,28 @@
         <td>position absolute - left offset percentage and inherit
           <ul class="assert">
             <li>'left: inherit' makes the left property take the same computed value as the left property for the element's parent; in the case of a percentage value, the computed value is the specified percentage value. 'left: [percentage]' refers to width of containing block.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="left-offset-position-fixed-001-9.3.2" class="primary">
+        <td><strong>
+            <a href="left-offset-position-fixed-001.xht">left-offset-position-fixed-001</a></strong></td>
+        <td><a href="reference/left-offset-position-fixed-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>left:auto offset of position:fixed box in a position:relative containing block
+          <ul class="assert">
+            <li>The 'left' box offset property, for fixed positioning, when set to 'auto' specifies the offset of the box from its 'static-position containing block'. Here, in this test, the 'static-position containing block' is #shifted-column and the containing block for #red is established by the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="left-offset-position-fixed-001-9.3.2" class="primary">
+        <td><strong>
+            <a href="left-offset-position-fixed-001.xht">left-offset-position-fixed-001</a></strong></td>
+        <td><a href="reference/left-offset-position-fixed-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>left:auto offset of position:fixed box in a position:relative containing block
+          <ul class="assert">
+            <li>The 'left' box offset property, for fixed positioning, when set to 'auto' specifies the offset of the box from its 'static-position containing block'. Here, in this test, the 'static-position containing block' is #shifted-column and the containing block for #red is established by the viewport.</li>
           </ul>
         </td>
       </tr>
