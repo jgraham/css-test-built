@@ -5321,6 +5321,7 @@ right-offset-002.htm == reference/left-offset-001-ref.htm
 right-offset-003.htm == reference/right-offset-001-ref.htm
 right-offset-004.htm == reference/ref-filled-green-100px-square.htm
 right-offset-percentage-001.htm == reference/right-offset-percentage-001-ref.htm
+right-offset-position-fixed-001.htm == reference/right-offset-position-fixed-001-ref.htm
 root-box-001.htm == reference/root-box-001-ref.htm
 root-box-002.htm == reference/root-box-002-ref.htm
 root-box-003.htm == reference/root-box-003-ref.htm

@@ -5321,6 +5321,7 @@ right-offset-002.xht == reference/left-offset-001-ref.xht
 right-offset-003.xht == reference/right-offset-001-ref.xht
 right-offset-004.xht == reference/ref-filled-green-100px-square.xht
 right-offset-percentage-001.xht == reference/right-offset-percentage-001-ref.xht
+right-offset-position-fixed-001.xht == reference/right-offset-position-fixed-001-ref.xht
 root-box-001.xht == reference/root-box-001-ref.xht
 root-box-002.xht == reference/root-box-002-ref.xht
 root-box-003.xht == reference/root-box-003-ref.xht
