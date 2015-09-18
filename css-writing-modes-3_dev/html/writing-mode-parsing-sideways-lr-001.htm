@@ -7,14 +7,14 @@
 <script src="/resources/testharness.js"></script>
 <script src="/resources/testharnessreport.js"></script>
 
-</head><body><div data-expected="sideways-lr" style="writing-mode: sideways-lr" title="writing-mode: sideways-lr"></div>
+</head><body><div data-expected="sideways-lr" style="writing-mode: sideways-lr"></div>
 
 <script>
 Array.prototype.forEach.call(document.querySelectorAll("[data-expected]"), function (element) {
   test(function () {
     var actual = getComputedStyle(element).writingMode;
     assert_equals(actual, element.dataset.expected);
-  }, element.title);
+  }, element.title || element.getAttribute("style"));
 });
 </script>
 </body></html>

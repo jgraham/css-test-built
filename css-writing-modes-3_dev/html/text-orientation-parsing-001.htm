@@ -11,19 +11,19 @@
 
 <div data-expected="mixed" title="text-orientation initial value"></div>
 
-<div data-expected="upright" style="text-orientation: upright" title="text-orientation: upright"></div>
-<div data-expected="sideways" style="text-orientation: sideways" title="text-orientation: sideways"></div>
-<div data-expected="sideways-right" style="text-orientation: sideways-right" title="text-orientation: sideways-right"></div>
+<div data-expected="upright" style="text-orientation: upright"></div>
+<div data-expected="sideways" style="text-orientation: sideways"></div>
+<div data-expected="sideways-right" style="text-orientation: sideways-right"></div>
 
 <div style="text-orientation: upright">
   <div data-expected="upright" title="text-orientation should inherit"></div>
 
-  <div data-expected="mixed" style="text-orientation: mixed" title="text-orientation: mixed"></div>
+  <div data-expected="mixed" style="text-orientation: mixed"></div>
 
-  <div data-expected="mixed" style="text-orientation: initial" title="text-orientation: initial"></div>
-  <div data-expected="upright" style="text-orientation: inherit" title="text-orientation: inherit"></div>
+  <div data-expected="mixed" style="text-orientation: initial"></div>
+  <div data-expected="upright" style="text-orientation: inherit"></div>
 
-  <div data-expected="upright" style="text-orientation: foo" title="text-orientation: foo"></div>
+  <div data-expected="upright" style="text-orientation: foo"></div>
 </div>
 
 <script>
@@ -31,7 +31,7 @@ Array.prototype.forEach.call(document.querySelectorAll("[data-expected]"), funct
   test(function () {
     var actual = getComputedStyle(element).textOrientation;
     assert_equals(actual, element.dataset.expected);
-  }, element.title);
+  }, element.title || element.getAttribute("style"));
 });
 </script>
 </body></html>

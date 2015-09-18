@@ -9,18 +9,18 @@
 
 </head><body><div data-expected="horizontal-tb" title="writing-mode initial value"></div>
 
-<div data-expected="vertical-rl" style="writing-mode: vertical-rl" title="writing-mode: vertical-rl"></div>
-<div data-expected="vertical-lr" style="writing-mode: vertical-lr" title="writing-mode: vertical-lr"></div>
+<div data-expected="vertical-rl" style="writing-mode: vertical-rl"></div>
+<div data-expected="vertical-lr" style="writing-mode: vertical-lr"></div>
 
 <div style="writing-mode: vertical-rl">
   <div data-expected="vertical-rl" title="writing-mode should inherit"></div>
 
-  <div data-expected="horizontal-tb" style="writing-mode: horizontal-tb" title="writing-mode: horizontal-tb"></div>
+  <div data-expected="horizontal-tb" style="writing-mode: horizontal-tb"></div>
 
-  <div data-expected="horizontal-tb" style="writing-mode: initial" title="writing-mode: initial"></div>
-  <div data-expected="vertical-rl" style="writing-mode: inherit" title="writing-mode: inherit"></div>
+  <div data-expected="horizontal-tb" style="writing-mode: initial"></div>
+  <div data-expected="vertical-rl" style="writing-mode: inherit"></div>
 
-  <div data-expected="vertical-rl" style="writing-mode: foo" title="writing-mode: foo"></div>
+  <div data-expected="vertical-rl" style="writing-mode: foo"></div>
 </div>
 
 <script>
@@ -28,7 +28,7 @@ Array.prototype.forEach.call(document.querySelectorAll("[data-expected]"), funct
   test(function () {
     var actual = getComputedStyle(element).writingMode;
     assert_equals(actual, element.dataset.expected);
-  }, element.title);
+  }, element.title || element.getAttribute("style"));
 });
 </script>
 </body></html>
