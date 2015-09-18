@@ -696,9 +696,7 @@ text-indent-vrl-012.xht == reference/text-indent-vrl-012-ref.xht
 text-indent-vrl-014.xht == reference/text-indent-vrl-010-ref.xht
 text-indent-vrl-016.xht == reference/text-indent-vrl-012-ref.xht
 text-orientation-012.xht == reference/text-orientation-012-ref.xht
-text-orientation-013.xht == reference/text-orientation-013-ref.xht
 text-orientation-014.xht == reference/text-orientation-014-ref.xht
-text-orientation-015.xht == reference/text-orientation-015-ref.xht
 unicode-bidi-001.xht == reference/direction-002-ref.xht
 unicode-bidi-002.xht == reference/unicode-bidi-002-ref.xht
 unicode-bidi-003.xht == reference/direction-002-ref.xht
