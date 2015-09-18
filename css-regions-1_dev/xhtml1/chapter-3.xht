@@ -444,7 +444,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s3.1">+</a>
         <a href="http://www.w3.org/TR/css3-regions/#the-flow-into-property">3.1 The flow-into property</a></th></tr>
-      <!-- 270 tests -->
+      <!-- 252 tests -->
       <tr id="animations-001-3.1" class="primary ahem animated">
         <td><strong>
             <a href="animations-001.xht">animations-001</a></strong></td>
@@ -1754,28 +1754,6 @@
           </ul>
         </td>
       </tr>
-      <tr id="flow-content-001-3.1" class="primary">
-        <td><strong>
-            <a href="flow-content-001.xht">flow-content-001</a></strong></td>
-        <td><a href="reference/flow-content-001-ref.xht">=</a> </td>
-        <td></td>
-        <td>Redirect content to a region
-          <ul class="assert">
-            <li>Content placed into a named flow with the flow-into property should display in the element whose flow-from property specifies that named flow.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="flow-content-002-3.1" class="primary">
-        <td><strong>
-            <a href="flow-content-002.xht">flow-content-002</a></strong></td>
-        <td><a href="reference/flow-content-002-ref.xht">=</a> </td>
-        <td></td>
-        <td>Redirect content through two regions
-          <ul class="assert">
-            <li>If multiple elements have their flow-from property set to a named flow, the named flow content will be consumed by the chain of elements.</li>
-          </ul>
-        </td>
-      </tr>
       <tr id="flow-into-001-3.1" class="">
         <td>
             <a href="flow-into-001.xht">flow-into-001</a></td>
@@ -1795,17 +1773,6 @@
         <td>invalid flow-into idents
           <ul class="assert">
             <li>If flow-into is set to an invalid ident, no flow is created. The flow content will stay in its green wrapper. Invalid idents with flow-from do not create a region.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="flow-into-parsing-001-3.1" class="primary dom script">
-        <td><strong>
-            <a href="flow-into-parsing-001.xht">flow-into-parsing-001</a></strong></td>
-        <td></td>
-        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
-        <td>Parse flow-into property
-          <ul class="assert">
-            <li>Value specified for the flow-into property should be parsed correctly.</li>
           </ul>
         </td>
       </tr>
@@ -2147,28 +2114,6 @@
         <td>CSS Regions: Remove region from region chain on CSS hover
           <ul class="assert">
             <li>Changing the flow-from property should be possible in rules that use the :hover pseudoclass</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="region-fragment-001-3.1" class="primary">
-        <td><strong>
-            <a href="region-fragment-001.xht">region-fragment-001</a></strong></td>
-        <td><a href="reference/region-fragment-001-ref.xht">=</a> </td>
-        <td></td>
-        <td>Region overflow
-          <ul class="assert">
-            <li>With the default overflow:visible setting, region-overflow:auto will continue composing lines through the bottom edge of the last region, and region-overflow:break will compose overflow lines after the bottom edge of the last region.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="region-fragment-002-3.1" class="primary">
-        <td><strong>
-            <a href="region-fragment-002.xht">region-fragment-002</a></strong></td>
-        <td><a href="reference/region-fragment-002-ref.xht">=</a> </td>
-        <td></td>
-        <td>Region overflow: last region
-          <ul class="assert">
-            <li>The region-overflow setting only affects the last region in the chain.</li>
           </ul>
         </td>
       </tr>
@@ -2653,149 +2598,6 @@
         <td>Multiple named flows multi-column containers with unspecified width, non-text content flowing into multiple overlapping regions
           <ul class="assert">
             <li>This test checks multiple named flow multi-column containers with unspecified width and non-text content flow into multiple overlapping regions.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-001-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-001.xht">regions-resizing-001</a></strong></td>
-        <td><a href="reference/regions-resizing-001-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing region that has percentage size
-          <ul class="assert">
-            <li>Test checks that resizing the viewport of a page containing a region that is sized to a percentage of the body correctly relayouts the region's contents.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-002-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-002.xht">regions-resizing-002</a></strong></td>
-        <td><a href="reference/regions-resizing-001-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing region that has position:fixed and top/right/bottom/left set
-          <ul class="assert">
-            <li>Test checks that resizing the viewport of a page containing a region that has position fixed and is sized using top/right/bottom/left correctly relayouts the region's contents.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-003-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-003.xht">regions-resizing-003</a></strong></td>
-        <td><a href="reference/regions-resizing-001-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing region that is sized using viewport units
-          <ul class="assert">
-            <li>Test checks that resizing the viewport of a page containing a region sized using viewport units correctly relayouts the region's contents.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-004-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-004.xht">regions-resizing-004</a></strong></td>
-        <td><a href="reference/regions-resizing-001-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing auto-sized region
-          <ul class="assert">
-            <li>Test checks that resizing the viewport of a page containing an auto-sized region correctly relayouts the region's contents.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-005-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-005.xht">regions-resizing-005</a></strong></td>
-        <td><a href="reference/regions-resizing-005-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing floated region with percentage size relative to the body
-          <ul class="assert">
-            <li>Test checks that resizing the viewport of a page containing a region that has a percentage size relative to the body and is floated, correctly relayouts the region's contents.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-006-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-006.xht">regions-resizing-006</a></strong></td>
-        <td><a href="reference/regions-resizing-001-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing region with percentage size inside a container that also has percentage size
-          <ul class="assert">
-            <li>Test checks that resizing the viewport of a page containing a region that has a percentage size relative to a percentage-sized parent correctly relayouts the region's contents.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-007-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-007.xht">regions-resizing-007</a></strong></td>
-        <td><a href="reference/regions-resizing-001-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing region with percentage size inside a container that has size set in viewport units
-          <ul class="assert">
-            <li>Test checks that resizing the viewport of a page containing a region that has a percentage size relative to a parent sized using viewport units correctly relayouts the region's contents.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-008-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-008.xht">regions-resizing-008</a></strong></td>
-        <td><a href="reference/regions-resizing-001-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing region with percentage size when content flowed in it also has percentage size
-          <ul class="assert">
-            <li>Test checks that resizing the viewport of a page containing a region that has a percentage size when the content flowed in it also has a percentage size set correctly relayouts the region's contents.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-009-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-009.xht">regions-resizing-009</a></strong></td>
-        <td><a href="reference/regions-resizing-001-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing autosized region when content flowed in it is sized with viewport units
-          <ul class="assert">
-            <li>Test checks that resizing the viewport of a page containing an autosized region when the content flowed in it is sized with viewport units correctly relayouts the region's contents.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-010-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-010.xht">regions-resizing-010</a></strong></td>
-        <td><a href="reference/regions-resizing-001-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing percent sized region when content flowed in it is floated
-          <ul class="assert">
-            <li>Test checks that resizing the viewport of a page containing an percentage sized region when the content flowed in it is floated, correctly relayouts the region's contents.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-011-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-011.xht">regions-resizing-011</a></strong></td>
-        <td><a href="reference/regions-resizing-011-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing fixed sized region and percent-sized region
-          <ul class="assert">
-            <li>Test checks that resizing the viewport of a page containing two regions and a single named flow where one region has a fixed size size and the other has a percentage size correctly relayouts the region's contents.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-012-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-012.xht">regions-resizing-012</a></strong></td>
-        <td><a href="reference/regions-resizing-011-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing percent sized region and auto-sized region
-          <ul class="assert">
-            <li>Test checks that resizing the viewport of a page containing two regions and a single named flow where one region has percentage size and the other is auto-sized correctly relayouts the region's contents.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="regions-resizing-013-3.1" class="primary ahem dom http">
-        <td><strong>
-            <a href="regions-resizing-013.xht">regions-resizing-013</a></strong></td>
-        <td><a href="reference/regions-resizing-001-ref.xht">=</a> </td>
-        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
-        <td>CSS Regions: resizing region based on media query
-          <ul class="assert">
-            <li>Test checks that changing the size of a region via media queries correctly relayouts the region's contents.</li>
           </ul>
         </td>
       </tr>
