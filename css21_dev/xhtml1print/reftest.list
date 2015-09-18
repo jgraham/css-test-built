@@ -3382,7 +3382,6 @@ floats-wrap-top-below-inline-003l.xht == reference/floats-wrap-top-below-003l-re
 floats-wrap-top-below-inline-003r.xht == reference/floats-wrap-top-below-003r-ref.xht
 floats-zero-height-wrap-001.xht == reference/floats-zero-height-wrap-001-ref.xht
 floats-zero-height-wrap-002.xht == reference/floats-zero-height-wrap-001-ref.xht
-font-003.xht == reference/font-003-ref.xht
 font-051.xht == reference/font-051-ref.xht
 font-146.xht == reference/font-146-ref.xht
 font-applies-to-001.xht == reference/font-applies-to-001-ref.xht
@@ -3679,6 +3678,7 @@ inline-block-alignment-003.xht == reference/inline-block-alignment-003-ref.xht
 inline-block-alignment-004.xht == reference/inline-block-alignment-002-ref.xht
 inline-block-alignment-005.xht == reference/inline-block-alignment-003-ref.xht
 inline-block-alignment-006.xht == reference/inline-block-alignment-006-ref.xht
+inline-block-alignment-007.xht == reference/inline-block-alignment-007-ref.xht
 inline-block-alignment-008.xht == reference/inline-block-alignment-006-ref.xht
 inline-block-alignment-009.xht == reference/inline-block-alignment-009-ref.xht
 inline-block-height-001.xht == reference/inline-block-height-001-ref.xht
