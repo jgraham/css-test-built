@@ -3382,6 +3382,7 @@ floats-wrap-top-below-inline-003l.xht == reference/floats-wrap-top-below-003l-re
 floats-wrap-top-below-inline-003r.xht == reference/floats-wrap-top-below-003r-ref.xht
 floats-zero-height-wrap-001.xht == reference/floats-zero-height-wrap-001-ref.xht
 floats-zero-height-wrap-002.xht == reference/floats-zero-height-wrap-001-ref.xht
+font-003.xht == reference/font-003-ref.xht
 font-051.xht == reference/font-051-ref.xht
 font-146.xht == reference/font-146-ref.xht
 font-applies-to-001.xht == reference/font-applies-to-001-ref.xht
