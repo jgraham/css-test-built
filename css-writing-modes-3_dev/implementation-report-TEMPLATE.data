@@ -1165,8 +1165,6 @@ html/inline-block-alignment-005.htm	f22e9acf9997492e59bf06af71f147cf3a7ef60b	?
 xhtml1/inline-block-alignment-005.xht	f22e9acf9997492e59bf06af71f147cf3a7ef60b	?
 html/inline-block-alignment-006.htm	d331ddb7afc3bbe931b343cfec50b6f142a10f55	?
 xhtml1/inline-block-alignment-006.xht	d331ddb7afc3bbe931b343cfec50b6f142a10f55	?
-html/inline-block-alignment-007.htm	6a9ee7d303ff1d49a6841edfb93f3abe04297ec7	?
-xhtml1/inline-block-alignment-007.xht	6a9ee7d303ff1d49a6841edfb93f3abe04297ec7	?
 html/inline-block-alignment-008.htm	0c74b7bbf813193c08885b3d85823e5a2b4fb435	?
 xhtml1/inline-block-alignment-008.xht	0c74b7bbf813193c08885b3d85823e5a2b4fb435	?
 html/inline-block-alignment-009.htm	011236f198ba8944faf000a6768995116784c55f	?
@@ -1273,10 +1271,10 @@ html/margin-collapse-vrl-034.htm	c383d4e25e05263bed13bdbe491783e431e8d427	?
 xhtml1/margin-collapse-vrl-034.xht	c383d4e25e05263bed13bdbe491783e431e8d427	?
 html/margin-collapse-vrl-036.htm	646e80149a20561f3e11b75ccf98e5742f55c826	?
 xhtml1/margin-collapse-vrl-036.xht	646e80149a20561f3e11b75ccf98e5742f55c826	?
-html/margin-vlr-003.htm	efb8e8b39035a1c320622f446a5d8799d59d953e	?
-xhtml1/margin-vlr-003.xht	efb8e8b39035a1c320622f446a5d8799d59d953e	?
-html/margin-vrl-002.htm	0e013e2395651788e72964961d8955431a18c0f0	?
-xhtml1/margin-vrl-002.xht	0e013e2395651788e72964961d8955431a18c0f0	?
+html/margin-vlr-003.htm	02f132c12e24ed234c7d79910b270cc64ab6972c	?
+xhtml1/margin-vlr-003.xht	02f132c12e24ed234c7d79910b270cc64ab6972c	?
+html/margin-vrl-002.htm	3750fe541b8a60cceb015ad4592fa7a6d11754ac	?
+xhtml1/margin-vrl-002.xht	3750fe541b8a60cceb015ad4592fa7a6d11754ac	?
 html/orthogonal-parent-shrink-to-fit-001.htm	aec1eaa173fc3feb10eff6ecd8994fee2b0c52ee	?
 xhtml1/orthogonal-parent-shrink-to-fit-001.xht	aec1eaa173fc3feb10eff6ecd8994fee2b0c52ee	?
 html/orthogonal-parent-shrink-to-fit-001a.htm	3a18cea77e5f3eddab45aa912eddb27cb5237487	?
@@ -1437,8 +1435,6 @@ html/text-baseline-005.htm	d447b06a2b6068a416b6df35e5cb0e365948b695	?
 xhtml1/text-baseline-005.xht	d447b06a2b6068a416b6df35e5cb0e365948b695	?
 html/text-baseline-006.htm	c1ca241edb6288a98305d1aacd16c3e4edbda986	?
 xhtml1/text-baseline-006.xht	c1ca241edb6288a98305d1aacd16c3e4edbda986	?
-html/text-baseline-007.htm	888e1405950e351c9e24b5015629cbfb899cdbd5	?
-xhtml1/text-baseline-007.xht	888e1405950e351c9e24b5015629cbfb899cdbd5	?
 html/text-baseline-008.htm	8a1ebc872ef48cd8554efe1477f2944bd78c0f5a	?
 xhtml1/text-baseline-008.xht	8a1ebc872ef48cd8554efe1477f2944bd78c0f5a	?
 html/text-baseline-009.htm	2851777e1a8ab9c874cc008f2d03bff4487276eb	?
