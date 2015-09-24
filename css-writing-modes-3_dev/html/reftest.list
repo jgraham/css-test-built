@@ -551,7 +551,6 @@ inline-block-alignment-005.htm == reference/inline-block-alignment-003-ref.htm
 inline-block-alignment-006.htm == reference/inline-block-alignment-006-ref.htm
 inline-block-alignment-007.htm == reference/inline-block-alignment-006-ref.htm
 inline-block-alignment-008.htm == reference/inline-block-alignment-006-ref.htm
-inline-block-alignment-009.htm == reference/inline-block-alignment-009-ref.htm
 inline-block-alignment-orthogonal-vlr-003.htm == reference/inline-block-alignment-orthogonal-vrl-002-ref.htm
 inline-block-alignment-orthogonal-vlr-005.htm == reference/inline-block-alignment-orthogonal-vrl-002-ref.htm
 inline-block-alignment-orthogonal-vrl-002.htm == reference/inline-block-alignment-orthogonal-vrl-002-ref.htm
@@ -655,8 +654,6 @@ text-baseline-004.htm == reference/text-baseline-002-ref.htm
 text-baseline-005.htm == reference/text-baseline-002-ref.htm
 text-baseline-006.htm == reference/text-baseline-006-ref.htm
 text-baseline-007.htm == reference/text-baseline-006-ref.htm
-text-baseline-008.htm == reference/text-baseline-006-ref.htm
-text-baseline-009.htm == reference/text-baseline-006-ref.htm
 text-combine-upright-decorations-001.htm == reference/text-combine-upright-decorations-001.htm
 text-combine-upright-inherit-all-001.htm == reference/text-combine-upright-inherit-all-001.htm
 text-combine-upright-inherit-all-002.htm == reference/text-combine-upright-inherit-all-002.htm
