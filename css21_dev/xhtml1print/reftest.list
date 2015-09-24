@@ -3028,6 +3028,8 @@ delete-inline-in-blocks-middle-002.xht == reference/delete-inline-in-blocks-midd
 delete-inline-in-blocks-middle-003.xht == reference/delete-inline-in-blocks-middle-002-ref.xht
 descendant-display-none-001.xht == reference/ref-if-there-is-no-red.xht
 descendant-display-override-001.xht == reference/ref-if-there-is-no-red.xht
+descendant-selector-000.xht == reference/descendant-selector-000-ref.xht
+descendant-selector-001.xht == reference/descendant-selector-000-ref.xht
 descendent-selector-001.xht == reference/no-red-filler-text-ref.xht
 descendent-selector-005.xht == reference/no-red-filler-text-ref.xht
 direction-001.xht == reference/direction-001-ref.xht
