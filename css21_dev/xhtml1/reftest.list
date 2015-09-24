@@ -5628,6 +5628,7 @@ top-offset-002.xht == reference/bottom-offset-001-ref.xht
 top-offset-003.xht == reference/top-offset-003-ref.xht
 top-offset-percentage-001.xht == reference/top-offset-percentage-001-ref.xht
 top-offset-percentage-002.xht == reference/left-offset-percentage-002-ref.xht
+type-selector-001.xht == reference/type-selector-001-ref.xht
 unicode-bidi-001.xht == reference/direction-002-ref.xht
 unicode-bidi-002.xht == reference/unicode-bidi-002-ref.xht
 unicode-bidi-003.xht == reference/direction-002-ref.xht
