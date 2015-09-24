@@ -193,6 +193,7 @@ border-radius-010.xht == reference/border-radius-010-ref.xht
 border-radius-011.xht == reference/border-radius-011-ref.xht
 border-radius-clipping.xht == reference/border-radius-clipping-ref.xht
 border-radius-horizontal-value-is-zero.xht == reference/border-radius-horizontal-value-is-zero-ref.xht
+border-radius-shorthand-002.xht == reference/border-radius-shorthand-002-ref.xht
 border-top-left-radius-001.xht == reference/border-radius-001-ref.xht
 border-top-left-radius-003.xht == border-top-left-radius-004.xht
 border-top-left-radius-004.xht == border-top-left-radius-003.xht
