@@ -5654,6 +5654,7 @@ units-006.xht == reference/units-006-ref.xht
 units-008.xht == reference/units-006-ref.xht
 units-009.xht == reference/units-006-ref.xht
 universal-selector-001.xht == reference/universal-selector-001-ref.xht != reference/universal-selector-001-notref.xht
+universal-selector-002.xht == reference/universal-selector-002-ref.xht != reference/universal-selector-002-notref.xht
 universal-selector-003.xht == reference/filler-text-below-green.xht
 universal-selector-004.xht == reference/filler-text-below-green.xht
 unterminated-string-001.xht == reference/filler-text-below-green.xht
