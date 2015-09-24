@@ -5487,8 +5487,8 @@ strings-000.htm == reference/ref-this-text-should-be-green.htm
 style-attr-cascade-001.htm == reference/ref-green.htm
 style-attr-cascade-002.htm == reference/ref-green.htm
 style-attr-cascade-003.htm == reference/ref-green.htm
-style-attr-cascade-004.htm == reference/ref-green-background.htm
-style-attr-cascade-005.htm == reference/ref-green-background.htm
+style-attr-cascade-004.htm == reference/ref-white-on-green-background.htm
+style-attr-cascade-005.htm == reference/ref-white-on-green-background.htm
 style-attr-cascade-006.htm == reference/ref-green.htm
 style-attr-cascade-007.htm == reference/style-attr-cascade-007.htm
 style-attr-specificity-001.htm == reference/ref-green-on-green.htm
