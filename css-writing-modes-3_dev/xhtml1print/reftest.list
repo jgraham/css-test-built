@@ -628,8 +628,14 @@ table-column-order-002.xht == reference/block-flow-direction-001-ref.xht
 table-column-order-003.xht == reference/block-flow-direction-001-ref.xht
 table-column-order-004.xht == reference/block-flow-direction-001-ref.xht
 table-column-order-005.xht == reference/block-flow-direction-001-ref.xht
-table-progression-001-vlr.xht == reference/table-progression-001-ref.xht
-table-progression-001-vrl.xht == reference/table-progression-001-ref.xht
+table-progression-001-vlr.xht == table-progression-001-ref.orngtml
+table-progression-001-vrl.xht == table-progression-001-ref.orngtml
+table-progression-002-vlr.xht == table-progression-002-ref.orngtml
+table-progression-002-vrl.xht == table-progression-002-ref.orngtml
+table-progression-003-vlr.xht == table-progression-001-ref.orngtml
+table-progression-003-vrl.xht == table-progression-001-ref.orngtml
+table-progression-004-vlr.xht == table-progression-002-ref.orngtml
+table-progression-004-vrl.xht == table-progression-002-ref.orngtml
 text-align-vlr-003.xht == reference/ref-filled-green-100px-square.xht
 text-align-vlr-005.xht == reference/ref-filled-green-100px-square.xht
 text-align-vlr-007.xht == reference/ref-filled-green-100px-square.xht
