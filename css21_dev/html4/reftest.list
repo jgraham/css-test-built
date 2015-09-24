@@ -3530,6 +3530,8 @@ grid-float-001.htm == reference/ref-filled-green-100px-square.htm
 grid-inline-float-001.htm == reference/ref-filled-green-100px-square.htm
 grid-inline-vertical-align-001.htm == reference/ref-filled-green-100px-square.htm
 grid-vertical-align-001.htm == reference/ref-filled-green-100px-square.htm
+grouping-000.htm == reference/grouping-000-ref.htm != reference/grouping-000-notref.htm
+grouping-001.htm == reference/grouping-000-ref.htm != reference/grouping-000-notref.htm
 height-001.htm == reference/height-001-ref.htm
 height-002.htm == reference/height-001-ref.htm
 height-003.htm == reference/height-003-ref.htm
@@ -5487,8 +5489,8 @@ strings-000.htm == reference/ref-this-text-should-be-green.htm
 style-attr-cascade-001.htm == reference/ref-green.htm
 style-attr-cascade-002.htm == reference/ref-green.htm
 style-attr-cascade-003.htm == reference/ref-green.htm
-style-attr-cascade-004.htm == reference/ref-white-on-green-background.htm
-style-attr-cascade-005.htm == reference/ref-white-on-green-background.htm
+style-attr-cascade-004.htm == reference/ref-green-background.htm
+style-attr-cascade-005.htm == reference/ref-green-background.htm
 style-attr-cascade-006.htm == reference/ref-green.htm
 style-attr-cascade-007.htm == reference/style-attr-cascade-007.htm
 style-attr-specificity-001.htm == reference/ref-green-on-green.htm
