@@ -76,6 +76,7 @@ background-paint-order-001.htm == reference/background-paint-order-001-ref.htm
 background-repeat-no-repeat.htm == reference/background-repeat-no-repeat.htm
 background-repeat-repeat-x.htm == reference/background-repeat-repeat-x.htm
 background-repeat-repeat-y.htm == reference/background-repeat-repeat-y.htm
+background-repeat-round.htm == reference/background-repeat-round.htm
 background-repeat-round-roundup.htm == reference/background-repeat-round-roundup.htm
 background-repeat-space.htm == reference/background-repeat-space.htm
 background-size-002.htm == reference/background-size-002-ref.htm

@@ -76,6 +76,7 @@ background-paint-order-001.xht == reference/background-paint-order-001-ref.xht
 background-repeat-no-repeat.xht == reference/background-repeat-no-repeat.xht
 background-repeat-repeat-x.xht == reference/background-repeat-repeat-x.xht
 background-repeat-repeat-y.xht == reference/background-repeat-repeat-y.xht
+background-repeat-round.xht == reference/background-repeat-round.xht
 background-repeat-round-roundup.xht == reference/background-repeat-round-roundup.xht
 background-repeat-space.xht == reference/background-repeat-space.xht
 background-size-002.xht == reference/background-size-002-ref.xht
