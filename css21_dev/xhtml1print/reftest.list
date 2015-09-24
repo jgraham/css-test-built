@@ -3681,7 +3681,6 @@ inline-block-alignment-005.xht == reference/inline-block-alignment-003-ref.xht
 inline-block-alignment-006.xht == reference/inline-block-alignment-006-ref.xht
 inline-block-alignment-007.xht == reference/inline-block-alignment-006-ref.xht
 inline-block-alignment-008.xht == reference/inline-block-alignment-006-ref.xht
-inline-block-alignment-009.xht == reference/inline-block-alignment-009-ref.xht
 inline-block-height-001.xht == reference/inline-block-height-001-ref.xht
 inline-block-height-002.xht == reference/inline-block-height-002-ref.xht
 inline-block-non-replaced-height-001.xht == reference/height-percentage-001-ref.xht
