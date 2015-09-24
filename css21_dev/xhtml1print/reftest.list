@@ -3532,6 +3532,7 @@ grid-inline-vertical-align-001.xht == reference/ref-filled-green-100px-square.xh
 grid-vertical-align-001.xht == reference/ref-filled-green-100px-square.xht
 grouping-000.xht == reference/grouping-000-ref.xht != reference/grouping-000-notref.xht
 grouping-001.xht == reference/grouping-000-ref.xht != reference/grouping-000-notref.xht
+grouping-002.xht == reference/grouping-002-ref.xht != reference/grouping-002-notref.xht
 height-001.xht == reference/height-001-ref.xht
 height-002.xht == reference/height-001-ref.xht
 height-003.xht == reference/height-003-ref.xht
