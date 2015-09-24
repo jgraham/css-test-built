@@ -3032,6 +3032,7 @@ descendant-selector-000.xht == reference/descendant-selector-000-ref.xht
 descendant-selector-001.xht == reference/descendant-selector-000-ref.xht
 descendent-selector-001.xht == reference/no-red-filler-text-ref.xht
 descendent-selector-002.xht == reference/descendent-selector-002-ref.xht
+descendent-selector-003.xht == reference/descendent-selector-002-ref.xht
 descendent-selector-005.xht == reference/no-red-filler-text-ref.xht
 direction-001.xht == reference/direction-001-ref.xht
 direction-002.xht == reference/direction-002-ref.xht
