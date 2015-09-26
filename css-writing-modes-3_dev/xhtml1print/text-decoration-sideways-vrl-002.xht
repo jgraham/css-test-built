@@ -3,13 +3,13 @@
 
  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <title>CSS Writing Modes Test: 'text-decoration: overline' and 'text-orientation: sideways' in a 'vertical-lr' writing-mode</title>
+  <title>CSS Writing Modes Test: 'text-decoration: underline' and 'text-orientation: sideways' in a 'vertical-rl' writing-mode</title>
   <style type="text/css">
     @page { font: italic 8pt sans-serif; color: gray;
             margin: 7%;
             counter-increment: page;
             @top-left { content: "CSS Writing Modes Module Level 3 CR Test Suite"; }
-            @top-right { content: "Test text-decoration-sidewaysright-vlr-005"; }
+            @top-right { content: "Test text-decoration-sideways-vrl-002"; }
             @bottom-right { content: counter(page); }
           }
 </style>
@@ -19,16 +19,16 @@
   <link rel="help" href="http://www.w3.org/TR/css-writing-modes-3/#logical-to-physical" title="6.4 Abstract-to-Physical Mappings" />
 
   <meta name="flags" content="" />
-  <meta content="This test checks that 'text-decoration: overline' generates a line on the righthand side of text when 'text-orientation' is set to 'sideways' in a 'vertical-lr' writing-mode." name="assert" />
+  <meta content="This test checks that 'text-decoration: underline' generates a line on the lefthand side of text when 'text-orientation' is set to 'sideways' in a 'vertical-rl' writing-mode." name="assert" />
 
   <style type="text/css"><![CDATA[
   div
     {
       color: blue;
       font: 2.5em/1.5 serif; /* computes to 40px/60px */
-      text-decoration: overline;
+      text-decoration: underline;
       text-orientation: sideways;
-      writing-mode: vertical-lr;
+      writing-mode: vertical-rl;
     }
 
   span
@@ -41,7 +41,7 @@
 
  <body>
 
-  <p>Test passes if glyphs of the words "Text sample" are rotated 90° clockwise and if a vertical straight blue line is on their <strong>righthand side</strong>.</p>
+  <p>Test passes if glyphs of the words "Text sample" are rotated 90° clockwise and if a vertical straight blue line is on their <strong>lefthand side</strong>.</p>
 
   <div><span>Text sample</span></div>
 
