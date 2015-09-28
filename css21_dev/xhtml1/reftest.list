@@ -2663,6 +2663,7 @@ case-sensitive-006.xht == reference/filler-text-below-green.xht
 case-sensitive-007.xht == reference/no-red-filler-text-ref.xht
 charset-attr-001.xht == reference/at-charset-ref.xht
 child-selector-001.xht == reference/child-selector-001-ref.xht
+child-selector-002.xht == reference/child-selector-002-ref.xht
 class-selector-001.xht == reference/no-red-filler-text-ref.xht
 class-selector-002.xht == reference/filler-text-below-green.xht
 class-selector-003.xht == reference/filler-text-below-green.xht
