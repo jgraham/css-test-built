@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html><head><title>CSS Test: vertical-rl Table Row/Rowgroup/Cell Ordering</title>
+<html><head><title>CSS Test: vertical-rl upright orientation Table Row/Rowgroup/Cell Ordering</title>
 <link href="http://fantasai.inkedblade.net/contact" rel="author" title="Elika J. Etemad">
-<link href="table-progression-001-ref.orngtml" rel="match">
-<meta content="This test checks that vertical-rl tables order rows/rowgroups right to left and cells top-to-bottom (LTR) or bottom-to-top (RTL) per 'direction'." name="assert">
-<meta content="This test checks that 'writing-mode' and 'direction' do not apply to table rows and row groups." name="assert">
+<link href="reference/table-progression-001-ref.htm" rel="match">
+<meta content="This test checks that vertical-rl tables, whether LTR or RTL, order rows/rowgroups right to left and cells top-to-bottom when text-orientation is upright." name="assert">
 <link href="http://www.w3.org/TR/css-writing-modes-3/#writing-mode" rel="help">
 <link href="http://www.w3.org/TR/css-writing-modes-3/#direction" rel="help">
+<link href="http://www.w3.org/TR/css-writing-modes-3/#text-orientation" rel="help">
 
 <style>
   .test {
     writing-mode: vertical-rl;
+    text-orientation: upright;
   }
   [dir=rtl] {
     direction: rtl;
@@ -33,24 +34,6 @@
   .pink { background: fuchsia }
   .yllw { background: yellow }
   .orng { background: orange }
-
-  /* These rules must have no effect. */
-  .test thead,
-  .test tfoot,
-  .test tbody,
-  .test tr,
-  .test td {
-    writing-mode: horizontal-tb; /* For UAs not supporting vertical-rl */
-    writing-mode: vertical-lr;
-    direction: rtl;
-  }
-  .test[dir=rtl] thead,
-  .test[dir=rtl] tfoot,
-  .test[dir=rtl] tbody,
-  .test[dir=rtl] tr,
-  .test[dir=rtl] td {
-    direction: ltr;
-  }
 </style>
 
 </head><body><p>Test passes if the following three tables look identical.
@@ -63,7 +46,7 @@
       </td><td colspan="2">
   </td></tr></thead><tfoot>
     <tr>
-      <td colspan="2"> 
+      <td colspan="2">
       </td><td class="aqua">
       </td><td class="teal">
   </td></tr></tfoot><tbody>
@@ -82,31 +65,31 @@
       </td><td colspan="3">
 </td></tr></tbody></table>
 
-<table class="test" dir="rtl">
+<table class="test">
   <thead>
     <tr>
-      <td colspan="2">
+      <td class="navy">
       </td><td class="blue">
-      </td><td class="navy">
+      </td><td colspan="2">
   </td></tr></thead><tfoot>
     <tr>
-      <td class="teal">
+      <td colspan="2">
       </td><td class="aqua">
-      </td><td colspan="2"> 
+      </td><td class="teal">
   </td></tr></tfoot><tbody>
     <tr>
-      <td class="purp">
+      <td rowspan="3">
       </td><td colspan="2">
-      </td><td rowspan="3">
+      </td><td class="purp">
     </td></tr><tr>
-      <td colspan="2" rowspan="2">
-      </td><td class="pink">
+      <td class="pink">
+      </td><td colspan="2" rowspan="2">
     </td></tr><tr>
       <td class="yllw">
   </td></tr></tbody><tbody>
     <tr>
-      <td colspan="3">
-      </td><td class="orng">
+      <td class="orng">
+      </td><td colspan="3">
 </td></tr></tbody></table>
 
 <table class="reference">
@@ -129,5 +112,4 @@
     <td class="teal">
     </td><td class="purp">
 </td></tr></tbody></table>
-
 </body></html>

@@ -1,20 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>CSS Test: vertical-rl upright orientation Table Column/Colgroup Ordering</title>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>CSS Test: vertical-lr upright orientation Table Column/Colgroup Ordering</title>
 <link href="http://fantasai.inkedblade.net/contact" rel="author" title="Elika J. Etemad" />
-<link href="table-progression-002-ref.orngtml" rel="match" />
-<meta content="This test checks that vertical-rl tables, whether LTR or RTL, order columns top-to-bottom when text-orientation is upright." name="assert" />
+<link href="reference/table-progression-002-ref.xht" rel="match" />
+<meta content="This test checks that vertical-lr tables, whether LTR or RTL, order columns top-to-bottom when text-orientation is upright." name="assert" />
 <link href="http://www.w3.org/TR/css-writing-modes-3/#writing-mode" rel="help" />
 <link href="http://www.w3.org/TR/css-writing-modes-3/#direction" rel="help" />
 <link href="http://www.w3.org/TR/css-writing-modes-3/#text-orientation" rel="help" />
 
 <style>
   .test {
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     text-orientation: upright;
   }
   [dir=rtl] {
     direction: rtl;
   }
+
 
   table {
     border-spacing: 0;
@@ -72,5 +73,4 @@
   </td></tr><tr><td class="aqua">
   </td></tr><tr><td class="aqua">
 </td></tr></tbody></table>
-
 </body></html>

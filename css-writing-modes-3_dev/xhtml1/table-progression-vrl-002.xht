@@ -1,20 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>CSS Test: vertical-lr Table Column/Colgroup Ordering</title>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>CSS Test: vertical-rl Table Column/Colgroup Ordering</title>
 <link href="http://fantasai.inkedblade.net/contact" rel="author" title="Elika J. Etemad" />
-<link href="table-progression-002-ref.orngtml" rel="match" />
-<meta content="This test checks that vertical-lr tables order columns top-to-bottom (LTR) or bottom-to-top (RTL) per the table's 'direction'." name="assert" />
+<link href="reference/table-progression-002-ref.xht" rel="match" />
+<meta content="This test checks that vertical-rl tables order columns top-to-bottom (LTR) or bottom-to-top (RTL) per the table's 'direction'." name="assert" />
 <meta content="This test checks that 'writing-mode' and 'direction' do not apply to table columns and column groups." name="assert" />
 <link href="http://www.w3.org/TR/css-writing-modes-3/#writing-mode" rel="help" />
 <link href="http://www.w3.org/TR/css-writing-modes-3/#direction" rel="help" />
 
 <style>
   .test {
-    writing-mode: vertical-lr;
+    writing-mode: vertical-rl;
   }
   [dir=rtl] {
     direction: rtl;
   }
-
 
   table {
     border-spacing: 0;
@@ -36,7 +35,7 @@
   .test col,
   .test colgroup {
     writing-mode: horizontal-tb;
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     direction: rtl;
   }
   .test[dir=rtl] col,
@@ -84,5 +83,4 @@
   </td></tr><tr><td class="aqua">
   </td></tr><tr><td class="aqua">
 </td></tr></tbody></table>
-
 </body></html>
