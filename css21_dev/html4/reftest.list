@@ -2662,6 +2662,9 @@ case-sensitive-005.htm == reference/case-sensitive-005-ref.htm
 case-sensitive-006.htm == reference/filler-text-below-green.htm
 case-sensitive-007.htm == reference/no-red-filler-text-ref.htm
 charset-attr-001.htm == reference/at-charset-ref.htm
+child-selector-001.htm == reference/child-selector-001-ref.htm
+child-selector-002.htm == reference/child-selector-002-ref.htm
+child-selector-003.htm == reference/child-selector-003-ref.htm
 class-selector-001.htm == reference/no-red-filler-text-ref.htm
 class-selector-002.htm == reference/filler-text-below-green.htm
 class-selector-003.htm == reference/filler-text-below-green.htm
