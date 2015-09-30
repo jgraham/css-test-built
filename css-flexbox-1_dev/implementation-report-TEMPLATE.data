@@ -1277,8 +1277,8 @@ html/multi-line-wrap-with-row-reverse.htm	c57b9d0f1fdda471b9c1a27f6fb6e341739387
 xhtml1/multi-line-wrap-with-row-reverse.xht	c57b9d0f1fdda471b9c1a27f6fb6e34173938767	?
 html/order-001.htm	04b5480a5e5ed8d047c97faee2ca8d8d2e450ca5	?
 xhtml1/order-001.xht	04b5480a5e5ed8d047c97faee2ca8d8d2e450ca5	?
-html/order-with-column-reverse.htm	781edf3b64de42acf2ac3b923cf7d8ca515f0501	?
-xhtml1/order-with-column-reverse.xht	781edf3b64de42acf2ac3b923cf7d8ca515f0501	?
+html/order-with-column-reverse.htm	4b46a5ecdd86862155091ee385b111da2246d8b6	?
+xhtml1/order-with-column-reverse.xht	4b46a5ecdd86862155091ee385b111da2246d8b6	?
 html/order-with-row-reverse.htm	379d0daab60067a9fb6157277ec463b4ac66a1f1	?
 xhtml1/order-with-row-reverse.xht	379d0daab60067a9fb6157277ec463b4ac66a1f1	?
 html/order_value.htm	f5d773d782a1400c848d447eab95274ed8b8fbb2	?
@@ -1309,8 +1309,8 @@ html/ttwf-reftest-flex-direction-column-reverse.htm	dd7661f0825e7ffc18333899ba88
 xhtml1/ttwf-reftest-flex-direction-column-reverse.xht	dd7661f0825e7ffc18333899ba88a572498717e9	?
 html/ttwf-reftest-flex-direction-column.htm	728c353144e523d1a5a723816705922e0c6c1e76	?
 xhtml1/ttwf-reftest-flex-direction-column.xht	728c353144e523d1a5a723816705922e0c6c1e76	?
-html/ttwf-reftest-flex-direction-row-reverse.htm	5cf3a7c461178c681be521423a82e0878a80c275	?
-xhtml1/ttwf-reftest-flex-direction-row-reverse.xht	5cf3a7c461178c681be521423a82e0878a80c275	?
+html/ttwf-reftest-flex-direction-row-reverse.htm	9098f8056ac9c5fc7f7633548358c81fedb3f8c8	?
+xhtml1/ttwf-reftest-flex-direction-row-reverse.xht	9098f8056ac9c5fc7f7633548358c81fedb3f8c8	?
 html/ttwf-reftest-flex-order.htm	20966eb34dbe8f0b6a907a7ecb417d8b3cafdbcf	?
 xhtml1/ttwf-reftest-flex-order.xht	20966eb34dbe8f0b6a907a7ecb417d8b3cafdbcf	?
 html/ttwf-reftest-flex-wrap-reverse.htm	ed8cc9b7b77eccf97ceba22b903b26ae3aa38e09	?
