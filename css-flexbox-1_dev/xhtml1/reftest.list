@@ -525,7 +525,6 @@ ttwf-reftest-flex-base.xht == reference/ttwf-reftest-flex-base-ref.xht
 ttwf-reftest-flex-direction-column.xht == reference/ttwf-reftest-flex-direction-column-ref.xht
 ttwf-reftest-flex-direction-column-reverse.xht == reference/ttwf-reftest-flex-direction-column-reverse-ref.xht
 ttwf-reftest-flex-direction-row-reverse.xht == reference/ttwf-reftest-flex-direction-row-reverse-ref.xht
-ttwf-reftest-flex-inline.xht == reference/ttwf-reftest-flex-inline-ref.xht
 ttwf-reftest-flex-order.xht == reference/ttwf-reftest-flex-order-ref.xht
 ttwf-reftest-flex-wrap.xht == reference/ttwf-reftest-flex-wrap-ref.xht
 ttwf-reftest-flex-wrap-reverse.xht == reference/ttwf-reftest-flex-wrap-reverse-ref.xht
