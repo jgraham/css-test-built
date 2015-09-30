@@ -1311,6 +1311,8 @@ html/ttwf-reftest-flex-direction-column.htm	728c353144e523d1a5a723816705922e0c6c
 xhtml1/ttwf-reftest-flex-direction-column.xht	728c353144e523d1a5a723816705922e0c6c1e76	?
 html/ttwf-reftest-flex-direction-row-reverse.htm	5cf3a7c461178c681be521423a82e0878a80c275	?
 xhtml1/ttwf-reftest-flex-direction-row-reverse.xht	5cf3a7c461178c681be521423a82e0878a80c275	?
+html/ttwf-reftest-flex-inline.htm	76e35eb42afbf4c59d4f5a940e0df33746514690	?
+xhtml1/ttwf-reftest-flex-inline.xht	76e35eb42afbf4c59d4f5a940e0df33746514690	?
 html/ttwf-reftest-flex-order.htm	20966eb34dbe8f0b6a907a7ecb417d8b3cafdbcf	?
 xhtml1/ttwf-reftest-flex-order.xht	20966eb34dbe8f0b6a907a7ecb417d8b3cafdbcf	?
 html/ttwf-reftest-flex-wrap-reverse.htm	ed8cc9b7b77eccf97ceba22b903b26ae3aa38e09	?
