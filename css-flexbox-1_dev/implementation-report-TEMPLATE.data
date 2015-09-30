@@ -1135,10 +1135,6 @@ html/flexbox_margin-left-ex.htm	a722372e89428c63ff1b99c432a679db1301041e	?
 xhtml1/flexbox_margin-left-ex.xht	a722372e89428c63ff1b99c432a679db1301041e	?
 html/flexbox_margin.htm	395613182985eb36a7ff9c6774ca9ff0d4113660	?
 xhtml1/flexbox_margin.xht	395613182985eb36a7ff9c6774ca9ff0d4113660	?
-html/flexbox_min-height-auto.htm	0889d1aa107e2ebeb115d99a06b54b6c2f8b8357	?
-xhtml1/flexbox_min-height-auto.xht	0889d1aa107e2ebeb115d99a06b54b6c2f8b8357	?
-html/flexbox_min-width-auto.htm	4fbbe3bae0e6f9fc1e4f77303542f3d1bf38ab67	?
-xhtml1/flexbox_min-width-auto.xht	4fbbe3bae0e6f9fc1e4f77303542f3d1bf38ab67	?
 html/flexbox_nested-flex.htm	de7cef3ac7399c36bde0844a90755fafb9ae75a5	?
 xhtml1/flexbox_nested-flex.xht	de7cef3ac7399c36bde0844a90755fafb9ae75a5	?
 html/flexbox_object.htm	5b8622fb8a69aa78e7cb37ccaa7af3be17c742cb	?
@@ -1147,8 +1143,8 @@ html/flexbox_order-abspos-space-around.htm	bd6d487a106559771331579297b95acbfb6a8
 xhtml1/flexbox_order-abspos-space-around.xht	bd6d487a106559771331579297b95acbfb6a8577	?
 html/flexbox_order-box.htm	47ed809b00402ab4408062ec191e53f6da3e9f97	?
 xhtml1/flexbox_order-box.xht	47ed809b00402ab4408062ec191e53f6da3e9f97	?
-html/flexbox_order-noninteger-invalid.htm	cb761f3308f054a7cd5d1ec75954abcfe5e486d6	?
-xhtml1/flexbox_order-noninteger-invalid.xht	cb761f3308f054a7cd5d1ec75954abcfe5e486d6	?
+html/flexbox_order-noninteger-invalid.htm	1f672e31cf0d8647407d63e3fa67aec0149be5bd	?
+xhtml1/flexbox_order-noninteger-invalid.xht	1f672e31cf0d8647407d63e3fa67aec0149be5bd	?
 html/flexbox_order.htm	d345977eb697f0d70940b814f7aa1414434b9722	?
 xhtml1/flexbox_order.xht	d345977eb697f0d70940b814f7aa1414434b9722	?
 html/flexbox_rowspan-overflow-automatic.htm	fc0765593c796aadb31bf2941c832e30abd3b3f4	?
