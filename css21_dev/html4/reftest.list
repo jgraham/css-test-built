@@ -2662,6 +2662,9 @@ case-sensitive-005.htm == reference/case-sensitive-005-ref.htm
 case-sensitive-006.htm == reference/filler-text-below-green.htm
 case-sensitive-007.htm == reference/no-red-filler-text-ref.htm
 charset-attr-001.htm == reference/at-charset-ref.htm
+child-selector-001.htm == reference/child-selector-001-ref.htm
+child-selector-002.htm == reference/child-selector-002-ref.htm
+child-selector-003.htm == reference/child-selector-003-ref.htm
 class-selector-001.htm == reference/no-red-filler-text-ref.htm
 class-selector-002.htm == reference/filler-text-below-green.htm
 class-selector-003.htm == reference/filler-text-below-green.htm
@@ -3036,6 +3039,11 @@ descendent-selector-003.htm == reference/descendent-selector-002-ref.htm
 descendent-selector-004.htm == reference/descendent-selector-004-ref.htm
 descendent-selector-005.htm == reference/no-red-filler-text-ref.htm
 descendent-selector-006.htm == reference/descendent-selector-004-ref.htm
+descendent-selector-007.htm == reference/descendent-selector-002-ref.htm
+descendent-selector-008.htm == reference/descendent-selector-004-ref.htm
+descendent-selector-009.htm == reference/descendent-selector-002-ref.htm
+descendent-selector-010.htm == reference/descendent-selector-002-ref.htm
+descendent-selector-011.htm == reference/descendent-selector-002-ref.htm
 direction-001.htm == reference/direction-001-ref.htm
 direction-002.htm == reference/direction-002-ref.htm
 direction-003.htm == reference/direction-002-ref.htm
@@ -4782,10 +4790,11 @@ outline-color-115.htm == reference/outline-color-115-ref.htm
 outline-color-applies-to-005.htm == reference/no-red-on-blank-page-ref.htm
 outline-color-applies-to-006.htm == reference/no-red-on-blank-page-ref.htm
 outline-layout-006.htm == reference/outline-layout-006-ref.htm
-outline-style-001.htm == reference/outline-style-001-ref.htm
-outline-style-002.htm == reference/outline-style-002-ref.htm
-outline-style-003.htm == reference/outline-style-003-ref.htm
-outline-style-004.htm == reference/outline-style-004-ref.htm
+outline-style-001.htm == reference/no-red-filler-text-ref.htm
+outline-style-011.htm == reference/outline-style-011-ref.htm
+outline-style-012.htm == reference/outline-style-012-ref.htm
+outline-style-013.htm == reference/outline-style-013-ref.htm
+outline-style-014.htm == reference/outline-style-014-ref.htm
 outline-style-applies-to-005.htm == reference/no-red-on-blank-page-ref.htm
 outline-style-applies-to-006.htm == reference/no-red-on-blank-page-ref.htm
 outline-width-002.htm == reference/no-red-filler-text-ref.htm
