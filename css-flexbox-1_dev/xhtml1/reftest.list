@@ -418,7 +418,6 @@ flexbox_flow-column-wrap-reverse.xht == reference/flexbox_flow-column-wrap-rever
 flexbox_flow-row-wrap.xht == reference/flexbox_flow-row-wrap-ref.xht
 flexbox_flow-row-wrap-reverse.xht == reference/flexbox_flow-row-wrap-reverse-ref.xht
 flexbox_generated.xht == reference/flexbox_generated-ref.xht
-flexbox_generated-container.xht == reference/flexbox_generated-container-ref.xht
 flexbox_generated-flex.xht == reference/flexbox_generated-flex-ref.xht
 flexbox_generated-nested-flex.xht == reference/flexbox_generated-flex-ref.xht
 flexbox_inline.xht == reference/flexbox_inline-ref.xht
