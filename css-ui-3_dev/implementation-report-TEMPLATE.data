@@ -67,6 +67,8 @@ html/box-sizing-content-box-002.htm	51e63ae5f8b3a40e56096e7daa86265f8684e9a8	?
 xhtml1/box-sizing-content-box-002.xht	51e63ae5f8b3a40e56096e7daa86265f8684e9a8	?
 html/box-sizing-content-box-003.htm	397bec8981e201e663ea97b4b265aa45fff08bd5	?
 xhtml1/box-sizing-content-box-003.xht	397bec8981e201e663ea97b4b265aa45fff08bd5	?
+html/box-sizing-padding-box-block-001.htm	4e8dd583111bef378efaa8d0cf705160aeb90481	?
+xhtml1/box-sizing-padding-box-block-001.xht	4e8dd583111bef378efaa8d0cf705160aeb90481	?
 html/box-sizing-replaced-001.htm	a8e28589639906e9ad2c23f3875a1b84b9edc2c3	?
 xhtml1/box-sizing-replaced-001.xht	a8e28589639906e9ad2c23f3875a1b84b9edc2c3	?
 html/box-sizing-replaced-002.htm	d4148a5cae7298ba17c8257c328e4f622edfc689	?
@@ -402,3 +404,5 @@ html/text-overflow-003.htm	dac3b5119c015760b3e5eb87122680eca10725c0	?
 xhtml1/text-overflow-003.xht	dac3b5119c015760b3e5eb87122680eca10725c0	?
 html/text-overflow-004.htm	5b424a1f63abc03cd51ca922704756c93961d2eb	?
 xhtml1/text-overflow-004.xht	5b424a1f63abc03cd51ca922704756c93961d2eb	?
+html/text-overflow.htm	c562ce91178f5299098b5a5340f4aa188abf51e2	?
+xhtml1/text-overflow.xht	c562ce91178f5299098b5a5340f4aa188abf51e2	?
