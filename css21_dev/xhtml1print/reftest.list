@@ -418,6 +418,9 @@ abspos-width-002.xht == reference/ref-if-there-is-no-red.xht
 abspos-width-003.xht == reference/ref-if-there-is-no-red.xht
 abspos-width-004.xht == reference/ref-filled-green-100px-square.xht
 abspos-width-005.xht == reference/abspos-width-005-ref.xht
+adjacent-000.xht == reference/adjacent-000-ref.xht
+adjacent-001.xht == reference/adjacent-000-ref.xht
+adjacent-002.xht == reference/adjacent-000-ref.xht
 adjacent-floats-001.xht == reference/adjacent-floats-001-ref.xht
 after-content-display-001.xht == reference/after-content-display-001-ref.xht
 after-content-display-002.xht == reference/after-content-display-002-ref.xht
