@@ -3083,6 +3083,7 @@ display-change-001.xht == reference/display-change-001-ref.xht
 display-none-001.xht == reference/ref-if-there-is-no-red.xht
 display-none-002.xht == reference/ref-if-there-is-no-red.xht
 display-none-003.xht == reference/ref-if-there-is-no-red.xht
+dynamic-sibling-combinator-001.xht == reference/dynamic-sibling-combinator-001-ref.xht
 dynamic-top-change-001.xht == reference/dynamic-top-change-001-ref.xht
 dynamic-top-change-002.xht == reference/dynamic-top-change-002-ref.xht
 dynamic-top-change-003.xht == reference/dynamic-top-change-002-ref.xht
