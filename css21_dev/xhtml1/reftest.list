@@ -5488,6 +5488,7 @@ shand-font-000.xht == reference/shand-font-000-ref.xht
 shand-font-001.xht == reference/shand-font-000-ref.xht
 shand-font-002.xht == reference/shand-font-002-ref.xht
 shand-font-003.xht == reference/shand-font-002-ref.xht
+sibling-selector-001.xht == reference/sibling-selector-001-ref.xht
 sibling-selector-002.xht == reference/filler-text-below-green.xht
 sort-by-order-001.xht == reference/ref-filled-green-100px-square.xht
 specificity-001.xht == reference/filler-text-below-green.xht
