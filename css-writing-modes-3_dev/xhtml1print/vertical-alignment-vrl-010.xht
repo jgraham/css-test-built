@@ -7,29 +7,29 @@
             margin: 7%;
             counter-increment: page;
             @top-left { content: "CSS Writing Modes Module Level 3 CR Test Suite"; }
-            @top-right { content: "Test vertical-alignment-022-rl"; }
+            @top-right { content: "Test vertical-alignment-vrl-010"; }
             @bottom-right { content: counter(page); }
           }
 </style>
     <link rel="author" title="Hajime Shiozawa" href="mailto:hajime.shiozawa@gmail.com" />
     <link rel="help" title="7.5 Line-Relative Mappings" href="http://www.w3.org/TR/css-writing-modes-3/#line-mappings" />
     <link rel="help" title="10.8.1 Leading and half-leading" href="http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#leading" />
-    <meta name="assert" content="This test checks the position of inline non-replaced box with vertical align property. When 'writing-mode' is 'vertical-rl', 'text-orientation' is 'upright', 'vertical-align' is 'middle', the vertical midpoint of the box is aligned with the central baseline of the parent box plus half the x-height of the parent." />
-    <link rel="match" href="reference/vertical-alignment-022-ref.xht" />
+    <meta name="assert" content="This test checks the position of inline non-replaced box with vertical align property. When 'writing-mode' is 'vertical-rl', 'text-orientation' is 'mixed', 'vertical-align' is 'super', the baseline of the box is shifted to the right." />
     <meta name="flags" content="ahem" />
     <style type="text/css"><![CDATA[
-    div#rl-upright
+    div#rl-mixed
     {
       writing-mode: vertical-rl;
       font: 60px/3 Ahem; /* computes to 60px/180px */
-      color: blue;
-      text-orientation: upright;
+      color: orange;
+      text-orientation: mixed;
     }
 
     span
     {
-      font-size: 0.2em;
-      vertical-align: middle;
+      vertical-align: super;
+      color: blue;
+      margin-top: -1em;
     }
     ]]></style>
 
@@ -37,9 +37,9 @@
 
   <body>
 
-  <p>Test passes if the <strong>right edge</strong> of an irregular polygon is straight and unbroken.</p>
+  <p>Test passes if there are an orange rectangle on the left and a blue square on the right.</p>
 
-  <div id="rl-upright">X<span>X</span></div>
+  <div id="rl-mixed">X<span>X</span></div>
 
   </body>
 </html>

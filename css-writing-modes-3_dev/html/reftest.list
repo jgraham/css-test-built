@@ -719,9 +719,9 @@ vertical-alignment-006.htm == reference/vertical-alignment-006-ref.htm
 vertical-alignment-007.htm == reference/vertical-alignment-006-ref.htm
 vertical-alignment-008.htm == reference/vertical-alignment-008-ref.htm
 vertical-alignment-009.htm == reference/vertical-alignment-008-ref.htm
-vertical-alignment-022-rl.htm == reference/vertical-alignment-022-ref.htm
-vertical-alignment-024-rl.htm == reference/vertical-alignment-022-ref.htm
-vertical-alignment-026-rl.htm == reference/vertical-alignment-026-ref.htm
+vertical-alignment-vrl-022.htm == reference/vertical-alignment-vrl-022-ref.htm
+vertical-alignment-vrl-024.htm == reference/vertical-alignment-vrl-022-ref.htm
+vertical-alignment-vrl-026.htm == reference/vertical-alignment-vrl-026-ref.htm
 writing-mode-horizontal-001l.htm == reference/writing-mode-horizontal-001l-ref.htm
 writing-mode-horizontal-001r.htm == reference/writing-mode-horizontal-001r-ref.htm
 writing-mode-stretch-001.htm == reference/writing-mode-stretch-001-ref.htm
