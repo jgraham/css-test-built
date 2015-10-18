@@ -4720,7 +4720,7 @@ min-width-applies-to-015.xht == reference/ref-filled-black-96px-square.xht
 min-width-applies-to-016.xht == reference/ref-filled-green-100px-square.xht
 min-width-percentage-001.xht == reference/max-width-percentage-001-ref.xht
 min-width-percentage-002.xht == reference/ref-if-there-is-no-red.xht
-min-width-tables-001.xht == reference/min-width-tables-001-ref.xht
+min-width-tables-001.xht == ref.xht
 moz-css21-block-page-break-inside-avoid-1.xht == reference/moz-css21-block-page-break-inside-avoid-ref.xht
 moz-css21-block-page-break-inside-avoid-10.xht == reference/moz-css21-block-page-break-inside-avoid-ref.xht
 moz-css21-block-page-break-inside-avoid-11.xht == reference/moz-css21-block-page-break-inside-avoid-ref.xht
