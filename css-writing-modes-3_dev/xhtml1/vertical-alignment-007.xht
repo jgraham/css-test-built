@@ -1,91 +1,37 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>CSS Writing Modes Test: vertical align - 'super' (alphabetical baseline with horizontal layout)</title>
+    <title>CSS Writing Modes Test: vertical-align - 'text-bottom' and vertical-lr writing-mode</title>
     <link rel="author" title="Hajime Shiozawa" href="mailto:hajime.shiozawa@gmail.com" />
-    <link rel="help" title="4.4. Baseline Alignment" href="http://www.w3.org/TR/css-writing-modes-3/#baseline-alignment" />
-    <link rel="help" title="10.8 Line height calculations: the 'line-height' and 'vertical-align' properties" href="http://www.w3.org/TR/CSS21/visudet.html#line-height" />
-    <link rel="match" href="reference/vertical-alignment-007-ref.xht" />
-    <meta name="assert" content="This test checks the generation of text baseline with vertical align property. When 'writing-mode' is horizontal, then the alphabetical baseline is used as the dominant baseline." />
-    <meta name="flags" content="image" />
+    <link rel="reviewer" title="G?rard Talbot" href="http://www.gtalbot.org/BrowserBugsSection/css21testsuite/" /> <!-- 2015-09-03 -->
+    <link rel="help" title="7.5 Line-Relative Mappings" href="http://www.w3.org/TR/css-writing-modes-3/#line-mappings" />
+    <link rel="help" title="10.8.1 Leading and half-leading" href="http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#leading" />
+    <meta name="assert" content="This test checks the position of an inline non-replaced box with vertical align property. When 'writing-mode' is 'vertical-lr', 'vertical-align' is 'text-bottom', the physical left (logical bottom) edge of an inline non-replaced box is aligned with the left side (logical bottom) of parent's content area." />
+    <link rel="match" href="reference/vertical-alignment-006-ref.xht" />
+    <meta name="flags" content="ahem" />
     <style type="text/css"><![CDATA[
-      div > p, p.control {
-        font-size: 2em;
-        background-color: orange;
-      }
+    div#lr
+    {
+      color: orange;
+      font: 60px/3 Ahem; /* computes to 60px/180px */
+      writing-mode: vertical-lr;
+    }
 
-      /* vertical-align */
-      img {
-        vertical-align: super;
-      }
-      img.line {
-        margin-left: -230px;
-      }
+    span#orange30
+    {
+      font-size: 0.5em; /* computes to 30px */
+      vertical-align: text-bottom;
+    }
 
-      /* writing-mode property */
-      .horizontal-tb {
-        writing-mode: horizontal-tb;
-      }
+    ]]></style>
 
-      /* text-orientation property */
-      .mixed {
-        text-orientation: mixed;
-      }
-      .upright {
-        text-orientation: upright;
-      }
-      .sideways-right {
-        text-orientation: sideways-right;
-      }
-      .sideways-left {
-        text-orientation: sideways-left;
-      }
-      .sideways {
-        text-orientation: sideways;
-      }
-      .use-glyph-orientation {
-        text-orientation: use-glyph-orientation;
-      }
-  ]]></style>
   </head>
+
   <body>
-    <p>Test passes if ...</p>
-    <ol>
-      <li>the bottom of glyph 'L' is touching a thin blue line in each 7 orange rectangles and</li>
-      <li>the bottom edge of yellow square is aligned to a thin blue line in each 7 orange rectangles and</li>
-      <li>all 7 orange rectangles are <strong>identical</strong>.</li>
-    </ol>
 
-    <p class="control"><sup>LLLLLLLLLLLLL</sup>
-      <img class="square" src="./support/yellow-square-59x59.png" alt="Image download support must be enabled" />
-      <img class="line" src="./support/blue-horiz-line-220x1.png" alt="Image download support must be enabled" />
-    </p>
+  <p>Test passes if the <strong>right edge</strong> of an irregular orange polygon is straight and unbroken.</p>
 
-    <div class="horizontal-tb">
-      <p class="mixed"><sup>LLLLLLLLLLLLL</sup>
-        <img class="square" src="./support/yellow-square-horiz-redline-bottom-59x59.png" alt="Image download support must be enabled" />
-        <img class="line" src="./support/blue-horiz-line-220x1.png" alt="Image download support must be enabled" />
-      </p>
-      <p class="upright"><sup>LLLLLLLLLLLLL</sup>
-        <img class="square" src="./support/yellow-square-horiz-redline-bottom-59x59.png" alt="Image download support must be enabled" />
-        <img class="line" src="./support/blue-horiz-line-220x1.png" alt="Image download support must be enabled" />
-      </p>
-      <p class="sideways-right"><sup>LLLLLLLLLLLLL</sup>
-        <img class="square" src="./support/yellow-square-horiz-redline-bottom-59x59.png" alt="Image download support must be enabled" />
-        <img class="line" src="./support/blue-horiz-line-220x1.png" alt="Image download support must be enabled" />
-      </p>
-      <p class="sideways-left"><sup>LLLLLLLLLLLLL</sup>
-        <img class="square" src="./support/yellow-square-horiz-redline-bottom-59x59.png" alt="Image download support must be enabled" />
-        <img class="line" src="./support/blue-horiz-line-220x1.png" alt="Image download support must be enabled" />
-      </p>
-      <p class="sideways"><sup>LLLLLLLLLLLLL</sup>
-        <img class="square" src="./support/yellow-square-horiz-redline-bottom-59x59.png" alt="Image download support must be enabled" />
-        <img class="line" src="./support/blue-horiz-line-220x1.png" alt="Image download support must be enabled" />
-      </p>
-      <p class="use-glyph-orientation"><sup>LLLLLLLLLLLLL</sup>
-        <img class="square" src="./support/yellow-square-horiz-redline-bottom-59x59.png" alt="Image download support must be enabled" />
-        <img class="line" src="./support/blue-horiz-line-220x1.png" alt="Image download support must be enabled" />
-      </p>
-    </div>
+  <div id="lr">A<span id="orange30">O</span></div>
+
   </body>
 </html>

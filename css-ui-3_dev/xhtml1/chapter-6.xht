@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Basic User Interface Module Level 3 CR Test Suite</h1>
-  <h2>Pointing Devices and Keyboards (138 tests)</h2>
+  <h2>Pointing Devices and Keyboards (145 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -43,7 +43,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s6.1.1">+</a>
         <a href="http://www.w3.org/TR/css3-ui/#cursor">6.1.1 cursor property</a></th></tr>
-      <!-- 56 tests -->
+      <!-- 57 tests -->
       <tr id="cursor-image-001-6.1.1" class="primary image interact">
         <td><strong>
             <a href="cursor-image-001.xht">cursor-image-001</a></strong></td>
@@ -66,44 +66,44 @@
           </ul>
         </td>
       </tr>
-      <tr id="cursor-image-003-6.1.1" class="primary image interact">
+      <tr id="cursor-image-003-6.1.1" class="primary image interact may">
         <td><strong>
             <a href="cursor-image-003.xht">cursor-image-003</a></strong></td>
         <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="may" title="Behavior tested is preferred but optional">Optional</abbr></td>
         <td>Cursor property, url value
           <ul class="assert">
             <li>Test checks that an ICO image is supported as a custom cursor.</li>
           </ul>
         </td>
       </tr>
-      <tr id="cursor-image-004-6.1.1" class="primary image interact">
+      <tr id="cursor-image-004-6.1.1" class="primary image interact may">
         <td><strong>
             <a href="cursor-image-004.xht">cursor-image-004</a></strong></td>
         <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="may" title="Behavior tested is preferred but optional">Optional</abbr></td>
         <td>Cursor property, url value
           <ul class="assert">
             <li>Test checks that an ICO image, with its own hotspot, is supported as a custom cursor.</li>
           </ul>
         </td>
       </tr>
-      <tr id="cursor-image-005-6.1.1" class="primary image interact svg">
+      <tr id="cursor-image-005-6.1.1" class="primary interact svg">
         <td><strong>
             <a href="cursor-image-005.xht">cursor-image-005</a></strong></td>
         <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
         <td>Cursor property, url value
           <ul class="assert">
             <li>Test checks that a fixed size SVG image is supported as a custom cursor.</li>
           </ul>
         </td>
       </tr>
-      <tr id="cursor-image-005-nfs-6.1.1" class="primary image interact svg">
+      <tr id="cursor-image-005-nfs-6.1.1" class="primary interact svg">
         <td><strong>
             <a href="cursor-image-005-nfs.xht">cursor-image-005-nfs</a></strong></td>
         <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
         <td>Cursor property, url value
           <ul class="assert">
             <li>Test checks that an SVG image with no fixed size is supported as a custom cursor at the default object size for cursor images.</li>
@@ -671,7 +671,29 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s6.1.1.1">+</a>
         <a href="http://www.w3.org/TR/css3-ui/#canvas_cursor">6.1.1.1 Cursor of the canvas</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 2 tests -->
+      <tr id="canvas-cursor-001-6.1.1.1" class="primary image interact">
+        <td><strong>
+            <a href="canvas-cursor-001.xht">canvas-cursor-001</a></strong></td>
+        <td></td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
+        <td>propagating the root cursor to the canvas
+          <ul class="assert">
+            <li>Test checks the cursor applied to the root element is propagated to the canvas.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="canvas-cursor-002-6.1.1.1" class="primary image interact">
+        <td><strong>
+            <a href="canvas-cursor-002.xht">canvas-cursor-002</a></strong></td>
+        <td></td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
+        <td>not propagating the body cursor to the canvas
+          <ul class="assert">
+            <li>Test checks the cursor applied to the body element is not propagated to the canvas.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s6.2">
       <tr><th colspan="4" scope="rowgroup">
@@ -734,7 +756,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s6.3.1">+</a>
         <a href="http://www.w3.org/TR/css3-ui/#nav-dir">6.3.1 Directional focus navigation: the nav-up, nav-right, nav-down, nav-left properties</a></th></tr>
-      <!-- 79 tests -->
+      <!-- 83 tests -->
       <tr id="nav-dir-001-6.3.1" class="primary interact">
         <td><strong>
             <a href="nav-dir-001.xht">nav-dir-001</a></strong></td>
@@ -787,6 +809,50 @@
         <td>Directional Focus Navigation - currently focused element
           <ul class="assert">
             <li>Test checks that focus doesn't change when navigating to the currently focused element.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="nav-dir-missing-1-6.3.1" class="primary interact">
+        <td><strong>
+            <a href="nav-dir-missing-1.xht">nav-dir-missing-1</a></strong></td>
+        <td></td>
+        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
+        <td>Directional Focus Navigation - unkown element id
+          <ul class="assert">
+            <li>Test checks that an unknow element id used as the value of the 'nav-right' property value does not hinder normal spacial navigation.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="nav-dir-missing-2-6.3.1" class="primary interact">
+        <td><strong>
+            <a href="nav-dir-missing-2.xht">nav-dir-missing-2</a></strong></td>
+        <td></td>
+        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
+        <td>Directional Focus Navigation - unkown element id
+          <ul class="assert">
+            <li>Test checks that an unknow element id used as the value of the 'nav-left' property value does not hinder normal spacial navigation.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="nav-dir-missing-3-6.3.1" class="primary interact">
+        <td><strong>
+            <a href="nav-dir-missing-3.xht">nav-dir-missing-3</a></strong></td>
+        <td></td>
+        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
+        <td>Directional Focus Navigation - unkown element id
+          <ul class="assert">
+            <li>Test checks that an unknow element id used as the value of the 'nav-down' property value does not hinder normal spacial navigation.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="nav-dir-missing-4-6.3.1" class="primary interact">
+        <td><strong>
+            <a href="nav-dir-missing-4.xht">nav-dir-missing-4</a></strong></td>
+        <td></td>
+        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
+        <td>Directional Focus Navigation - unkown element id
+          <ul class="assert">
+            <li>Test checks that an unknow element id used as the value of the 'nav-up' property value does not hinder normal spacial navigation.</li>
           </ul>
         </td>
       </tr>

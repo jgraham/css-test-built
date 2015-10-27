@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Flexible Box Layout Module Level 1 CR Test Suite</h1>
-  <h2>Flex Layout Algorithm (58 tests)</h2>
+  <h2>Flex Layout Algorithm (61 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -31,7 +31,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s9">+</a>
         <a href="http://www.w3.org/TR/css-flexbox-1/#layout-algorithm">9 Flex Layout Algorithm</a></th></tr>
-      <!-- 46 tests -->
+      <!-- 49 tests -->
       <tr id="autoheight-flexbox-001-9" class="">
         <td>
             <a href="autoheight-flexbox-001.htm">autoheight-flexbox-001</a></td>
@@ -216,7 +216,7 @@
         <td>Testing the sizing of a stretched horizontal flex container in a vertical flex container
           <ul class="assert">
             <li>If a stretched flex item's main size is influenced by its cross size, and the flex container has a definite cross size, then the item's cross size should be resolved early so that it can be used when determining the item's main size</li>
-            <li>http://dev.w3.org/csswg/css-flexbox/issues-cr-2012#issue-23</li>
+            <li>https://drafts.csswg.org/css-flexbox/issues-cr-2012#issue-23</li>
           </ul>
         </td>
       </tr>
@@ -445,6 +445,30 @@
         <td><a href="reference/flexbox-sizing-vert-002-ref.htm">=</a> </td>
         <td></td>
         <td>Testing sizing of an auto-sized vertical flex container with min-width and max-width constraints
+        </td>
+      </tr>
+      <tr id="flexbox-writing-mode-007-9" class="primary">
+        <td><strong>
+            <a href="flexbox-writing-mode-007.htm">flexbox-writing-mode-007</a></strong></td>
+        <td><a href="reference/flexbox-writing-mode-007-ref.htm">=</a> </td>
+        <td></td>
+        <td>Verify that explicit sizes are honored on flex items whose writing-mode may differ from the flex container's writing-mode
+        </td>
+      </tr>
+      <tr id="flexbox-writing-mode-008-9" class="primary">
+        <td><strong>
+            <a href="flexbox-writing-mode-008.htm">flexbox-writing-mode-008</a></strong></td>
+        <td><a href="reference/flexbox-writing-mode-008-ref.htm">=</a> </td>
+        <td></td>
+        <td>Verify that explicit sizes are honored on flex items whose writing-mode may differ from the flex container's writing-mode
+        </td>
+      </tr>
+      <tr id="flexbox-writing-mode-009-9" class="primary">
+        <td><strong>
+            <a href="flexbox-writing-mode-009.htm">flexbox-writing-mode-009</a></strong></td>
+        <td><a href="reference/flexbox-writing-mode-009-ref.htm">=</a> </td>
+        <td></td>
+        <td>Verify that explicit sizes are honored on flex items whose writing-mode may differ from the flex container's writing-mode
         </td>
       </tr>
       <tr id="row-flexbox-break-9" class="ahem">

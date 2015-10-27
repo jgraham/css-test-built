@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSSOM View Module Level 1 Test Suite</h1>
-  <h2>Extensions to the Element Interface (4 tests)</h2>
+  <h2>Extensions to the Element Interface (6 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -46,18 +46,51 @@
       <!-- 0 tests -->
     </tbody>
     <tbody id="s7.#dom-element-getboundingclientrect">
-      <!-- 1 tests -->
-      <tr id="cssom-getboundingclientrect-7.#dom-element-getboundingclientrect" class="primary dom script">
+      <!-- 2 tests -->
+      <tr id="cssom-getboundingclientrect-001-7.#dom-element-getboundingclientrect" class="primary dom script">
         <td><strong>
-            <a href="cssom-getBoundingClientRect.xht">cssom-getboundingclientrect</a></strong></td>
+            <a href="cssom-getBoundingClientRect-001.xht">cssom-getboundingclientrect-001</a></strong></td>
         <td></td>
         <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
         <td>CSSOM View - 6.1 - getBoundingClientRect tests
         </td>
       </tr>
+      <tr id="cssom-getboundingclientrect-002-7.#dom-element-getboundingclientrect" class="dom script">
+        <td>
+            <a href="cssom-getBoundingClientRect-002.xht">cssom-getboundingclientrect-002</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>getBoundingClientRect of element outside DOM
+          <ul class="assert">
+            <li>Calling getBoundingClientRect on an element that is outside of the DOM (and therefore does not have an associated layout box) should result in an all-zeroes DOMRect and should definitely not throw an error.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s7.#dom-element-getclientrects">
-      <!-- 0 tests -->
+      <!-- 2 tests -->
+      <tr id="cssom-getboundingclientrect-002-7.#dom-element-getclientrects" class="primary dom script">
+        <td><strong>
+            <a href="cssom-getBoundingClientRect-002.xht">cssom-getboundingclientrect-002</a></strong></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>getBoundingClientRect of element outside DOM
+          <ul class="assert">
+            <li>Calling getBoundingClientRect on an element that is outside of the DOM (and therefore does not have an associated layout box) should result in an all-zeroes DOMRect and should definitely not throw an error.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="cssom-getclientrects-7.#dom-element-getclientrects" class="primary dom script">
+        <td><strong>
+            <a href="cssom-getClientRects.xht">cssom-getclientrects</a></strong></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>getClientRects of element outside DOM
+          <ul class="assert">
+            <li>Calling getClientRects on an element that is outside of the DOM (and therefore does not have an associated layout box) should result in an empty DOMRectList and should definitely not throw an error.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s7.#dom-element-scrollheight">
       <!-- 0 tests -->

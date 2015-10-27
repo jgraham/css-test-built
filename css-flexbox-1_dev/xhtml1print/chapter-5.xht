@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Flexible Box Layout Module Level 1 CR Test Suite</h1>
-  <h2>Ordering and Orientation (123 tests)</h2>
+  <h2>Ordering and Orientation (150 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -263,7 +263,7 @@
       <tr id="ttwf-reftest-flex-direction-column-reverse-5.1" class="primary">
         <td><strong>
             <a href="ttwf-reftest-flex-direction-column-reverse.xht">ttwf-reftest-flex-direction-column-reverse</a></strong></td>
-        <td><a href="reference/ttwf-reftest-flex-direction-column-ref.xht">=</a> </td>
+        <td><a href="reference/ttwf-reftest-flex-direction-column-reverse-ref.xht">=</a> </td>
         <td></td>
         <td>flex-direction proprety - column-reverse
           <ul class="assert">
@@ -284,7 +284,7 @@
       </tr>
     </tbody>
     <tbody id="s5.1.#propdef-flex-direction">
-      <!-- 1 tests -->
+      <!-- 7 tests -->
       <tr id="flex-margin-no-collapse-5.1.#propdef-flex-direction" class="primary">
         <td><strong>
             <a href="flex-margin-no-collapse.xht">flex-margin-no-collapse</a></strong></td>
@@ -296,18 +296,218 @@
           </ul>
         </td>
       </tr>
+      <tr id="flexbox-writing-mode-001-5.1.#propdef-flex-direction" class="primary">
+        <td><strong>
+            <a href="flexbox-writing-mode-001.xht">flexbox-writing-mode-001</a></strong></td>
+        <td><a href="reference/flexbox-writing-mode-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>Try various flex-flow values, with 'direction: ltr' and 'writing-mode: horizontal-tb'
+        </td>
+      </tr>
+      <tr id="flexbox-writing-mode-002-5.1.#propdef-flex-direction" class="primary">
+        <td><strong>
+            <a href="flexbox-writing-mode-002.xht">flexbox-writing-mode-002</a></strong></td>
+        <td><a href="reference/flexbox-writing-mode-002-ref.xht">=</a> </td>
+        <td></td>
+        <td>Try various flex-flow values, with 'direction: ltr' and 'writing-mode: vertical-rl'
+        </td>
+      </tr>
+      <tr id="flexbox-writing-mode-003-5.1.#propdef-flex-direction" class="primary">
+        <td><strong>
+            <a href="flexbox-writing-mode-003.xht">flexbox-writing-mode-003</a></strong></td>
+        <td><a href="reference/flexbox-writing-mode-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>Try various flex-flow values, with 'direction: ltr' and 'writing-mode: vertical-lr'
+        </td>
+      </tr>
+      <tr id="flexbox-writing-mode-004-5.1.#propdef-flex-direction" class="primary">
+        <td><strong>
+            <a href="flexbox-writing-mode-004.xht">flexbox-writing-mode-004</a></strong></td>
+        <td><a href="reference/flexbox-writing-mode-004-ref.xht">=</a> </td>
+        <td></td>
+        <td>Try various flex-flow values, with 'direction: rtl' and 'writing-mode: horizontal-tb'
+        </td>
+      </tr>
+      <tr id="flexbox-writing-mode-005-5.1.#propdef-flex-direction" class="primary">
+        <td><strong>
+            <a href="flexbox-writing-mode-005.xht">flexbox-writing-mode-005</a></strong></td>
+        <td><a href="reference/flexbox-writing-mode-005-ref.xht">=</a> </td>
+        <td></td>
+        <td>Try various flex-flow values, with 'direction: rtl' and 'writing-mode: vertical-rl'
+        </td>
+      </tr>
+      <tr id="flexbox-writing-mode-006-5.1.#propdef-flex-direction" class="primary">
+        <td><strong>
+            <a href="flexbox-writing-mode-006.xht">flexbox-writing-mode-006</a></strong></td>
+        <td><a href="reference/flexbox-writing-mode-006-ref.xht">=</a> </td>
+        <td></td>
+        <td>Try various flex-flow values, with 'direction: rtl' and 'writing-mode: vertical-lr'
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.1.#valdef-flex-direction-column">
-      <!-- 0 tests -->
+      <!-- 6 tests -->
+      <tr id="flexbox_computedstyle_flex-flow-column-5.1.#valdef-flex-direction-column" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-column.xht">flexbox_computedstyle_flex-flow-column</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: column
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-column-nowrap-5.1.#valdef-flex-direction-column" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-column-nowrap.xht">flexbox_computedstyle_flex-flow-column-nowrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: column nowrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-column-wrap-5.1.#valdef-flex-direction-column" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-column-wrap.xht">flexbox_computedstyle_flex-flow-column-wrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: column wrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-column-wrap-reverse-5.1.#valdef-flex-direction-column" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-column-wrap-reverse.xht">flexbox_computedstyle_flex-flow-column-wrap-reverse</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: column wrap-reverse
+        </td>
+      </tr>
+      <tr id="flexbox_rtl-flow-5.1.#valdef-flex-direction-column" class="">
+        <td>
+            <a href="flexbox_rtl-flow.xht">flexbox_rtl-flow</a></td>
+        <td><a href="reference/flexbox_rtl-flow-ref.xht">=</a> </td>
+        <td></td>
+        <td>flexbox | flex-flow: column wrap | rtl
+        </td>
+      </tr>
+      <tr id="flexbox_rtl-flow-reverse-5.1.#valdef-flex-direction-column" class="">
+        <td>
+            <a href="flexbox_rtl-flow-reverse.xht">flexbox_rtl-flow-reverse</a></td>
+        <td><a href="reference/flexbox_rtl-flow-reverse-ref.xht">=</a> </td>
+        <td></td>
+        <td>flexbox | flex-flow: column wrap-reverse | rtl
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.1.#valdef-flex-direction-column-reverse">
-      <!-- 0 tests -->
+      <!-- 5 tests -->
+      <tr id="flexbox_computedstyle_flex-flow-column-reverse-5.1.#valdef-flex-direction-column-reverse" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-column-reverse.xht">flexbox_computedstyle_flex-flow-column-reverse</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: column-reverse
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-column-reverse-nowrap-5.1.#valdef-flex-direction-column-reverse" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-column-reverse-nowrap.xht">flexbox_computedstyle_flex-flow-column-reverse-nowrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: column-reverse nowrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-column-reverse-wrap-5.1.#valdef-flex-direction-column-reverse" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-column-reverse-wrap.xht">flexbox_computedstyle_flex-flow-column-reverse-wrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: column-reverse wrap
+        </td>
+      </tr>
+      <tr id="flexbox_rtl-direction-5.1.#valdef-flex-direction-column-reverse" class="">
+        <td>
+            <a href="flexbox_rtl-direction.xht">flexbox_rtl-direction</a></td>
+        <td><a href="reference/flexbox_rtl-direction-ref.xht">=</a> </td>
+        <td></td>
+        <td>flexbox | flex-direction: column-reverse | rtl
+        </td>
+      </tr>
+      <tr id="flexbox_rtl-order-5.1.#valdef-flex-direction-column-reverse" class="">
+        <td>
+            <a href="flexbox_rtl-order.xht">flexbox_rtl-order</a></td>
+        <td><a href="reference/flexbox_rtl-order-ref.xht">=</a> </td>
+        <td></td>
+        <td>flexbox | flex-flow: column-reverse wrap-reverse; order | rtl
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.1.#valdef-flex-direction-row">
-      <!-- 0 tests -->
+      <!-- 4 tests -->
+      <tr id="flexbox_computedstyle_flex-flow-row-5.1.#valdef-flex-direction-row" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row.xht">flexbox_computedstyle_flex-flow-row</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-row-nowrap-5.1.#valdef-flex-direction-row" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-nowrap.xht">flexbox_computedstyle_flex-flow-row-nowrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row nowrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-row-wrap-5.1.#valdef-flex-direction-row" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-wrap.xht">flexbox_computedstyle_flex-flow-row-wrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row wrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-row-wrap-reverse-5.1.#valdef-flex-direction-row" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-wrap-reverse.xht">flexbox_computedstyle_flex-flow-row-wrap-reverse</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row wrap-reverse
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.1.#valdef-flex-direction-row-reverse">
-      <!-- 0 tests -->
+      <!-- 4 tests -->
+      <tr id="flexbox_computedstyle_flex-flow-row-reverse-5.1.#valdef-flex-direction-row-reverse" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-reverse.xht">flexbox_computedstyle_flex-flow-row-reverse</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row-reverse
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-row-reverse-nowrap-5.1.#valdef-flex-direction-row-reverse" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-reverse-nowrap.xht">flexbox_computedstyle_flex-flow-row-reverse-nowrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row-reverse nowrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-row-reverse-wrap-5.1.#valdef-flex-direction-row-reverse" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-reverse-wrap.xht">flexbox_computedstyle_flex-flow-row-reverse-wrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row-reverse wrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-row-reverse-wrap-reverse-5.1.#valdef-flex-direction-row-reverse" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-reverse-wrap-reverse.xht">flexbox_computedstyle_flex-flow-row-reverse-wrap-reverse</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row-reverse wrap-reverse
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.2">
       <tr><th colspan="4" scope="rowgroup">
@@ -740,7 +940,7 @@
       <tr id="ttwf-reftest-flex-wrap-5.2.#propdef-flex-wrap" class="primary">
         <td><strong>
             <a href="ttwf-reftest-flex-wrap.xht">ttwf-reftest-flex-wrap</a></strong></td>
-        <td><a href="reference/ttwf-reftest-flex-inline-ref.xht">=</a> </td>
+        <td><a href="reference/ttwf-reftest-flex-wrap-ref.xht">=</a> </td>
         <td></td>
         <td>flex-wrap proprety - wrap
           <ul class="assert">
@@ -761,13 +961,141 @@
       </tr>
     </tbody>
     <tbody id="s5.2.#valdef-flex-wrap-nowrap">
-      <!-- 0 tests -->
+      <!-- 5 tests -->
+      <tr id="flexbox_computedstyle_flex-flow-column-nowrap-5.2.#valdef-flex-wrap-nowrap" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-column-nowrap.xht">flexbox_computedstyle_flex-flow-column-nowrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: column nowrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-column-reverse-nowrap-5.2.#valdef-flex-wrap-nowrap" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-column-reverse-nowrap.xht">flexbox_computedstyle_flex-flow-column-reverse-nowrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: column-reverse nowrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-nowrap-5.2.#valdef-flex-wrap-nowrap" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-nowrap.xht">flexbox_computedstyle_flex-flow-nowrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: nowrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-row-nowrap-5.2.#valdef-flex-wrap-nowrap" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-nowrap.xht">flexbox_computedstyle_flex-flow-row-nowrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row nowrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-row-reverse-nowrap-5.2.#valdef-flex-wrap-nowrap" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-reverse-nowrap.xht">flexbox_computedstyle_flex-flow-row-reverse-nowrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row-reverse nowrap
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.2.#valdef-flex-wrap-wrap">
-      <!-- 0 tests -->
+      <!-- 6 tests -->
+      <tr id="flexbox_computedstyle_flex-flow-column-reverse-wrap-5.2.#valdef-flex-wrap-wrap" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-column-reverse-wrap.xht">flexbox_computedstyle_flex-flow-column-reverse-wrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: column-reverse wrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-column-wrap-5.2.#valdef-flex-wrap-wrap" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-column-wrap.xht">flexbox_computedstyle_flex-flow-column-wrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: column wrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-row-reverse-wrap-5.2.#valdef-flex-wrap-wrap" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-reverse-wrap.xht">flexbox_computedstyle_flex-flow-row-reverse-wrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row-reverse wrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-row-wrap-5.2.#valdef-flex-wrap-wrap" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-wrap.xht">flexbox_computedstyle_flex-flow-row-wrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row wrap
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-wrap-5.2.#valdef-flex-wrap-wrap" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-wrap.xht">flexbox_computedstyle_flex-flow-wrap</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: wrap
+        </td>
+      </tr>
+      <tr id="flexbox_rtl-flow-5.2.#valdef-flex-wrap-wrap" class="">
+        <td>
+            <a href="flexbox_rtl-flow.xht">flexbox_rtl-flow</a></td>
+        <td><a href="reference/flexbox_rtl-flow-ref.xht">=</a> </td>
+        <td></td>
+        <td>flexbox | flex-flow: column wrap | rtl
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.2.#valdef-flex-wrap-wrap-reverse">
-      <!-- 0 tests -->
+      <!-- 5 tests -->
+      <tr id="flexbox_computedstyle_flex-flow-column-wrap-reverse-5.2.#valdef-flex-wrap-wrap-reverse" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-column-wrap-reverse.xht">flexbox_computedstyle_flex-flow-column-wrap-reverse</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: column wrap-reverse
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-row-reverse-wrap-reverse-5.2.#valdef-flex-wrap-wrap-reverse" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-reverse-wrap-reverse.xht">flexbox_computedstyle_flex-flow-row-reverse-wrap-reverse</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row-reverse wrap-reverse
+        </td>
+      </tr>
+      <tr id="flexbox_computedstyle_flex-flow-row-wrap-reverse-5.2.#valdef-flex-wrap-wrap-reverse" class="dom">
+        <td>
+            <a href="flexbox_computedstyle_flex-flow-row-wrap-reverse.xht">flexbox_computedstyle_flex-flow-row-wrap-reverse</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>flexbox | computed style | flex-flow: row wrap-reverse
+        </td>
+      </tr>
+      <tr id="flexbox_rtl-flow-reverse-5.2.#valdef-flex-wrap-wrap-reverse" class="">
+        <td>
+            <a href="flexbox_rtl-flow-reverse.xht">flexbox_rtl-flow-reverse</a></td>
+        <td><a href="reference/flexbox_rtl-flow-reverse-ref.xht">=</a> </td>
+        <td></td>
+        <td>flexbox | flex-flow: column wrap-reverse | rtl
+        </td>
+      </tr>
+      <tr id="flexbox_rtl-order-5.2.#valdef-flex-wrap-wrap-reverse" class="">
+        <td>
+            <a href="flexbox_rtl-order.xht">flexbox_rtl-order</a></td>
+        <td><a href="reference/flexbox_rtl-order-ref.xht">=</a> </td>
+        <td></td>
+        <td>flexbox | flex-flow: column-reverse wrap-reverse; order | rtl
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.3">
       <tr><th colspan="4" scope="rowgroup">
@@ -812,7 +1140,7 @@
             <a href="css-box-justify-content.xht">css-box-justify-content</a></td>
         <td><a href="reference/css-box-justify-content-ref.xht">=</a> </td>
         <td></td>
-        <td>flexbox |css-box-justufy-content
+        <td>flexbox |css-box-justify-content
         </td>
       </tr>
       <tr id="css-flexbox-column-5.3.#propdef-flex-flow" class="primary">
@@ -1303,7 +1631,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.4">+</a>
         <a href="http://www.w3.org/TR/css-flexbox-1/#order-property">5.4 Display Order: the order property</a></th></tr>
-      <!-- 1 tests -->
+      <!-- 21 tests -->
       <tr id="flex-order-5.4" class="primary">
         <td><strong>
             <a href="flex-order.xht">flex-order</a></strong></td>
@@ -1313,6 +1641,166 @@
           <ul class="assert">
             <li>ordered flex items should ordered properly</li>
           </ul>
+        </td>
+      </tr>
+      <tr id="grid-inline-order-property-auto-placement-001-5.4" class="ahem">
+        <td>
+            <a href="grid-inline-order-property-auto-placement-001.xht">grid-inline-order-property-auto-placement-001</a></td>
+        <td><a href="reference/grid-2x2-blue-yellow-lime-magenta.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items auto-placement position within an inline grid
+        </td>
+      </tr>
+      <tr id="grid-inline-order-property-auto-placement-002-5.4" class="ahem">
+        <td>
+            <a href="grid-inline-order-property-auto-placement-002.xht">grid-inline-order-property-auto-placement-002</a></td>
+        <td><a href="reference/grid-2x2-blue-yellow-lime-magenta.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items auto-placement position within an inline grid
+        </td>
+      </tr>
+      <tr id="grid-inline-order-property-auto-placement-003-5.4" class="ahem">
+        <td>
+            <a href="grid-inline-order-property-auto-placement-003.xht">grid-inline-order-property-auto-placement-003</a></td>
+        <td><a href="reference/grid-2x2-blue-yellow-lime-magenta.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items auto-placement position within an inline grid
+        </td>
+      </tr>
+      <tr id="grid-inline-order-property-auto-placement-004-5.4" class="ahem">
+        <td>
+            <a href="grid-inline-order-property-auto-placement-004.xht">grid-inline-order-property-auto-placement-004</a></td>
+        <td><a href="reference/grid-2x2-blue-yellow-lime-magenta.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items auto-placement position within an inline grid
+        </td>
+      </tr>
+      <tr id="grid-inline-order-property-auto-placement-005-5.4" class="ahem">
+        <td>
+            <a href="grid-inline-order-property-auto-placement-005.xht">grid-inline-order-property-auto-placement-005</a></td>
+        <td><a href="reference/grid-2x2-blue-yellow-lime-magenta.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items auto-placement position within an inline grid
+        </td>
+      </tr>
+      <tr id="grid-inline-order-property-painting-001-5.4" class="ahem">
+        <td>
+            <a href="grid-inline-order-property-painting-001.xht">grid-inline-order-property-painting-001</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items painting order within an inline grid
+        </td>
+      </tr>
+      <tr id="grid-inline-order-property-painting-002-5.4" class="ahem">
+        <td>
+            <a href="grid-inline-order-property-painting-002.xht">grid-inline-order-property-painting-002</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items painting order within an inline grid
+        </td>
+      </tr>
+      <tr id="grid-inline-order-property-painting-003-5.4" class="ahem">
+        <td>
+            <a href="grid-inline-order-property-painting-003.xht">grid-inline-order-property-painting-003</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items painting order within an inline grid
+        </td>
+      </tr>
+      <tr id="grid-inline-order-property-painting-004-5.4" class="ahem">
+        <td>
+            <a href="grid-inline-order-property-painting-004.xht">grid-inline-order-property-painting-004</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items painting order within an inline grid
+        </td>
+      </tr>
+      <tr id="grid-inline-order-property-painting-005-5.4" class="ahem">
+        <td>
+            <a href="grid-inline-order-property-painting-005.xht">grid-inline-order-property-painting-005</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items painting order within an inline grid
+        </td>
+      </tr>
+      <tr id="grid-order-property-auto-placement-001-5.4" class="ahem">
+        <td>
+            <a href="grid-order-property-auto-placement-001.xht">grid-order-property-auto-placement-001</a></td>
+        <td><a href="reference/grid-2x2-blue-yellow-lime-magenta.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items auto-placement position
+        </td>
+      </tr>
+      <tr id="grid-order-property-auto-placement-002-5.4" class="ahem">
+        <td>
+            <a href="grid-order-property-auto-placement-002.xht">grid-order-property-auto-placement-002</a></td>
+        <td><a href="reference/grid-2x2-blue-yellow-lime-magenta.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items auto-placement position
+        </td>
+      </tr>
+      <tr id="grid-order-property-auto-placement-003-5.4" class="ahem">
+        <td>
+            <a href="grid-order-property-auto-placement-003.xht">grid-order-property-auto-placement-003</a></td>
+        <td><a href="reference/grid-2x2-blue-yellow-lime-magenta.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items auto-placement position
+        </td>
+      </tr>
+      <tr id="grid-order-property-auto-placement-004-5.4" class="ahem">
+        <td>
+            <a href="grid-order-property-auto-placement-004.xht">grid-order-property-auto-placement-004</a></td>
+        <td><a href="reference/grid-2x2-blue-yellow-lime-magenta.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items auto-placement position
+        </td>
+      </tr>
+      <tr id="grid-order-property-auto-placement-005-5.4" class="ahem">
+        <td>
+            <a href="grid-order-property-auto-placement-005.xht">grid-order-property-auto-placement-005</a></td>
+        <td><a href="reference/grid-2x2-blue-yellow-lime-magenta.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items auto-placement position
+        </td>
+      </tr>
+      <tr id="grid-order-property-painting-001-5.4" class="ahem">
+        <td>
+            <a href="grid-order-property-painting-001.xht">grid-order-property-painting-001</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items painting order
+        </td>
+      </tr>
+      <tr id="grid-order-property-painting-002-5.4" class="ahem">
+        <td>
+            <a href="grid-order-property-painting-002.xht">grid-order-property-painting-002</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items painting order
+        </td>
+      </tr>
+      <tr id="grid-order-property-painting-003-5.4" class="ahem">
+        <td>
+            <a href="grid-order-property-painting-003.xht">grid-order-property-painting-003</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items painting order
+        </td>
+      </tr>
+      <tr id="grid-order-property-painting-004-5.4" class="ahem">
+        <td>
+            <a href="grid-order-property-painting-004.xht">grid-order-property-painting-004</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items painting order
+        </td>
+      </tr>
+      <tr id="grid-order-property-painting-005-5.4" class="ahem">
+        <td>
+            <a href="grid-order-property-painting-005.xht">grid-order-property-painting-005</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>'order' property affects grid items painting order
         </td>
       </tr>
     </tbody>
