@@ -13,21 +13,33 @@
   <meta content="This test checks the flow of contiguous left-floated boxes with 'writing-mode' set to 'vertical-lr'." name="assert">
 
   <style type="text/css">
-  div#reference-overlapped-red
+  p
     {
-      background-color: red;
-      height: 100px;
-      position: absolute;
-      width: 100px;
-      z-index: -1;
+      line-height: 1.25;
+    }
+
+  strong
+    {
+      line-height: 1;
     }
 
   div.floated-left
     {
       color: green;
       float: left;
-      font: 20px/1 Ahem; /* computes to 20px/20px */
+      font: 1.25em/1 Ahem; /* computes to 20px/20px */
       writing-mode: vertical-lr;
+    }
+
+  div#reference-overlapped-red
+    {
+      background-color: red;
+      height: 100px;
+      left: 8px;
+      position: absolute;
+      top: 52px;
+      width: 100px;
+      z-index: -1;
     }
   </style>
  </head>
@@ -35,8 +47,6 @@
  <body>
 
   <p>Test passes if there is a filled green square and <strong>no red</strong>.</p>
-
-  <div id="reference-overlapped-red"></div>
 
   <div class="floated-left">abcde</div>
 
@@ -47,6 +57,8 @@
   <div class="floated-left">rstuv</div>
 
   <div class="floated-left">wxyzz</div>
+
+  <div id="reference-overlapped-red"></div>
 
  </body>
 </html>

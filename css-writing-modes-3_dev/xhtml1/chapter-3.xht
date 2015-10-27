@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Introduction to Vertical Text (89 tests)</h2>
+  <h2>Introduction to Vertical Text (76 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -40,7 +40,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s3.1">+</a>
         <a href="http://www.w3.org/TR/css-writing-modes-3/#writing-mode">3.1 Block Flow Direction: the writing-mode property</a></th></tr>
-      <!-- 74 tests -->
+      <!-- 65 tests -->
       <tr id="block-flow-direction-001-3.1" class="primary ahem">
         <td><strong>
             <a href="block-flow-direction-001.xht">block-flow-direction-001</a></strong></td>
@@ -338,28 +338,6 @@
           </ul>
         </td>
       </tr>
-      <tr id="first-page-vlr-003-3.1" class="primary paged">
-        <td><strong>
-            <a href="first-page-vlr-003.xht">first-page-vlr-003</a></strong></td>
-        <td></td>
-        <td><abbr class="paged" title="Only valid for paged media">Paged</abbr></td>
-        <td>first page of a document with vertical-lr writing-mode
-          <ul class="assert">
-            <li>When 'writing-mode' is set on the root element, then it determines the default page flow (or progression) direction. In this test, the page flow (or progression) direction is left-to-right. This test checks that the first page of a document whose document root has 'writing-mode' set to 'vertical-lr' is the :right page.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="first-page-vrl-002-3.1" class="primary image paged">
-        <td><strong>
-            <a href="first-page-vrl-002.xht">first-page-vrl-002</a></strong></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="paged" title="Only valid for paged media">Paged</abbr></td>
-        <td>first page of a document with vertical-rl writing-mode
-          <ul class="assert">
-            <li>When 'writing-mode' is set on the root element, then it determines the default page flow (or progression) direction. In this test, the page flow (or progression) direction is right-to-left. This test checks that the first page of a document whose document root has 'writing-mode' set to 'vertical-rl' is the :left page.</li>
-          </ul>
-        </td>
-      </tr>
       <tr id="form-controls-vert-rl-004-3.1" class="primary image should">
         <td><strong>
             <a href="form-controls-vert-rl-004.xht">form-controls-vert-rl-004</a></strong></td>
@@ -613,6 +591,17 @@
           </ul>
         </td>
       </tr>
+      <tr id="list-items-vert-rl-005-3.1" class="primary image">
+        <td><strong>
+            <a href="list-items-vert-rl-005.xht">list-items-vert-rl-005</a></strong></td>
+        <td></td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>order, orientation and layout of list items in a 'vertical-rl' writing-mode
+          <ul class="assert">
+            <li>This test checks the order, the orientation and layout of list items when in a 'vertical-rl' writing mode as illustrated by and according to Example 5 of section 3.1.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="page-flow-direction-002-3.1" class="primary image paged">
         <td><strong>
             <a href="page-flow-direction-002.xht">page-flow-direction-002</a></strong></td>
@@ -745,98 +734,6 @@
           </ul>
         </td>
       </tr>
-      <tr id="table-progression-vlr-001-3.1" class="primary">
-        <td><strong>
-            <a href="table-progression-vlr-001.xht">table-progression-vlr-001</a></strong></td>
-        <td><a href="reference/table-progression-001-ref.xht">=</a> </td>
-        <td></td>
-        <td>vertical-lr Table Row/Rowgroup/Cell Ordering
-          <ul class="assert">
-            <li>This test checks that vertical-lr tables order rows/rowgroups left to right and cells top-to-bottom (LTR) or bottom-to-top (RTL) per 'direction'.</li>
-            <li>This test checks that 'writing-mode' and 'direction' do not apply to table rows and row groups.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="table-progression-vlr-002-3.1" class="primary">
-        <td><strong>
-            <a href="table-progression-vlr-002.xht">table-progression-vlr-002</a></strong></td>
-        <td><a href="reference/table-progression-002-ref.xht">=</a> </td>
-        <td></td>
-        <td>vertical-lr Table Column/Colgroup Ordering
-          <ul class="assert">
-            <li>This test checks that vertical-lr tables order columns top-to-bottom (LTR) or bottom-to-top (RTL) per the table's 'direction'.</li>
-            <li>This test checks that 'writing-mode' and 'direction' do not apply to table columns and column groups.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="table-progression-vlr-003-3.1" class="primary">
-        <td><strong>
-            <a href="table-progression-vlr-003.xht">table-progression-vlr-003</a></strong></td>
-        <td><a href="reference/table-progression-001-ref.xht">=</a> </td>
-        <td></td>
-        <td>vertical-lr upright orientation Table Row/Rowgroup/Cell Ordering
-          <ul class="assert">
-            <li>This test checks that vertical-lr tables, whether LTR or RTL, order rows/rowgroups right to left and cells top-to-bottom when text-orientation is upright.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="table-progression-vlr-004-3.1" class="primary">
-        <td><strong>
-            <a href="table-progression-vlr-004.xht">table-progression-vlr-004</a></strong></td>
-        <td><a href="reference/table-progression-002-ref.xht">=</a> </td>
-        <td></td>
-        <td>vertical-lr upright orientation Table Column/Colgroup Ordering
-          <ul class="assert">
-            <li>This test checks that vertical-lr tables, whether LTR or RTL, order columns top-to-bottom when text-orientation is upright.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="table-progression-vrl-001-3.1" class="primary">
-        <td><strong>
-            <a href="table-progression-vrl-001.xht">table-progression-vrl-001</a></strong></td>
-        <td><a href="reference/table-progression-001-ref.xht">=</a> </td>
-        <td></td>
-        <td>vertical-rl Table Row/Rowgroup/Cell Ordering
-          <ul class="assert">
-            <li>This test checks that vertical-rl tables order rows/rowgroups right to left and cells top-to-bottom (LTR) or bottom-to-top (RTL) per 'direction'.</li>
-            <li>This test checks that 'writing-mode' and 'direction' do not apply to table rows and row groups.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="table-progression-vrl-002-3.1" class="primary">
-        <td><strong>
-            <a href="table-progression-vrl-002.xht">table-progression-vrl-002</a></strong></td>
-        <td><a href="reference/table-progression-002-ref.xht">=</a> </td>
-        <td></td>
-        <td>vertical-rl Table Column/Colgroup Ordering
-          <ul class="assert">
-            <li>This test checks that vertical-rl tables order columns top-to-bottom (LTR) or bottom-to-top (RTL) per the table's 'direction'.</li>
-            <li>This test checks that 'writing-mode' and 'direction' do not apply to table columns and column groups.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="table-progression-vrl-003-3.1" class="primary">
-        <td><strong>
-            <a href="table-progression-vrl-003.xht">table-progression-vrl-003</a></strong></td>
-        <td><a href="reference/table-progression-001-ref.xht">=</a> </td>
-        <td></td>
-        <td>vertical-rl upright orientation Table Row/Rowgroup/Cell Ordering
-          <ul class="assert">
-            <li>This test checks that vertical-rl tables, whether LTR or RTL, order rows/rowgroups right to left and cells top-to-bottom when text-orientation is upright.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="table-progression-vrl-004-3.1" class="primary">
-        <td><strong>
-            <a href="table-progression-vrl-004.xht">table-progression-vrl-004</a></strong></td>
-        <td><a href="reference/table-progression-002-ref.xht">=</a> </td>
-        <td></td>
-        <td>vertical-rl upright orientation Table Column/Colgroup Ordering
-          <ul class="assert">
-            <li>This test checks that vertical-rl tables, whether LTR or RTL, order columns top-to-bottom when text-orientation is upright.</li>
-          </ul>
-        </td>
-      </tr>
       <tr id="writing-mode-stretch-001-3.1" class="primary">
         <td><strong>
             <a href="writing-mode-stretch-001.xht">writing-mode-stretch-001</a></strong></td>
@@ -864,7 +761,7 @@
       <!-- 0 tests -->
     </tbody>
     <tbody id="s3.1.#propdef-writing-mode">
-      <!-- 14 tests -->
+      <!-- 11 tests -->
       <tr id="autoheight-regions-in-autoheight-flexbox-002-3.1.#propdef-writing-mode" class="ahem">
         <td>
             <a href="autoheight-regions-in-autoheight-flexbox-002.xht">autoheight-regions-in-autoheight-flexbox-002</a></td>
@@ -953,30 +850,6 @@
           </ul>
         </td>
       </tr>
-      <tr id="flexbox-writing-mode-007-3.1.#propdef-writing-mode" class="">
-        <td>
-            <a href="flexbox-writing-mode-007.xht">flexbox-writing-mode-007</a></td>
-        <td><a href="reference/flexbox-writing-mode-007-ref.xht">=</a> </td>
-        <td></td>
-        <td>Verify that explicit sizes are honored on flex items whose writing-mode may differ from the flex container's writing-mode
-        </td>
-      </tr>
-      <tr id="flexbox-writing-mode-008-3.1.#propdef-writing-mode" class="">
-        <td>
-            <a href="flexbox-writing-mode-008.xht">flexbox-writing-mode-008</a></td>
-        <td><a href="reference/flexbox-writing-mode-008-ref.xht">=</a> </td>
-        <td></td>
-        <td>Verify that explicit sizes are honored on flex items whose writing-mode may differ from the flex container's writing-mode
-        </td>
-      </tr>
-      <tr id="flexbox-writing-mode-009-3.1.#propdef-writing-mode" class="">
-        <td>
-            <a href="flexbox-writing-mode-009.xht">flexbox-writing-mode-009</a></td>
-        <td><a href="reference/flexbox-writing-mode-009-ref.xht">=</a> </td>
-        <td></td>
-        <td>Verify that explicit sizes are honored on flex items whose writing-mode may differ from the flex container's writing-mode
-        </td>
-      </tr>
       <tr id="writing-mode-vertical-lr-002-3.1.#propdef-writing-mode" class="primary ahem">
         <td><strong>
             <a href="writing-mode-vertical-lr-002.xht">writing-mode-vertical-lr-002</a></strong></td>
@@ -1015,18 +888,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s3.1.1">+</a>
         <a href="http://www.w3.org/TR/css-writing-modes-3/#svg-writing-mode">3.1.1 SVG1.1 writing-mode Values</a></th></tr>
-      <!-- 1 tests -->
-      <tr id="writing-mode-parsing-svg1-001-3.1.1" class="primary dom may svg script">
-        <td><strong>
-            <a href="writing-mode-parsing-svg1-001.xht">writing-mode-parsing-svg1-001</a></strong></td>
-        <td></td>
-        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="may" title="Behavior tested is preferred but optional">Optional</abbr><abbr class="svg" title="Requires SVG support">SVG</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
-        <td>CSS Writing Modes: parsing SVG 1.1 writing-mode values
-          <ul class="assert">
-            <li>This test asserts the parser and getComputedStyle works correctly for the SVG 1.1 writing-mode values.</li>
-          </ul>
-        </td>
-      </tr>
+      <!-- 0 tests -->
     </tbody>
     <tbody id="s3.1.1.#inline-progression-direction">
       <!-- 0 tests -->

@@ -4,7 +4,6 @@
   <title>CSS Test: Unicode-escaped Braces</title>
   <link rel="author" title="Gabriele Romanato" href="mailto:gabriele.romanato@gmail.com">
   <link rel="help" href="http://www.w3.org/TR/CSS21/syndata.html#characters">
-  <link rel="match" href="reference/ref-this-text-should-be-green.htm">
   <meta name="flags" content="invalid">
   <meta name="assert" content="Unicode escapes cannot substitute for '{' or '}' in CSS syntax.">
 <style type="text/css">
@@ -15,6 +14,6 @@ p \7B color: red \7D
 </style>
  </head>
  <body>
-<p>This text should be green.</p>
+<p>This text should be green, not red.</p>
  </body>
 </html>
