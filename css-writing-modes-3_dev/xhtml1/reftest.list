@@ -719,6 +719,9 @@ vertical-alignment-006.xht == reference/vertical-alignment-006-ref.xht
 vertical-alignment-007.xht == reference/vertical-alignment-006-ref.xht
 vertical-alignment-008.xht == reference/vertical-alignment-008-ref.xht
 vertical-alignment-009.xht == reference/vertical-alignment-008-ref.xht
+vertical-alignment-vlr-023.xht == reference/vertical-alignment-vrl-022-ref.xht
+vertical-alignment-vlr-025.xht == reference/vertical-alignment-vrl-022-ref.xht
+vertical-alignment-vlr-027.xht == reference/vertical-alignment-vrl-026-ref.xht
 vertical-alignment-vrl-022.xht == reference/vertical-alignment-vrl-022-ref.xht
 vertical-alignment-vrl-024.xht == reference/vertical-alignment-vrl-022-ref.xht
 vertical-alignment-vrl-026.xht == reference/vertical-alignment-vrl-026-ref.xht
