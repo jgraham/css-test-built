@@ -6,13 +6,10 @@
 <link href="http://www.w3.org/TR/2011/REC-CSS2-20110607/ui.html#dynamic-outlines" rel="help" title="18.4 Dynamic outlines: the 'outline' property" />
 <meta content="ahem" name="flags" />
 <style>
-div {
+.container {
   color:transparent;
   font:50px/1 Ahem;
-  width:2em;
   height:5em;
-}
-.vrl {
   writing-mode:vertical-rl;
 }
 .outline {
@@ -22,5 +19,15 @@ div {
 }
 </style>
 </head><body><p>Test passes if inside of blue rectangles are orange.
-</p><div class="vrl">12345<span class="outline">67</span></div>
+</p><div class="container">
+  <!--
+    Additional div to ensure that the origin of the containing block of the
+    outline span is different from the origin of the writing mode root.
+  -->
+  <div>1</div>
+  <div>12345<span class="outline">67</span></div>
+  <div>1</div>
+  <div>1</div>
+  <div>1</div>
+</div>
 </body></html>
