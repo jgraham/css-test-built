@@ -142,7 +142,7 @@
         <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
         <td>border-image-slice - border-style: none
           <ul class="assert">
-            <li>If 'border-style' is not declared, then it defaults to 'none' in which case the computed border-widths on all 4 sides is 0 in which case the border area to be painted with the border-image is also 0. So, we should see no red in this test.</li>
+            <li>If 'border-style' is not declared, then it defaults to 'none' in which case the computed border-widths on all 4 sides is 0 in which case the border area to be painted with the border-image is also 0 because the default border-image-width is 1 which means 1 time the computed border-width. So, we should see no red in this test.</li>
           </ul>
         </td>
       </tr>
