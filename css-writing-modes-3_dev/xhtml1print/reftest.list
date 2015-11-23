@@ -423,6 +423,9 @@ block-flow-direction-060.xht == reference/block-flow-direction-001-ref.xht
 block-flow-direction-061.xht == reference/block-flow-direction-002-ref.xht
 block-flow-direction-062.xht == reference/block-flow-direction-043-ref.xht
 block-flow-direction-063.xht == reference/block-flow-direction-043-ref.xht
+block-flow-direction-064.xht == reference/block-flow-direction-002-ref.xht
+block-flow-direction-065.xht == reference/block-flow-direction-025-ref.xht
+block-flow-direction-066.xht == reference/block-flow-direction-066-ref.xht
 block-override-001.xht == reference/block-override-001.xht
 block-override-002.xht == reference/block-override-002.xht
 block-override-003.xht == reference/block-override-003.xht
