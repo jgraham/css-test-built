@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Introduction to Vertical Text (113 tests)</h2>
+  <h2>Introduction to Vertical Text (116 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -40,7 +40,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s3.1">+</a>
         <a href="http://www.w3.org/TR/css-writing-modes-3/#writing-mode">3.1 Block Flow Direction: the writing-mode property</a></th></tr>
-      <!-- 98 tests -->
+      <!-- 101 tests -->
       <tr id="block-flow-direction-001-3.1" class="primary ahem">
         <td><strong>
             <a href="block-flow-direction-001.xht">block-flow-direction-001</a></strong></td>
@@ -624,6 +624,28 @@
           </ul>
         </td>
       </tr>
+      <tr id="form-controls-slr-004-3.1" class="primary image should">
+        <td><strong>
+            <a href="form-controls-slr-004.xht">form-controls-slr-004</a></strong></td>
+        <td></td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="should" title="Behavior tested is recommended but not required">Recommend</abbr></td>
+        <td>order, orientation and layout of form controls in 'sideways-lr' writing-mode
+          <ul class="assert">
+            <li>This test checks the order, the flow, the orientation and layout of form controls used in Example 4 of section 3.1 when the 'writing-mode' of the whole form element is set to 'sideways-lr'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="form-controls-srl-004-3.1" class="primary image should">
+        <td><strong>
+            <a href="form-controls-srl-004.xht">form-controls-srl-004</a></strong></td>
+        <td></td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="should" title="Behavior tested is recommended but not required">Recommend</abbr></td>
+        <td>order, orientation and layout of form controls in 'sideways-rl' writing-mode
+          <ul class="assert">
+            <li>This test checks the order, the flow, the orientation and layout of form controls used in Example 4 of section 3.1 when the 'writing-mode' of the whole form element is set to 'sideways-rl'.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="form-controls-vert-rl-004-3.1" class="primary image should">
         <td><strong>
             <a href="form-controls-vert-rl-004.xht">form-controls-vert-rl-004</a></strong></td>
@@ -643,6 +665,17 @@
         <td>form controls in 'vertical-rl' writing-mode
           <ul class="assert">
             <li>This test checks the rendering of various form controls (select, optgroup, options, various types of input and buttons) written with latin text in 'vertical-rl' writing mode. The text of replaced content should match the replaced element's writing mode and line orientation; therefore, in this test, a) the text's inline base direction must be from top to bottom, b) the glyphs must be rotated 90&amp;deg; clockwise and c) the block flow direction must be from right to left.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="form-controls-vlr-004-3.1" class="primary image should">
+        <td><strong>
+            <a href="form-controls-vlr-004.xht">form-controls-vlr-004</a></strong></td>
+        <td></td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="should" title="Behavior tested is recommended but not required">Recommend</abbr></td>
+        <td>order, orientation and layout of form controls in 'vertical-lr' writing-mode
+          <ul class="assert">
+            <li>This test checks the order, the flow, the orientation and layout of form controls used in Example 4 of section 3.1 when the 'writing-mode' of the whole form element is set to 'vertical-lr'.</li>
           </ul>
         </td>
       </tr>
