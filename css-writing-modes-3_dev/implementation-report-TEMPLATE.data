@@ -1099,6 +1099,8 @@ html/flexbox-writing-mode-008.htm	aaac3dcddfec40e5c67ae479e0df2184ddec82d2	?
 xhtml1/flexbox-writing-mode-008.xht	aaac3dcddfec40e5c67ae479e0df2184ddec82d2	?
 html/flexbox-writing-mode-009.htm	931b9d02203e63cacec94a45b450d721c5222706	?
 xhtml1/flexbox-writing-mode-009.xht	931b9d02203e63cacec94a45b450d721c5222706	?
+html/flexbox_align-items-stretch-writing-modes.htm	2b825f6a804c701e92943b1069599a7b60e4c228	?
+xhtml1/flexbox_align-items-stretch-writing-modes.xht	2b825f6a804c701e92943b1069599a7b60e4c228	?
 html/float-clear-vlr-003.htm	d1389b5656d54ac52dea06ede9e957b55e266bbe	?
 xhtml1/float-clear-vlr-003.xht	d1389b5656d54ac52dea06ede9e957b55e266bbe	?
 html/float-clear-vlr-005.htm	cbf4ba130a84fb2713529a38bcc215242fe657a8	?
@@ -1847,8 +1849,6 @@ html/writing-mode-parsing-sideways-rl-001.htm	182103682044156866012dcbd0c99a3ba7
 xhtml1/writing-mode-parsing-sideways-rl-001.xht	182103682044156866012dcbd0c99a3ba7f9d476	?
 html/writing-mode-parsing-svg1-001.htm	ce2637b4c3b5c62aa8fbfc18d7e8ab9ce4107a12	?
 xhtml1/writing-mode-parsing-svg1-001.xht	ce2637b4c3b5c62aa8fbfc18d7e8ab9ce4107a12	?
-html/writing-mode-stretch-001.htm	b39073243c9598d184c1f6efc298247a42f34aea	?
-xhtml1/writing-mode-stretch-001.xht	b39073243c9598d184c1f6efc298247a42f34aea	?
 html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	?
 xhtml1/writing-mode-vertical-lr-002.xht	2368493f74f4795b81bbe06bcdc4e41617b7a97f	?
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	?

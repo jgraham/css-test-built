@@ -518,6 +518,7 @@ extract-ordered-list-direction-and-writing-modes.htm == reference/extract-ordere
 flexbox-writing-mode-007.htm == reference/flexbox-writing-mode-007-ref.htm
 flexbox-writing-mode-008.htm == reference/flexbox-writing-mode-008-ref.htm
 flexbox-writing-mode-009.htm == reference/flexbox-writing-mode-009-ref.htm
+flexbox_align-items-stretch-writing-modes.htm == reference/flexbox_align-items-stretch-writing-modes-ref.htm
 float-clear-vlr-003.htm == reference/ref-filled-green-100px-square.htm
 float-clear-vlr-005.htm == reference/ref-filled-green-100px-square.htm
 float-clear-vlr-007.htm == reference/ref-filled-green-100px-square.htm
@@ -784,7 +785,6 @@ vertical-alignment-vrl-024.htm == reference/vertical-alignment-vrl-022-ref.htm
 vertical-alignment-vrl-026.htm == reference/vertical-alignment-vrl-026-ref.htm
 writing-mode-horizontal-001l.htm == reference/writing-mode-horizontal-001l-ref.htm
 writing-mode-horizontal-001r.htm == reference/writing-mode-horizontal-001r-ref.htm
-writing-mode-stretch-001.htm == reference/writing-mode-stretch-001-ref.htm
 writing-mode-vertical-lr-002.htm == reference/writing-mode-vertical-lr-002-ref.htm
 writing-mode-vertical-rl-001.htm == reference/writing-mode-vertical-rl-001-ref.htm
 writing-mode-vertical-rl-002.htm == reference/writing-mode-vertical-rl-002-ref.htm
