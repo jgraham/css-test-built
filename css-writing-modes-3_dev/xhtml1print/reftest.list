@@ -673,6 +673,10 @@ percent-padding-vlr-007.xht == reference/margin-vrl-002-ref.xht
 percent-padding-vrl-002.xht == reference/margin-vrl-002-ref.xht
 percent-padding-vrl-004.xht == reference/margin-vrl-002-ref.xht
 percent-padding-vrl-006.xht == reference/margin-vrl-002-ref.xht
+row-progression-slr-023.xht == reference/block-flow-direction-001-ref.xht
+row-progression-slr-029.xht == reference/block-flow-direction-001-ref.xht
+row-progression-srl-022.xht == reference/block-flow-direction-001-ref.xht
+row-progression-srl-028.xht == reference/block-flow-direction-001-ref.xht
 row-progression-vlr-003.xht == reference/block-flow-direction-001-ref.xht
 row-progression-vlr-005.xht == reference/block-flow-direction-001-ref.xht
 row-progression-vlr-007.xht == reference/block-flow-direction-001-ref.xht

@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Introduction to Vertical Text (137 tests)</h2>
+  <h2>Introduction to Vertical Text (143 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -40,7 +40,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s3.1">+</a>
         <a href="http://www.w3.org/TR/css-writing-modes-3/#writing-mode">3.1 Block Flow Direction: the writing-mode property</a></th></tr>
-      <!-- 122 tests -->
+      <!-- 128 tests -->
       <tr id="block-flow-direction-004-3.1" class="primary ahem">
         <td><strong>
             <a href="block-flow-direction-004.htm">block-flow-direction-004</a></strong></td>
@@ -1174,6 +1174,28 @@
           </ul>
         </td>
       </tr>
+      <tr id="page-flow-direction-slr-005-3.1" class="primary image paged">
+        <td><strong>
+            <a href="page-flow-direction-slr-005.htm">page-flow-direction-slr-005</a></strong></td>
+        <td></td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="paged" title="Only valid for paged media">Paged</abbr></td>
+        <td>'writing-mode: sideways-lr' - default page flow (progression) direction
+          <ul class="assert">
+            <li>This test checks that when 'writing-mode' is set on the root element, then it determines the default page flow (or progression) direction. In this test, the page flow (or progression) direction is left-to-right.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="page-flow-direction-srl-004-3.1" class="primary image paged">
+        <td><strong>
+            <a href="page-flow-direction-srl-004.htm">page-flow-direction-srl-004</a></strong></td>
+        <td></td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="paged" title="Only valid for paged media">Paged</abbr></td>
+        <td>'writing-mode: sideways-rl' - default page flow (progression) direction
+          <ul class="assert">
+            <li>This test checks that when 'writing-mode' is set on the root element, then it determines the default page flow (or progression) direction. In this test, the page flow (or progression) direction is right-to-left.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="replaced-content-image-002-3.1" class="primary should">
         <td><strong>
             <a href="replaced-content-image-002.htm">replaced-content-image-002</a></strong></td>
@@ -1193,6 +1215,50 @@
         <td>alternate text of image and vertical writing mode
           <ul class="assert">
             <li>This test checks that alternate text (latin) of image rotates 90&amp;deg; clockwise in vertical writing mode.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="row-progression-slr-023-3.1" class="primary ahem">
+        <td><strong>
+            <a href="row-progression-slr-023.htm">row-progression-slr-023</a></strong></td>
+        <td><a href="reference/block-flow-direction-001-ref.htm">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>sideways-lr - table rows progression
+          <ul class="assert">
+            <li>This test checks that rows of a table element with in a 'sideways-lr' writing mode are laid out one after the other, rightwardedly, with the first beginning at the leftmost side of the table box; table rows are ordered from left to right meaning that the 1st row is the leftmost one and then the 2nd row is juxtaposed to its right-hand side, the 3rd row is juxtaposed to the 2nd row on its right-hand side, etc... Table cells and table columns in a table with writing-mode set to 'sideways-lr' are ordered according to inline flow direction, which is from bottom to top.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="row-progression-slr-029-3.1" class="primary ahem">
+        <td><strong>
+            <a href="row-progression-slr-029.htm">row-progression-slr-029</a></strong></td>
+        <td><a href="reference/block-flow-direction-001-ref.htm">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>sideways-lr - table rows progression (thead, 2 tbodies, tfoot)
+          <ul class="assert">
+            <li>This test checks that rows of a table element with in a 'sideways-lr' writing mode are laid out one after the other, rightwardedly, with the first beginning at the leftmost side of the table box; table rows are ordered from left to right meaning that the 1st row is the leftmost one and then the 2nd row is juxtaposed to its right-hand side, the 3rd row is juxtaposed to the 2nd row on its right-hand side, etc... Table cells and table columns in a table with writing-mode set to 'sideways-lr' are ordered according to inline flow direction, which is from bottom to top.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="row-progression-srl-022-3.1" class="primary ahem">
+        <td><strong>
+            <a href="row-progression-srl-022.htm">row-progression-srl-022</a></strong></td>
+        <td><a href="reference/block-flow-direction-001-ref.htm">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>sideways-rl - table rows progression
+          <ul class="assert">
+            <li>This test checks that rows of a table element with in a 'sideways-rl' writing mode are laid out one after the other, leftwardedly, with the first beginning at the rightmost side of the table box; table rows are ordered from right to left meaning that the 1st row is the rightmost one and then the 2nd row is juxtaposed to its left-hand side, the 3rd row is juxtaposed to the 2nd row on its left-hand side, etc...</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="row-progression-srl-028-3.1" class="primary ahem">
+        <td><strong>
+            <a href="row-progression-srl-028.htm">row-progression-srl-028</a></strong></td>
+        <td><a href="reference/block-flow-direction-001-ref.htm">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>sideways-rl - table rows progression (thead, 2 tbodies, tfoot)
+          <ul class="assert">
+            <li>This test checks that rows of a table element with in a 'sideways-rl' writing mode are laid out one after the other, leftwardedly, with the first beginning at the rightmost side of the table box; table rows are ordered from right to left meaning that the 1st row is the rightmost one and then the 2nd row is juxtaposed to its left-hand side, the 3rd row is juxtaposed to the 2nd row on its left-hand side, etc...</li>
           </ul>
         </td>
       </tr>
@@ -1236,7 +1302,7 @@
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>vertical-lr - table rows progression (thead, 2 tbodies, tfoot)
           <ul class="assert">
-            <li>This test checks that rows of a table element with in a 'vertical-lr' writing mode are laid out one after the other, rightwardedly, with the first beginning at the leftmost side of the table box; table rows are ordered from left to right meaning that the 1st row is the leftmost one and then the 2nd row is juxtaposed to its right-hand side, the 3rd row is juxtaposed to the 2nd row on its right-hand side, etc...</li>
+            <li>This test checks that rows of a table element with in a 'vertical-lr' writing mode are laid out one after the other, rightwardedly, with the first beginning at the leftmost side of the table box; table rows are ordered from left to right meaning that the 1st row is the leftmost one and then the 2nd row is juxtaposed to its right-hand side, the 3rd row is juxtaposed to the 2nd row on its right-hand side, etc... Table cells in a table with writing-mode set to 'sideways-lr' are ordered according to inline flow direction, which is from bottom to top.</li>
           </ul>
         </td>
       </tr>

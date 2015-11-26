@@ -3,16 +3,7 @@
 
  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <title>CSS Writing Modes Test: 'writing-mode: vertical-rl' - default page flow (progression) direction</title>
-  <style type="text/css">
-    @page { font: italic 8pt sans-serif; color: gray;
-            margin: 7%;
-            counter-increment: page;
-            @top-left { content: "CSS Writing Modes Module Level 3 CR Test Suite"; }
-            @top-right { content: "Test page-flow-direction-002"; }
-            @bottom-right { content: counter(page); }
-          }
-</style>
+  <title>CSS Writing Modes Test: 'writing-mode: sideways-rl' - default page flow (progression) direction</title>
 
   <link rel="author" title="Gérard Talbot" href="http://www.gtalbot.org/BrowserBugsSection/css21testsuite/" />
   <link rel="help" href="http://www.w3.org/TR/css-writing-modes-3/#writing-mode" title="3.1 Block Flow Direction: the writing-mode property" />
@@ -23,13 +14,13 @@
   <style type="text/css" media="print"><![CDATA[
   html
     {
-      writing-mode: vertical-rl;
+      writing-mode: sideways-rl;
     }
 
   body, div
     {
       width: 100%;
-  /* width: 100% will force a page-break in vertical-rl writing-mode */
+  /* width: 100% will force a page-break in sideways-rl writing-mode */
     }
   ]]></style>
  </head>
