@@ -1,21 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>CSS Grid Layout Test: Minimun size of grid items</title>
+        <title>CSS Grid Layout Test: Minimum size of grid items</title>
   <style type="text/css">
     @page { font: italic 8pt sans-serif; color: gray;
             margin: 7%;
             counter-increment: page;
             @top-left { content: "CSS Grid Layout Module Level 1 CR Test Suite"; }
-            @top-right { content: "Test grid-minimun-size-grid-items-006"; }
+            @top-right { content: "Test grid-minimum-size-grid-items-004"; }
             @bottom-right { content: counter(page); }
           }
 </style>
         <link rel="author" title="Manuel Rego Casasnovas" href="mailto:rego@igalia.com" />
         <link rel="help" href="http://www.w3.org/TR/css-grid-1/#min-size-auto" title="4.4. Implied Minimum Size of Grid Items" />
         <link rel="match" href="reference/ref-filled-green-100px-square.xht" />
-        <meta name="flags" content="image" />
-        <meta name="assert" content="Checks that minimun size for grid items is the specified size, as the min-content size of the image corresponds to that." />
+        <meta name="assert" content="Checks that minimum size for grid items is the specified size regardless of the content size." />
         <style type="text/css"><![CDATA[
             #reference-overlapped-red {
                 position: absolute;
@@ -31,7 +30,14 @@
             }
 
             #test-grid-item-overlapping-green {
+                background-color: green;
                 width: 100px;
+                height: 100px;
+            }
+
+            #content-50x50 {
+                width: 50px;
+                height: 50px;
             }
         ]]></style>
     </head>
@@ -40,7 +46,9 @@
 
         <div id="reference-overlapped-red"></div>
         <div id="constrained-grid">
-            <img id="test-grid-item-overlapping-green" src="support/200x200-green.png" alt="Image download support must be enabled" />
+            <div id="test-grid-item-overlapping-green">
+                <div id="content-50x50"></div>
+            </div>
         </div>
 
     </body>

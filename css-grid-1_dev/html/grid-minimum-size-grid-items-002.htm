@@ -1,12 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
     <head>
-        <title>CSS Grid Layout Test: Minimun size of grid items</title>
+        <title>CSS Grid Layout Test: Minimum size of grid items</title>
         <link rel="author" title="Manuel Rego Casasnovas" href="mailto:rego@igalia.com">
         <link rel="help" href="http://www.w3.org/TR/css-grid-1/#min-size-auto" title="4.4. Implied Minimum Size of Grid Items">
         <link rel="match" href="reference/ref-filled-green-100px-square.htm">
-        <meta name="flags" content="image">
-        <meta name="assert" content="Checks that minimun size for grid items is the specified size, as the min-content size of the image corresponds to that.">
+        <meta name="assert" content="Checks that minimum size for grid items is the min-content size.">
         <style type="text/css">
             #reference-overlapped-red {
                 position: absolute;
@@ -22,7 +21,12 @@
             }
 
             #test-grid-item-overlapping-green {
+                background-color: green;
+            }
+
+            #content-100x100 {
                 width: 100px;
+                height: 100px;
             }
         </style>
     </head>
@@ -31,7 +35,9 @@
 
         <div id="reference-overlapped-red"></div>
         <div id="constrained-grid">
-            <img id="test-grid-item-overlapping-green" src="support/200x200-green.png" alt="Image download support must be enabled">
+            <div id="test-grid-item-overlapping-green">
+                <div id="content-100x100"></div>
+            </div>
         </div>
 
     </body>
