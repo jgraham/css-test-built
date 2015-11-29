@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Introduction to Vertical Text (143 tests)</h2>
+  <h2>Introduction to Vertical Text (147 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -40,7 +40,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s3.1">+</a>
         <a href="http://www.w3.org/TR/css-writing-modes-3/#writing-mode">3.1 Block Flow Direction: the writing-mode property</a></th></tr>
-      <!-- 128 tests -->
+      <!-- 132 tests -->
       <tr id="block-flow-direction-004-3.1" class="primary ahem">
         <td><strong>
             <a href="block-flow-direction-004.xht">block-flow-direction-004</a></strong></td>
@@ -1347,6 +1347,50 @@
         <td>vertical-rl - table rows progression (thead, 2 tbodies, tfoot)
           <ul class="assert">
             <li>This test checks that rows of a table element with in a 'vertical-rl' writing mode are laid out one after the other, leftwardedly, with the first beginning at the rightmost side of the table box; table rows are ordered from right to left meaning that the 1st row is the rightmost one and then the 2nd row is juxtaposed to its left-hand side, the 3rd row is juxtaposed to the 2nd row on its left-hand side, etc...</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="table-progression-slr-001-3.1" class="primary">
+        <td><strong>
+            <a href="table-progression-slr-001.xht">table-progression-slr-001</a></strong></td>
+        <td><a href="reference/table-progression-slr-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>sideways-lr Table Row/Rowgroup/Cell Ordering
+          <ul class="assert">
+            <li>This test checks that sideways-lr tables order rows/rowgroups left to right and cells bottom-to-top (LTR) or top-to-bottom (RTL) per 'direction'. This test also checks that 'writing-mode' and 'direction' do not apply to table rows and row groups.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="table-progression-slr-002-3.1" class="primary">
+        <td><strong>
+            <a href="table-progression-slr-002.xht">table-progression-slr-002</a></strong></td>
+        <td><a href="reference/table-progression-002-ref.xht">=</a> </td>
+        <td></td>
+        <td>sideways-lr Table Column/Colgroup Ordering
+          <ul class="assert">
+            <li>This test checks that sideways-lr tables order columns bottom-to-top (LTR) or top-to-bottom (RTL) per the table's 'direction'. This test also checks that 'writing-mode' and 'direction' do not apply to table columns and column groups.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="table-progression-srl-001-3.1" class="primary">
+        <td><strong>
+            <a href="table-progression-srl-001.xht">table-progression-srl-001</a></strong></td>
+        <td><a href="reference/table-progression-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>sideways-rl Table Row/Rowgroup/Cell Ordering
+          <ul class="assert">
+            <li>This test checks that sideways-rl tables order rows/rowgroups right to left and cells top-to-bottom (LTR) or bottom-to-top (RTL) per 'direction'. This test also checks that 'writing-mode' and 'direction' do not apply to table rows and row groups.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="table-progression-srl-002-3.1" class="primary">
+        <td><strong>
+            <a href="table-progression-srl-002.xht">table-progression-srl-002</a></strong></td>
+        <td><a href="reference/table-progression-002-ref.xht">=</a> </td>
+        <td></td>
+        <td>sideways-rl Table Column/Colgroup Ordering
+          <ul class="assert">
+            <li>This test checks that sideways-rl tables order columns top-to-bottom (LTR) or bottom-to-top (RTL) per the table's 'direction'. This test also checks that 'writing-mode' and 'direction' do not apply to table columns and column groups.</li>
           </ul>
         </td>
       </tr>

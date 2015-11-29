@@ -689,6 +689,10 @@ table-column-order-002.xht == reference/block-flow-direction-001-ref.xht
 table-column-order-003.xht == reference/block-flow-direction-001-ref.xht
 table-column-order-004.xht == reference/block-flow-direction-001-ref.xht
 table-column-order-005.xht == reference/block-flow-direction-001-ref.xht
+table-progression-slr-001.xht == reference/table-progression-slr-001-ref.xht
+table-progression-slr-002.xht == reference/table-progression-002-ref.xht
+table-progression-srl-001.xht == reference/table-progression-001-ref.xht
+table-progression-srl-002.xht == reference/table-progression-002-ref.xht
 table-progression-vlr-001.xht == reference/table-progression-001-ref.xht
 table-progression-vlr-002.xht == reference/table-progression-002-ref.xht
 table-progression-vlr-003.xht == reference/table-progression-001-ref.xht
