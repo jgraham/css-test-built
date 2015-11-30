@@ -5,10 +5,10 @@
 testname	revision	result	comment
 html/computed-style-001.htm	923388f4dc84c4167d4c74b769957e559c061c8f	?
 xhtml1/computed-style-001.xht	923388f4dc84c4167d4c74b769957e559c061c8f	?
-html/css-style-declaration-modifications.htm	19938d46bb35487e2135073afe761f8dd772184d	?
-xhtml1/css-style-declaration-modifications.xht	19938d46bb35487e2135073afe761f8dd772184d	?
-html/cssimportrule.htm	9e027f3ad71718518e73bc43749fe1607c66be9b	?
-xhtml1/cssimportrule.xht	9e027f3ad71718518e73bc43749fe1607c66be9b	?
+html/css-style-declaration-modifications.htm	05a30b7434280c3e8a17544c5d3a36ca030ba72c	?
+xhtml1/css-style-declaration-modifications.xht	05a30b7434280c3e8a17544c5d3a36ca030ba72c	?
+html/cssimportrule.htm	56ff530a31909ec9e5d0167d1f9c675fcdcc43ac	?
+xhtml1/cssimportrule.xht	56ff530a31909ec9e5d0167d1f9c675fcdcc43ac	?
 html/cssom-cssstyledeclaration-set.htm	b63533ef337d08541ec0fb5b70b618931b9809b0	?
 xhtml1/cssom-cssstyledeclaration-set.xht	b63533ef337d08541ec0fb5b70b618931b9809b0	?
 html/cssom-csstext-serialize.htm	3e14e2c10025c3e4e66daa88ea819dc46bd8b529	?
