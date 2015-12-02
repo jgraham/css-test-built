@@ -30,13 +30,17 @@
                 font: 25px/1 Ahem;
                 color: green;
             }
+
+            .two-columns {
+                grid-template-columns: auto auto;
+            }
         ]]></style>
     </head>
     <body>
         <p>Test passes if there is a filled green square and <strong>no red</strong>.</p>
 
         <div id="reference-overlapped-red"></div>
-        <div class="test-inline-grid-overlapping-green">
+        <div class="test-inline-grid-overlapping-green two-columns">
             <div>
                 <div>it</div>
                 em
@@ -45,18 +49,14 @@
                 it
                 <div>em</div>
             </div>
-        </div><div class="test-inline-grid-overlapping-green">
+        </div>
+        <br />
+        <div class="test-inline-grid-overlapping-green">
             <span>
-                <span>i</span>t
+                <span>it</span>em
             </span>
             <span>
-                e<span>m</span>
-            </span>
-            <span>
-                <span>i</span>t
-            </span>
-            <span>
-                e<span>m</span>
+                it<span>em</span>
             </span>
         </div>
 

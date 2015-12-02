@@ -319,8 +319,8 @@ html/flexbox-align-self-horiz-001-table.htm	183f460c2e72e0bcf57e9fc6ce6e2225f911
 xhtml1/flexbox-align-self-horiz-001-table.xht	183f460c2e72e0bcf57e9fc6ce6e2225f9115212	?
 html/flexbox-align-self-horiz-002.htm	8ab4c5c5d3600422c2560908ea8c809511fd8456	?
 xhtml1/flexbox-align-self-horiz-002.xht	8ab4c5c5d3600422c2560908ea8c809511fd8456	?
-html/flexbox-align-self-horiz-003.htm	a196c3b0ed8ef58efbfab036557be25c118a6007	?
-xhtml1/flexbox-align-self-horiz-003.xht	a196c3b0ed8ef58efbfab036557be25c118a6007	?
+html/flexbox-align-self-horiz-003.htm	8c82a3d90a6879d3371ca75d8c7d2ae768ee274c	?
+xhtml1/flexbox-align-self-horiz-003.xht	8c82a3d90a6879d3371ca75d8c7d2ae768ee274c	?
 html/flexbox-align-self-horiz-004.htm	10a87f5352d8eb2c448129d27aa505f3148d4534	?
 xhtml1/flexbox-align-self-horiz-004.xht	10a87f5352d8eb2c448129d27aa505f3148d4534	?
 html/flexbox-align-self-horiz-005.htm	47ddfa8eb08586be92297f63fb61d0b9e8899e29	?
@@ -641,8 +641,6 @@ html/flexbox_align-items-flexstart.htm	52d6da57f7ff9816636b9a891751d9d56ea4c7a3	
 xhtml1/flexbox_align-items-flexstart.xht	52d6da57f7ff9816636b9a891751d9d56ea4c7a3	?
 html/flexbox_align-items-stretch-2.htm	4f1bb3f618f016061fa5b5c060e41f8227aa4023	?
 xhtml1/flexbox_align-items-stretch-2.xht	4f1bb3f618f016061fa5b5c060e41f8227aa4023	?
-html/flexbox_align-items-stretch-writing-modes.htm	d1bb1a411a86d0232f96b7776b01c086456c3617	?
-xhtml1/flexbox_align-items-stretch-writing-modes.xht	d1bb1a411a86d0232f96b7776b01c086456c3617	?
 html/flexbox_align-items-stretch.htm	40c44ec47c70bcf3a27a7db3007ce3a9871232ec	?
 xhtml1/flexbox_align-items-stretch.xht	40c44ec47c70bcf3a27a7db3007ce3a9871232ec	?
 html/flexbox_align-self-auto.htm	83c1338cd3a0715339d2e75a08967fdfd5785ea6	?
