@@ -720,11 +720,7 @@ text-align-vrl-014.xht == reference/direction-vrl-002-ref.xht
 text-align-vrl-016.xht == reference/direction-vrl-002-ref.xht
 text-align-vrl-018.xht == reference/direction-vrl-002-ref.xht
 text-baseline-slr-009.xht == reference/text-baseline-slr-009-ref.xht
-text-baseline-slr-011.xht == reference/text-baseline-slr-009-ref.xht
-text-baseline-slr-013.xht == reference/text-baseline-slr-009-ref.xht
 text-baseline-srl-008.xht == reference/text-baseline-vrl-006-ref.xht
-text-baseline-srl-010.xht == reference/text-baseline-vrl-006-ref.xht
-text-baseline-srl-012.xht == reference/text-baseline-vrl-006-ref.xht
 text-baseline-vlr-003.xht == reference/text-baseline-vrl-002-ref.xht
 text-baseline-vlr-005.xht == reference/text-baseline-vrl-002-ref.xht
 text-baseline-vlr-007.xht == reference/text-baseline-vrl-006-ref.xht
