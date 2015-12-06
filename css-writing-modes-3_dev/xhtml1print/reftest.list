@@ -579,6 +579,8 @@ inline-block-alignment-orthogonal-vlr-003.xht == reference/inline-block-alignmen
 inline-block-alignment-orthogonal-vlr-005.xht == reference/inline-block-alignment-orthogonal-vrl-002-ref.xht
 inline-block-alignment-orthogonal-vrl-002.xht == reference/inline-block-alignment-orthogonal-vrl-002-ref.xht
 inline-block-alignment-orthogonal-vrl-004.xht == reference/inline-block-alignment-orthogonal-vrl-002-ref.xht
+inline-block-alignment-slr-009.xht == reference/inline-block-alignment-slr-009-ref.xht
+inline-block-alignment-srl-008.xht == reference/inline-block-alignment-006-ref.xht
 inline-replaced-vlr-003.xht == reference/inline-replaced-vrl-002-ref.xht
 inline-replaced-vlr-005.xht == reference/inline-replaced-vrl-004-ref.xht
 inline-replaced-vrl-002.xht == reference/inline-replaced-vrl-002-ref.xht
