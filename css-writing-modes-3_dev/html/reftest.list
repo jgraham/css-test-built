@@ -691,6 +691,8 @@ table-column-order-002.htm == reference/block-flow-direction-001-ref.htm
 table-column-order-003.htm == reference/block-flow-direction-001-ref.htm
 table-column-order-004.htm == reference/block-flow-direction-001-ref.htm
 table-column-order-005.htm == reference/block-flow-direction-001-ref.htm
+table-column-order-slr-007.htm == reference/block-flow-direction-001-ref.htm
+table-column-order-srl-006.htm == reference/block-flow-direction-001-ref.htm
 table-progression-slr-001.htm == reference/table-progression-slr-001-ref.htm
 table-progression-slr-002.htm == reference/table-progression-002-ref.htm
 table-progression-srl-001.htm == reference/table-progression-001-ref.htm
