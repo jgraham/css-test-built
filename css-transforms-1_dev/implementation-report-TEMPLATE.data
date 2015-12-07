@@ -97,10 +97,10 @@ html/perspective-origin-xy.htm	28e8b6088ef1d05ab83bcd0b76d83db9f2a6542e	?
 xhtml1/perspective-origin-xy.xht	28e8b6088ef1d05ab83bcd0b76d83db9f2a6542e	?
 html/perspective-translatez-0.htm	d0003a38d7a9db5be25088682100d0a246b7fed4	?
 xhtml1/perspective-translatez-0.xht	d0003a38d7a9db5be25088682100d0a246b7fed4	?
-html/perspective-translatez-negative.htm	4247257f27c177efd03ccd8d0b0d743d0cd88f92	?
-xhtml1/perspective-translatez-negative.xht	4247257f27c177efd03ccd8d0b0d743d0cd88f92	?
-html/perspective-translatez-positive.htm	882e012be02ab42a15e56763d604eb9b29f79685	?
-xhtml1/perspective-translatez-positive.xht	882e012be02ab42a15e56763d604eb9b29f79685	?
+html/perspective-translatez-negative.htm	b80c8365c7840bfff2c825df40dcb115de423707	?
+xhtml1/perspective-translatez-negative.xht	b80c8365c7840bfff2c825df40dcb115de423707	?
+html/perspective-translatez-positive.htm	feef6b50a0d0b924b47d0a93f98bfa30b9e21721	?
+xhtml1/perspective-translatez-positive.xht	feef6b50a0d0b924b47d0a93f98bfa30b9e21721	?
 html/regions-transforms-001.htm	2a4b13b4c224164415af6fc43efef99a4b10216e	?
 xhtml1/regions-transforms-001.xht	2a4b13b4c224164415af6fc43efef99a4b10216e	?
 html/regions-transforms-002.htm	b16b50581951c71a3be5ec0c9b1061947dffd0be	?
@@ -1771,8 +1771,8 @@ html/transform-origin-008.htm	93aa81d8d634718923c434433ff68d0d3c8970e1	?
 xhtml1/transform-origin-008.xht	93aa81d8d634718923c434433ff68d0d3c8970e1	?
 html/transform-origin-009.htm	3b718f344483916201a66cbe6221c381159f53f7	?
 xhtml1/transform-origin-009.xht	3b718f344483916201a66cbe6221c381159f53f7	?
-html/transform-origin-01.htm	ef1ced09d9b9d8c4be4ff2ab5e7dd7d180ae65de	?
-xhtml1/transform-origin-01.xht	ef1ced09d9b9d8c4be4ff2ab5e7dd7d180ae65de	?
+html/transform-origin-01.htm	dd392fb93d7f77eb3e7812f3292d6a816b6e646a	?
+xhtml1/transform-origin-01.xht	dd392fb93d7f77eb3e7812f3292d6a816b6e646a	?
 html/transform-origin-010.htm	b2442da33df650e1135410a58df6396c779179c2	?
 xhtml1/transform-origin-010.xht	b2442da33df650e1135410a58df6396c779179c2	?
 html/transform-origin-011.htm	7b06dd1372944da05357015436d23b8d639c35bf	?
