@@ -18,15 +18,11 @@ var TestingUtils = (function() {
         }, "'" + gridId + "' with: grid-template-columns: " + columnsStyle  + "; and grid-template-rows: " + rowsStyle + ";");
     }
 
-    function checkGridTemplateAreas(element, value) {
-        assert_in_array(getComputedStyle(element).gridTemplateAreas, value, "gridTemplateAreas");
-    }
-
     function testGridTemplateAreas(gridId, style, value) {
         test(function() {
             var grid = document.getElementById(gridId);
             grid.style.gridTemplateAreas = style;
-            checkGridTemplateAreas(grid, value);
+            assert_equals(getComputedStyle(grid).gridTemplateAreas, value, "gridTemplateAreas");
         }, "'" + gridId + "' with: grid-template-areas: " + style + ";");
     }
 
