@@ -3597,7 +3597,7 @@ font-style-applies-to-017.htm == reference/font-style-applies-to-001-ref.htm
 font-variant-001.htm == reference/font-variant-001-ref.htm
 font-variant-applies-to-001.htm == reference/pass_if_filler_text_match_smallcaps.htm != reference/pass_if_filler_text_match.htm
 font-variant-applies-to-002.htm == reference/pass_if_filler_text_match_smallcaps.htm != reference/pass_if_filler_text_match.htm
-font-variant-applies-to-004.htm == reference/pass_if_filler_text_match_smallcaps.htm
+font-variant-applies-to-004.htm == reference/pass_if_filler_text_match_smallcaps.htm != reference/pass_if_filler_text_match.htm
 font-variant-applies-to-005.htm == reference/pass_if_filler_text_match_smallcaps.htm != reference/pass_if_filler_text_match.htm
 font-variant-applies-to-006.htm == reference/pass_if_filler_text_match_smallcaps.htm != reference/pass_if_filler_text_match.htm
 font-variant-applies-to-007.htm == reference/pass_if_filler_text_match_smallcaps.htm != reference/pass_if_filler_text_match.htm
