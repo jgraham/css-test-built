@@ -426,6 +426,7 @@ block-flow-direction-vrl-019.xht == reference/block-flow-direction-001-ref.xht
 block-flow-direction-vrl-021.xht == reference/block-flow-direction-002-ref.xht
 block-flow-direction-vrl-024.xht == reference/block-flow-direction-002-ref.xht
 block-flow-direction-vrl-025.xht == reference/block-flow-direction-025-ref.xht
+block-flow-direction-vrl-026.xht == reference/block-flow-direction-vrl-026-ref.xht
 block-override-001.xht == reference/block-override-001.xht
 block-override-002.xht == reference/block-override-002.xht
 block-override-003.xht == reference/block-override-003.xht
