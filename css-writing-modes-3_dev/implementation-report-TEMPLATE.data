@@ -1727,6 +1727,10 @@ html/text-orientation-014.htm	e7b729c9708ff9b96a036be54c09cdb9685fa3f1	?
 xhtml1/text-orientation-014.xht	e7b729c9708ff9b96a036be54c09cdb9685fa3f1	?
 html/text-orientation-mixed-001.htm	aa6d2c81a00d0395b3461c65648cb56a7267cf06	?
 xhtml1/text-orientation-mixed-001.xht	aa6d2c81a00d0395b3461c65648cb56a7267cf06	?
+html/text-orientation-mixed-slr-015.htm	75f3c49fafbca34c74b1efe1e9cdf606bb63e581	?
+xhtml1/text-orientation-mixed-slr-015.xht	75f3c49fafbca34c74b1efe1e9cdf606bb63e581	?
+html/text-orientation-mixed-srl-016.htm	6a965d8fb3411f9e3f9276cdda149a8941d0b101	?
+xhtml1/text-orientation-mixed-srl-016.xht	6a965d8fb3411f9e3f9276cdda149a8941d0b101	?
 html/text-orientation-parsing-001.htm	1de93e81798548a8c094751021c6bfd09d204700	?
 xhtml1/text-orientation-parsing-001.xht	1de93e81798548a8c094751021c6bfd09d204700	?
 html/text-orientation-parsing-sideways-right-001.htm	467f926e5646149f727d9115633a469321712cca	?
@@ -1765,8 +1769,14 @@ html/text-orientation-script-001o.htm	1a717f6bfd17124696e2e012a26ae1ce94ecbf57	?
 xhtml1/text-orientation-script-001o.xht	1a717f6bfd17124696e2e012a26ae1ce94ecbf57	?
 html/text-orientation-sideways-001.htm	d1d9b931c735b904d2b2d42012c8b03359ca33a8	?
 xhtml1/text-orientation-sideways-001.xht	d1d9b931c735b904d2b2d42012c8b03359ca33a8	?
+html/text-orientation-sideways-slr-019.htm	4e0a10ed2a2d0c9511f8f0291f0303275d1f5916	?
+xhtml1/text-orientation-sideways-slr-019.xht	4e0a10ed2a2d0c9511f8f0291f0303275d1f5916	?
 html/text-orientation-upright-001.htm	1d7c80ad3f6eb357a1dd9ef0261dba63dcf971a1	?
 xhtml1/text-orientation-upright-001.xht	1d7c80ad3f6eb357a1dd9ef0261dba63dcf971a1	?
+html/text-orientation-upright-slr-017.htm	cbf6301c1c97a93a318954e46c5ae8010231ac7c	?
+xhtml1/text-orientation-upright-slr-017.xht	cbf6301c1c97a93a318954e46c5ae8010231ac7c	?
+html/text-orientation-upright-srl-018.htm	0b1b44dae6f78659495ca27f311a04db5c4eae75	?
+xhtml1/text-orientation-upright-srl-018.xht	0b1b44dae6f78659495ca27f311a04db5c4eae75	?
 html/underline-font-size-vlr-003.htm	2ed0dce303004a098525b1c0aa2008df639643ea	?
 xhtml1/underline-font-size-vlr-003.xht	2ed0dce303004a098525b1c0aa2008df639643ea	?
 html/underline-font-size-vlr-005.htm	8218f172828fc358d5814147c09eac80646d5167	?
