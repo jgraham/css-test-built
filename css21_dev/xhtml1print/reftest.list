@@ -5690,6 +5690,7 @@ specificity-007.xht == reference/filler-text-below-green.xht
 specificity-008.xht == reference/filler-text-below-green.xht
 specificity-011.xht == reference/specificity-011-ref.xht
 specificity-013.xht == reference/specificity-013-ref.xht
+square-brackets-001.xht == reference/ref-this-text-should-be-green.xht
 stack-floats-001.xht == reference/stack-floats-001-ref.xht
 stack-floats-002.xht == reference/stack-floats-001-ref.xht
 stack-floats-003.xht == reference/stack-floats-001-ref.xht
