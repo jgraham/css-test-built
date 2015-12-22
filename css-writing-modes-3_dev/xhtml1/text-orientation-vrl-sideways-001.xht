@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8" />
+<title>CSS Writing Modes Test: writing-mode: vertical-rl; text-orientation: sideways.</title>
+<link href="reference/text-orientation-vrl-sideways-001.xht" rel="match" />
+<link href="http://www.w3.org/TR/css-writing-modes-3/#text-orientation" rel="help" />
+<meta content="font" name="flags" />
+<link href="mailto:kojiishi@gmail.com" rel="author" title="Koji Ishii" />
+<style>
+@font-face {
+    font-family: "orientation";
+    src: url("support/adobe-fonts/CSSHWOrientationTest.otf");
+}
+html {
+    writing-mode: vertical-rl;
+}
+.test {
+    font: 20px/1 "orientation";
+    height: 17em;
+    text-orientation: sideways;
+}
+.line {
+    white-space: pre;
+}
+</style>
+</head><body><div id="container">
+<div>U+21 - U+7E
+<div class="test">
+<div class="line">!"#$%&amp;'()*+,-./0123456789:;&amp;lt;=&amp;gt;?@</div>
+<div class="line">ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`</div>
+<div class="line">abcdefghijklmnopqrstuvwxyz{|}~</div>
+</div></div>
+<div>U+3000 - U+30FF
+<div class="test">
+<div class="line">&#x3000;、。〃〄々〆〇〈〉《》「」『』【】〒〓〔〕〖〗〘〙〚〛〜〝〞〟</div>
+<div class="line">〠〡〢〣〤〥〦〧〨〩〰〱〲〳〴〵〶〷〸〹〺〻〼〽〾〿ぁあぃいぅう</div>
+<div class="line">ぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづて</div>
+<div class="line">でとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆ</div>
+<div class="line">ょよらりるれろゎわゐゑをんゔゕゖ゛゜ゝゞゟ゠ァアィイゥウェエォオ</div>
+<div class="line">カガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナ</div>
+<div class="line">ニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリ</div>
+<div class="line">ルレロヮワヰヱヲンヴヵヶヷヸヹヺ・ーヽヾヿ</div>
+</div></div>
+<div>U+4E00 - U+4E0F
+<div class="test">
+<div class="line">一丁丂七丄丅丆万丈三上下丌不与丏</div>
+</div></div>
+<div>U+FF01 - U+FF60
+<div class="test">
+<div class="line">！＂＃＄％＆＇（）＊＋，－．／０１２３４５６７８９：；＜＝＞？＠</div>
+<div class="line">ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ［＼］＾＿｀</div>
+<div class="line">ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ｛｜｝～｟｠</div>
+</div></div>
+</div>
+</body></html>

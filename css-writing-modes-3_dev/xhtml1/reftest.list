@@ -770,7 +770,12 @@ text-orientation-014.xht == reference/text-orientation-014-ref.xht
 text-orientation-016.xht == reference/text-orientation-016-ref.xht
 text-orientation-mixed-srl-016.xht == reference/text-orientation-mixed-srl-016-ref.xht
 text-orientation-upright-srl-018.xht == reference/text-orientation-mixed-srl-016-ref.xht
+text-orientation-vlr-mixed-001.xht == reference/text-orientation-vlr-mixed-001.xht
+text-orientation-vlr-sideways-001.xht == reference/text-orientation-vlr-sideways-001.xht
+text-orientation-vlr-upright-001.xht == reference/text-orientation-vlr-upright-001.xht
 text-orientation-vrl-mixed-001.xht == reference/text-orientation-vrl-mixed-001.xht
+text-orientation-vrl-sideways-001.xht == reference/text-orientation-vrl-sideways-001.xht
+text-orientation-vrl-upright-001.xht == reference/text-orientation-vrl-upright-001.xht
 unicode-bidi-001.xht == reference/direction-002-ref.xht
 unicode-bidi-002.xht == reference/unicode-bidi-002-ref.xht
 unicode-bidi-003.xht == reference/direction-002-ref.xht
