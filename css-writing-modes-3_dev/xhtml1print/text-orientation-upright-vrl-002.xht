@@ -12,9 +12,10 @@
           }
 </style>
 		<link rel="author" title="Kazuaki Takemura" href="mailto:takemura@networksoft.co.jp"/>
-		<link rel="help" title="5.1.  Orienting Text" href="http://www.w3.org/TR/css-writing-modes-3/#text-orientation"/>
-		<meta name="flags" content="font image"/>
-		<meta name="assert" content="This test checks that the alphabet is displayed on the upright (not sideways),and it is verified whether the characters are aligned in the vertical direction including vertical writing characters(Japanese, Mongolian, Hangul, etc)."/>
+		<link rel="reviewer" title="Gérard Talbot" href="http://www.gtalbot.org/BrowserBugsSection/css21testsuite/"/> <!-- 2015-12-23 -->
+		<link rel="help" title="5.1. Orienting Text" href="http://www.w3.org/TR/css-writing-modes-3/#text-orientation"/>
+		<meta name="flags" content="image"/>
+		<meta name="assert" content="This test checks that latin alphabet characters are translated upright (and not rotated sideways) and this test also verifies that the characters from vertical scripts (Japanese, Mongolian, Hangul, etc) are also translated upright."/>
 		<style type="text/css"><![CDATA[
 			@font-face
 			{
@@ -27,7 +28,6 @@
 			}
 
 			div {
-				border: 1px solid gray;
 				float: left;
 				color: blue;
 				font-family: "mplus-1p-regular";
@@ -40,6 +40,7 @@
 
 			div#vertical
 			{
+				border: 1px solid gray;
 				writing-mode: 				vertical-rl;
 				text-orientation:   		upright;
 			}
@@ -50,9 +51,8 @@
 	</head>
 	<body>
 
-	<p>Test passes if both "Text sample" rectangles
-		have the <strong>same order</strong>, the <strong>same orientation</strong> and the <strong>same layout</strong>:
-		"Text sample" should be displayed on the upright.</p>
+	<p>Test passes if characters in both "Text sample" rectangles have the <strong>same order</strong>, the <strong>same orientation</strong> and the <strong>same layout</strong>: both "Text sample" should be translated upright.</p>
+		<p>Note that a different inter-character spacing is considered as PASS.</p>
 
 	<div id="vertical">Ｔext sample</div>
 
@@ -62,7 +62,7 @@
 	http://lists.w3.org/Archives/Public/public-css-testsuite/2015Dec/0008.html
 	-->
 
-	<div><img src="./support/text-orientation-upright-001.png" width="42" height="349" alt="Image download support must be enabled"/></div>
+	<div><img src="support/text-orientation-upright-vrl-002.png" width="44" height="464" alt="Image download support must be enabled"/></div>
 
 	</body>
 </html>
