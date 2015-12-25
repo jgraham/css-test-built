@@ -144,6 +144,17 @@
           </ul>
         </td>
       </tr>
+      <tr id="text-orientation-mixed-001-5.1" class="primary image">
+        <td><strong>
+            <a href="text-orientation-mixed-001.xht">text-orientation-mixed-001</a></strong></td>
+        <td></td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>text-orientation - mixed in vertical-rl writing mode
+          <ul class="assert">
+            <li>This test checks that when 'text-orientation' is set to 'mixed', then latin alphabet characters are displayed sideways (rotated 90 degrees clockwise) and characters from vertical scripts (Japanese, Mongolian, Hangul, etc) are displayed according to their intrinsic orientation property (Vertical Orientation Property as given by UTR50). In this test, the 'FULLWIDTH LATIN CAPITAL LETTER T' must be typeset upright.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="text-orientation-mixed-slr-015-5.1" class="primary image">
         <td><strong>
             <a href="text-orientation-mixed-slr-015.xht">text-orientation-mixed-slr-015</a></strong></td>
@@ -166,29 +177,18 @@
           </ul>
         </td>
       </tr>
-      <tr id="text-orientation-mixed-vlr-100-5.1" class="primary font">
+      <tr id="text-orientation-mixed-vlr-001-5.1" class="primary font">
         <td><strong>
-            <a href="text-orientation-mixed-vlr-100.xht">text-orientation-mixed-vlr-100</a></strong></td>
-        <td><a href="reference/text-orientation-mixed-vlr-100-ref.xht">=</a> </td>
+            <a href="text-orientation-mixed-vlr-001.xht">text-orientation-mixed-vlr-001</a></strong></td>
+        <td><a href="reference/text-orientation-mixed-vlr-001-ref.xht">=</a> </td>
         <td><abbr class="font" title="Requires a special font">Font</abbr></td>
         <td>writing-mode: vertical-lr; text-orientation: mixed.
         </td>
       </tr>
-      <tr id="text-orientation-mixed-vrl-002-5.1" class="primary image">
+      <tr id="text-orientation-mixed-vrl-001-5.1" class="primary font">
         <td><strong>
-            <a href="text-orientation-mixed-vrl-002.xht">text-orientation-mixed-vrl-002</a></strong></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>text-orientation - mixed in vertical-rl writing mode
-          <ul class="assert">
-            <li>This test checks that when 'text-orientation' is set to 'mixed', then latin alphabet characters are displayed sideways (rotated 90 degrees clockwise) and characters from vertical scripts (Japanese, Mongolian, Hangul, etc) are displayed according to their intrinsic orientation property (Vertical Orientation Property as given by UTR50). In this test, the 'FULLWIDTH LATIN CAPITAL LETTER T' must be typeset upright.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="text-orientation-mixed-vrl-100-5.1" class="primary font">
-        <td><strong>
-            <a href="text-orientation-mixed-vrl-100.xht">text-orientation-mixed-vrl-100</a></strong></td>
-        <td><a href="reference/text-orientation-mixed-vrl-100-ref.xht">=</a> </td>
+            <a href="text-orientation-mixed-vrl-001.xht">text-orientation-mixed-vrl-001</a></strong></td>
+        <td><a href="reference/text-orientation-mixed-vrl-001-ref.xht">=</a> </td>
         <td><abbr class="font" title="Requires a special font">Font</abbr></td>
         <td>writing-mode: vertical-rl; text-orientation: mixed.
         </td>
@@ -413,20 +413,31 @@
           </ul>
         </td>
       </tr>
-      <tr id="text-orientation-sideways-vlr-100-5.1" class="primary font">
+      <tr id="text-orientation-sideways-vlr-001-5.1" class="primary font">
         <td><strong>
-            <a href="text-orientation-sideways-vlr-100.xht">text-orientation-sideways-vlr-100</a></strong></td>
-        <td><a href="reference/text-orientation-sideways-vlr-100-ref.xht">=</a> </td>
+            <a href="text-orientation-sideways-vlr-001.xht">text-orientation-sideways-vlr-001</a></strong></td>
+        <td><a href="reference/text-orientation-sideways-vlr-001-ref.xht">=</a> </td>
         <td><abbr class="font" title="Requires a special font">Font</abbr></td>
         <td>writing-mode: vertical-lr; text-orientation: sideways.
         </td>
       </tr>
-      <tr id="text-orientation-sideways-vrl-100-5.1" class="primary font">
+      <tr id="text-orientation-sideways-vrl-001-5.1" class="primary font">
         <td><strong>
-            <a href="text-orientation-sideways-vrl-100.xht">text-orientation-sideways-vrl-100</a></strong></td>
-        <td><a href="reference/text-orientation-sideways-vrl-100-ref.xht">=</a> </td>
+            <a href="text-orientation-sideways-vrl-001.xht">text-orientation-sideways-vrl-001</a></strong></td>
+        <td><a href="reference/text-orientation-sideways-vrl-001-ref.xht">=</a> </td>
         <td><abbr class="font" title="Requires a special font">Font</abbr></td>
         <td>writing-mode: vertical-rl; text-orientation: sideways.
+        </td>
+      </tr>
+      <tr id="text-orientation-upright-001-5.1" class="primary font image">
+        <td><strong>
+            <a href="text-orientation-upright-001.xht">text-orientation-upright-001</a></strong></td>
+        <td></td>
+        <td><abbr class="font" title="Requires a special font">Font</abbr><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>text-orientation - upright in vertical-rl writing mode
+          <ul class="assert">
+            <li>This test checks that the alphabet is displayed on the upright (not sideways),and it is verified whether the characters are aligned in the vertical direction including vertical writing characters(Japanese, Mongolian, Hangul, etc).</li>
+          </ul>
         </td>
       </tr>
       <tr id="text-orientation-upright-slr-017-5.1" class="primary image">
@@ -451,29 +462,18 @@
           </ul>
         </td>
       </tr>
-      <tr id="text-orientation-upright-vlr-100-5.1" class="primary font">
+      <tr id="text-orientation-upright-vlr-001-5.1" class="primary font">
         <td><strong>
-            <a href="text-orientation-upright-vlr-100.xht">text-orientation-upright-vlr-100</a></strong></td>
-        <td><a href="reference/text-orientation-upright-vlr-100-ref.xht">=</a> </td>
+            <a href="text-orientation-upright-vlr-001.xht">text-orientation-upright-vlr-001</a></strong></td>
+        <td><a href="reference/text-orientation-upright-vlr-001-ref.xht">=</a> </td>
         <td><abbr class="font" title="Requires a special font">Font</abbr></td>
         <td>writing-mode: vertical-lr; text-orientation: upright.
         </td>
       </tr>
-      <tr id="text-orientation-upright-vrl-002-5.1" class="primary image">
+      <tr id="text-orientation-upright-vrl-001-5.1" class="primary font">
         <td><strong>
-            <a href="text-orientation-upright-vrl-002.xht">text-orientation-upright-vrl-002</a></strong></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>text-orientation - upright in vertical-rl writing mode
-          <ul class="assert">
-            <li>This test checks that latin alphabet characters are translated upright (and not rotated sideways) and this test also verifies that the characters from vertical scripts (Japanese, Mongolian, Hangul, etc) are also translated upright.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="text-orientation-upright-vrl-100-5.1" class="primary font">
-        <td><strong>
-            <a href="text-orientation-upright-vrl-100.xht">text-orientation-upright-vrl-100</a></strong></td>
-        <td><a href="reference/text-orientation-upright-vrl-100-ref.xht">=</a> </td>
+            <a href="text-orientation-upright-vrl-001.xht">text-orientation-upright-vrl-001</a></strong></td>
+        <td><a href="reference/text-orientation-upright-vrl-001-ref.xht">=</a> </td>
         <td><abbr class="font" title="Requires a special font">Font</abbr></td>
         <td>writing-mode: vertical-rl; text-orientation: upright.
         </td>
