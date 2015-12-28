@@ -487,6 +487,14 @@ clip-rect-vrl-010.htm == reference/clip-rect-vrl-010-ref.htm
 clip-rect-vrl-012.htm == reference/clip-rect-vrl-012-ref.htm
 clip-rect-vrl-014.htm == reference/clip-rect-vrl-014-ref.htm
 clip-rect-vrl-016.htm == reference/clip-rect-vrl-016-ref.htm
+contiguous-floated-table-vlr-003.htm == reference/ref-filled-green-100px-square.htm
+contiguous-floated-table-vlr-005.htm == reference/ref-filled-green-100px-square.htm
+contiguous-floated-table-vlr-007.htm == reference/ref-filled-green-100px-square.htm
+contiguous-floated-table-vlr-009.htm == reference/ref-filled-green-100px-square.htm
+contiguous-floated-table-vrl-002.htm == reference/ref-filled-green-100px-square.htm
+contiguous-floated-table-vrl-004.htm == reference/ref-filled-green-100px-square.htm
+contiguous-floated-table-vrl-006.htm == reference/ref-filled-green-100px-square.htm
+contiguous-floated-table-vrl-008.htm == reference/ref-filled-green-100px-square.htm
 css-flexbox-row.htm == reference/css-flexbox-row-ref.htm
 css-flexbox-row-reverse.htm == reference/css-flexbox-row-ref.htm
 css-flexbox-row-reverse-wrap.htm == reference/css-flexbox-row-ref.htm
