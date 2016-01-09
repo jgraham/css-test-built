@@ -774,7 +774,6 @@ text-indent-vrl-010.xht == reference/text-indent-vrl-010-ref.xht
 text-indent-vrl-012.xht == reference/text-indent-vrl-012-ref.xht
 text-indent-vrl-014.xht == reference/text-indent-vrl-010-ref.xht
 text-indent-vrl-016.xht == reference/text-indent-vrl-012-ref.xht
-text-orientation-014.xht == reference/text-orientation-014-ref.xht
 text-orientation-016.xht == reference/text-orientation-016-ref.xht
 text-orientation-mixed-srl-016.xht == reference/text-orientation-mixed-srl-016-ref.xht
 text-orientation-mixed-vlr-100.xht == reference/text-orientation-mixed-vlr-100-ref.xht
