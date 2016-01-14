@@ -467,7 +467,6 @@ overflow-wrap-003.htm == reference/overflow-wrap-003-ref.htm
 overflow-wrap-004.htm == reference/overflow-wrap-004-ref.htm
 overflow-wrap-005.htm == reference/overflow-wrap-003-ref.htm
 overflow-wrap-break-word-001.htm == reference/overflow-wrap-break-word-001-ref.htm
-overflow-wrap-break-word-fit-content-001.htm == reference/overflow-wrap-break-word-fit-content-001.htm
 tab-size-integer-001.htm == reference/tab-size-integer-001-ref.htm
 tab-size-integer-002.htm == reference/tab-size-integer-001-ref.htm
 tab-size-integer-003.htm == reference/tab-size-integer-001-ref.htm
@@ -562,7 +561,7 @@ word-break-keep-all-000.htm == reference/word-break-keep-all-ref-000.htm
 word-break-keep-all-001.htm == reference/word-break-keep-all-001-ref.htm
 word-break-keep-all-002.htm == reference/word-break-keep-all-ref-002.htm
 word-break-keep-all-003.htm == reference/word-break-keep-all-ref-003.htm
-word-break-normal-001.htm == reference/word-break-normal-ref-001.htm
+word-break-normal-001.htm == reference/word-break-normal-001-ref.htm
 word-break-normal-ar-000.htm == reference/word-break-normal-ar-ref-000.htm
 word-break-normal-bo-000.htm == reference/word-break-normal-bo-ref-000.htm
 word-break-normal-en-000.htm == reference/word-break-normal-en-ref-000.htm
