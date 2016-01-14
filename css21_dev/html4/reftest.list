@@ -5937,7 +5937,21 @@ text-align-white-space-008.htm == reference/text-align-white-space-008-ref.htm
 text-decoration-image-001.htm == reference/no-red-on-blank-page-ref.htm
 text-decoration-va-length-001.htm == reference/text-decoration-va-length-001-ref.htm
 text-decoration-va-length-002.htm == reference/text-decoration-va-length-002-ref.htm
+text-indent-007.htm == reference/pass_if_box_ahem.htm
+text-indent-008.htm == reference/pass_if_box_ahem.htm
 text-indent-012.htm == reference/text-indent-012-ref.htm
+text-indent-019.htm == reference/pass_if_box_ahem.htm
+text-indent-020.htm == reference/pass_if_box_ahem.htm
+text-indent-031.htm == reference/pass_if_box_ahem.htm
+text-indent-032.htm == reference/pass_if_box_ahem.htm
+text-indent-043.htm == reference/pass_if_box_ahem.htm
+text-indent-044.htm == reference/pass_if_box_ahem.htm
+text-indent-055.htm == reference/pass_if_box_ahem.htm
+text-indent-056.htm == reference/pass_if_box_ahem.htm
+text-indent-067.htm == reference/pass_if_box_ahem.htm
+text-indent-068.htm == reference/pass_if_box_ahem.htm
+text-indent-079.htm == reference/pass_if_box_ahem.htm
+text-indent-080.htm == reference/pass_if_box_ahem.htm
 text-indent-113.htm == reference/text-indent-113-ref-margin.htm != reference/text-indent-114-ref.htm != text-indent-114.htm
 text-indent-114.htm == reference/text-indent-114-ref.htm
 text-indent-115.htm == reference/text-indent-115-ref-block-margin.htm == reference/text-indent-115-ref-inline-margin.htm
