@@ -1,10 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-    <head>
-        <title>CSS Grid Layout Test: A grid item is sized within the containing block defined by its grid area</title>
-        <link rel="author" title="Tomek Wytrebowicz" href="mailto:tomalecpub@gmail.com">
-        <link rel="help" href="http://www.w3.org/TR/css-grid-1/#grid-items" title="4. A grid item is sized within the containing block defined by its grid area">
-        <link rel="match" href="reference/ref-filled-green-100px-square.htm">
+<!DOCTYPE html>
+<html><head>
+        <title>CSS Grid Layout Test: Grid item sizing</title>
+        <link href="mailto:tomalecpub@gmail.com" rel="author" title="Tomek Wytrebowicz">
+        <link href="http://www.w3.org/TR/css-grid-1/#grid-items" rel="help" title="4. Grid Items">
+        <meta content="A grid item is sized within the containing block defined by its grid area" name="assert">
+        <link href="reference/ref-filled-green-100px-square.htm" rel="match">
         <style type="text/css">
             #grid {
                 display: grid;
@@ -24,11 +24,8 @@
 
             #test-overlapping-green {
                 background-color: green;
-                display: block;
                 width: 100px;
                 height: 100px;
-                grid-row: 1;
-                grid-column: 1;
             }
         </style>
     </head>
@@ -40,5 +37,6 @@
                 <div id="test-overlapping-green"></div>
             </div>
         </div>
-    </body>
-</html>
+    
+
+</body></html>

@@ -1,20 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>CSS Grid Layout Test: A grid item is sized within the containing block defined by its grid area</title>
-  <style type="text/css">
-    @page { font: italic 8pt sans-serif; color: gray;
-            margin: 7%;
-            counter-increment: page;
-            @top-left { content: "CSS Grid Layout Module Level 1 CR Test Suite"; }
-            @top-right { content: "Test grid-item-containing-block-001"; }
-            @bottom-right { content: counter(page); }
-          }
-</style>
-        <link rel="author" title="Tomek Wytrebowicz" href="mailto:tomalecpub@gmail.com" />
-        <link rel="help" href="http://www.w3.org/TR/css-grid-1/#grid-items" title="4. A grid item is sized within the containing block defined by its grid area" />
-        <link rel="match" href="reference/ref-filled-green-100px-square.xht" />
-        <style type="text/css"><![CDATA[
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+        <title>CSS Grid Layout Test: Grid item sizing</title>
+        <link href="mailto:tomalecpub@gmail.com" rel="author" title="Tomek Wytrebowicz" />
+        <link href="http://www.w3.org/TR/css-grid-1/#grid-items" rel="help" title="4. Grid Items" />
+        <meta content="A grid item is sized within the containing block defined by its grid area" name="assert" />
+        <link href="reference/ref-filled-green-100px-square.xht" rel="match" />
+        <style type="text/css">
             #grid {
                 display: grid;
                 width: 200px;
@@ -33,13 +24,10 @@
 
             #test-overlapping-green {
                 background-color: green;
-                display: block;
                 width: 100px;
                 height: 100px;
-                grid-row: 1;
-                grid-column: 1;
             }
-        ]]></style>
+        </style>
     </head>
     <body>
         <p>Test passes if there is a filled green square and <strong>no red</strong>.</p>
@@ -49,5 +37,6 @@
                 <div id="test-overlapping-green"></div>
             </div>
         </div>
-    </body>
-</html>
+    
+
+</body></html>
