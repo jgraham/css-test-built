@@ -7,7 +7,7 @@ focus-within-005.xht == reference/focus-within-001-ref.xht
 focus-within-006.xht == reference/focus-within-001-ref.xht
 focus-within-shadow-001.xht == reference/focus-within-shadow-001-ref.xht
 focus-within-shadow-002.xht == reference/focus-within-shadow-001-ref.xht
-focus-within-shadow-003.xht == reference/focus-within-shadow-001-ref.xht
+focus-within-shadow-003.xht == reference/focus-within-shoadow-001-ref.xht
 focus-within-shadow-004.xht == reference/focus-within-shadow-001-ref.xht
 focus-within-shadow-005.xht == reference/focus-within-shadow-001-ref.xht
 selector-required.xht == reference/selector-required-ref.xht
