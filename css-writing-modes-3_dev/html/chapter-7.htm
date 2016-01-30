@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Abstract Box Layout (546 tests)</h2>
+  <h2>Abstract Box Layout (538 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -37,7 +37,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.1">+</a>
         <a href="http://www.w3.org/TR/css-writing-modes-3/#vertical-layout">7.1 Principles of Layout in Vertical Writing Modes</a></th></tr>
-      <!-- 368 tests -->
+      <!-- 360 tests -->
       <tr id="abs-pos-non-replaced-icb-vlr-003-7.1" class="primary">
         <td><strong>
             <a href="abs-pos-non-replaced-icb-vlr-003.htm">abs-pos-non-replaced-icb-vlr-003</a></strong></td>
@@ -2961,94 +2961,6 @@
         <td>clearance calculations
           <ul class="assert">
             <li>In this test, the right border edge of div#clearing-left must be on the left side of div#floated-left, i.e., 50px further on its left-hand side. That means that the margin-left of div#preceding-sibling must not collapse with the right margin of the div#clearing-left and clearance must be added such that clearance + margin-right of div#clearing-left = 50px, i.e., clearance = 50px - margin-right of div#clearing-left; therefore clearance is equal to 50px - 75px = - 25px.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="contiguous-floated-table-vlr-003-7.1" class="primary">
-        <td><strong>
-            <a href="contiguous-floated-table-vlr-003.htm">contiguous-floated-table-vlr-003</a></strong></td>
-        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
-        <td></td>
-        <td>floated border-collapsing tables (vertical-lr)
-          <ul class="assert">
-            <li>This test checks that contiguous floated border-collapsing tables in a 'vertical-lr' context do not overlap.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="contiguous-floated-table-vlr-005-7.1" class="primary">
-        <td><strong>
-            <a href="contiguous-floated-table-vlr-005.htm">contiguous-floated-table-vlr-005</a></strong></td>
-        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
-        <td></td>
-        <td>floated non-border-collapsing tables (vertical-lr)
-          <ul class="assert">
-            <li>This test checks that contiguous floated non-border-collapsing tables in a 'vertical-lr' context do not overlap.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="contiguous-floated-table-vlr-007-7.1" class="primary image">
-        <td><strong>
-            <a href="contiguous-floated-table-vlr-007.htm">contiguous-floated-table-vlr-007</a></strong></td>
-        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>vertical-lr - contiguous floated tables and horizontal margins
-          <ul class="assert">
-            <li>This test checks that horizontal margins existing between contiguous floated tables with writing-mode set to 'vertical-lr' are not substracted by the amount of their borders. In this test, there should be an horizontal gap of 50px separating both tables. Margins between 2 floated boxes do not collapse.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="contiguous-floated-table-vlr-009-7.1" class="primary image">
-        <td><strong>
-            <a href="contiguous-floated-table-vlr-009.htm">contiguous-floated-table-vlr-009</a></strong></td>
-        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>vertical-lr - contiguous floated tables and horizontal margins
-          <ul class="assert">
-            <li>This test checks that horizontal margins existing between contiguous floated tables with writing-mode set to 'vertical-lr' are not substracted by the amount of their horizontal padding. In this test, there should be an horizontal gap of 50px separating both tables. Margins between 2 floated boxes do not collapse.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="contiguous-floated-table-vrl-002-7.1" class="primary">
-        <td><strong>
-            <a href="contiguous-floated-table-vrl-002.htm">contiguous-floated-table-vrl-002</a></strong></td>
-        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
-        <td></td>
-        <td>floated border-collapsing tables (vertical-rl)
-          <ul class="assert">
-            <li>This test checks that contiguous floated border-collapsing tables in a 'vertical-rl' context do not overlap.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="contiguous-floated-table-vrl-004-7.1" class="primary">
-        <td><strong>
-            <a href="contiguous-floated-table-vrl-004.htm">contiguous-floated-table-vrl-004</a></strong></td>
-        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
-        <td></td>
-        <td>floated non-border-collapsing tables (vertical-rl)
-          <ul class="assert">
-            <li>This test checks that contiguous floated non-border-collapsing tables in a 'vertical-rl' context do not overlap.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="contiguous-floated-table-vrl-006-7.1" class="primary image">
-        <td><strong>
-            <a href="contiguous-floated-table-vrl-006.htm">contiguous-floated-table-vrl-006</a></strong></td>
-        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>vertical-rl - contiguous floated tables and horizontal margins
-          <ul class="assert">
-            <li>This test checks that horizontal margins existing between contiguous floated tables with writing-mode set to 'vertical-rl' are not substracted by the amount of their borders. In this test, there should be an horizontal gap of 50px separating both tables. Margins between 2 floated boxes do not collapse.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="contiguous-floated-table-vrl-008-7.1" class="primary image">
-        <td><strong>
-            <a href="contiguous-floated-table-vrl-008.htm">contiguous-floated-table-vrl-008</a></strong></td>
-        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>vertical-rl - contiguous floated tables and horizontal margins
-          <ul class="assert">
-            <li>This test checks that horizontal margins existing between contiguous floated tables with writing-mode set to 'vertical-rl' are not substracted by the amount of their horizontal padding. In this test, there should be an horizontal gap of 50px separating both tables. Margins between 2 floated boxes do not collapse.</li>
           </ul>
         </td>
       </tr>

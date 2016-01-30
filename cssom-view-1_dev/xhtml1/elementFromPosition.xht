@@ -20,10 +20,10 @@
   "test some point of the element: right line": {},
   "test some point of the element: bottom left corner": {},
   "test some point of the element: bottom line": {},
-  "test some point of the element: bottom right corner": {},
+  "test some point of the element: botom right corner": {},
   "Point (0, 0), return root element(HTML)": {},
   " test negative x ": {},
-  " test negative y ": {},
+  " test nagetive y ": {},
   "test outside of viewport": {},
   "test the top of layer": {}
 }
@@ -91,7 +91,7 @@
                 // 下边线
                 {x: 50, y: 110, r: 'bottom line'},
                 // 右下角
-                {x: 110, y: 110, r: 'bottom right corner'}
+                {x: 110, y: 110, r: 'botom right corner'}
             ];
             var i = 0, len = wrap.length, item;
             for ( ; i &amp;lt; len; i++ ) {
@@ -114,7 +114,7 @@
         test( function () {
             var elem = document.elementFromPoint( 0, -1000 );
             assert_true( elem == null, 'negative y, return null' );
-        }, ' test negative y ');
+        }, ' test nagetive y ');
 
         test( function () {
             var elem = document.elementFromPoint( 100000, 0 );
