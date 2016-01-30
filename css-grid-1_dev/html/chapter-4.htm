@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Grid Layout Module Level 1 CR Test Suite</h1>
-  <h2>Grid Items (61 tests)</h2>
+  <h2>Grid Items (62 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -31,7 +31,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4">+</a>
         <a href="http://www.w3.org/TR/css-grid-1/#grid-items">4 Grid Items</a></th></tr>
-      <!-- 6 tests -->
+      <!-- 7 tests -->
       <tr id="grid-inline-items-001-4" class="primary ahem">
         <td><strong>
             <a href="grid-inline-items-001.htm">grid-inline-items-001</a></strong></td>
@@ -60,6 +60,17 @@
         <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>Grid items with 'display:none' are not rendered within an inline grid
+        </td>
+      </tr>
+      <tr id="grid-item-containing-block-001-4" class="primary">
+        <td><strong>
+            <a href="grid-item-containing-block-001.htm">grid-item-containing-block-001</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td></td>
+        <td>Grid item sizing
+          <ul class="assert">
+            <li>A grid item is sized within the containing block defined by its grid area</li>
+          </ul>
         </td>
       </tr>
       <tr id="grid-items-001-4" class="primary ahem">
