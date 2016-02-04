@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Color Module Level 3 Conformance Test Suite</h1>
-  <h2>Color units (0 tests)</h2>
+  <h2>Color units (59 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -40,7 +40,29 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.1">+</a>
         <a href="https://www.w3.org/TR/css3-color/#html4">4.1 Basic color keywords</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 2 tests -->
+      <tr id="t41-html4-keywords-a-4.1" class="">
+        <td>
+            <a href="t41-html4-keywords-a.htm">t41-html4-keywords-a</a></td>
+        <td></td>
+        <td></td>
+        <td>HTML4 color keywords
+          <ul class="assert">
+            <li>Test that the HTML4 color keywords have the correct values.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t43-svg-keywords-a-4.1" class="">
+        <td>
+            <a href="t43-svg-keywords-a.htm">t43-svg-keywords-a</a></td>
+        <td></td>
+        <td></td>
+        <td>HTML4 color keywords
+          <ul class="assert">
+            <li>Test that the HTML4 color keywords have the correct values.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.1.#aqua">
       <!-- 0 tests -->
@@ -103,7 +125,139 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.2.1">+</a>
         <a href="https://www.w3.org/TR/css3-color/#rgb-color">4.2.1 RGB color values</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 12 tests -->
+      <tr id="t32-opacity-basic-0.6-a-4.2.1" class="">
+        <td>
+            <a href="t32-opacity-basic-0.6-a.htm">t32-opacity-basic-0.6-a</a></td>
+        <td></td>
+        <td></td>
+        <td>opacity
+          <ul class="assert">
+            <li>Opacity of 0.6 makes box partially opaque. Colors are in sRGB color space (may test).</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t421-rgb-clip-outside-gamut-b-4.2.1" class="">
+        <td>
+            <a href="t421-rgb-clip-outside-gamut-b.htm">t421-rgb-clip-outside-gamut-b</a></td>
+        <td></td>
+        <td></td>
+        <td>rgb() clipping outside device gamut
+          <ul class="assert">
+            <li>Test clipping of rgb() values outside the device gamut.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t421-rgb-func-int-a-4.2.1" class="">
+        <td>
+            <a href="t421-rgb-func-int-a.htm">t421-rgb-func-int-a</a></td>
+        <td><a href="reference/t422-rgba-func-int-a-ref.htm">=</a> </td>
+        <td></td>
+        <td>rgb() colors
+          <ul class="assert">
+            <li>Test that rgb() values produce correct colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t421-rgb-func-no-mixed-f-4.2.1" class="invalid">
+        <td>
+            <a href="t421-rgb-func-no-mixed-f.htm">t421-rgb-func-no-mixed-f</a></td>
+        <td><a href="reference/t422-rgba-func-no-mixed-f-ref.htm">=</a> </td>
+        <td><abbr class="invalid" title="Tests invalid CSS">Invalid</abbr></td>
+        <td>no mixed rgb() values
+          <ul class="assert">
+            <li>Test that rgb() values are only accepted when all integers or all percentages.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t421-rgb-func-pct-a-4.2.1" class="">
+        <td>
+            <a href="t421-rgb-func-pct-a.htm">t421-rgb-func-pct-a</a></td>
+        <td><a href="reference/t422-rgba-func-int-a-ref.htm">=</a> </td>
+        <td></td>
+        <td>rgb() colors
+          <ul class="assert">
+            <li>Test that rgb() values produce correct colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t421-rgb-func-whitespace-b-4.2.1" class="">
+        <td>
+            <a href="t421-rgb-func-whitespace-b.htm">t421-rgb-func-whitespace-b</a></td>
+        <td><a href="reference/t422-rgba-func-whitespace-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>whitespace in rgb() values
+          <ul class="assert">
+            <li>Test that whitespace is allowed within rgb() functions.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t421-rgb-hex-parsing-f-4.2.1" class="invalid">
+        <td>
+            <a href="t421-rgb-hex-parsing-f.htm">t421-rgb-hex-parsing-f</a></td>
+        <td><a href="reference/t422-rgba-func-no-mixed-f-ref.htm">=</a> </td>
+        <td><abbr class="invalid" title="Tests invalid CSS">Invalid</abbr></td>
+        <td>parsing of hexidecimal color values
+          <ul class="assert">
+            <li>Test that hexidecimal values are only accepted if they have 3 or six digits.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t421-rgb-hex3-a-4.2.1" class="">
+        <td>
+            <a href="t421-rgb-hex3-a.htm">t421-rgb-hex3-a</a></td>
+        <td><a href="reference/t422-rgba-func-int-a-ref.htm">=</a> </td>
+        <td></td>
+        <td>#rgb colors
+          <ul class="assert">
+            <li>Test that #rgb values produce correct colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t421-rgb-hex3-expand-b-4.2.1" class="">
+        <td>
+            <a href="t421-rgb-hex3-expand-b.htm">t421-rgb-hex3-expand-b</a></td>
+        <td></td>
+        <td></td>
+        <td>expansion of #rgb colors to #rrggbb
+          <ul class="assert">
+            <li>Test that 3-digit #rgb values are expanded into #rrggbb and not #r0g0b0</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t421-rgb-hex6-a-4.2.1" class="">
+        <td>
+            <a href="t421-rgb-hex6-a.htm">t421-rgb-hex6-a</a></td>
+        <td><a href="reference/t422-rgba-func-int-a-ref.htm">=</a> </td>
+        <td></td>
+        <td>#rrggbb colors
+          <ul class="assert">
+            <li>Test that #rrggbb values produce correct colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t421-rgb-values-meaning-b-4.2.1" class="">
+        <td>
+            <a href="t421-rgb-values-meaning-b.htm">t421-rgb-values-meaning-b</a></td>
+        <td></td>
+        <td></td>
+        <td>rgb values
+          <ul class="assert">
+            <li>Test that the color components in rgb colors are interpreted correctly.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-a0.6-a-4.2.1" class="">
+        <td>
+            <a href="t422-rgba-a0.6-a.htm">t422-rgba-a0.6-a</a></td>
+        <td></td>
+        <td></td>
+        <td>rgba() colors
+          <ul class="assert">
+            <li>Opacity of 0.6 makes text partially opaque. Colors are in sRGB color space (may test).</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.2.1.#rgb">
       <!-- 0 tests -->
@@ -121,7 +275,150 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.2.2">+</a>
         <a href="https://www.w3.org/TR/css3-color/#rgba-color">4.2.2 RGBA color values</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 13 tests -->
+      <tr id="t422-rgba-a0.0-a-4.2.2" class="">
+        <td>
+            <a href="t422-rgba-a0.0-a.htm">t422-rgba-a0.0-a</a></td>
+        <td></td>
+        <td></td>
+        <td>rgba() colors
+          <ul class="assert">
+            <li>Opacity of 0.0 makes text transparent.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-a0.6-a-4.2.2" class="">
+        <td>
+            <a href="t422-rgba-a0.6-a.htm">t422-rgba-a0.6-a</a></td>
+        <td></td>
+        <td></td>
+        <td>rgba() colors
+          <ul class="assert">
+            <li>Opacity of 0.6 makes text partially opaque. Colors are in sRGB color space (may test).</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-a1.0-a-4.2.2" class="">
+        <td>
+            <a href="t422-rgba-a1.0-a.htm">t422-rgba-a1.0-a</a></td>
+        <td><a href="reference/t422-rgba-a1.0-a-ref.htm">=</a> </td>
+        <td></td>
+        <td>rgba() colors
+          <ul class="assert">
+            <li>Opacity of 1.0 makes text fully opaque.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-clamping-a0.0-b-4.2.2" class="">
+        <td>
+            <a href="t422-rgba-clamping-a0.0-b.htm">t422-rgba-clamping-a0.0-b</a></td>
+        <td><a href="reference/t422-rgba-clamping-a0.0-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>rgba() colors
+          <ul class="assert">
+            <li>Alpha components of rgba() colors less than 0 are clamped to 0.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-clamping-a1.0-b-4.2.2" class="">
+        <td>
+            <a href="t422-rgba-clamping-a1.0-b.htm">t422-rgba-clamping-a1.0-b</a></td>
+        <td><a href="reference/t422-rgba-clamping-a1.0-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>rgba() colors
+          <ul class="assert">
+            <li>Alpha components of rgba() colors greater than 1 are clamped to 1.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-clip-outside-device-gamut-b-4.2.2" class="">
+        <td>
+            <a href="t422-rgba-clip-outside-device-gamut-b.htm">t422-rgba-clip-outside-device-gamut-b</a></td>
+        <td><a href="reference/t422-rgba-clip-outside-device-gamut-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>rgba() clipping outside device gamut
+          <ul class="assert">
+            <li>Test clipping of rgba() values outside the device gamut.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-func-int-a-4.2.2" class="">
+        <td>
+            <a href="t422-rgba-func-int-a.htm">t422-rgba-func-int-a</a></td>
+        <td><a href="reference/t422-rgba-func-int-a-ref.htm">=</a> </td>
+        <td></td>
+        <td>rgba() colors
+          <ul class="assert">
+            <li>Test that rgba() values produce correct colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-func-no-mixed-f-4.2.2" class="invalid">
+        <td>
+            <a href="t422-rgba-func-no-mixed-f.htm">t422-rgba-func-no-mixed-f</a></td>
+        <td><a href="reference/t422-rgba-func-no-mixed-f-ref.htm">=</a> </td>
+        <td><abbr class="invalid" title="Tests invalid CSS">Invalid</abbr></td>
+        <td>no mixed rgba() values
+          <ul class="assert">
+            <li>Test that rgba() values are only accepted when all integers or all percentages.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-func-pct-a-4.2.2" class="">
+        <td>
+            <a href="t422-rgba-func-pct-a.htm">t422-rgba-func-pct-a</a></td>
+        <td><a href="reference/t422-rgba-func-int-a-ref.htm">=</a> </td>
+        <td></td>
+        <td>rgba() colors
+          <ul class="assert">
+            <li>Test that rgba() values produce correct colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-func-whitespace-b-4.2.2" class="">
+        <td>
+            <a href="t422-rgba-func-whitespace-b.htm">t422-rgba-func-whitespace-b</a></td>
+        <td><a href="reference/t422-rgba-func-whitespace-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>whitespace in rgba() values
+          <ul class="assert">
+            <li>Test that whitespace is allowed within rgba() functions.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-onscreen-b-4.2.2" class="">
+        <td>
+            <a href="t422-rgba-onscreen-b.htm">t422-rgba-onscreen-b</a></td>
+        <td><a href="reference/t422-rgba-onscreen-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>rgba() overpainting
+          <ul class="assert">
+            <li>Test that rgba() does not behave like opacity and draw in an offscreen buffer.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-onscreen-multiple-boxes-c-4.2.2" class="">
+        <td>
+            <a href="t422-rgba-onscreen-multiple-boxes-c.htm">t422-rgba-onscreen-multiple-boxes-c</a></td>
+        <td><a href="reference/t422-rgba-onscreen-multiple-boxes-c-ref.htm">=</a> </td>
+        <td></td>
+        <td>rgba() overpainting
+          <ul class="assert">
+            <li>Test that rgba() does not behave like opacity and draw in an offscreen buffer.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t422-rgba-values-meaning-b-4.2.2" class="">
+        <td>
+            <a href="t422-rgba-values-meaning-b.htm">t422-rgba-values-meaning-b</a></td>
+        <td></td>
+        <td></td>
+        <td>rgba values
+          <ul class="assert">
+            <li>Test that the color components in rgba colors are interpreted correctly.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.2.2.#ltalphavaluegt">
       <!-- 0 tests -->
@@ -133,7 +430,29 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.2.3">+</a>
         <a href="https://www.w3.org/TR/css3-color/#transparent">4.2.3 &#8216;transparent&#8217; color keyword</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 2 tests -->
+      <tr id="t423-transparent-1-a-4.2.3" class="">
+        <td>
+            <a href="t423-transparent-1-a.htm">t423-transparent-1-a</a></td>
+        <td><a href="reference/t422-rgba-clamping-a0.0-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>transparent
+          <ul class="assert">
+            <li>That the 'transparent' color keyword makes colors transparent.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t423-transparent-2-a-4.2.3" class="">
+        <td>
+            <a href="t423-transparent-2-a.htm">t423-transparent-2-a</a></td>
+        <td><a href="reference/t423-transparent-2-a-ref.htm">=</a> </td>
+        <td></td>
+        <td>transparent
+          <ul class="assert">
+            <li>That the 'transparent' color keyword makes colors transparent.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.2.3.#transparent-def">
       <!-- 0 tests -->
@@ -142,7 +461,227 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.2.4">+</a>
         <a href="https://www.w3.org/TR/css3-color/#hsl-color">4.2.4 HSL color values</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 20 tests -->
+      <tr id="t424-hsl-basic-a-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-basic-a.htm">t424-hsl-basic-a</a></td>
+        <td><a href="reference/t424-hsl-basic-a-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl()
+          <ul class="assert">
+            <li>Test basic functioning of hsl() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-clip-outside-gamut-b-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-clip-outside-gamut-b.htm">t424-hsl-clip-outside-gamut-b</a></td>
+        <td><a href="reference/t424-hsl-clip-outside-gamut-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() clipping outside device gamut
+          <ul class="assert">
+            <li>Test clipping of hsl() values outside the device gamut.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-h-rotating-b-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-h-rotating-b.htm">t424-hsl-h-rotating-b</a></td>
+        <td></td>
+        <td></td>
+        <td>modding of H values in hsl() colors
+          <ul class="assert">
+            <li>H values in hsl() colors should be treated like angles, even when outside [0,360)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-parsing-f-4.2.4" class="invalid">
+        <td>
+            <a href="t424-hsl-parsing-f.htm">t424-hsl-parsing-f</a></td>
+        <td><a href="reference/t424-hsl-parsing-f-ref.htm">=</a> </td>
+        <td><abbr class="invalid" title="Tests invalid CSS">Invalid</abbr></td>
+        <td>hsl()
+          <ul class="assert">
+            <li>Test rules for parsing of hsl() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-1-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-1.htm">t424-hsl-values-b-1</a></td>
+        <td><a href="reference/t424-hsl-values-b-1-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-10-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-10.htm">t424-hsl-values-b-10</a></td>
+        <td><a href="reference/t424-hsl-values-b-10-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-11-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-11.htm">t424-hsl-values-b-11</a></td>
+        <td><a href="reference/t424-hsl-values-b-11-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-12-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-12.htm">t424-hsl-values-b-12</a></td>
+        <td><a href="reference/t424-hsl-values-b-12-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-13-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-13.htm">t424-hsl-values-b-13</a></td>
+        <td><a href="reference/t424-hsl-values-b-13-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-14-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-14.htm">t424-hsl-values-b-14</a></td>
+        <td><a href="reference/t424-hsl-values-b-14-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-15-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-15.htm">t424-hsl-values-b-15</a></td>
+        <td><a href="reference/t424-hsl-values-b-15-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-2-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-2.htm">t424-hsl-values-b-2</a></td>
+        <td><a href="reference/t424-hsl-values-b-2-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-3-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-3.htm">t424-hsl-values-b-3</a></td>
+        <td><a href="reference/t424-hsl-values-b-3-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-4-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-4.htm">t424-hsl-values-b-4</a></td>
+        <td><a href="reference/t424-hsl-values-b-4-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-5-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-5.htm">t424-hsl-values-b-5</a></td>
+        <td><a href="reference/t424-hsl-values-b-5-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-6-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-6.htm">t424-hsl-values-b-6</a></td>
+        <td><a href="reference/t424-hsl-values-b-6-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-7-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-7.htm">t424-hsl-values-b-7</a></td>
+        <td><a href="reference/t424-hsl-values-b-7-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-8-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-8.htm">t424-hsl-values-b-8</a></td>
+        <td><a href="reference/t424-hsl-values-b-8-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t424-hsl-values-b-9-4.2.4" class="">
+        <td>
+            <a href="t424-hsl-values-b-9.htm">t424-hsl-values-b-9</a></td>
+        <td><a href="reference/t424-hsl-values-b-9-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsl() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsl() colors to rgb() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t425-hsla-h-rotating-b-4.2.4" class="">
+        <td>
+            <a href="t425-hsla-h-rotating-b.htm">t425-hsla-h-rotating-b</a></td>
+        <td></td>
+        <td></td>
+        <td>modding of H values in hsla() colors
+          <ul class="assert">
+            <li>H values in hsla() colors should be treated like angles, even when outside [0,360)</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.2.4.#hsl-def">
       <!-- 0 tests -->
@@ -157,7 +696,84 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.2.5">+</a>
         <a href="https://www.w3.org/TR/css3-color/#hsla-color">4.2.5 HSLA color values</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 7 tests -->
+      <tr id="t425-hsla-basic-a-4.2.5" class="">
+        <td>
+            <a href="t425-hsla-basic-a.htm">t425-hsla-basic-a</a></td>
+        <td></td>
+        <td></td>
+        <td>hsla()
+          <ul class="assert">
+            <li>Test basic functioning of hsla() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t425-hsla-clip-outside-device-gamut-b-4.2.5" class="">
+        <td>
+            <a href="t425-hsla-clip-outside-device-gamut-b.htm">t425-hsla-clip-outside-device-gamut-b</a></td>
+        <td><a href="reference/t425-hsla-clip-outside-device-gamut-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsla() clipping outside device gamut
+          <ul class="assert">
+            <li>Test clipping of hsla() values outside the device gamut.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t425-hsla-h-rotating-b-4.2.5" class="">
+        <td>
+            <a href="t425-hsla-h-rotating-b.htm">t425-hsla-h-rotating-b</a></td>
+        <td></td>
+        <td></td>
+        <td>modding of H values in hsla() colors
+          <ul class="assert">
+            <li>H values in hsla() colors should be treated like angles, even when outside [0,360)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t425-hsla-onscreen-b-4.2.5" class="">
+        <td>
+            <a href="t425-hsla-onscreen-b.htm">t425-hsla-onscreen-b</a></td>
+        <td></td>
+        <td></td>
+        <td>hsla() overpainting
+          <ul class="assert">
+            <li>Test that hsla() does not behave like opacity and draw in an offscreen buffer.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t425-hsla-onscreen-multiple-boxes-c-4.2.5" class="">
+        <td>
+            <a href="t425-hsla-onscreen-multiple-boxes-c.htm">t425-hsla-onscreen-multiple-boxes-c</a></td>
+        <td><a href="reference/t422-rgba-onscreen-multiple-boxes-c-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsla() overpainting
+          <ul class="assert">
+            <li>Test that hsla() does not behave like opacity and draw in an offscreen buffer.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t425-hsla-parsing-f-4.2.5" class="invalid">
+        <td>
+            <a href="t425-hsla-parsing-f.htm">t425-hsla-parsing-f</a></td>
+        <td><a href="reference/t424-hsl-parsing-f-ref.htm">=</a> </td>
+        <td><abbr class="invalid" title="Tests invalid CSS">Invalid</abbr></td>
+        <td>hsla()
+          <ul class="assert">
+            <li>Test rules for parsing of hsla() colors.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t425-hsla-values-b-4.2.5" class="">
+        <td>
+            <a href="t425-hsla-values-b.htm">t425-hsla-values-b</a></td>
+        <td><a href="reference/t425-hsla-values-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>hsla() values
+          <ul class="assert">
+            <li>Implementation of algorithm for converting hsla() colors to rgba() colors.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.2.5.#hsla-def">
       <!-- 0 tests -->
@@ -616,7 +1232,51 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.4">+</a>
         <a href="https://www.w3.org/TR/css3-color/#currentcolor">4.4 &#8216;currentColor&#8217; color keyword</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 4 tests -->
+      <tr id="t31-color-currentcolor-b-4.4" class="">
+        <td>
+            <a href="t31-color-currentColor-b.htm">t31-color-currentcolor-b</a></td>
+        <td><a href="reference/t31-color-currentColor-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>color
+          <ul class="assert">
+            <li>That currentColor on the color property acts like inherit.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t44-currentcolor-background-b-4.4" class="">
+        <td>
+            <a href="t44-currentcolor-background-b.htm">t44-currentcolor-background-b</a></td>
+        <td><a href="reference/t44-currentcolor-background-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>currentColor (with 'background-color')
+          <ul class="assert">
+            <li>currentColor uses the color from the color property</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t44-currentcolor-border-b-4.4" class="">
+        <td>
+            <a href="t44-currentcolor-border-b.htm">t44-currentcolor-border-b</a></td>
+        <td><a href="reference/t44-currentcolor-border-b-ref.htm">=</a> </td>
+        <td></td>
+        <td>currentColor (with 'border-color')
+          <ul class="assert">
+            <li>currentColor uses the color from the color property</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="t44-currentcolor-inherited-c-4.4" class="">
+        <td>
+            <a href="t44-currentcolor-inherited-c.htm">t44-currentcolor-inherited-c</a></td>
+        <td></td>
+        <td></td>
+        <td>currentColor (with 'background-color')
+          <ul class="assert">
+            <li>currentColor is a computed value</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.4.#currentColor-def">
       <!-- 0 tests -->
@@ -631,7 +1291,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.5.1">+</a>
         <a href="https://www.w3.org/TR/css3-color/#css2-system">4.5.1 CSS2 system colors</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="t451-system-colors-a-4.5.1" class="">
+        <td>
+            <a href="t451-system-colors-a.htm">t451-system-colors-a</a></td>
+        <td></td>
+        <td></td>
+        <td>system colors
+          <ul class="assert">
+            <li>That system colors are displayed as described.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.5.1.#activeborder">
       <!-- 0 tests -->
