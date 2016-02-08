@@ -3,4 +3,4 @@ cssstyledeclaration-csstext		CSSStyleDeclaration.cssText Test	dom,script	https:/
 escape		CSS#escape	script	https://drafts.csswg.org/cssom-1/#the-css.escape()-method	4779768a26a639395ce78173147b71159b477640		
 interfaces		CSSOM automated IDL tests	script	https://drafts.csswg.org/cssom-1/#idl-index	10c290ccb9207edb0489cd90e857a383674743a7	`Ms2ger`<mailto:Ms2ger@gmail.com>	
 selectorSerialize		test serialized selector which is only one simple selector in the sequence of simple selectors	dom,script	https://drafts.csswg.org/cssom-1/#serializing-selectors	cb441f03c4ab09e33cce9c5c96a60afc7a7b463d	`T.Nishitani`<mailto:lequinharay@gmail.com>	
-serialize-namespaced-type-selectors		test serialization of type selectors and namespace prefixes	dom,script	https://drafts.csswg.org/cssom-1/#serializing-selectors	b6a391a7223d5fb48f34fd49e8ee18762d0fcd94	`Rune Lillesveen`<mailto:rune@opera.com>	
+serialize-namespaced-type-selectors		test serialization of type selectors and namespace prefixes	dom,script	https://drafts.csswg.org/cssom-1/#serializing-selectors	9633c0cdbf48938ace36b58a62ff20ce0f062a6f	`Rune Lillesveen`<mailto:rune@opera.com>	
