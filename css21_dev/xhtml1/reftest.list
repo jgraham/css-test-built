@@ -6369,6 +6369,20 @@ text-indent-overflow-001.xht == reference/no-red-on-blank-page-ref.xht
 text-indent-overflow-004.xht == reference/no-red-on-blank-page-ref.xht
 text-indent-percent-001.xht == reference/text-indent-percent-001-ref.xht
 text-indent-wrap-001.xht == reference/text-indent-wrap-001-ref-inline-margin.xht == reference/text-indent-wrap-001-ref-float.xht != reference/text-indent-wrap-001-notref-block-margin.xht
+text-transform-applies-to-001.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-002.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-004.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-005.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-006.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-007.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-008.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-009.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-010.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-011.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-012.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-013.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-014.xht == reference/pass_if_letter_uppercase.xht
+text-transform-applies-to-015.xht == reference/pass_if_letter_uppercase.xht
 text-transform-capitalize-001.xht == reference/text-transform-capitalize-001-ref.xht
 text-transform-capitalize-002.xht == reference/text-transform-capitalize-001-ref.xht
 text-transform-capitalize-003.xht == reference/text-transform-capitalize-003-ref.xht
@@ -6711,4 +6725,3 @@ z-index-abspos-003.xht == reference/z-index-abspos-001-ref.xht
 z-index-abspos-004.xht == reference/z-index-abspos-001-ref.xht
 z-index-abspos-005.xht == reference/z-index-abspos-001-ref.xht
 z-index-abspos-007.xht == reference/z-index-abspos-001-ref.xht
-z-index-dynamic-001.xht == reference/ref-filled-green-100px-square.xht
