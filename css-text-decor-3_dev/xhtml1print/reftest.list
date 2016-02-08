@@ -1,10 +1,4 @@
 
-ruby-text-decoration-01.xht == reference/ruby-text-decoration-01-ref.xht
-text-decoration-line-010.xht == reference/text-decoration-line-010-ref.xht
-text-decoration-line-011.xht == reference/text-decoration-line-011-ref.xht
-text-decoration-line-012.xht == reference/text-decoration-line-012-ref.xht
-text-decoration-line-013.xht == reference/text-decoration-line-013-ref.xht
-text-decoration-propagation-01.xht == reference/text-decoration-propagation-01-ref.xht
 text-emphasis-color-property-001.xht == reference/text-emphasis-color-property-001-ref.xht
 text-emphasis-color-property-001a.xht == reference/text-emphasis-color-property-001-ref.xht
 text-emphasis-color-property-001b.xht == reference/text-emphasis-color-property-001-ref.xht
@@ -75,14 +69,6 @@ text-emphasis-ruby-003.xht == reference/text-emphasis-ruby-003-ref.xht
 text-emphasis-ruby-003a.xht == reference/text-emphasis-ruby-003-ref.xht
 text-emphasis-ruby-004.xht == reference/text-emphasis-ruby-004-ref.xht
 text-emphasis-ruby-004a.xht == reference/text-emphasis-ruby-004-ref.xht
-text-emphasis-style-001.xht == reference/text-emphasis-style-001-ref.xht
-text-emphasis-style-002.xht == reference/text-emphasis-style-002-ref.xht
-text-emphasis-style-006.xht == reference/text-emphasis-style-006.xht
-text-emphasis-style-007.xht == reference/text-emphasis-style-007.xht
-text-emphasis-style-008.xht == reference/text-emphasis-style-008-ref.xht
-text-emphasis-style-010.xht == reference/text-emphasis-style-010-ref.xht
-text-emphasis-style-012.xht == reference/text-emphasis-style-012-ref.xht
-text-emphasis-style-021.xht == reference/text-emphasis-style-021-ref.xht
 text-emphasis-style-property-001.xht == reference/text-emphasis-style-property-001-ref.xht
 text-emphasis-style-property-002.xht == reference/text-emphasis-style-property-002-ref.xht
 text-emphasis-style-property-003.xht == reference/text-emphasis-style-property-003-ref.xht
