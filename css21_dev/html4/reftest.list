@@ -6369,6 +6369,20 @@ text-indent-overflow-001.htm == reference/no-red-on-blank-page-ref.htm
 text-indent-overflow-004.htm == reference/no-red-on-blank-page-ref.htm
 text-indent-percent-001.htm == reference/text-indent-percent-001-ref.htm
 text-indent-wrap-001.htm == reference/text-indent-wrap-001-ref-inline-margin.htm == reference/text-indent-wrap-001-ref-float.htm != reference/text-indent-wrap-001-notref-block-margin.htm
+text-transform-applies-to-001.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-002.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-004.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-005.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-006.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-007.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-008.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-009.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-010.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-011.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-012.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-013.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-014.htm == reference/pass_if_letter_uppercase.htm
+text-transform-applies-to-015.htm == reference/pass_if_letter_uppercase.htm
 text-transform-capitalize-001.htm == reference/text-transform-capitalize-001-ref.htm
 text-transform-capitalize-002.htm == reference/text-transform-capitalize-001-ref.htm
 text-transform-capitalize-003.htm == reference/text-transform-capitalize-003-ref.htm
