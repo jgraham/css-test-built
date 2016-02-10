@@ -10,7 +10,7 @@ device-aspect-ratio-003.xht == reference/ref-filled-green-100px-square.xht
 device-aspect-ratio-004.xht == reference/ref-filled-green-100px-square.xht
 min-width-001.xht == reference/ref-filled-green-100px-square.xht
 min-width-tables-001.xht == reference/ref-filled-green-100px-square.xht
-mq-calc-002.xht == reference/mq-calc-001-ref.xht
-mq-calc-003.xht == reference/mq-calc-001-ref.xht
-mq-calc-004.xht == reference/mq-calc-001-ref.xht
-mq-calc-005.xht == reference/mq-calc-001-ref.xht
+mq-calc-002.xht == reference/ref-filled-green-100px-square.xht
+mq-calc-003.xht == reference/ref-filled-green-100px-square.xht
+mq-calc-004.xht == reference/ref-filled-green-100px-square.xht
+mq-calc-005.xht == reference/ref-filled-green-100px-square.xht
