@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Masking Level 1 CR Test Suite</h1>
-  <h2>Positioned Masks (0 tests)</h2>
+  <h2>Positioned Masks (5 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -79,7 +79,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.3">+</a>
         <a href="https://www.w3.org/TR/css-masking-1/#the-mask-repeat">7.3 Tiling Mask Images: The mask-repeat property</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="test-mask-7.3" class="">
+        <td>
+            <a href="test-mask.htm">test-mask</a></td>
+        <td><a href="reference/test-mask-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-repeat:round repeat;
+          <ul class="assert">
+            <li>Test checks that the mask-repeart value</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s7.3.#propdef-mask-repeat">
       <!-- 0 tests -->
@@ -175,7 +186,51 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.8">+</a>
         <a href="https://www.w3.org/TR/css-masking-1/#the-mask-composite">7.8 Compositing mask layers: the mask-composite property</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 4 tests -->
+      <tr id="mask-composite-1a-7.8" class="">
+        <td>
+            <a href="mask-composite-1a.htm">mask-composite-1a</a></td>
+        <td><a href="reference/mask-composite-1-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-composite: compose vector image
+          <ul class="assert">
+            <li>Test checks that vector-mask-image can be composed correctly by different mask-composite value.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-composite-1b-7.8" class="">
+        <td>
+            <a href="mask-composite-1b.htm">mask-composite-1b</a></td>
+        <td><a href="reference/mask-composite-1-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-composite: compose raster image
+          <ul class="assert">
+            <li>Test checks that raster-mask-image can be composed correctly by different mask-composite value.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-composite-2a-7.8" class="">
+        <td>
+            <a href="mask-composite-2a.htm">mask-composite-2a</a></td>
+        <td><a href="reference/mask-composite-2-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-composite: compose vector image
+          <ul class="assert">
+            <li>Test checks that vector-mask-image can be composed correctly by different mask-composite value.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-composite-2b-7.8" class="">
+        <td>
+            <a href="mask-composite-2b.htm">mask-composite-2b</a></td>
+        <td><a href="reference/mask-composite-2-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-composite: compose raster image
+          <ul class="assert">
+            <li>Test checks that raster-mask-image can be composed correctly by different mask-composite value.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s7.8.#destination">
       <!-- 0 tests -->
