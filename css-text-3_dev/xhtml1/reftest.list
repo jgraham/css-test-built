@@ -625,9 +625,10 @@ word-break-break-all-006.xht == reference/word-break-break-all-ref-006.xht
 word-break-break-all-007.xht == reference/word-break-break-all-ref-007.xht
 word-break-break-all-008.xht == reference/word-break-break-all-ref-008.xht
 word-break-keep-all-000.xht == reference/word-break-keep-all-ref-000.xht
-word-break-keep-all-001.xht == reference/word-break-keep-all-001-ref.xht
+word-break-keep-all-001.xht == reference/word-break-keep-all-ref-001.xht
 word-break-keep-all-002.xht == reference/word-break-keep-all-ref-002.xht
 word-break-keep-all-003.xht == reference/word-break-keep-all-ref-003.xht
+word-break-keep-all-004.xht == reference/word-break-keep-all-004-ref.xht
 word-break-normal-001.xht == reference/word-break-normal-ref-001.xht
 word-break-normal-002.xht == reference/word-break-normal-002-ref.xht
 word-break-normal-ar-000.xht == reference/word-break-normal-ar-ref-000.xht

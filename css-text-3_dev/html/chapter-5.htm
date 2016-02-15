@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Text Module Level 3 CR Test Suite</h1>
-  <h2>Line Breaking and Word Boundaries (603 tests)</h2>
+  <h2>Line Breaking and Word Boundaries (604 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -6341,7 +6341,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.3">+</a>
         <a href="https://www.w3.org/TR/css-text-3/#word-break-property">5.3 Breaking Rules for Letters: the &#8216;word-break&#8217; property</a></th></tr>
-      <!-- 27 tests -->
+      <!-- 28 tests -->
       <tr id="word-break-break-all-000-5.3" class="primary">
         <td><strong>
             <a href="word-break-break-all-000.htm">word-break-break-all-000</a></strong></td>
@@ -6438,6 +6438,17 @@
         <td>word-break: keep-all, latin
           <ul class="assert">
             <li>word-break: keep-all means breaking is forbidden within 'words'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="word-break-keep-all-001-5.3" class="primary">
+        <td><strong>
+            <a href="word-break-keep-all-001.htm">word-break-keep-all-001</a></strong></td>
+        <td><a href="reference/word-break-keep-all-ref-001.htm">=</a> </td>
+        <td></td>
+        <td>word-break: keep-all, japanese
+          <ul class="assert">
+            <li>word-break: keep-all means breaking is forbidden within 'words'. In this style, sequences of CJK characters do not break.</li>
           </ul>
         </td>
       </tr>
@@ -6706,10 +6717,10 @@
           </ul>
         </td>
       </tr>
-      <tr id="word-break-keep-all-001-5.3.#word-break" class="font">
+      <tr id="word-break-keep-all-004-5.3.#word-break" class="font">
         <td>
-            <a href="word-break-keep-all-001.htm">word-break-keep-all-001</a></td>
-        <td><a href="reference/word-break-keep-all-001-ref.htm">=</a> </td>
+            <a href="word-break-keep-all-004.htm">word-break-keep-all-004</a></td>
+        <td><a href="reference/word-break-keep-all-004-ref.htm">=</a> </td>
         <td><abbr class="font" title="Requires a special font">Font</abbr></td>
         <td>word-break - keep-all - basic cases
           <ul class="assert">
