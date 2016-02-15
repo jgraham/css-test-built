@@ -616,7 +616,7 @@ white-space-collapsing-discard-001.htm == reference/white-space-collapsing-disca
 white-space-collapsing-preserve-breaks-001.htm == reference/white-space-collapsing-preserve-breaks-001-ref.htm
 white-space-collapsing-trim-inner-001.htm == reference/white-space-collapsing-trim-inner-001-ref.htm
 word-break-break-all-000.htm == reference/word-break-break-all-ref-000.htm
-word-break-break-all-001.htm == reference/word-break-break-all-001-ref.htm
+word-break-break-all-001.htm == reference/word-break-break-all-ref-001.htm
 word-break-break-all-002.htm == reference/word-break-break-all-ref-002.htm
 word-break-break-all-003.htm == reference/word-break-break-all-ref-003.htm
 word-break-break-all-004.htm == reference/word-break-break-all-ref-004.htm
@@ -624,6 +624,7 @@ word-break-break-all-005.htm == reference/word-break-break-all-ref-005.htm
 word-break-break-all-006.htm == reference/word-break-break-all-ref-006.htm
 word-break-break-all-007.htm == reference/word-break-break-all-ref-007.htm
 word-break-break-all-008.htm == reference/word-break-break-all-ref-008.htm
+word-break-break-all-009.htm == reference/word-break-break-all-009-ref.htm
 word-break-keep-all-000.htm == reference/word-break-keep-all-ref-000.htm
 word-break-keep-all-001.htm == reference/word-break-keep-all-ref-001.htm
 word-break-keep-all-002.htm == reference/word-break-keep-all-ref-002.htm
