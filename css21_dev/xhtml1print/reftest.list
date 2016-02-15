@@ -4434,6 +4434,16 @@ left-offset-003.xht == reference/left-offset-003-ref.xht
 left-offset-percentage-001.xht == reference/left-offset-percentage-001-ref.xht
 left-offset-percentage-002.xht == reference/left-offset-percentage-002-ref.xht
 left-offset-position-fixed-001.xht == reference/left-offset-position-fixed-001-ref.xht
+letter-spacing-applies-to-001.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-002.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-004.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-006.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-008.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-009.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-010.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-011.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-014.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-015.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
 line-box-height-002.xht == reference/line-box-height-002-ref.xht
 line-box-height-vlr-003.xht == reference/line-box-height-vlr-003-ref.xht
 line-box-height-vlr-005.xht == reference/line-box-height-vlr-003-ref.xht
