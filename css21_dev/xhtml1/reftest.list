@@ -5333,6 +5333,7 @@ moz-css21-table-page-break-inside-avoid-7.xht == reference/moz-css21-table-page-
 moz-css21-table-page-break-inside-avoid-8.xht == reference/moz-css21-table-page-break-inside-avoid-6-ref.xht
 moz-multicol3-column-balancing-break-inside-avoid-1.xht == reference/moz-multicol3-column-balancing-break-inside-avoid-1-ref.xht
 multicol-height-002.xht == reference/multicol-height-002.xht
+multiple-content-values-001.xht == reference/pass_if_pass_below.xht
 numbers-units-001.xht == reference/no-red-on-blank-page-ref.xht
 numbers-units-003.xht == reference/no-red-on-blank-page-ref.xht
 numbers-units-004.xht == reference/ref-filled-black-96px-square.xht
@@ -5872,6 +5873,18 @@ quoted-string-004.xht == reference/quoted-string-002-ref.xht
 quotes-035.xht == reference/quotes-035-ref.xht
 quotes-035a.xht == reference/quotes-035-ref.xht
 quotes-036.xht == reference/quotes-035-ref.xht
+quotes-applies-to-001.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-002.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-003.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-004.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-007.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-008.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-009.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-011.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-012.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-013.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-014.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-015.xht == reference/pass_if_pass_below.xht
 relpos-calcs-001.xht == reference/relpos-calcs-001-ref.xht
 relpos-calcs-002.xht == reference/relpos-calcs-001-ref.xht
 relpos-calcs-003.xht == reference/relpos-calcs-001-ref.xht

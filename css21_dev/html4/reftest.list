@@ -5333,6 +5333,7 @@ moz-css21-table-page-break-inside-avoid-7.htm == reference/moz-css21-table-page-
 moz-css21-table-page-break-inside-avoid-8.htm == reference/moz-css21-table-page-break-inside-avoid-6-ref.htm
 moz-multicol3-column-balancing-break-inside-avoid-1.htm == reference/moz-multicol3-column-balancing-break-inside-avoid-1-ref.htm
 multicol-height-002.htm == reference/multicol-height-002.htm
+multiple-content-values-001.htm == reference/pass_if_pass_below.htm
 numbers-units-001.htm == reference/no-red-on-blank-page-ref.htm
 numbers-units-003.htm == reference/no-red-on-blank-page-ref.htm
 numbers-units-004.htm == reference/ref-filled-black-96px-square.htm
@@ -5872,6 +5873,18 @@ quoted-string-004.htm == reference/quoted-string-002-ref.htm
 quotes-035.htm == reference/quotes-035-ref.htm
 quotes-035a.htm == reference/quotes-035-ref.htm
 quotes-036.htm == reference/quotes-035-ref.htm
+quotes-applies-to-001.htm == reference/pass_if_pass_below.htm
+quotes-applies-to-002.htm == reference/pass_if_pass_below.htm
+quotes-applies-to-003.htm == reference/pass_if_pass_below.htm
+quotes-applies-to-004.htm == reference/pass_if_pass_below.htm
+quotes-applies-to-007.htm == reference/pass_if_pass_below.htm
+quotes-applies-to-008.htm == reference/pass_if_pass_below.htm
+quotes-applies-to-009.htm == reference/pass_if_pass_below.htm
+quotes-applies-to-011.htm == reference/pass_if_pass_below.htm
+quotes-applies-to-012.htm == reference/pass_if_pass_below.htm
+quotes-applies-to-013.htm == reference/pass_if_pass_below.htm
+quotes-applies-to-014.htm == reference/pass_if_pass_below.htm
+quotes-applies-to-015.htm == reference/pass_if_pass_below.htm
 relpos-calcs-001.htm == reference/relpos-calcs-001-ref.htm
 relpos-calcs-002.htm == reference/relpos-calcs-001-ref.htm
 relpos-calcs-003.htm == reference/relpos-calcs-001-ref.htm
