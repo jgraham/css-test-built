@@ -4444,6 +4444,16 @@ left-offset-003.htm == reference/left-offset-003-ref.htm
 left-offset-percentage-001.htm == reference/left-offset-percentage-001-ref.htm
 left-offset-percentage-002.htm == reference/left-offset-percentage-002-ref.htm
 left-offset-position-fixed-001.htm == reference/left-offset-position-fixed-001-ref.htm
+letter-spacing-applies-to-001.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
+letter-spacing-applies-to-002.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
+letter-spacing-applies-to-004.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
+letter-spacing-applies-to-006.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
+letter-spacing-applies-to-008.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
+letter-spacing-applies-to-009.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
+letter-spacing-applies-to-010.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
+letter-spacing-applies-to-011.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
+letter-spacing-applies-to-014.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
+letter-spacing-applies-to-015.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
 line-box-height-002.htm == reference/line-box-height-002-ref.htm
 line-box-height-vlr-003.htm == reference/line-box-height-vlr-003-ref.htm
 line-box-height-vlr-005.htm == reference/line-box-height-vlr-003-ref.htm
