@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Transforms Module Level 1 CR Test Suite</h1>
-  <h2>The transform-origin Property (60 tests)</h2>
+  <h2>The transform-origin Property (117 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -31,7 +31,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s8">+</a>
         <a href="https://www.w3.org/TR/css-transforms-1/#transform-origin-property">8 The transform-origin Property</a></th></tr>
-      <!-- 60 tests -->
+      <!-- 116 tests -->
       <tr id="css-transform-scale-001-8" class="">
         <td>
             <a href="css-transform-scale-001.xht">css-transform-scale-001</a></td>
@@ -51,6 +51,270 @@
         <td>transform property with scale function and move its origin
           <ul class="assert">
             <li>The transform scales the element to twice its size in both the X and Y directions and moves its origin to the top left corner.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="regions-transforms-014-8" class="">
+        <td>
+            <a href="regions-transforms-014.xht">regions-transforms-014</a></td>
+        <td><a href="reference/regions-transforms-014-ref.xht">=</a> </td>
+        <td></td>
+        <td>CSS Regions: Transform region with position:absolute and transform-origin
+          <ul class="assert">
+            <li>This test checks that the transform and transform-origin are applied to a region with absolute positioning.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-001-8" class="svg">
+        <td>
+            <a href="svg-origin-length-001.xht">svg-origin-length-001</a></td>
+        <td><a href="reference/svg-origin-length-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - default value
+          <ul class="assert">
+            <li>The transform-origin should be 0 0 by default for SVG elements without associated CSS Layout Box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-002-8" class="svg">
+        <td>
+            <a href="svg-origin-length-002.xht">svg-origin-length-002</a></td>
+        <td><a href="reference/svg-origin-length-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 0 0
+          <ul class="assert">
+            <li>The transform-origin should be 0 0 by default, so the current value shouldn't make a difference.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-003-8" class="svg">
+        <td>
+            <a href="svg-origin-length-003.xht">svg-origin-length-003</a></td>
+        <td><a href="reference/svg-origin-length-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 100px 0
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (100,0) temporarily.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-004-8" class="svg">
+        <td>
+            <a href="svg-origin-length-004.xht">svg-origin-length-004</a></td>
+        <td><a href="reference/svg-origin-length-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 0 100px
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (0,100px) temporarily.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-005-8" class="svg">
+        <td>
+            <a href="svg-origin-length-005.xht">svg-origin-length-005</a></td>
+        <td><a href="reference/svg-origin-length-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 50px 50px
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (50px,50px) temporarily.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-006-8" class="svg">
+        <td>
+            <a href="svg-origin-length-006.xht">svg-origin-length-006</a></td>
+        <td><a href="reference/svg-origin-length-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 100px 0
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (100,0) temporarily and must support unit less values for presentation attributes.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-007-8" class="svg">
+        <td>
+            <a href="svg-origin-length-007.xht">svg-origin-length-007</a></td>
+        <td><a href="reference/svg-origin-length-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 0 100
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (0,100px) temporarily and must support unit less values for presentation attributes.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-008-8" class="svg">
+        <td>
+            <a href="svg-origin-length-008.xht">svg-origin-length-008</a></td>
+        <td><a href="reference/svg-origin-length-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 50 50
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (50px,50px) temporarily and must support unit less values for presentation attributes.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-cm-001-8" class="svg">
+        <td>
+            <a href="svg-origin-length-cm-001.xht">svg-origin-length-cm-001</a></td>
+        <td><a href="reference/svg-origin-length-cm-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values in cm - default value
+          <ul class="assert">
+            <li>The transform-origin should be 0 0 by default for SVG elements without associated CSS Layout Box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-cm-002-8" class="svg">
+        <td>
+            <a href="svg-origin-length-cm-002.xht">svg-origin-length-cm-002</a></td>
+        <td><a href="reference/svg-origin-length-cm-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values in cm - 0 0
+          <ul class="assert">
+            <li>The transform-origin should be 0 0 by default, so the current value shouldn't make a difference.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-cm-003-8" class="svg">
+        <td>
+            <a href="svg-origin-length-cm-003.xht">svg-origin-length-cm-003</a></td>
+        <td><a href="reference/svg-origin-length-cm-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 2cm 0
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (2cm,0) temporarily.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-cm-004-8" class="svg">
+        <td>
+            <a href="svg-origin-length-cm-004.xht">svg-origin-length-cm-004</a></td>
+        <td><a href="reference/svg-origin-length-cm-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 0 2cm
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (0,2cm) temporarily.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-cm-005-8" class="svg">
+        <td>
+            <a href="svg-origin-length-cm-005.xht">svg-origin-length-cm-005</a></td>
+        <td><a href="reference/svg-origin-length-cm-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 1cm 1cm
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (1cm,1cm) temporarily.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-in-001-8" class="svg">
+        <td>
+            <a href="svg-origin-length-in-001.xht">svg-origin-length-in-001</a></td>
+        <td><a href="reference/svg-origin-length-in-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values in inch - default value
+          <ul class="assert">
+            <li>The transform-origin should be 0 0 by default for SVG elements without associated CSS Layout Box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-in-002-8" class="svg">
+        <td>
+            <a href="svg-origin-length-in-002.xht">svg-origin-length-in-002</a></td>
+        <td><a href="reference/svg-origin-length-in-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values in inch - 0 0
+          <ul class="assert">
+            <li>The transform-origin should be 0 0 by default, so the current value shouldn't make a difference.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-in-003-8" class="svg">
+        <td>
+            <a href="svg-origin-length-in-003.xht">svg-origin-length-in-003</a></td>
+        <td><a href="reference/svg-origin-length-in-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 1.5in 0
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (1.5in,0) temporarily.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-in-004-8" class="svg">
+        <td>
+            <a href="svg-origin-length-in-004.xht">svg-origin-length-in-004</a></td>
+        <td><a href="reference/svg-origin-length-in-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 0 1.5in
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (0,1.5in) temporarily.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-in-005-8" class="svg">
+        <td>
+            <a href="svg-origin-length-in-005.xht">svg-origin-length-in-005</a></td>
+        <td><a href="reference/svg-origin-length-in-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 0.75in 0.75in
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (0.75in, 0.75in) temporarily.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-pt-001-8" class="svg">
+        <td>
+            <a href="svg-origin-length-pt-001.xht">svg-origin-length-pt-001</a></td>
+        <td><a href="reference/svg-origin-length-pt-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values in pt - default value
+          <ul class="assert">
+            <li>The transform-origin should be 0 0 by default for SVG elements without associated CSS Layout Box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-pt-002-8" class="svg">
+        <td>
+            <a href="svg-origin-length-pt-002.xht">svg-origin-length-pt-002</a></td>
+        <td><a href="reference/svg-origin-length-pt-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values in pt - 0 0
+          <ul class="assert">
+            <li>The transform-origin should be 0 0 by default, so the current value shouldn't make a difference.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-pt-003-8" class="svg">
+        <td>
+            <a href="svg-origin-length-pt-003.xht">svg-origin-length-pt-003</a></td>
+        <td><a href="reference/svg-origin-length-pt-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 80pt 0
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (80pt,0) temporarily.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-pt-004-8" class="svg">
+        <td>
+            <a href="svg-origin-length-pt-004.xht">svg-origin-length-pt-004</a></td>
+        <td><a href="reference/svg-origin-length-pt-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 0 80pt
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (0,80pt) temporarily.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-origin-length-pt-005-8" class="svg">
+        <td>
+            <a href="svg-origin-length-pt-005.xht">svg-origin-length-pt-005</a></td>
+        <td><a href="reference/svg-origin-length-pt-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG presentation attribute transform-origin with length values - 40pt 40pt
+          <ul class="assert">
+            <li>The transform-origin should translate the origin by (40pt,40pt) temporarily.</li>
           </ul>
         </td>
       </tr>
@@ -692,9 +956,372 @@
           </ul>
         </td>
       </tr>
+      <tr id="svg-rotate-3args-017-8" class="svg">
+        <td>
+            <a href="svg-rotate-3args-017.xht">svg-rotate-3args-017</a></td>
+        <td><a href="reference/svg-rotate-3args-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG rotate with three arguments with transform-origin with length values - 40px 40px
+          <ul class="assert">
+            <li>The rotate transform function must support three arguments in combination with transform-origin using absolute values. First, the transform-origin should translate the origin by 40px in both the vertical and horizontal directions temporarily to (40px 40px). Second, the green rect should be rotated by 90 degrees clockwise after the transform origin has been translated by an additional 20 pixels in both the horizontal and vertical directions, making the origin (60px 60px) temporarily. The green rect should completely cover the red rect.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-rotate-3args-018-8" class="svg">
+        <td>
+            <a href="svg-rotate-3args-018.xht">svg-rotate-3args-018</a></td>
+        <td><a href="reference/svg-rotate-3args-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG rotate with three arguments with transform-origin with first value 'center' and missing second argument
+          <ul class="assert">
+            <li>The rotate transform function must support three arguments in combination with transform-origin using one keyword value. First, the transform-origin value of 'center' should translate the origin by 40px in both the vertical and horizontal directions temporarily to (0px 40px), which is the center of the green rect. Second, the green rect should be rotated 90 degrees clockwise after the transform origin has been translated by 20 pixels in both the vertical and horizontal directions, making the origin (20px 60px) temporarily. The green rect should completely cover the red rect.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-rotate-3args-019-8" class="svg">
+        <td>
+            <a href="svg-rotate-3args-019.xht">svg-rotate-3args-019</a></td>
+        <td><a href="reference/svg-rotate-3args-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG rotate with three arguments with transform-origin with first value '50%' and missing second argument
+          <ul class="assert">
+            <li>The rotate transform function must support three arguments in combination with transform-origin using one relative value. First, the transform-origin value of '50%' should translate the origin by 40px in both the vertical and horizontal directions temporarily to (0px 40px), which is the center of the green rect. Second, the green rect should be rotated 90 degrees clockwise after the transform origin has been translated by 20 pixels in both the vertical and horizontal directions, making the origin (20px 60px) temporarily. The green rect should completely cover the red rect.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-rotate-3args-020-8" class="svg">
+        <td>
+            <a href="svg-rotate-3args-020.xht">svg-rotate-3args-020</a></td>
+        <td><a href="reference/svg-rotate-3args-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG rotate with three arguments with transform-origin with first value 'right' and second value 'top'
+          <ul class="assert">
+            <li>The rotate transform function must support three arguments in combination with transform-origin using two keyword values. First, the transform-origin value of 'right top' should translate the origin by 40px in the horizontal direction and by 80px in the vertical direction temporarily to (40px 80px), which is the top right corner of the green rect. Second, the green rect should be rotated 90 degrees clockwise after the transform origin has been translated by 20 pixels in both the vertical and horizontal directions, making the origin (60px 100px) temporarily. The green rect should completely cover the red rect.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-rotate-3args-021-8" class="svg">
+        <td>
+            <a href="svg-rotate-3args-021.xht">svg-rotate-3args-021</a></td>
+        <td><a href="reference/svg-rotate-3args-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG rotate with three arguments with relative translation-values combined with absolute transform-origin length values
+          <ul class="assert">
+            <li>The rotate transform function must support three arguments with relative translation-values in combination with transform-origin using two absolute pixel values. First, the transform-origin value of '40px 40px' should translate the origin by 40px in both the vertical and horizontal directions temporarily to (40px 40px). Second, the green rect should be rotated 90 degrees clockwise after the transform origin has been translated by an additional 20 pixels in both the horizontal and vertical directions, making the origin (60px 60px) temporarily. The green rect should completely cover the red rect.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-rotate-3args-022-8" class="svg">
+        <td>
+            <a href="svg-rotate-3args-022.xht">svg-rotate-3args-022</a></td>
+        <td><a href="reference/svg-rotate-3args-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG rotate with three arguments with absolute translation-values combined with relative transform-origin length values
+          <ul class="assert">
+            <li>The rotate transform function must support three arguments with absolute translation-values in combination with transform-origin using two relative values. First, the transform-origin value of '25% 25%' should translate the origin by 20px in both the vertical and horizontal directions temporarily to (-20px 20px). Second, the green rect should be rotated 90 degrees clockwise after the transform origin has been translated by an additional 40 pixels in both the horizontal and vertical directions, making the origin (20px 60px) temporarily. The green rect should completely cover the red rect.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="svg-rotate-3args-023-8" class="svg">
+        <td>
+            <a href="svg-rotate-3args-023.xht">svg-rotate-3args-023</a></td>
+        <td><a href="reference/svg-rotate-3args-ref.xht">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>SVG rotate with three arguments with relative translation-values combined with relative transform-origin length values
+          <ul class="assert">
+            <li>The rotate transform function must support three arguments with relative translation-values in combination with transform-origin using two relative values. First, the transform-origin value of '25% 25%' should translate the origin by 20px in both the vertical and horizontal directions temporarily to (-20px 20px). Second, the green rect should be rotated 90 degrees clockwise after the transform origin has been translated by an additional 40 pixels in both the horizontal and vertical directions, making the origin (20px 60px) temporarily. The green rect should completely cover the red rect.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-inherit-origin-001-8" class="">
+        <td>
+            <a href="transform-inherit-origin-001.xht">transform-inherit-origin-001</a></td>
+        <td><a href="reference/transform-inherit-origin-ref.xht">=</a> </td>
+        <td></td>
+        <td>&quot;transform-origin: inherit&quot; and em
+          <ul class="assert">
+            <li>The 'transform-origin' property's computed value (which is what's inherited if 'inherit' is specified) is defined as &quot;For &lt;length&gt; the absolute value, otherwise a percentage.&quot; In this test, a parent element has a transform-origin of '5em 10em' with a font-size of 10px, and the child has &quot;transform-origin: inherit&quot;. Since the relative length of 5em is converted to an absolute length before inheritance, the transform-origin should be at the bottom of the child, 50px 100px. The 180deg rotation should thus effectively move the child down 100px. An implementation that incorrectly inherited the transform-origin value before converting to an absolute length would treat it as 100px 200px, since the child has a font-size of 20px, so it would effectively translate the child 100px right and 300px down.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-inherit-origin-002-8" class="">
+        <td>
+            <a href="transform-inherit-origin-002.xht">transform-inherit-origin-002</a></td>
+        <td><a href="reference/transform-inherit-origin-ref.xht">=</a> </td>
+        <td></td>
+        <td>&quot;transform-origin: inherit&quot; and percentages
+          <ul class="assert">
+            <li>The 'transform-origin' property's computed value (which is what's inherited if 'inherit' is specified) is defined as &quot;For &lt;length&gt; the absolute value, otherwise a percentage.&quot; In this test, a parent element has a transform-origin of '50% 100%' with a height/width of 50px, and the child has &quot;transform-origin: inherit&quot; with a height/width of 100px. Since the transform-origin is a percentage, it's inherited before it gets resolved to a length. This means it works out to 50px 100px on the child, at its center, so the 180deg rotation should translate the child down by 100px. An implementation that incorrectly resolved the transform-origin to 25px 50px before inheritance would instead display the child box translated left 75px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-001-8" class="">
+        <td>
+            <a href="transform-origin-001.xht">transform-origin-001</a></td>
+        <td><a href="reference/transform-origin-ref-1.xht">&#x2260;</a> </td>
+        <td></td>
+        <td>Default transform-origin not top left
+          <ul class="assert">
+            <li>A transform-origin of 0% 0% must not result in the same rendering as the default of 50% 50%, if a 45-degree rotation is applied.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-002-8" class="">
+        <td>
+            <a href="transform-origin-002.xht">transform-origin-002</a></td>
+        <td><a href="reference/transform-origin-ref-1.xht">&#x2260;</a> </td>
+        <td></td>
+        <td>Default transform-origin not center right
+          <ul class="assert">
+            <li>A transform-origin of 100% 50% must not result in the same rendering as the default of 50% 50%, if a 45-degree rotation is applied.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-003-8" class="">
+        <td>
+            <a href="transform-origin-003.xht">transform-origin-003</a></td>
+        <td><a href="reference/transform-origin-ref-2.xht">=</a> </td>
+        <td></td>
+        <td>transform-origin percentages 1
+          <ul class="assert">
+            <li>A transform-origin of 101px 51px must result in the same rendering as the default of 50% 50% in this case. The content box is 200x100px, so with a 1px border, the border box is 202x102px. transform-origin is computed relative to the border box. (Note: an implementation that incorrectly computes transform-origin percentages relative to the content box would fail this test by only a few pixels, so care is needed in checking that the test and reference renderings match exactly.)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-004-8" class="">
+        <td>
+            <a href="transform-origin-004.xht">transform-origin-004</a></td>
+        <td><a href="reference/transform-origin-ref-2.xht">=</a> </td>
+        <td></td>
+        <td>transform-origin percentages 2
+          <ul class="assert">
+            <li>A transform-origin of 101px 50% must result in the same rendering as the default of 50% 50% in this case. The content box is 200x100px, so with a 1px border, the border box is 202x102px. transform-origin is computed relative to the border box. (Note: an implementation that incorrectly computes transform-origin percentages relative to the content box would fail this test by only a few pixels, so care is needed in checking that the test and reference renderings match exactly.)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-005-8" class="">
+        <td>
+            <a href="transform-origin-005.xht">transform-origin-005</a></td>
+        <td><a href="reference/transform-origin-ref-2.xht">=</a> </td>
+        <td></td>
+        <td>transform-origin percentages 3
+          <ul class="assert">
+            <li>A transform-origin of 50% 51px must result in the same rendering as the default of 50% 50% in this case. The content box is 200x100px, so with a 1px border, the border box is 202x102px. transform-origin is computed relative to the border box. (Note: an implementation that incorrectly computes transform-origin percentages relative to the content box would fail this test by only a few pixels, so care is needed in checking that the test and reference renderings match exactly.)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-006-8" class="">
+        <td>
+            <a href="transform-origin-006.xht">transform-origin-006</a></td>
+        <td><a href="reference/transform-origin-ref-2.xht">=</a> </td>
+        <td></td>
+        <td>transform-origin percentages 4
+          <ul class="assert">
+            <li>Percentages in transform-origin refer to the size of the element's border box. This tests that they don't refer to the content, padding, or margin box by applying nonzero margin, border, and padding. (Note: an implementation that resolves percentages relative to the incorrect box might fail this test by only a few pixels, so it's important to check that the test and reference renderings match exactly.)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-007-8" class="">
+        <td>
+            <a href="transform-origin-007.xht">transform-origin-007</a></td>
+        <td><a href="reference/transform-origin-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>transform-origin - 50% bottom('bottom' computes to '100%' in vertical position)
+          <ul class="assert">
+            <li>The 'transform-origin' property set 'bottom' computes to 100% for the vertical position.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-008-8" class="">
+        <td>
+            <a href="transform-origin-008.xht">transform-origin-008</a></td>
+        <td><a href="reference/transform-origin-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>transform-origin - center 0%('center' computes to '50%' in horizontal position)
+          <ul class="assert">
+            <li>The 'transform-origin' property set 'center' computes to 50%(left 50%) for the horizontal position.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-009-8" class="">
+        <td>
+            <a href="transform-origin-009.xht">transform-origin-009</a></td>
+        <td><a href="reference/transform-origin-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>transform-origin - 0% center('center' computes to '50%' in vertical position)
+          <ul class="assert">
+            <li>The 'transform-origin' property set 'center' computes to 50%(top 50%) for the vertical position.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-01-8" class="">
+        <td>
+            <a href="transform-origin-01.xht">transform-origin-01</a></td>
+        <td><a href="reference/transform-origin-01-ref.xht">=</a> </td>
+        <td></td>
+        <td>SVG Transform using transform-origin
+          <ul class="assert">
+            <li>If only one value is specified, the second value is assumed to be 'center'</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-010-8" class="">
+        <td>
+            <a href="transform-origin-010.xht">transform-origin-010</a></td>
+        <td><a href="reference/transform-origin-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>transform-origin - left 0%('left' computes to '0%' in horizontal position)
+          <ul class="assert">
+            <li>The 'transform-origin' property set 'left' computes to 0% for the horizontal position.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-011-8" class="">
+        <td>
+            <a href="transform-origin-011.xht">transform-origin-011</a></td>
+        <td><a href="reference/transform-origin-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>transform-origin - right 100%('right' computes to '100%' in horizontal position)
+          <ul class="assert">
+            <li>The 'transform-origin' property set 'right' computes to 100% for the horizontal position.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-012-8" class="">
+        <td>
+            <a href="transform-origin-012.xht">transform-origin-012</a></td>
+        <td><a href="reference/transform-origin-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>transform-origin - 0% top('top' computes to '0%' in vertical position)
+          <ul class="assert">
+            <li>The 'transform-origin' property set 'top' computes to 0% for the vertical position.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-name-001-8" class="">
+        <td>
+            <a href="transform-origin-name-001.xht">transform-origin-name-001</a></td>
+        <td><a href="reference/transform-origin-name-ref-1.xht">=</a> <a href="reference/transform-origin-name-notref.xht">&#x2260;</a> </td>
+        <td></td>
+        <td>transform-origin: top left
+          <ul class="assert">
+            <li>This tests that 'transform-origin: top left' is the same as 'transform-origin: 0% 0%'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-name-002-8" class="">
+        <td>
+            <a href="transform-origin-name-002.xht">transform-origin-name-002</a></td>
+        <td><a href="reference/transform-origin-name-ref-1.xht">=</a> <a href="reference/transform-origin-name-notref.xht">&#x2260;</a> </td>
+        <td></td>
+        <td>transform-origin: left top
+          <ul class="assert">
+            <li>This tests that 'transform-origin: left top' is the same as 'transform-origin: 0% 0%'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-name-003-8" class="">
+        <td>
+            <a href="transform-origin-name-003.xht">transform-origin-name-003</a></td>
+        <td><a href="reference/transform-origin-name-ref-2.xht">=</a> <a href="reference/transform-origin-name-notref.xht">&#x2260;</a> </td>
+        <td></td>
+        <td>transform-origin: top
+          <ul class="assert">
+            <li>This tests that 'transform-origin: top' is the same as 'transform-origin: 50% 0%'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-name-004-8" class="">
+        <td>
+            <a href="transform-origin-name-004.xht">transform-origin-name-004</a></td>
+        <td><a href="reference/transform-origin-name-ref-2.xht">=</a> <a href="reference/transform-origin-name-notref.xht">&#x2260;</a> </td>
+        <td></td>
+        <td>transform-origin: top center
+          <ul class="assert">
+            <li>This tests that 'transform-origin: top center' is the same as 'transform-origin: 50% 0%'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-name-005-8" class="">
+        <td>
+            <a href="transform-origin-name-005.xht">transform-origin-name-005</a></td>
+        <td><a href="reference/transform-origin-name-ref-2.xht">=</a> <a href="reference/transform-origin-name-notref.xht">&#x2260;</a> </td>
+        <td></td>
+        <td>transform-origin: center top
+          <ul class="assert">
+            <li>This tests that 'transform-origin: center top' is the same as 'transform-origin: 50% 0%'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-name-006-8" class="">
+        <td>
+            <a href="transform-origin-name-006.xht">transform-origin-name-006</a></td>
+        <td><a href="reference/transform-origin-name-ref-3.xht">=</a> <a href="reference/transform-origin-name-notref.xht">&#x2260;</a> </td>
+        <td></td>
+        <td>transform-origin: top right
+          <ul class="assert">
+            <li>This tests that 'transform-origin: top right' is the same as 'transform-origin: 100% 0%'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform-origin-name-007-8" class="">
+        <td>
+            <a href="transform-origin-name-007.xht">transform-origin-name-007</a></td>
+        <td><a href="reference/transform-origin-name-ref-3.xht">=</a> <a href="reference/transform-origin-name-notref.xht">&#x2260;</a> </td>
+        <td></td>
+        <td>transform-origin: right top
+          <ul class="assert">
+            <li>This tests that 'transform-origin: right top' is the same as 'transform-origin: 100% 0%'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform3d-rotatex-transformorigin-001-8" class="">
+        <td>
+            <a href="transform3d-rotatex-transformorigin-001.xht">transform3d-rotatex-transformorigin-001</a></td>
+        <td><a href="reference/transform3d-rotatex-transformorigin-ref.xht">=</a> <a href="reference/transform-lime-square-ref.xht">&#x2260;</a> </td>
+        <td></td>
+        <td>rotateX() with 'transform-origin'
+          <ul class="assert">
+            <li>This tests that rotateX(45deg) has the same effect (with perspective) with a top left origin and a top right origin. It should make no difference, because it doesn't change the axis of rotation: it's still the top. (This doesn't actually test the perspective property, since a UA that doesn't support perspective at all could still pass.)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform3d-translate3d-001-8" class="">
+        <td>
+            <a href="transform3d-translate3d-001.xht">transform3d-translate3d-001</a></td>
+        <td><a href="reference/transform3d-translate3d-ref.xht">=</a> <a href="reference/transform-lime-square-ref.xht">&#x2260;</a> </td>
+        <td></td>
+        <td>translate3d() vs. 'transform-origin'
+          <ul class="assert">
+            <li>This tests that translate3d() before and after rotatex() is the same as an equivalent 'transform-origin'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transform3d-translatez-001-8" class="">
+        <td>
+            <a href="transform3d-translatez-001.xht">transform3d-translatez-001</a></td>
+        <td><a href="reference/transform3d-translatez-ref.xht">=</a> <a href="reference/transform3d-translatez-notref.xht">&#x2260;</a> </td>
+        <td></td>
+        <td>translatez() vs. 'transform-origin'
+          <ul class="assert">
+            <li>This tests that translatez(+-10px) before and after rotatex() is the same as an equivalent 'transform-origin', and different from translatez(+-20px).</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s8.#propdef-transform-origin">
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="transform-origin-8.#propdef-transform-origin" class="">
+        <td>
+            <a href="transform-origin.xht">transform-origin</a></td>
+        <td><a href="reference/transform-origin-ref.xht">=</a> </td>
+        <td></td>
+        <td>transform-origin
+          <ul class="assert">
+            <li>The transform should change the transform-origin to the bottom right and rotate 180 degrees</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s8.#valuedef-bottom0">
       <!-- 0 tests -->

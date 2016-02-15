@@ -13,7 +13,7 @@
  <body>
 
   <h1>Filter Effects Level 1 CR Test Suite</h1>
-  <h2>Filter primitives (0 tests)</h2>
+  <h2>Filter primitives (4 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -127,10 +127,32 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s8.5">+</a>
         <a href="https://www.w3.org/TR/filter-effects-1/#feColorMatrixElement">8.5 Filter primitive feColorMatrix</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="fecolormatrix-type-8.5" class="">
+        <td>
+            <a href="fecolormatrix-type.htm">fecolormatrix-type</a></td>
+        <td><a href="reference/fecolormatrix-type-ref.htm">=</a> </td>
+        <td></td>
+        <td>Filter Effects: Test feColorMatrix with type matrix
+          <ul class="assert">
+            <li>If the test runs, you should see a auqamarine colored rectangle.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s8.5.#element-attrdef-fecolormatrix-type">
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="fecolormatrix-type-8.5.#element-attrdef-fecolormatrix-type" class="">
+        <td>
+            <a href="fecolormatrix-type.htm">fecolormatrix-type</a></td>
+        <td><a href="reference/fecolormatrix-type-ref.htm">=</a> </td>
+        <td></td>
+        <td>Filter Effects: Test feColorMatrix with type matrix
+          <ul class="assert">
+            <li>If the test runs, you should see a auqamarine colored rectangle.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s8.5.#element-attrdef-fecolormatrix-values">
       <!-- 0 tests -->
@@ -367,7 +389,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s8.12">+</a>
         <a href="https://www.w3.org/TR/filter-effects-1/#feFloodElement">8.12 Filter primitive feFlood</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="svg-feflood-001-8.12" class="svg">
+        <td>
+            <a href="svg-feflood-001.htm">svg-feflood-001</a></td>
+        <td><a href="reference/svg-feflood-ref.htm">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>feFlood in filter for SVG rect element
+          <ul class="assert">
+            <li>The red rect gets filtered with the filter primitve feFlood. feFlood fills the rect with green. - The rect is black to avoid color interpolation issues.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s8.12.#elementdef-feflood">
       <!-- 0 tests -->
@@ -415,7 +448,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s8.14">+</a>
         <a href="https://www.w3.org/TR/filter-effects-1/#feImageElement">8.14 Filter primitive feImage</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="svg-feimage-001-8.14" class="svg">
+        <td>
+            <a href="svg-feimage-001.htm">svg-feimage-001</a></td>
+        <td><a href="reference/svg-feimage-ref.htm">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>feImage referencing an IRI
+          <ul class="assert">
+            <li>The feImage primitve applied to the red rect should reference and display the green rect by it's IRI. - The rect is black to avoid color interpolation issues.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s8.14.#assert_hqImageResampling">
       <!-- 0 tests -->
@@ -466,7 +510,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s8.17">+</a>
         <a href="https://www.w3.org/TR/filter-effects-1/#feOffsetElement">8.17 Filter primitive feOffset</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="svg-feoffset-001-8.17" class="svg">
+        <td>
+            <a href="svg-feoffset-001.htm">svg-feoffset-001</a></td>
+        <td><a href="reference/svg-feoffset-ref.htm">=</a> </td>
+        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td>feOffset applied to SVG rect element
+          <ul class="assert">
+            <li>The offset filter primitive will translate the rect by -100 pixels in each direction. - The rect is black to avoid color interpolation issues.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s8.17.#assert_hqFeOffsetInterpolation">
       <!-- 0 tests -->
