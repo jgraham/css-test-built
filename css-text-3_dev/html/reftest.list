@@ -557,6 +557,7 @@ text-transform-capitalize-026.htm == reference/text-transform-capitalize-026-ref
 text-transform-capitalize-028.htm == reference/text-transform-capitalize-028-ref.htm
 text-transform-capitalize-030.htm == reference/text-transform-030-ref.htm
 text-transform-capitalize-031.htm == reference/text-transform-tailoring-005-ref.htm
+text-transform-capitalize-032.htm == reference/text-transform-capitalize-032-ref.htm
 text-transform-fullwidth-001.htm == reference/text-transform-fullwidth-001-ref.htm
 text-transform-lowercase-001.htm == reference/text-transform-lowercase-001-ref.htm
 text-transform-none-001.htm == reference/text-transform-none-001-ref.htm
@@ -616,7 +617,7 @@ white-space-collapsing-discard-001.htm == reference/white-space-collapsing-disca
 white-space-collapsing-preserve-breaks-001.htm == reference/white-space-collapsing-preserve-breaks-001-ref.htm
 white-space-collapsing-trim-inner-001.htm == reference/white-space-collapsing-trim-inner-001-ref.htm
 word-break-break-all-000.htm == reference/word-break-break-all-ref-000.htm
-word-break-break-all-001.htm == reference/word-break-break-all-001-ref.htm
+word-break-break-all-001.htm == reference/word-break-break-all-ref-001.htm
 word-break-break-all-002.htm == reference/word-break-break-all-ref-002.htm
 word-break-break-all-003.htm == reference/word-break-break-all-ref-003.htm
 word-break-break-all-004.htm == reference/word-break-break-all-ref-004.htm
@@ -624,11 +625,14 @@ word-break-break-all-005.htm == reference/word-break-break-all-ref-005.htm
 word-break-break-all-006.htm == reference/word-break-break-all-ref-006.htm
 word-break-break-all-007.htm == reference/word-break-break-all-ref-007.htm
 word-break-break-all-008.htm == reference/word-break-break-all-ref-008.htm
+word-break-break-all-009.htm == reference/word-break-break-all-009-ref.htm
 word-break-keep-all-000.htm == reference/word-break-keep-all-ref-000.htm
-word-break-keep-all-001.htm == reference/word-break-keep-all-001-ref.htm
+word-break-keep-all-001.htm == reference/word-break-keep-all-ref-001.htm
 word-break-keep-all-002.htm == reference/word-break-keep-all-ref-002.htm
 word-break-keep-all-003.htm == reference/word-break-keep-all-ref-003.htm
+word-break-keep-all-004.htm == reference/word-break-keep-all-004-ref.htm
 word-break-normal-001.htm == reference/word-break-normal-ref-001.htm
+word-break-normal-002.htm == reference/word-break-normal-002-ref.htm
 word-break-normal-ar-000.htm == reference/word-break-normal-ar-ref-000.htm
 word-break-normal-bo-000.htm == reference/word-break-normal-bo-ref-000.htm
 word-break-normal-en-000.htm == reference/word-break-normal-en-ref-000.htm
