@@ -557,7 +557,6 @@ text-transform-capitalize-026.xht == reference/text-transform-capitalize-026-ref
 text-transform-capitalize-028.xht == reference/text-transform-capitalize-028-ref.xht
 text-transform-capitalize-030.xht == reference/text-transform-030-ref.xht
 text-transform-capitalize-031.xht == reference/text-transform-tailoring-005-ref.xht
-text-transform-capitalize-032.xht == reference/text-transform-capitalize-032-ref.xht
 text-transform-fullwidth-001.xht == reference/text-transform-fullwidth-001-ref.xht
 text-transform-lowercase-001.xht == reference/text-transform-lowercase-001-ref.xht
 text-transform-none-001.xht == reference/text-transform-none-001-ref.xht
@@ -617,7 +616,7 @@ white-space-collapsing-discard-001.xht == reference/white-space-collapsing-disca
 white-space-collapsing-preserve-breaks-001.xht == reference/white-space-collapsing-preserve-breaks-001-ref.xht
 white-space-collapsing-trim-inner-001.xht == reference/white-space-collapsing-trim-inner-001-ref.xht
 word-break-break-all-000.xht == reference/word-break-break-all-ref-000.xht
-word-break-break-all-001.xht == reference/word-break-break-all-ref-001.xht
+word-break-break-all-001.xht == reference/word-break-break-all-001-ref.xht
 word-break-break-all-002.xht == reference/word-break-break-all-ref-002.xht
 word-break-break-all-003.xht == reference/word-break-break-all-ref-003.xht
 word-break-break-all-004.xht == reference/word-break-break-all-ref-004.xht
@@ -625,14 +624,11 @@ word-break-break-all-005.xht == reference/word-break-break-all-ref-005.xht
 word-break-break-all-006.xht == reference/word-break-break-all-ref-006.xht
 word-break-break-all-007.xht == reference/word-break-break-all-ref-007.xht
 word-break-break-all-008.xht == reference/word-break-break-all-ref-008.xht
-word-break-break-all-009.xht == reference/word-break-break-all-009-ref.xht
 word-break-keep-all-000.xht == reference/word-break-keep-all-ref-000.xht
-word-break-keep-all-001.xht == reference/word-break-keep-all-ref-001.xht
+word-break-keep-all-001.xht == reference/word-break-keep-all-001-ref.xht
 word-break-keep-all-002.xht == reference/word-break-keep-all-ref-002.xht
 word-break-keep-all-003.xht == reference/word-break-keep-all-ref-003.xht
-word-break-keep-all-004.xht == reference/word-break-keep-all-004-ref.xht
 word-break-normal-001.xht == reference/word-break-normal-ref-001.xht
-word-break-normal-002.xht == reference/word-break-normal-002-ref.xht
 word-break-normal-ar-000.xht == reference/word-break-normal-ar-ref-000.xht
 word-break-normal-bo-000.xht == reference/word-break-normal-bo-ref-000.xht
 word-break-normal-en-000.xht == reference/word-break-normal-en-ref-000.xht
