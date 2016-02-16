@@ -81,7 +81,3 @@ AddCharset koi8-r .css
 RemoveCharset .css
 </files>
 
-<Files ~ "^at-charset-00[1-6].css$">
-AddCharset Shift_JIS .css
-</Files>
-
