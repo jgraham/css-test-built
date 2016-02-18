@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Text Module Level 3 CR Test Suite</h1>
-  <h2>White Space Processing Details (20 tests)</h2>
+  <h2>White Space Processing Details (27 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -43,7 +43,15 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.1">+</a>
         <a href="https://www.w3.org/TR/css-text-3/#white-space-rules">4.1 The White Space Processing Rules</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="bidi-004-4.1" class="ahem may21">
+        <td>
+            <a href="bidi-004.xht">bidi-004</a></td>
+        <td><a href="reference/bidi-004-ref.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="may21" title="Behavior tested is preferred but optional">Optional</abbr></td>
+        <td>The bidi algorithm and inlines in CSS
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.1.1">
       <tr><th colspan="4" scope="rowgroup">
@@ -305,7 +313,73 @@
       <!-- 0 tests -->
     </tbody>
     <tbody id="s4.2.#tab-size">
-      <!-- 0 tests -->
+      <!-- 6 tests -->
+      <tr id="tab-size-integer-001-4.2.#tab-size" class="">
+        <td>
+            <a href="tab-size-integer-001.xht">tab-size-integer-001</a></td>
+        <td><a href="reference/tab-size-integer-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>tab-size: 4
+          <ul class="assert">
+            <li>Tab should be rendered as 4 times the space character&amp;#8217;s advance width (U+0020)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="tab-size-integer-002-4.2.#tab-size" class="">
+        <td>
+            <a href="tab-size-integer-002.xht">tab-size-integer-002</a></td>
+        <td><a href="reference/tab-size-integer-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>tab-size: -4
+          <ul class="assert">
+            <li>Tab-size negative values are not allowed</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="tab-size-integer-003-4.2.#tab-size" class="">
+        <td>
+            <a href="tab-size-integer-003.xht">tab-size-integer-003</a></td>
+        <td><a href="reference/tab-size-integer-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>tab-size: 0
+          <ul class="assert">
+            <li>Tab should be rendered as 0 times the space character&amp;#8217;s advance width (U+0020)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="tab-size-length-001-4.2.#tab-size" class="">
+        <td>
+            <a href="tab-size-length-001.xht">tab-size-length-001</a></td>
+        <td><a href="reference/tab-size-length-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>tab-size: 1em
+          <ul class="assert">
+            <li>Tab should be rendered as 1em (20px)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="tab-size-length-002-4.2.#tab-size" class="">
+        <td>
+            <a href="tab-size-length-002.xht">tab-size-length-002</a></td>
+        <td><a href="reference/tab-size-length-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>tab-size: -1em
+          <ul class="assert">
+            <li>Tab-size negative length values are not allowed</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="tab-size-percent-001-4.2.#tab-size" class="">
+        <td>
+            <a href="tab-size-percent-001.xht">tab-size-percent-001</a></td>
+        <td><a href="reference/tab-size-length-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>tab-size: 100%
+          <ul class="assert">
+            <li>Tab-size percentage values are not allowed</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
   </table>
 
