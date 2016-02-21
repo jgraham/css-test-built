@@ -1,10 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
-  <title>CSS Backgrounds Test:  background-origin:content-box &amp; background-position</title>
+  <title>CSS Backgrounds Test:  background-clip:content-box &amp; background-position</title>
   <link href="mail:finscn@gmail.com" rel="author" title="finscn" />
-  <link href="http://www.w3.org/TR/css3-background/#the-background-origin" rel="help" />
+  <link href="http://www.w3.org/TR/css3-background/#the-background-clip" rel="help" />
   <meta content="image" name="flags" />
-  <meta content="content-box : The position is relative to the content box." name="assert" />
+  <meta content="content-box : The background is painted within (clipped to) the content box." name="assert" />
 
   <meta charset="utf-8" />
 
@@ -38,7 +38,7 @@
   }
 
   .case {
-    background-origin : content-box;
+    background-clip : content-box;
     background-position: -15px -15px;
   }
 
@@ -49,20 +49,18 @@
 <body>
 
 <div class="infomation">
-
-
-Test Passed If : The background is painted. The paint area is the content-area(excludes padding-area ) of the DIV.<br />
-When background-position is enabled, the browser should paint the background correctly.
+Test Passed If : The background is clipped. The clip area is the content-area(excludes padding-area ) of the DIV.<br />
+When background-position is enabled, the browser should clip the background correctly.
 </div>
 
 <div class="test-case">
 
   <div class="view case no-repeat">
-      Test background-origin
+      Test background-clip
   </div>
 
   <div class="view case">
-      Test background-origin
+      Test background-clip
   </div>
 
 </div>

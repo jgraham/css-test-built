@@ -3,8 +3,8 @@
 # http://test.csswg.org/suites/css-transforms-1_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
-html/2d-rotate-001.htm	80d750c1d0c5b73b9a0cf4a0e0f7635cfc507ec5	?
-xhtml1/2d-rotate-001.xht	80d750c1d0c5b73b9a0cf4a0e0f7635cfc507ec5	?
+html/2d-rotate-001.htm	076244fcaea4ccdb259cf0ae3ccf266710d2e402	?
+xhtml1/2d-rotate-001.xht	076244fcaea4ccdb259cf0ae3ccf266710d2e402	?
 html/2d-rotate-js.htm	8d5285fd124af1a71a0d72ed0388fbb11a7216e8	?
 xhtml1/2d-rotate-js.xht	8d5285fd124af1a71a0d72ed0388fbb11a7216e8	?
 html/animations-001.htm	a4cee4791955488eed14303cedc0330b0531f6f5	?
@@ -167,8 +167,8 @@ html/scalex.htm	30de493943fd387d6a6fc71e34efb364e367595c	?
 xhtml1/scalex.xht	30de493943fd387d6a6fc71e34efb364e367595c	?
 html/scaley.htm	ecfe8122a40e39e64f5dc14d1563acfcbfd8765c	?
 xhtml1/scaley.xht	ecfe8122a40e39e64f5dc14d1563acfcbfd8765c	?
-html/skew-test1.htm	d80da4a5728ac9243e9e129905d6024312905c91	?
-xhtml1/skew-test1.xht	d80da4a5728ac9243e9e129905d6024312905c91	?
+html/skew-test1.htm	ba5ef2455d095cccd94713c431a7d49a9e445ab7	?
+xhtml1/skew-test1.xht	ba5ef2455d095cccd94713c431a7d49a9e445ab7	?
 html/svg-document-styles-001.htm	e2c4fc089927fe0410c4db4522e637cd118b4a65	?
 xhtml1/svg-document-styles-001.xht	e2c4fc089927fe0410c4db4522e637cd118b4a65	?
 html/svg-document-styles-002.htm	c87b61f0992f8e8c3f1e6a09f0e5e1c5d9f9462a	?
