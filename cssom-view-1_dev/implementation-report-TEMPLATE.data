@@ -3,8 +3,8 @@
 # http://test.csswg.org/suites/cssom-view-1_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
-html/caretposition-001.htm	34f87349a09a37427f8e57df92afa10283129c4c	?
-xhtml1/caretposition-001.xht	34f87349a09a37427f8e57df92afa10283129c4c	?
+html/caretposition-001.htm	3d99ab169c749179a407ed758c44cbfc9f1197d6	?
+xhtml1/caretposition-001.xht	3d99ab169c749179a407ed758c44cbfc9f1197d6	?
 html/cssom-getboundingclientrect-001.htm	e401a698b0b6d4d9b3d4630733eaa42f0b82acc3	?
 xhtml1/cssom-getboundingclientrect-001.xht	e401a698b0b6d4d9b3d4630733eaa42f0b82acc3	?
 html/cssom-getboundingclientrect-002.htm	29a0bd1179d5cbf42b4cb21706022d3328b6b134	?
