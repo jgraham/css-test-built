@@ -3,3 +3,5 @@
 # http://test.csswg.org/suites/cssom-view-1_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
+html/htmlelement-offset-width-001.htm	2aa3ebf3ff6268a05bc53f09d8f54c32b9f3dac8	?
+xhtml1/htmlelement-offset-width-001.xht	2aa3ebf3ff6268a05bc53f09d8f54c32b9f3dac8	?

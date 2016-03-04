@@ -1,1 +1,2 @@
 id	references	title	flags	links	revision	credits	assertion
+htmlelement-offset-width-001		CSSOM View - 7 - element.offsetWidth detatches correctly	dom,script	https://drafts.csswg.org/cssom-view-1/#dom-htmlelement-offsetwidth	2aa3ebf3ff6268a05bc53f09d8f54c32b9f3dac8	`Michael Howell`<mailto:michael@notriddle.com>	element.offsetWidth returns 0 when there is no documentElement.

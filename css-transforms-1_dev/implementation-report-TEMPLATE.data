@@ -3,10 +3,10 @@
 # http://test.csswg.org/suites/css-transforms-1_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
-html/css-transform-scale-001.htm	00ce03304079b134709a2a261823eed4aab5a903	?
-xhtml1/css-transform-scale-001.xht	00ce03304079b134709a2a261823eed4aab5a903	?
-html/css-transform-scale-002.htm	1be87301c1d39eab31ff0517f21d27fccf9eed56	?
-xhtml1/css-transform-scale-002.xht	1be87301c1d39eab31ff0517f21d27fccf9eed56	?
+html/css-transform-scale-001.htm	d5828eba3fe322d1d53688762ff2ece6b23e079f	?
+xhtml1/css-transform-scale-001.xht	d5828eba3fe322d1d53688762ff2ece6b23e079f	?
+html/css-transform-scale-002.htm	f5b4e5ccd2212d5830b57b3a7c00f3714d7f5a62	?
+xhtml1/css-transform-scale-002.xht	f5b4e5ccd2212d5830b57b3a7c00f3714d7f5a62	?
 html/perspective-containing-block-dynamic-1a.htm	b1b1a3d920d821ded6c0fd30bd9f698066f580b4	?
 xhtml1/perspective-containing-block-dynamic-1a.xht	b1b1a3d920d821ded6c0fd30bd9f698066f580b4	?
 html/perspective-containing-block-dynamic-1b.htm	856b0e0227f9e8447061dc0183dc3828abad9fdf	?

@@ -3,9 +3,11 @@
 # http://test.csswg.org/suites/cssom-1_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
-html/cssstyledeclaration-csstext.htm	2cc8a22845a56b1cdc11d73b6af616fdc41c9695	?
-xhtml1/cssstyledeclaration-csstext.xht	2cc8a22845a56b1cdc11d73b6af616fdc41c9695	?
-html/escape.htm	7aea68a9623bb9dff127afbd42801555f82c01cc	?
-xhtml1/escape.xht	7aea68a9623bb9dff127afbd42801555f82c01cc	?
+html/cssstyledeclaration-csstext.htm	050d90a766fef18fee4d12855696c9850e89dda3	?
+xhtml1/cssstyledeclaration-csstext.xht	050d90a766fef18fee4d12855696c9850e89dda3	?
+html/escape.htm	4779768a26a639395ce78173147b71159b477640	?
+xhtml1/escape.xht	4779768a26a639395ce78173147b71159b477640	?
+html/interfaces.htm	10c290ccb9207edb0489cd90e857a383674743a7	?
+xhtml1/interfaces.xht	10c290ccb9207edb0489cd90e857a383674743a7	?
 html/selectorserialize.htm	cb441f03c4ab09e33cce9c5c96a60afc7a7b463d	?
 xhtml1/selectorserialize.xht	cb441f03c4ab09e33cce9c5c96a60afc7a7b463d	?

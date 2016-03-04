@@ -1,4 +1,5 @@
 id	references	title	flags	links	revision	credits	assertion
-cssstyledeclaration-csstext		CSSStyleDeclaration.cssText Test	dom,script	https://drafts.csswg.org/cssom-1/#dom-cssstyledeclaration-csstext	2cc8a22845a56b1cdc11d73b6af616fdc41c9695	`kkoichi`<coarse.ground@gmail.com>	CSS declarations is serialized as expected
-escape		CSS#escape	script	https://drafts.csswg.org/cssom-1/#the-css.escape()-method	7aea68a9623bb9dff127afbd42801555f82c01cc		
+cssstyledeclaration-csstext		CSSStyleDeclaration.cssText Test	dom,script	https://drafts.csswg.org/cssom-1/#dom-cssstyledeclaration-csstext	050d90a766fef18fee4d12855696c9850e89dda3	`kkoichi`<coarse.ground@gmail.com>	CSS declarations is serialized as expected
+escape		CSS#escape	script	https://drafts.csswg.org/cssom-1/#the-css.escape()-method	4779768a26a639395ce78173147b71159b477640		
+interfaces		CSSOM automated IDL tests	script	https://drafts.csswg.org/cssom-1/#idl-index	10c290ccb9207edb0489cd90e857a383674743a7	`Ms2ger`<mailto:Ms2ger@gmail.com>	
 selectorSerialize		test serialized selector which is only one simple selector in the sequence of simple selectors	dom,script	https://drafts.csswg.org/cssom-1/#serializing-selectors	cb441f03c4ab09e33cce9c5c96a60afc7a7b463d	`T.Nishitani`<mailto:lequinharay@gmail.com>	

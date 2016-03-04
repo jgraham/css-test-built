@@ -3,3 +3,5 @@
 # http://test.csswg.org/suites/mediaqueries-3_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
+html/min-width-tables-001.htm	a883cf239dd0589e23d0a444cc1557307a6f9264	?
+xhtml1/min-width-tables-001.xht	a883cf239dd0589e23d0a444cc1557307a6f9264	?

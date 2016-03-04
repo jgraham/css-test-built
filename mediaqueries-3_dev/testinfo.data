@@ -1,1 +1,2 @@
 id	references	title	flags	links	revision	credits	assertion
+min-width-tables-001	ref	Table Layout and Viewport Resizing	dom	https://drafts.csswg.org/css2/tables.html#auto-table-layout,https://drafts.csswg.org/mediaqueries-3/#width,https://drafts.csswg.org/mediaqueries-4/#width	a883cf239dd0589e23d0a444cc1557307a6f9264	`Chris Rebert`<http://chrisrebert.com>	Resizing a page which toggles the `display` of elements between `block` and `table-cell` based on the viewport width should not cause unnecessary wrapping of the table.
