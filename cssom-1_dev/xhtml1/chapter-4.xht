@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Object Model  Level 1 CR Test Suite</h1>
-  <h2>Media Queries (0 tests)</h2>
+  <h2>Media Queries (6 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -49,7 +49,26 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.2">+</a>
         <a href="https://www.w3.org/TR/cssom/#serializing-media-queries">4.2 Serializing Media Queries</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 2 tests -->
+      <tr id="matchmedia-4.2" class="dom script">
+        <td>
+            <a href="matchMedia.xht">matchmedia</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM View matchMedia and MediaQueryList
+        </td>
+      </tr>
+      <tr id="medialist-interfaces-003-4.2" class="dom script">
+        <td>
+            <a href="medialist-interfaces-003.xht">medialist-interfaces-003</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM Media Query Serialization
+          <ul class="assert">
+            <li>Media Queries are serialized according to the specification</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.2.#serialize-a-media-query">
       <!-- 0 tests -->
@@ -79,7 +98,48 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.4">+</a>
         <a href="https://www.w3.org/TR/cssom/#the-medialist-interface">4.4 The MediaList Interface</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 4 tests -->
+      <tr id="medialist-4.4" class="script">
+        <td>
+            <a href="MediaList.xht">medialist</a></td>
+        <td></td>
+        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>the MediaList interface
+        </td>
+      </tr>
+      <tr id="medialist-interfaces-001-4.4" class="dom script">
+        <td>
+            <a href="medialist-interfaces-001.xht">medialist-interfaces-001</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM Media Query List Serialization
+          <ul class="assert">
+            <li>MediaLists are serialized according to the specification</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="medialist-interfaces-002-4.4" class="dom script">
+        <td>
+            <a href="medialist-interfaces-002.xht">medialist-interfaces-002</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM MediaList Interfaces
+          <ul class="assert">
+            <li>MediaList object has deleteMedium method and it functions properly.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="medialist-interfaces-004-4.4" class="dom script">
+        <td>
+            <a href="medialist-interfaces-004.xht">medialist-interfaces-004</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM MediaList Interfaces
+          <ul class="assert">
+            <li>MediaList object has appendMedium method and it functions properly.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.4.#collection-of-media-queries">
       <!-- 0 tests -->
