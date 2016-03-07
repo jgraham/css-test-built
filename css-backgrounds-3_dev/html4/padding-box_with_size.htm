@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html><head>
-  <title>CSS Backgrounds Test:  background-origin:padding-box &amp; background-size</title>
+  <title>CSS Backgrounds Test:  background-clip:padding-box &amp; background-size</title>
   <link href="mail:finscn@gmail.com" rel="author" title="finscn">
-  <link href="http://www.w3.org/TR/css3-background/#the-background-origin" rel="help">
+  <link href="http://www.w3.org/TR/css3-background/#the-background-clip" rel="help">
   <meta content="image" name="flags">
-  <meta content="padding-box : The position is relative to the padding box. (For single boxes ‘0 0’ is the upper left corner of the padding edge, ‘100% 100%’ is the lower right corner.)" name="assert">
+  <meta content="padding-box : The background is painted within (clipped to) the padding box" name="assert">
 
   <meta charset="utf-8">
 
@@ -38,7 +38,7 @@
   }
 
   .case {
-    background-origin : padding-box;
+    background-clip : padding-box;
     background-size : 50%;
   }
 
@@ -48,18 +48,18 @@
 <body>
 
 <div class="infomation">
-Test Passed If : The background is painted. The paint area is the area covered by border(includes padding-area ).<br>
-When background-size is enabled, the browser should paint the background correctly.
+Test Passed If : The background is clipped. The clip area is the area covered by border(includes padding-area ).<br>
+When background-size is enabled, the browser should clip the background correctly.
 </div>
 
 <div class="test-case">
 
   <div class="view case no-repeat">
-      Test background-origin
+      Test background-clip
   </div>
 
   <div class="view case">
-      Test background-origin
+      Test background-clip
   </div>
 
 </div>

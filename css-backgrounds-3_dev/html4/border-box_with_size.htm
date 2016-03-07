@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html><head>
-  <title>CSS Backgrounds Test:  background-origin:border-box &amp; background-size</title>
+  <title>CSS Backgrounds Test:  background-clip:border-box &amp; background-size</title>
   <link href="mail:finscn@gmail.com" rel="author" title="finscn">
-  <link href="http://www.w3.org/TR/css3-background/#the-background-origin" rel="help">
+  <link href="http://www.w3.org/TR/css3-background/#the-background-clip" rel="help">
   <meta content="image" name="flags">
-  <meta content="border-box : The position is relative to the border box." name="assert">
+  <meta content="border-box : The background is painted within (clipped to) the border box." name="assert">
 
   <meta charset="utf-8">
-
 
 <style type="text/css">
 
@@ -38,7 +37,7 @@
   }
 
   .case {
-    background-origin : border-box;
+    background-clip : border-box;
     background-size : 50%;
   }
 
@@ -49,18 +48,18 @@
 <body>
 
 <div class="infomation">
-Test Passed If : The background is painted. The paint area includes the area covered by border , and the area surrounded by border.<br>
-When background-size is enabled, the browser should paint the background correctly.
+Test Passed If : The background is clipped. The clip area includes the area covered by border , and the area surrounded by border.<br>
+When background-size is enabled, the browser should clip the background correctly.
 </div>
 
 <div class="test-case">
 
   <div class="view case no-repeat" id="border-box">
-      Test background-origin:
+      Test background-clip:
   </div>
 
   <div class="view case" id="border-box">
-      Test background-origin:
+      Test background-clip:
   </div>
 
 </div>
