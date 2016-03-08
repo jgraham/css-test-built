@@ -1799,33 +1799,39 @@ border-left-width-004.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-005.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-006.xht == reference/border-left-width-006-ref.xht
 border-left-width-007.xht == reference/border-left-width-006-ref.xht
+border-left-width-012.xht == reference/border-left-width-001-ref.xht
 border-left-width-013.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-015.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-016.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-017.xht == reference/border-left-width-006-ref.xht
 border-left-width-018.xht == reference/border-left-width-006-ref.xht
+border-left-width-023.xht == reference/border-left-width-001-ref.xht
 border-left-width-024.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-025.xht == reference/border-left-width-025-ref.xht
 border-left-width-026.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-027.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-028.xht == reference/border-left-width-006-ref.xht
 border-left-width-029.xht == reference/border-left-width-006-ref.xht
+border-left-width-034.xht == reference/border-left-width-001-ref.xht
 border-left-width-035.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-037.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-038.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-039.xht == reference/border-left-width-006-ref.xht
 border-left-width-040.xht == reference/border-left-width-006-ref.xht
+border-left-width-045.xht == reference/border-left-width-001-ref.xht
 border-left-width-046.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-048.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-049.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-050.xht == reference/border-left-width-006-ref.xht
 border-left-width-051.xht == reference/border-left-width-006-ref.xht
+border-left-width-056.xht == reference/border-left-width-001-ref.xht
 border-left-width-057.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-058.xht == reference/border-left-width-006-ref.xht
 border-left-width-059.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-060.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-061.xht == reference/border-left-width-061-ref.xht
 border-left-width-062.xht == reference/border-left-width-061-ref.xht
+border-left-width-067.xht == reference/border-left-width-001-ref.xht
 border-left-width-068.xht == reference/ref-if-there-is-no-red.xht
 border-left-width-069.xht == reference/border-left-width-069-ref.xht
 border-left-width-070.xht == reference/ref-if-there-is-no-red.xht
@@ -2688,6 +2694,7 @@ class-selector-004.xht == reference/no-red-filler-text-ref.xht
 class-selector-005.xht == reference/no-red-filler-text-ref.xht
 class-selector-006.xht == reference/filler-text-below-green.xht
 class-selector-007.xht == reference/no-red-filler-text-ref.xht
+class-selector-008.xht == reference/ref-this-text-should-be-green.xht
 clear-001.xht == reference/clear-001-ref.xht
 clear-002.xht == reference/clear-002-ref.xht
 clear-003.xht == reference/clear-003-ref.xht
@@ -2980,6 +2987,18 @@ containing-block-029.xht == reference/containing-block-029-ref.xht
 containing-block-030.xht == reference/containing-block-030-ref.xht
 content-001.xht == reference/no-red-on-blank-page-ref.xht
 content-036.xht == reference/no-red-on-blank-page-ref.xht
+content-107.xht == reference/only_pass_parens_semicolon.xht
+content-108.xht == reference/only_pass_parens_semicolon.xht
+content-110.xht == reference/only_pass_parens_semicolon.xht
+content-111.xht == reference/only_pass_parens_semicolon.xht
+content-112.xht == reference/only_pass_parens_semicolon.xht
+content-114.xht == reference/only_pass_parens_semicolon.xht
+content-115.xht == reference/only_pass_parens_semicolon.xht
+content-116.xht == reference/only_pass_parens_semicolon.xht
+content-117.xht == reference/only_pass_parens_semicolon.xht
+content-118.xht == reference/only_pass_parens_semicolon.xht
+content-119.xht == reference/only_pass_parens_semicolon.xht
+content-121.xht == reference/only_pass_parens_semicolon.xht
 content-171.xht == reference/content-171-ref.xht
 content-172.xht == reference/content-172-ref.xht
 content-173.xht == reference/content-173-ref.xht
@@ -3017,6 +3036,8 @@ core-syntax-009.xht == reference/ref-this-text-should-be-green.xht
 counter-increment-005.xht == reference/pass-if-number-0-30px.xht
 counter-increment-006.xht == reference/pass-if-number-0-30px.xht
 counter-increment-007.xht == reference/pass-if-number-0-30px.xht
+counter-increment-008.xht == reference/pass_if_number_10.xht
+counter-increment-009.xht == reference/pass_if_number_10.xht
 counter-increment-018.xht == reference/pass-if-number-0-30px.xht
 counter-increment-019.xht == reference/pass-if-number-0-30px.xht
 counter-increment-020.xht == reference/pass-if-number-0-30px.xht
@@ -3044,18 +3065,26 @@ counter-increment-visibility-001.xht == reference/pass_if_number_5.xht
 counter-reset-005.xht == reference/pass-if-number-0-30px.xht
 counter-reset-006.xht == reference/pass-if-number-0-30px.xht
 counter-reset-007.xht == reference/pass-if-number-0-30px.xht
+counter-reset-008.xht == reference/pass_if_number_10.xht
+counter-reset-009.xht == reference/pass_if_number_10.xht
 counter-reset-014.xht == reference/pass-if-number-0-30px.xht
 counter-reset-018.xht == reference/pass-if-number-0-30px.xht
 counter-reset-019.xht == reference/pass-if-number-0-30px.xht
 counter-reset-020.xht == reference/pass-if-number-0-30px.xht
+counter-reset-021.xht == reference/pass_if_number_10.xht
+counter-reset-022.xht == reference/pass_if_number_10.xht
 counter-reset-027.xht == reference/pass-if-number-0-30px.xht
 counter-reset-031.xht == reference/pass-if-number-0-30px.xht
 counter-reset-032.xht == reference/pass-if-number-0-30px.xht
 counter-reset-033.xht == reference/pass-if-number-0-30px.xht
+counter-reset-034.xht == reference/pass_if_number_10.xht
+counter-reset-035.xht == reference/pass_if_number_10.xht
 counter-reset-040.xht == reference/pass-if-number-0-30px.xht
 counter-reset-044.xht == reference/pass-if-number-0-30px.xht
 counter-reset-045.xht == reference/pass-if-number-0-30px.xht
 counter-reset-046.xht == reference/pass-if-number-0-30px.xht
+counter-reset-047.xht == reference/pass_if_number_10.xht
+counter-reset-048.xht == reference/pass_if_number_10.xht
 counter-reset-055.xht == reference/pass-if-number-0-30px.xht
 counter-reset-applies-to-001.xht == reference/pass_if_number_5.xht
 counter-reset-applies-to-002.xht == reference/pass_if_number_5.xht
@@ -3652,6 +3681,7 @@ first-line-pseudo-013.xht == reference/first-line-pseudo-013-ref.xht
 first-line-pseudo-014.xht == reference/first-line-pseudo-013-ref.xht
 first-line-pseudo-015.xht == reference/first-line-pseudo-015-ref.xht
 first-line-pseudo-016.xht == reference/first-line-pseudo-015-ref.xht
+first-line-pseudo-018.xht == reference/ref-this-text-should-be-green.xht
 first-line-selector-013.xht == reference/filler-text-below-green.xht
 fixed-table-layout-002a.xht == reference/fixed-table-layout-002a-ref.xht
 fixed-table-layout-003a01.xht == reference/fixed-table-layout-003a01-ref.xht
@@ -4434,6 +4464,16 @@ left-offset-003.xht == reference/left-offset-003-ref.xht
 left-offset-percentage-001.xht == reference/left-offset-percentage-001-ref.xht
 left-offset-percentage-002.xht == reference/left-offset-percentage-002-ref.xht
 left-offset-position-fixed-001.xht == reference/left-offset-position-fixed-001-ref.xht
+letter-spacing-applies-to-001.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-002.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-004.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-006.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-008.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-009.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-010.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-011.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-014.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
+letter-spacing-applies-to-015.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
 line-box-height-002.xht == reference/line-box-height-002-ref.xht
 line-box-height-vlr-003.xht == reference/line-box-height-vlr-003-ref.xht
 line-box-height-vlr-005.xht == reference/line-box-height-vlr-003-ref.xht
@@ -5287,7 +5327,7 @@ min-width-applies-to-015.xht == reference/ref-filled-black-96px-square.xht
 min-width-applies-to-016.xht == reference/ref-filled-green-100px-square.xht
 min-width-percentage-001.xht == reference/max-width-percentage-001-ref.xht
 min-width-percentage-002.xht == reference/ref-if-there-is-no-red.xht
-min-width-tables-001.xht == ref.xht
+min-width-tables-001.xht == reference/ref-filled-green-100px-square.xht
 moz-css21-block-page-break-inside-avoid-1.xht == reference/moz-css21-block-page-break-inside-avoid-ref.xht
 moz-css21-block-page-break-inside-avoid-10.xht == reference/moz-css21-block-page-break-inside-avoid-ref.xht
 moz-css21-block-page-break-inside-avoid-11.xht == reference/moz-css21-block-page-break-inside-avoid-ref.xht
@@ -5333,6 +5373,7 @@ moz-css21-table-page-break-inside-avoid-7.xht == reference/moz-css21-table-page-
 moz-css21-table-page-break-inside-avoid-8.xht == reference/moz-css21-table-page-break-inside-avoid-6-ref.xht
 moz-multicol3-column-balancing-break-inside-avoid-1.xht == reference/moz-multicol3-column-balancing-break-inside-avoid-1-ref.xht
 multicol-height-002.xht == reference/multicol-height-002.xht
+multiple-content-values-001.xht == reference/pass_if_pass_below.xht
 numbers-units-001.xht == reference/no-red-on-blank-page-ref.xht
 numbers-units-003.xht == reference/no-red-on-blank-page-ref.xht
 numbers-units-004.xht == reference/ref-filled-black-96px-square.xht
@@ -5872,6 +5913,18 @@ quoted-string-004.xht == reference/quoted-string-002-ref.xht
 quotes-035.xht == reference/quotes-035-ref.xht
 quotes-035a.xht == reference/quotes-035-ref.xht
 quotes-036.xht == reference/quotes-035-ref.xht
+quotes-applies-to-001.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-002.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-003.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-004.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-007.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-008.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-009.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-011.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-012.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-013.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-014.xht == reference/pass_if_pass_below.xht
+quotes-applies-to-015.xht == reference/pass_if_pass_below.xht
 relpos-calcs-001.xht == reference/relpos-calcs-001-ref.xht
 relpos-calcs-002.xht == reference/relpos-calcs-001-ref.xht
 relpos-calcs-003.xht == reference/relpos-calcs-001-ref.xht
@@ -6148,6 +6201,12 @@ table-anonymous-objects-017.xht == reference/no_red_antialiasing_a_bc_d-ref.xht
 table-anonymous-objects-018.xht == reference/no_red_antialiasing_a_bc_d-ref.xht
 table-anonymous-objects-019.xht == reference/no_red_antialiasing_a_bc_d-ref.xht
 table-anonymous-objects-020.xht == reference/no_red_antialiasing_a_bc_d-ref.xht
+table-anonymous-objects-059.xht == reference/no_red_3x3_monospace_table-ref.xht
+table-anonymous-objects-060.xht == reference/no_red_3x3_monospace_table-ref.xht
+table-anonymous-objects-061.xht == reference/no_red_3x3_monospace_table-ref.xht
+table-anonymous-objects-062.xht == reference/no_red_3x3_monospace_table-ref.xht
+table-anonymous-objects-063.xht == reference/no_red_3x3_monospace_table-ref.xht
+table-anonymous-objects-064.xht == reference/no_red_3x3_monospace_table-ref.xht
 table-anonymous-objects-065.xht == reference/no_red_3x3_monospace_table-ref.xht
 table-anonymous-objects-066.xht == reference/no_red_3x3_monospace_table-ref.xht
 table-anonymous-objects-067.xht == reference/no_red_3x3_monospace_table-ref.xht
@@ -6340,6 +6399,18 @@ text-align-white-space-005.xht == reference/text-align-white-space-005-ref.xht
 text-align-white-space-006.xht == reference/text-align-white-space-002-ref.xht
 text-align-white-space-007.xht == reference/text-align-white-space-002-ref.xht
 text-align-white-space-008.xht == reference/text-align-white-space-008-ref.xht
+text-decoration-applies-to-001.xht == reference/pass_if_filler_text_underlined.xht != reference/pass_if_filler_text_underlined-notref.xht
+text-decoration-applies-to-002.xht == reference/pass_if_filler_text_underlined.xht != reference/pass_if_filler_text_underlined-notref.xht
+text-decoration-applies-to-004.xht == reference/pass_if_filler_text_underlined.xht != reference/pass_if_filler_text_underlined-notref.xht
+text-decoration-applies-to-005.xht == reference/pass_if_filler_text_underlined.xht != reference/pass_if_filler_text_underlined-notref.xht
+text-decoration-applies-to-006.xht == reference/pass_if_filler_text_underlined.xht != reference/pass_if_filler_text_underlined-notref.xht
+text-decoration-applies-to-007.xht == reference/pass_if_filler_text_underlined.xht != reference/pass_if_filler_text_underlined-notref.xht
+text-decoration-applies-to-008.xht == reference/pass_if_filler_text_underlined.xht != reference/pass_if_filler_text_underlined-notref.xht
+text-decoration-applies-to-009.xht == reference/pass_if_filler_text_underlined.xht != reference/pass_if_filler_text_underlined-notref.xht
+text-decoration-applies-to-010.xht == reference/pass_if_filler_text_underlined.xht != reference/pass_if_filler_text_underlined-notref.xht
+text-decoration-applies-to-011.xht == reference/pass_if_filler_text_underlined.xht != reference/pass_if_filler_text_underlined-notref.xht
+text-decoration-applies-to-014.xht == reference/pass_if_filler_text_underlined.xht != reference/pass_if_filler_text_underlined-notref.xht
+text-decoration-applies-to-015.xht == reference/pass_if_filler_text_underlined.xht != reference/pass_if_filler_text_underlined-notref.xht
 text-decoration-image-001.xht == reference/no-red-on-blank-page-ref.xht
 text-decoration-va-length-001.xht == reference/text-decoration-va-length-001-ref.xht
 text-decoration-va-length-002.xht == reference/text-decoration-va-length-002-ref.xht
