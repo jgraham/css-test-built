@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Text Module Level 3 CR Test Suite</h1>
-  <h2>Line Breaking and Word Boundaries (605 tests)</h2>
+  <h2>Line Breaking and Word Boundaries (602 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -6341,24 +6341,13 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.3">+</a>
         <a href="https://www.w3.org/TR/css-text-3/#word-break-property">5.3 Breaking Rules for Letters: the &#8216;word-break&#8217; property</a></th></tr>
-      <!-- 29 tests -->
+      <!-- 26 tests -->
       <tr id="word-break-break-all-000-5.3" class="primary">
         <td><strong>
             <a href="word-break-break-all-000.xht">word-break-break-all-000</a></strong></td>
         <td><a href="reference/word-break-break-all-ref-000.xht">=</a> </td>
         <td></td>
         <td>word-break: break-all, japanese
-          <ul class="assert">
-            <li>word-break: break-all means lines may break between any two typographic letter units.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="word-break-break-all-001-5.3" class="primary">
-        <td><strong>
-            <a href="word-break-break-all-001.xht">word-break-break-all-001</a></strong></td>
-        <td><a href="reference/word-break-break-all-ref-001.xht">=</a> </td>
-        <td></td>
-        <td>word-break: break-all, latin
           <ul class="assert">
             <li>word-break: break-all means lines may break between any two typographic letter units.</li>
           </ul>
@@ -6452,17 +6441,6 @@
           </ul>
         </td>
       </tr>
-      <tr id="word-break-keep-all-001-5.3" class="primary">
-        <td><strong>
-            <a href="word-break-keep-all-001.xht">word-break-keep-all-001</a></strong></td>
-        <td><a href="reference/word-break-keep-all-ref-001.xht">=</a> </td>
-        <td></td>
-        <td>word-break: keep-all, japanese
-          <ul class="assert">
-            <li>word-break: keep-all means breaking is forbidden within 'words'. In this style, sequences of CJK characters do not break.</li>
-          </ul>
-        </td>
-      </tr>
       <tr id="word-break-keep-all-002-5.3" class="primary">
         <td><strong>
             <a href="word-break-keep-all-002.xht">word-break-keep-all-002</a></strong></td>
@@ -6482,17 +6460,6 @@
         <td>word-break: keep-all, thai
           <ul class="assert">
             <li>word-break: keep-all means breaking is forbidden within 'words', except where opportunities exist due to dictionary-based breaking (such as in Thai).</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="word-break-normal-001-5.3" class="primary">
-        <td><strong>
-            <a href="word-break-normal-001.xht">word-break-normal-001</a></strong></td>
-        <td><a href="reference/word-break-normal-ref-001.xht">=</a> </td>
-        <td></td>
-        <td>word-break: normal, zwsp
-          <ul class="assert">
-            <li>word-break: normal means words break according to their customary rules. A ZWSP character should provide a break point.</li>
           </ul>
         </td>
       </tr>
@@ -6717,10 +6684,10 @@
           </ul>
         </td>
       </tr>
-      <tr id="word-break-break-all-009-5.3.#word-break" class="font">
+      <tr id="word-break-break-all-001-5.3.#word-break" class="font">
         <td>
-            <a href="word-break-break-all-009.xht">word-break-break-all-009</a></td>
-        <td><a href="reference/word-break-break-all-009-ref.xht">=</a> </td>
+            <a href="word-break-break-all-001.xht">word-break-break-all-001</a></td>
+        <td><a href="reference/word-break-break-all-001-ref.xht">=</a> </td>
         <td><abbr class="font" title="Requires a special font">Font</abbr></td>
         <td>word-break - break-all - basic cases
           <ul class="assert">
@@ -6728,10 +6695,10 @@
           </ul>
         </td>
       </tr>
-      <tr id="word-break-keep-all-004-5.3.#word-break" class="font">
+      <tr id="word-break-keep-all-001-5.3.#word-break" class="font">
         <td>
-            <a href="word-break-keep-all-004.xht">word-break-keep-all-004</a></td>
-        <td><a href="reference/word-break-keep-all-004-ref.xht">=</a> </td>
+            <a href="word-break-keep-all-001.xht">word-break-keep-all-001</a></td>
+        <td><a href="reference/word-break-keep-all-001-ref.xht">=</a> </td>
         <td><abbr class="font" title="Requires a special font">Font</abbr></td>
         <td>word-break - keep-all - basic cases
           <ul class="assert">
@@ -6739,10 +6706,10 @@
           </ul>
         </td>
       </tr>
-      <tr id="word-break-normal-002-5.3.#word-break" class="font">
+      <tr id="word-break-normal-001-5.3.#word-break" class="font">
         <td>
-            <a href="word-break-normal-002.xht">word-break-normal-002</a></td>
-        <td><a href="reference/word-break-normal-002-ref.xht">=</a> </td>
+            <a href="word-break-normal-001.xht">word-break-normal-001</a></td>
+        <td><a href="reference/word-break-normal-001-ref.xht">=</a> </td>
         <td><abbr class="font" title="Requires a special font">Font</abbr></td>
         <td>word-break - normal - basic cases
           <ul class="assert">
