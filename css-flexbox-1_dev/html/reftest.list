@@ -60,12 +60,6 @@ flex-002.htm == reference/justify-content-001-ref.htm
 flex-003.htm == reference/justify-content-001-ref.htm
 flex-004.htm == reference/justify-content-001-ref.htm
 flex-align-items-center.htm == reference/flex-align-items-center-ref.htm
-flex-aspect-ratio-img-column-001.htm == reference/ref-filled-green-100px-square.htm
-flex-aspect-ratio-img-column-002.htm == reference/ref-filled-green-100px-square.htm
-flex-aspect-ratio-img-column-003.htm == reference/ref-filled-green-100px-square.htm
-flex-aspect-ratio-img-row-001.htm == reference/ref-filled-green-100px-square.htm
-flex-aspect-ratio-img-row-002.htm == reference/ref-filled-green-100px-square.htm
-flex-aspect-ratio-img-row-003.htm == reference/ref-filled-green-100px-square.htm
 flex-basis-001.htm == reference/ref-filled-green-100px-square.htm
 flex-basis-002.htm == reference/ref-filled-green-100px-square.htm
 flex-basis-003.htm == reference/ref-filled-green-100px-square.htm
