@@ -267,8 +267,7 @@ flexbox-sizing-horiz-001.xht == reference/flexbox-sizing-horiz-001-ref.xht
 flexbox-sizing-horiz-002.xht == reference/flexbox-sizing-horiz-002-ref.xht
 flexbox-sizing-vert-001.xht == reference/flexbox-sizing-vert-001-ref.xht
 flexbox-sizing-vert-002.xht == reference/flexbox-sizing-vert-002-ref.xht
-flexbox-table-fixup-001a.xht == reference/flexbox-table-fixup-001-ref.xht
-flexbox-table-fixup-001b.xht == reference/flexbox-table-fixup-001-ref.xht
+flexbox-table-fixup-001.xht == reference/flexbox-table-fixup-001-ref.xht
 flexbox-whitespace-handling-001a.xht == reference/flexbox-whitespace-handling-001-ref.xht
 flexbox-whitespace-handling-001b.xht == reference/flexbox-whitespace-handling-001-ref.xht
 flexbox-whitespace-handling-002.xht == reference/flexbox-whitespace-handling-002-ref.xht
