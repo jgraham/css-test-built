@@ -960,7 +960,7 @@ html4/at-charset-011.htm	bb803f4f1bbf76e897491176102f107cbd4bb9ec	?
 xhtml1/at-charset-011.xht	bb803f4f1bbf76e897491176102f107cbd4bb9ec	?
 html4/at-charset-012.htm	a9023c2b0a8df17f3bce2a54374155da0b0aebf0	?
 xhtml1/at-charset-012.xht	a9023c2b0a8df17f3bce2a54374155da0b0aebf0	?
-html4/at-charset-013.htm	145d211ea37c74e5394d6b6f93328fe536f21a1d	?
+html4/at-charset-013.htm	38743117b70c5990988feb2fd2569fa6927c0d7a	?
 html4/at-charset-014.htm	a1a3c6216ea92a07ef16e1fb147fd8432ff36c3d	?
 xhtml1/at-charset-014.xht	a1a3c6216ea92a07ef16e1fb147fd8432ff36c3d	?
 html4/at-charset-015.htm	2e3f28c515a9921c50d55b8d4a59b22c9fe0c686	?
@@ -1179,13 +1179,13 @@ html4/attribute-value-selector-003.htm	508036fcffcc15830d5fdff9d40e8e7c0c1ccda3	
 xhtml1/attribute-value-selector-003.xht	508036fcffcc15830d5fdff9d40e8e7c0c1ccda3	?
 html4/attribute-value-selector-004.htm	dfb8215a980f61f868127601e02f621b5d8de9a7	?
 xhtml1/attribute-value-selector-004.xht	dfb8215a980f61f868127601e02f621b5d8de9a7	?
-html4/attribute-value-selector-005.htm	4e99118f4f08eb0e71b36b24b986cbe9e1ad15fe	?
+html4/attribute-value-selector-005.htm	98fe9d0bad9fb7ca59e360a6c9c33042e5d451ea	?
 html4/attribute-value-selector-006.htm	1f42c36cb8f99e36982f9ebbec59c63967c711c1	?
 xhtml1/attribute-value-selector-006.xht	1f42c36cb8f99e36982f9ebbec59c63967c711c1	?
-html4/attribute-value-selector-007.htm	b144c51a0bda8a4416ab50f1cff0f77044315094	?
+html4/attribute-value-selector-007.htm	c66ad246bf6f8d5b5f16e330d968629d22c29ec1	?
 xhtml1/attribute-value-selector-008.xht	df9f94901759df9b76cf40d97ca1bc87bd5ef407	?
 xhtml1/attribute-value-selector-009.xht	97d442f5c1c5b7c883684e956a3a53964d18db05	?
-html4/attribute-value-selector-010.htm	6610e1761c91638f236f6d09e5fa3cd1ec9bc73f	?
+html4/attribute-value-selector-010.htm	8e5e682c49b5702b310e7c58e4a2b4caae5438c1	?
 html4/background-001.htm	3dd2f2ebcf82520953f31d00f243c309e9b005f9	?
 xhtml1/background-001.xht	3dd2f2ebcf82520953f31d00f243c309e9b005f9	?
 html4/background-002.htm	42b9cd53f06b23fbd5efb5774fb90cf6937cece9	?
@@ -7896,7 +7896,7 @@ html4/case-sensitive-004.htm	723fdbbe5941d318118e86cf5ae161312de476d2	?
 xhtml1/case-sensitive-004.xht	723fdbbe5941d318118e86cf5ae161312de476d2	?
 html4/case-sensitive-005.htm	dfd0240ea392700c15e32a28eec725b6db820f94	?
 xhtml1/case-sensitive-005.xht	dfd0240ea392700c15e32a28eec725b6db820f94	?
-html4/case-sensitive-006.htm	22e1a8c5e8284dd76b4937bb74102888636a7325	?
+html4/case-sensitive-006.htm	457235f5ac6fac023fd91e151fd6aac15d688db4	?
 xhtml1/case-sensitive-007.xht	07b1170801ad9349fabaf98db0ece9a247c6bbb5	?
 html4/case-sensitive-008.htm	8cf1bfbdf626dc47463dec1641223a3070ad05bb	?
 xhtml1/case-sensitive-008.xht	8cf1bfbdf626dc47463dec1641223a3070ad05bb	?
@@ -9012,7 +9012,7 @@ html4/content-attr-001.htm	a0172362ab7646f9bc95c6a72f8e802b0be15661	?
 xhtml1/content-attr-001.xht	a0172362ab7646f9bc95c6a72f8e802b0be15661	?
 html4/content-attr-002.htm	3e946aa0feecdff07e2b1eb05d7ac1035d5bd7e7	?
 xhtml1/content-attr-002.xht	3e946aa0feecdff07e2b1eb05d7ac1035d5bd7e7	?
-html4/content-attr-case-001.htm	931b842f10ec40ae8fbd9b273ae7247d1596ff48	?
+html4/content-attr-case-001.htm	96aca06767439e52a29914a3e62c5fb48ca7b051	?
 xhtml1/content-attr-case-002.xht	8f51b48e369494bfb30ac28c19acfd57462413e2	?
 html4/content-auto-reset-001.htm	073f16d82ce968e2b8068bfa814e1766852b4f2b	?
 xhtml1/content-auto-reset-001.xht	073f16d82ce968e2b8068bfa814e1766852b4f2b	?
@@ -12586,7 +12586,7 @@ html4/html-attribute-028.htm	1ce9f6f95b73a4ccf256bec09117276809d48ade	?
 xhtml1/html-attribute-028.xht	1ce9f6f95b73a4ccf256bec09117276809d48ade	?
 html4/html-attribute-029.htm	f998397c8034e6c1736eb7ddec232c366a1c94a5	?
 xhtml1/html-attribute-029.xht	f998397c8034e6c1736eb7ddec232c366a1c94a5	?
-html4/html-case-sensitivity-001.htm	c1084fb637732e0f38c98f3cf8d44ed7615b50d3	?
+html4/html-case-sensitivity-001.htm	61c5f087d9286aac1c28ebd292b4d741f26ee594	?
 html4/html-precedence-001.htm	3573513b879877aac04434ec6e5b093269bc4524	?
 xhtml1/html-precedence-001.xht	3573513b879877aac04434ec6e5b093269bc4524	?
 html4/html-precedence-002.htm	0b46ebed4702a22efb288095cbdf9b70b775abdb	?
@@ -13035,7 +13035,7 @@ html4/keywords-000.htm	357b9fbfad6de9a3954d1b74132546939b2ab969	?
 xhtml1/keywords-000.xht	357b9fbfad6de9a3954d1b74132546939b2ab969	?
 html4/keywords-001.htm	13c37f2ae37cf36c4c63e048fda5b7e634131c79	?
 xhtml1/keywords-001.xht	13c37f2ae37cf36c4c63e048fda5b7e634131c79	?
-html4/lang-pseudoclass-001.htm	2602376b05b0a04bfac482b35a7255b115f32cae	?
+html4/lang-pseudoclass-001.htm	ed144842c4ac153c32ec42841a3670ec4f867836	?
 xhtml1/lang-pseudoclass-002.xht	809974aadd059c23c700cfcc3511f3600d18d104	?
 html4/lang-selector-001.htm	2cc3bcad14d2ae93e81330e70b355dc2d29fa55f	?
 xhtml1/lang-selector-001.xht	2cc3bcad14d2ae93e81330e70b355dc2d29fa55f	?
