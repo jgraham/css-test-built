@@ -466,7 +466,6 @@ overflow-wrap-002.xht == reference/overflow-wrap-002-ref.xht
 overflow-wrap-003.xht == reference/overflow-wrap-003-ref.xht
 overflow-wrap-004.xht == reference/overflow-wrap-004-ref.xht
 overflow-wrap-005.xht == reference/overflow-wrap-003-ref.xht
-overflow-wrap-break-word-001.xht == reference/overflow-wrap-break-word-001-ref.xht
 overflow-wrap-break-word-fit-content-001.xht == reference/overflow-wrap-break-word-fit-content-001.xht
 tab-size-integer-001.xht == reference/tab-size-integer-001-ref.xht
 tab-size-integer-002.xht == reference/tab-size-integer-001-ref.xht
@@ -560,7 +559,6 @@ text-transform-capitalize-031.xht == reference/text-transform-tailoring-005-ref.
 text-transform-capitalize-032.xht == reference/text-transform-capitalize-032-ref.xht
 text-transform-fullwidth-001.xht == reference/text-transform-fullwidth-001-ref.xht
 text-transform-lowercase-001.xht == reference/text-transform-lowercase-001-ref.xht
-text-transform-lowercase-002.xht == reference/text-transform-lowercase-002-ref.xht
 text-transform-none-001.xht == reference/text-transform-none-001-ref.xht
 text-transform-tailoring-001.xht == reference/text-transform-tailoring-001-ref.xht
 text-transform-tailoring-002.xht == reference/text-transform-tailoring-002-ref.xht

@@ -1177,8 +1177,6 @@ html/overflow-wrap-004.htm	88197c0ab60986f50cc080e8395b08946aaa1175	?
 xhtml1/overflow-wrap-004.xht	88197c0ab60986f50cc080e8395b08946aaa1175	?
 html/overflow-wrap-005.htm	6f622246160bc0405745f87721d395755008bc85	?
 xhtml1/overflow-wrap-005.xht	6f622246160bc0405745f87721d395755008bc85	?
-html/overflow-wrap-break-word-001.htm	ca2bbe812d216a4b4529010a035d34f5437b5c83	?
-xhtml1/overflow-wrap-break-word-001.xht	ca2bbe812d216a4b4529010a035d34f5437b5c83	?
 html/overflow-wrap-break-word-fit-content-001.htm	4ba6b733286108a68ecd8a7b8501319fb5302b31	?
 xhtml1/overflow-wrap-break-word-fit-content-001.xht	4ba6b733286108a68ecd8a7b8501319fb5302b31	?
 html/seg-break-transformation-000.htm	a79f12b9b7c5c0d5b48fe71f69900414a71ef30c	?
@@ -1449,8 +1447,6 @@ html/text-transform-fullwidth-001.htm	3ce14e96ac5b083ef463997c3b6d1da292b3e449	?
 xhtml1/text-transform-fullwidth-001.xht	3ce14e96ac5b083ef463997c3b6d1da292b3e449	?
 html/text-transform-lowercase-001.htm	b99d33435f651a9ba6d835eaa2fd51ad6684ae48	?
 xhtml1/text-transform-lowercase-001.xht	b99d33435f651a9ba6d835eaa2fd51ad6684ae48	?
-html/text-transform-lowercase-002.htm	9eb47a5bb06a75d36467296c30f98c18d51a549c	?
-xhtml1/text-transform-lowercase-002.xht	9eb47a5bb06a75d36467296c30f98c18d51a549c	?
 html/text-transform-none-001.htm	3f76372dde584e0852e7cd297d3e68a30ecc4ec6	?
 xhtml1/text-transform-none-001.xht	3f76372dde584e0852e7cd297d3e68a30ecc4ec6	?
 html/text-transform-tailoring-001.htm	99b773a03069b7cb2ce00960100aa9bac0715338	?
