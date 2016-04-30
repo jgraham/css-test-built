@@ -211,6 +211,12 @@ flexbox-flex-wrap-vert-001.htm == reference/flexbox-flex-wrap-vert-001-ref.htm
 flexbox-flex-wrap-vert-002.htm == reference/flexbox-flex-wrap-vert-002-ref.htm
 flexbox-flex-wrap-wrap.htm == reference/flexbox-flex-direction-ref.htm
 flexbox-flex-wrap-wrap-reverse.htm == reference/flexbox-flex-direction-ref.htm
+flexbox-intrinsic-ratio-001.htm == reference/flexbox-intrinsic-ratio-001-ref.htm
+flexbox-intrinsic-ratio-002.htm == reference/flexbox-intrinsic-ratio-001-ref.htm
+flexbox-intrinsic-ratio-003.htm == reference/flexbox-intrinsic-ratio-003-ref.htm
+flexbox-intrinsic-ratio-004.htm == reference/flexbox-intrinsic-ratio-004-ref.htm
+flexbox-intrinsic-ratio-005.htm == reference/flexbox-intrinsic-ratio-005-ref.htm
+flexbox-intrinsic-ratio-006.htm == reference/flexbox-intrinsic-ratio-006-ref.htm
 flexbox-items-as-stacking-contexts-001.htm == reference/flexbox-items-as-stacking-contexts-001-ref.htm
 flexbox-items-as-stacking-contexts-002.htm == reference/flexbox-items-as-stacking-contexts-002-ref.htm
 flexbox-items-as-stacking-contexts-003.htm == reference/flexbox-items-as-stacking-contexts-003-ref.htm

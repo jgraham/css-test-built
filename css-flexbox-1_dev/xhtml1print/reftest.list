@@ -211,6 +211,12 @@ flexbox-flex-wrap-vert-001.xht == reference/flexbox-flex-wrap-vert-001-ref.xht
 flexbox-flex-wrap-vert-002.xht == reference/flexbox-flex-wrap-vert-002-ref.xht
 flexbox-flex-wrap-wrap.xht == reference/flexbox-flex-direction-ref.xht
 flexbox-flex-wrap-wrap-reverse.xht == reference/flexbox-flex-direction-ref.xht
+flexbox-intrinsic-ratio-001.xht == reference/flexbox-intrinsic-ratio-001-ref.xht
+flexbox-intrinsic-ratio-002.xht == reference/flexbox-intrinsic-ratio-001-ref.xht
+flexbox-intrinsic-ratio-003.xht == reference/flexbox-intrinsic-ratio-003-ref.xht
+flexbox-intrinsic-ratio-004.xht == reference/flexbox-intrinsic-ratio-004-ref.xht
+flexbox-intrinsic-ratio-005.xht == reference/flexbox-intrinsic-ratio-005-ref.xht
+flexbox-intrinsic-ratio-006.xht == reference/flexbox-intrinsic-ratio-006-ref.xht
 flexbox-items-as-stacking-contexts-001.xht == reference/flexbox-items-as-stacking-contexts-001-ref.xht
 flexbox-items-as-stacking-contexts-002.xht == reference/flexbox-items-as-stacking-contexts-002-ref.xht
 flexbox-items-as-stacking-contexts-003.xht == reference/flexbox-items-as-stacking-contexts-003-ref.xht
