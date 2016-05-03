@@ -361,6 +361,9 @@
         <td><a href="reference/text-combine-upright-compression-001-ref.htm">=</a> </td>
         <td></td>
         <td>text-combine-upright, no compression
+          <ul class="assert">
+            <li>text-combine-upright with character not wider than 1em should not trigger compression.</li>
+          </ul>
         </td>
       </tr>
       <tr id="text-combine-upright-compression-002-9.1.3" class="primary">
@@ -369,6 +372,9 @@
         <td><a href="reference/text-combine-upright-compression-002-ref.htm">=</a> </td>
         <td></td>
         <td>text-combine-upright, compression of two characters
+          <ul class="assert">
+            <li>text-combine-upright should try applying 'hwid' feature if the width is wider than 1em</li>
+          </ul>
         </td>
       </tr>
       <tr id="text-combine-upright-compression-003-9.1.3" class="primary">
@@ -377,6 +383,9 @@
         <td><a href="reference/text-combine-upright-compression-003-ref.htm">=</a> </td>
         <td></td>
         <td>text-combine-upright, compression of three characters
+          <ul class="assert">
+            <li>text-combine-upright should try applying 'twid' feature if the width is wider than 1em</li>
+          </ul>
         </td>
       </tr>
       <tr id="text-combine-upright-compression-004-9.1.3" class="primary">
@@ -385,6 +394,9 @@
         <td><a href="reference/text-combine-upright-compression-004-ref.htm">=</a> </td>
         <td></td>
         <td>text-combine-upright, compression of four characters
+          <ul class="assert">
+            <li>text-combine-upright should try applying 'qwid' feature if the width is wider than 1em</li>
+          </ul>
         </td>
       </tr>
       <tr id="text-combine-upright-compression-007-9.1.3" class="primary">
@@ -393,6 +405,9 @@
         <td><a href="reference/text-combine-upright-compression-007-ref.htm">=</a> </td>
         <td></td>
         <td>text-combine-upright: all, fit any number of characters
+          <ul class="assert">
+            <li>text-combine-upright: all should allow any amount of text to be compressed in a 1em square</li>
+          </ul>
         </td>
       </tr>
     </tbody>
@@ -443,6 +458,9 @@
         <td><a href="reference/text-combine-upright-compression-005-ref.htm">=</a> </td>
         <td></td>
         <td>text-combine-upright, no compression for single full-width character
+          <ul class="assert">
+            <li>text-combine-upright should not change a single full-width character</li>
+          </ul>
         </td>
       </tr>
       <tr id="text-combine-upright-compression-005a-9.1.3.1" class="primary">
@@ -451,6 +469,9 @@
         <td><a href="reference/text-combine-upright-compression-005-ref.htm">=</a> </td>
         <td></td>
         <td>text-combine-upright, no compression for single character with full-width transform
+          <ul class="assert">
+            <li>text-combine-upright should not change a single full-width character</li>
+          </ul>
         </td>
       </tr>
       <tr id="text-combine-upright-compression-006-9.1.3.1" class="primary">
@@ -459,6 +480,9 @@
         <td><a href="reference/text-combine-upright-compression-006-ref.htm">=</a> </td>
         <td></td>
         <td>text-combine-upright, compression for two full-width characters
+          <ul class="assert">
+            <li>text-combine-upright should run the reverse of full-width transform before applying compression</li>
+          </ul>
         </td>
       </tr>
       <tr id="text-combine-upright-compression-006a-9.1.3.1" class="primary">
@@ -467,6 +491,9 @@
         <td><a href="reference/text-combine-upright-compression-006-ref.htm">=</a> </td>
         <td></td>
         <td>text-combine-upright, compression for two characters with full-width transform
+          <ul class="assert">
+            <li>text-combine-upright should run the reverse of full-width transform before applying compression</li>
+          </ul>
         </td>
       </tr>
     </tbody>
