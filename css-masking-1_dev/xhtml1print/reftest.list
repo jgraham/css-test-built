@@ -67,8 +67,14 @@ mask-image-1a.xht == reference/mask-image-1-ref.xht
 mask-image-1b.xht == reference/mask-image-1-ref.xht
 mask-image-1c.xht == reference/mask-image-1-ref.xht
 mask-image-2.xht == reference/mask-image-2-ref.xht
+mask-image-3a.xht == reference/mask-image-3-ref.xht
+mask-image-3b.xht == reference/mask-image-3-ref.xht
+mask-image-3c.xht == reference/mask-image-3-ref.xht
+mask-image-3d.xht == reference/mask-image-3-ref.xht
+mask-image-3e.xht == reference/mask-image-3-ref.xht
 mask-mode-a.xht == reference/mask-mode-ref.xht
 mask-mode-b.xht == reference/mask-mode-ref.xht
+mask-mode-to-mask-type.xht == reference/mask-mode-to-mask-type-ref.xht
 mask-origin-1.xht == reference/mask-origin-1-ref.xht
 mask-origin-2.xht == reference/mask-origin-2-ref.xht
 mask-position-1a.xht == reference/mask-position-1-ref.xht
@@ -106,5 +112,4 @@ mask-size-percent-auto.xht == reference/mask-size-percent-percent-ref.xht
 mask-size-percent-length.xht == reference/mask-size-percent-percent-ref.xht
 mask-size-percent-percent.xht == reference/mask-size-percent-percent-ref.xht
 mask-size-percent-percent-stretch.xht == reference/mask-size-percent-percent-stretch-ref.xht
-mask-type.xht == reference/mask-mode-ref.xht
 test-mask.xht == reference/test-mask-ref.xht

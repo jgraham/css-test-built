@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Masking Level 1 CR Test Suite</h1>
-  <h2>Positioned Masks (52 tests)</h2>
+  <h2>Positioned Masks (57 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -37,7 +37,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.1">+</a>
         <a href="https://www.w3.org/TR/css-masking-1/#the-mask-image">7.1 Mask Image Source: the mask-image property</a></th></tr>
-      <!-- 4 tests -->
+      <!-- 9 tests -->
       <tr id="mask-image-1a-7.1" class="primary">
         <td><strong>
             <a href="mask-image-1a.htm">mask-image-1a</a></strong></td>
@@ -79,6 +79,61 @@
         <td>CSS Masking: mask-image: mask layer image
           <ul class="assert">
             <li>Test checks whether gradient CSS image as mask layer works correctly or not.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-image-3a-7.1" class="primary">
+        <td><strong>
+            <a href="mask-image-3a.htm">mask-image-3a</a></strong></td>
+        <td><a href="reference/mask-image-3-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-image: multiple SVG masks
+          <ul class="assert">
+            <li>Test checks whether SVG mask as mask layer works correctly or not.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-image-3b-7.1" class="primary">
+        <td><strong>
+            <a href="mask-image-3b.htm">mask-image-3b</a></strong></td>
+        <td><a href="reference/mask-image-3-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-image: interleave SVG mask with image mask
+          <ul class="assert">
+            <li>Test checks whether SVG mask and image as mask layer works correctly or not.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-image-3c-7.1" class="primary">
+        <td><strong>
+            <a href="mask-image-3c.htm">mask-image-3c</a></strong></td>
+        <td><a href="reference/mask-image-3-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-image: interleave SVG mask with image mask
+          <ul class="assert">
+            <li>Test checks whether SVG mask and image as mask layer works correctly or not.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-image-3d-7.1" class="primary">
+        <td><strong>
+            <a href="mask-image-3d.htm">mask-image-3d</a></strong></td>
+        <td><a href="reference/mask-image-3-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-image: interleave SVG mask with image mask
+          <ul class="assert">
+            <li>Test checks whether SVG mask and image as mask layer works correctly or not.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-image-3e-7.1" class="primary">
+        <td><strong>
+            <a href="mask-image-3e.htm">mask-image-3e</a></strong></td>
+        <td><a href="reference/mask-image-3-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-image: interleave SVG mask with image mask
+          <ul class="assert">
+            <li>Test checks whether SVG mask and image as mask layer works correctly or not.</li>
           </ul>
         </td>
       </tr>
@@ -128,10 +183,10 @@
           </ul>
         </td>
       </tr>
-      <tr id="mask-type-7.2.#propdef-mask-mode" class="primary">
+      <tr id="mask-mode-to-mask-type-7.2.#propdef-mask-mode" class="primary">
         <td><strong>
-            <a href="mask-type.htm">mask-type</a></strong></td>
-        <td><a href="reference/mask-mode-ref.htm">=</a> </td>
+            <a href="mask-mode-to-mask-type.htm">mask-mode-to-mask-type</a></strong></td>
+        <td><a href="reference/mask-mode-to-mask-type-ref.htm">=</a> </td>
         <td></td>
         <td>CSS Masking: mask-mode with vector image
           <ul class="assert">
