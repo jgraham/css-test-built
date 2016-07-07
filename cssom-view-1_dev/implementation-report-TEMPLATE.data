@@ -3,8 +3,8 @@
 # http://test.csswg.org/suites/cssom-view-1_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
-html/caretposition-001.htm	be738bad5c7616acd40f009658e84f3c653f4273	?
-xhtml1/caretposition-001.xht	be738bad5c7616acd40f009658e84f3c653f4273	?
+html/caretposition-001.htm	3d99ab169c749179a407ed758c44cbfc9f1197d6	?
+xhtml1/caretposition-001.xht	3d99ab169c749179a407ed758c44cbfc9f1197d6	?
 html/cssom-getboundingclientrect-001.htm	e401a698b0b6d4d9b3d4630733eaa42f0b82acc3	?
 xhtml1/cssom-getboundingclientrect-001.xht	e401a698b0b6d4d9b3d4630733eaa42f0b82acc3	?
 html/cssom-getboundingclientrect-002.htm	29a0bd1179d5cbf42b4cb21706022d3328b6b134	?
@@ -19,10 +19,10 @@ html/elementfromposition.htm	8267d99d7721978fab7c386c463d1407df1d1234	?
 xhtml1/elementfromposition.xht	8267d99d7721978fab7c386c463d1407df1d1234	?
 html/htmlelement-offset-width-001.htm	2aa3ebf3ff6268a05bc53f09d8f54c32b9f3dac8	?
 xhtml1/htmlelement-offset-width-001.xht	2aa3ebf3ff6268a05bc53f09d8f54c32b9f3dac8	?
-html/matchmedia.htm	968cc094c6258392a6d1f8dd5eb814f43ed6692f	?
-xhtml1/matchmedia.xht	968cc094c6258392a6d1f8dd5eb814f43ed6692f	?
-html/matchmediaaddlistener.htm	60aa2e2b20aaa1c20dbece338b8d5583a4456436	?
-xhtml1/matchmediaaddlistener.xht	60aa2e2b20aaa1c20dbece338b8d5583a4456436	?
+html/matchmedia.htm	4204705443e44fca78d664f38a2ec9d4308d03f2	?
+xhtml1/matchmedia.xht	4204705443e44fca78d664f38a2ec9d4308d03f2	?
+html/matchmediaaddlistener.htm	49f502ff600517eab6dfe90e0a21562715b3d6fa	?
+xhtml1/matchmediaaddlistener.xht	49f502ff600517eab6dfe90e0a21562715b3d6fa	?
 html/media-query-list-interface.htm	bf107020b2904718b522b5b57fad03c51c059a1e	?
 xhtml1/media-query-list-interface.xht	bf107020b2904718b522b5b57fad03c51c059a1e	?
 html/mediaquerylist-001.htm	76154c3e1d04e0f61bcabbd17587e4b35f926a36	?

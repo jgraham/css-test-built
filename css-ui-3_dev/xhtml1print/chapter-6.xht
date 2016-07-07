@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Basic User Interface Module Level 3 CR Test Suite</h1>
-  <h2>Pointing Devices and Keyboards (151 tests)</h2>
+  <h2>Pointing Devices and Keyboards (145 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -705,103 +705,37 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s6.2.1">+</a>
         <a href="https://www.w3.org/TR/css3-ui/#caret-color">6.2.1 Coloring the insertion caret: caret-color</a></th></tr>
-      <!-- 9 tests -->
-      <tr id="caret-color-001-6.2.1" class="interact">
+      <!-- 3 tests -->
+      <tr id="caret-color-001-6.2.1" class="">
         <td>
             <a href="caret-color-001.xht">caret-color-001</a></td>
         <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
+        <td></td>
         <td>caret-color
           <ul class="assert">
             <li>Test checks that caret-color can be set on a textarea</li>
           </ul>
         </td>
       </tr>
-      <tr id="caret-color-002-6.2.1" class="interact">
+      <tr id="caret-color-002-6.2.1" class="">
         <td>
             <a href="caret-color-002.xht">caret-color-002</a></td>
         <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>caret-color is inherited
+        <td></td>
+        <td>caret-color is not inherited
           <ul class="assert">
-            <li>Test checks that caret-color value does inherit</li>
+            <li>Test checks that caret-color value does not inherit</li>
           </ul>
         </td>
       </tr>
-      <tr id="caret-color-003-6.2.1" class="interact should">
+      <tr id="caret-color-003-6.2.1" class="">
         <td>
             <a href="caret-color-003.xht">caret-color-003</a></td>
         <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="should" title="Behavior tested is recommended but not required">Recommend</abbr></td>
+        <td></td>
         <td>caret-color auto
           <ul class="assert">
-            <li>Test checks that caret-color: auto matches currentColor</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-004-6.2.1" class="interact">
-        <td>
-            <a href="caret-color-004.xht">caret-color-004</a></td>
-        <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>caret-color auto, black on white
-          <ul class="assert">
-            <li>Test checks that caret-color:auto provides good contrast in black on white</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-005-6.2.1" class="interact">
-        <td>
-            <a href="caret-color-005.xht">caret-color-005</a></td>
-        <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>caret-color auto, white on black
-          <ul class="assert">
-            <li>Test checks that caret-color:auto provides good contrast in white on black</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-006-6.2.1" class="interact may">
-        <td>
-            <a href="caret-color-006.xht">caret-color-006</a></td>
-        <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="may" title="Behavior tested is preferred but optional">Optional</abbr></td>
-        <td>caret-color auto, gray on gray
-          <ul class="assert">
-            <li>Test checks that caret-color:auto provides good contrast in gray on gray</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-007-6.2.1" class="interact">
-        <td>
-            <a href="caret-color-007.xht">caret-color-007</a></td>
-        <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>caret-color: currentColor
-          <ul class="assert">
-            <li>Test checks that caret-color:currentColor is inherited as currentColor and resolves to the value of the color property at used value time</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-008-6.2.1" class="animated interact">
-        <td>
-            <a href="caret-color-008.xht">caret-color-008</a></td>
-        <td></td>
-        <td><abbr class="animated" title="Animated test">Animated</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>caret-color animation
-          <ul class="assert">
-            <li>Test checks that caret-color is animatable as a color</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-009-6.2.1" class="dom script">
-        <td>
-            <a href="caret-color-009.xht">caret-color-009</a></td>
-        <td></td>
-        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
-        <td>caret-color computed values
-          <ul class="assert">
-            <li>Test checks that auto and currentcolor compute to themselves for caret-color</li>
+            <li>Test checks that caret-color: auto resolves to currentColor</li>
           </ul>
         </td>
       </tr>
