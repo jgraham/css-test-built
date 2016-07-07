@@ -3,6 +3,20 @@
 # http://test.csswg.org/suites/selectors-4_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
+html/dir-style-01a.htm	6c5245a2252d07a30f3cdc89d5ee9102421d17b6	?
+xhtml1/dir-style-01a.xht	6c5245a2252d07a30f3cdc89d5ee9102421d17b6	?
+html/dir-style-01b.htm	e956b9bbffc2629999e4911d2fbbb4cf68677b0b	?
+xhtml1/dir-style-01b.xht	e956b9bbffc2629999e4911d2fbbb4cf68677b0b	?
+html/dir-style-02a.htm	0813535bd25a5e7cc2d3233ad00b3520e8d868a5	?
+xhtml1/dir-style-02a.xht	0813535bd25a5e7cc2d3233ad00b3520e8d868a5	?
+html/dir-style-02b.htm	bcff5e9ec01a4a2e7c0d3c60859e120523174147	?
+xhtml1/dir-style-02b.xht	bcff5e9ec01a4a2e7c0d3c60859e120523174147	?
+html/dir-style-03a.htm	77ea2fba3acb7db5eb25802e7186b3b9b4b3ae19	?
+xhtml1/dir-style-03a.xht	77ea2fba3acb7db5eb25802e7186b3b9b4b3ae19	?
+html/dir-style-03b.htm	e58456e2ba3871d37ca87fb22d9770093cc53a2b	?
+xhtml1/dir-style-03b.xht	e58456e2ba3871d37ca87fb22d9770093cc53a2b	?
+html/dir-style-04.htm	477b2bdba2d8a0c8637310a99c13a9e7fab03f42	?
+xhtml1/dir-style-04.xht	477b2bdba2d8a0c8637310a99c13a9e7fab03f42	?
 html/focus-within-001.htm	4458ca5fa4e9fce7f43ae26e349b07993989c739	?
 xhtml1/focus-within-001.xht	4458ca5fa4e9fce7f43ae26e349b07993989c739	?
 html/focus-within-002.htm	a315e1770345d422a5684f325295abeb8b7c18e4	?

@@ -59,8 +59,10 @@ clip-rule-002.htm == reference/clip-rule-rectangle-border-ref.htm
 mask-clip-1.htm == reference/mask-clip-1-ref.htm
 mask-composite-1a.htm == reference/mask-composite-1-ref.htm
 mask-composite-1b.htm == reference/mask-composite-1-ref.htm
+mask-composite-1c.htm == reference/mask-composite-1-ref.htm
 mask-composite-2a.htm == reference/mask-composite-2-ref.htm
 mask-composite-2b.htm == reference/mask-composite-2-ref.htm
+mask-composite-2c.htm == reference/mask-composite-2-ref.htm
 mask-image-1a.htm == reference/mask-image-1-ref.htm
 mask-image-1b.htm == reference/mask-image-1-ref.htm
 mask-image-1c.htm == reference/mask-image-1-ref.htm
@@ -104,4 +106,5 @@ mask-size-percent-auto.htm == reference/mask-size-percent-percent-ref.htm
 mask-size-percent-length.htm == reference/mask-size-percent-percent-ref.htm
 mask-size-percent-percent.htm == reference/mask-size-percent-percent-ref.htm
 mask-size-percent-percent-stretch.htm == reference/mask-size-percent-percent-stretch-ref.htm
+mask-type.htm == reference/mask-mode-ref.htm
 test-mask.htm == reference/test-mask-ref.htm
