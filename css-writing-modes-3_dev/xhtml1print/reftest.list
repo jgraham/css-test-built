@@ -791,6 +791,7 @@ text-orientation-mixed-vlr-100.xht == reference/text-orientation-mixed-vlr-100-r
 text-orientation-mixed-vrl-100.xht == reference/text-orientation-mixed-vrl-100-ref.xht
 text-orientation-sideways-vlr-100.xht == reference/text-orientation-sideways-vlr-100-ref.xht
 text-orientation-sideways-vrl-100.xht == reference/text-orientation-sideways-vrl-100-ref.xht
+text-orientation-upright-directionality-001.xht == reference/text-orientation-upright-directionality-001-ref.xht
 text-orientation-upright-srl-018.xht == reference/text-orientation-mixed-srl-016-ref.xht
 text-orientation-upright-vlr-100.xht == reference/text-orientation-upright-vlr-100-ref.xht
 text-orientation-upright-vrl-100.xht == reference/text-orientation-upright-vrl-100-ref.xht
