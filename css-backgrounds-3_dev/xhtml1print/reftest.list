@@ -87,6 +87,7 @@ background-repeat-round-3.xht == reference/background-repeat-round-3-ref.xht
 background-repeat-round-4.xht == reference/background-repeat-round-4-ref.xht
 background-repeat-round-roundup.xht == reference/background-repeat-round-roundup.xht
 background-repeat-space.xht == reference/background-repeat-space.xht
+background-repeat-space-10.xht == reference/background-repeat-space-10-ref.xht
 background-repeat-space-1a.xht == reference/background-repeat-space-1-ref.xht
 background-repeat-space-1b.xht == reference/background-repeat-space-1-ref.xht
 background-repeat-space-1c.xht == reference/background-repeat-space-1-ref.xht
@@ -97,6 +98,7 @@ background-repeat-space-5.xht == reference/background-repeat-space-5-ref.xht
 background-repeat-space-6.xht == reference/background-repeat-space-6-ref.xht
 background-repeat-space-7.xht == reference/background-repeat-space-7-ref.xht
 background-repeat-space-8.xht == reference/background-repeat-space-8-ref.xht
+background-repeat-space-9.xht == reference/background-repeat-space-9-ref.xht
 background-size-002.xht == reference/background-size-002-ref.xht
 background-size-005.xht == reference/background-size-002-ref.xht
 background-size-006.xht == reference/background-size-006-ref.xht
@@ -192,6 +194,8 @@ border-image-020.xht == reference/ref-filled-green-100px-square.xht
 border-image-5.xht == support/reftest-border-image-5.png
 border-image-6.xht == support/reftest-border-image-5.png
 border-image-repeat-round.xht == reference/border-image-repeat-round-ref.xht
+border-image-repeat-round-1.xht == reference/border-image-repeat-round-1-ref.xht
+border-image-repeat-round-2.xht == reference/border-image-repeat-round-2-ref.xht
 border-image-round-and-stretch.xht == reference/border-image-round-and-stretch-ref.xht
 border-image-slice-001.xht == reference/ref-filled-green-100px-square.xht
 border-image-slice-002.xht == reference/ref-filled-green-100px-square.xht

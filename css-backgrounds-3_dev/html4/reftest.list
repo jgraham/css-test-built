@@ -87,6 +87,7 @@ background-repeat-round-3.htm == reference/background-repeat-round-3-ref.htm
 background-repeat-round-4.htm == reference/background-repeat-round-4-ref.htm
 background-repeat-round-roundup.htm == reference/background-repeat-round-roundup.htm
 background-repeat-space.htm == reference/background-repeat-space.htm
+background-repeat-space-10.htm == reference/background-repeat-space-10-ref.htm
 background-repeat-space-1a.htm == reference/background-repeat-space-1-ref.htm
 background-repeat-space-1b.htm == reference/background-repeat-space-1-ref.htm
 background-repeat-space-1c.htm == reference/background-repeat-space-1-ref.htm
@@ -97,6 +98,7 @@ background-repeat-space-5.htm == reference/background-repeat-space-5-ref.htm
 background-repeat-space-6.htm == reference/background-repeat-space-6-ref.htm
 background-repeat-space-7.htm == reference/background-repeat-space-7-ref.htm
 background-repeat-space-8.htm == reference/background-repeat-space-8-ref.htm
+background-repeat-space-9.htm == reference/background-repeat-space-9-ref.htm
 background-size-002.htm == reference/background-size-002-ref.htm
 background-size-005.htm == reference/background-size-002-ref.htm
 background-size-006.htm == reference/background-size-006-ref.htm
@@ -192,6 +194,8 @@ border-image-020.htm == reference/ref-filled-green-100px-square.htm
 border-image-5.htm == support/reftest-border-image-5.png
 border-image-6.htm == support/reftest-border-image-5.png
 border-image-repeat-round.htm == reference/border-image-repeat-round-ref.htm
+border-image-repeat-round-1.htm == reference/border-image-repeat-round-1-ref.htm
+border-image-repeat-round-2.htm == reference/border-image-repeat-round-2-ref.htm
 border-image-round-and-stretch.htm == reference/border-image-round-and-stretch-ref.htm
 border-image-slice-001.htm == reference/ref-filled-green-100px-square.htm
 border-image-slice-002.htm == reference/ref-filled-green-100px-square.htm
