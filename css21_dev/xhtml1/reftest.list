@@ -4617,6 +4617,7 @@ list-style-applies-to-014.xht == reference/single_square_list_marker.xht
 list-style-applies-to-015.xht == reference/single_square_list_marker.xht
 list-style-image-004.xht == reference/list-style-image-004-ref.xht
 list-style-image-005.xht == reference/list-style-image-005-ref.xht
+list-style-position-018.xht == reference/list-style-position-018-ref.xht
 list-style-position-023.xht == reference/list-style-position-023-ref.xht
 list-style-position-024.xht == reference/list-style-position-024-ref.xht
 list-style-type-applies-to-001.xht == reference/single_square_list_marker.xht
