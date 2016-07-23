@@ -667,6 +667,10 @@ margin-collapse-vrl-034.xht == reference/ref-filled-green-100px-square.xht
 margin-collapse-vrl-036.xht == reference/ref-filled-green-100px-square.xht
 margin-vlr-003.xht == reference/margin-vrl-002-ref.xht
 margin-vrl-002.xht == reference/margin-vrl-002-ref.xht
+ortho-htb-alongside-vrl-floats-002.xht == reference/ortho-htb-alongside-vrl-floats-002-ref.xht
+ortho-htb-alongside-vrl-floats-006.xht == reference/ortho-htb-alongside-vrl-floats-006-ref.xht
+ortho-htb-alongside-vrl-floats-010.xht == reference/ortho-htb-alongside-vrl-floats-010-ref.xht
+ortho-htb-alongside-vrl-floats-014.xht == reference/ortho-htb-alongside-vrl-floats-014-ref.xht
 outline-inline-block-vrl-006.xht == reference/outline-inline-block-vrl-006.xht
 outline-inline-vlr-006.xht == reference/outline-inline-vlr-006.xht
 outline-inline-vrl-006.xht == reference/outline-inline-vrl-006.xht
