@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Abstract Box Layout (550 tests)</h2>
+  <h2>Abstract Box Layout (552 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -37,7 +37,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.1">+</a>
         <a href="https://www.w3.org/TR/css-writing-modes-3/#vertical-layout">7.1 Principles of Layout in Vertical Writing Modes</a></th></tr>
-      <!-- 372 tests -->
+      <!-- 374 tests -->
       <tr id="abs-pos-non-replaced-icb-vlr-003-7.1" class="">
         <td>
             <a href="abs-pos-non-replaced-icb-vlr-003.xht">abs-pos-non-replaced-icb-vlr-003</a></td>
@@ -3620,6 +3620,28 @@
         <td>line box height and padding on non-replaced inline box (upright)
           <ul class="assert">
             <li>This test checks that a line box height does not increase because an inline non-replaced box has a padding. In this test, the '34' inline box and the '56' inline box should be lined up with its inline '12' sibling. The line box height, enclosed by the blue border should not grow to accomodate transparent 'padding-left' of inline box and transparent 'padding-right' of inline box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="line-box-height-vlr-021-7.1" class="">
+        <td>
+            <a href="line-box-height-vlr-021.xht">line-box-height-vlr-021</a></td>
+        <td><a href="reference/line-box-height-vlr-021-ref.xht">=</a> </td>
+        <td></td>
+        <td>line box height and border on non-replaced inline box (complex)
+          <ul class="assert">
+            <li>This test checks that a line box height does not increase because an inline non-replaced box has a border. In this test, the '34' inline box and the '56' inline box should be lined up with its inline '12' sibling. The line box height, enclosed by the blue border should not grow to accomodate transparent 'border-left' of inline box and transparent 'border-right' of inline box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="line-box-height-vlr-023-7.1" class="">
+        <td>
+            <a href="line-box-height-vlr-023.xht">line-box-height-vlr-023</a></td>
+        <td><a href="reference/line-box-height-vlr-023-ref.xht">=</a> </td>
+        <td></td>
+        <td>line box height and border on non-replaced inline box (complex)
+          <ul class="assert">
+            <li>This test checks that a line box height does not increase because an inline non-replaced box has a border. In this test, the '34' inline box and the '56' inline box should be lined up with its inline '12' sibling. The line box height, enclosed by the blue border should not grow to accomodate transparent 'border-left' of inline box and transparent 'border-right' of inline box.</li>
           </ul>
         </td>
       </tr>
