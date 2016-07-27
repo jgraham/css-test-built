@@ -196,6 +196,13 @@ border-image-6.htm == support/reftest-border-image-5.png
 border-image-repeat-round.htm == reference/border-image-repeat-round-ref.htm
 border-image-repeat-round-1.htm == reference/border-image-repeat-round-1-ref.htm
 border-image-repeat-round-2.htm == reference/border-image-repeat-round-2-ref.htm
+border-image-repeat-space-1.htm == reference/border-image-repeat-space-1-ref.htm
+border-image-repeat-space-2.htm == reference/border-image-repeat-space-2-ref.htm
+border-image-repeat-space-3.htm == reference/border-image-repeat-space-3-ref.htm
+border-image-repeat-space-4.htm == reference/border-image-repeat-space-4-ref-1.htm == reference/border-image-repeat-space-4-ref-2.htm
+border-image-repeat-space-5.htm == reference/border-image-repeat-space-5-ref-1.htm == reference/border-image-repeat-space-5-ref-2.htm
+border-image-repeat-space-6.htm == reference/border-image-repeat-space-6-ref.htm
+border-image-repeat-space-7.htm == reference/border-image-repeat-space-7-ref.htm
 border-image-round-and-stretch.htm == reference/border-image-round-and-stretch-ref.htm
 border-image-slice-001.htm == reference/ref-filled-green-100px-square.htm
 border-image-slice-002.htm == reference/ref-filled-green-100px-square.htm

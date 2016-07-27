@@ -196,6 +196,13 @@ border-image-6.xht == support/reftest-border-image-5.png
 border-image-repeat-round.xht == reference/border-image-repeat-round-ref.xht
 border-image-repeat-round-1.xht == reference/border-image-repeat-round-1-ref.xht
 border-image-repeat-round-2.xht == reference/border-image-repeat-round-2-ref.xht
+border-image-repeat-space-1.xht == reference/border-image-repeat-space-1-ref.xht
+border-image-repeat-space-2.xht == reference/border-image-repeat-space-2-ref.xht
+border-image-repeat-space-3.xht == reference/border-image-repeat-space-3-ref.xht
+border-image-repeat-space-4.xht == reference/border-image-repeat-space-4-ref-1.xht == reference/border-image-repeat-space-4-ref-2.xht
+border-image-repeat-space-5.xht == reference/border-image-repeat-space-5-ref-1.xht == reference/border-image-repeat-space-5-ref-2.xht
+border-image-repeat-space-6.xht == reference/border-image-repeat-space-6-ref.xht
+border-image-repeat-space-7.xht == reference/border-image-repeat-space-7-ref.xht
 border-image-round-and-stretch.xht == reference/border-image-round-and-stretch-ref.xht
 border-image-slice-001.xht == reference/ref-filled-green-100px-square.xht
 border-image-slice-002.xht == reference/ref-filled-green-100px-square.xht
