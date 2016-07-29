@@ -569,9 +569,9 @@ float-vrl-006.xht == reference/ref-filled-green-100px-square.xht
 float-vrl-008.xht == reference/ref-filled-green-100px-square.xht
 float-vrl-010.xht == reference/ref-filled-green-100px-square.xht
 float-vrl-012.xht == reference/ref-filled-green-100px-square.xht
-full-width-001.xht == reference/full-width-ref.xht != reference/full-width-notcu-notref.xht != reference/full-width-horizontal-notref.xht
-full-width-002.xht == reference/full-width-ref.xht != reference/full-width-notcu-notref.xht != reference/full-width-horizontal-notref.xht
-full-width-003.xht == reference/full-width-ref.xht != reference/full-width-notcu-notref.xht != reference/full-width-horizontal-notref.xht
+full-width-001.xht != reference/full-width-001-notcu-notref.xht != reference/full-width-001-nofullwidth-notref.xht
+full-width-002.xht != reference/full-width-002-notcu-notref.xht != reference/full-width-002-horizontal-notref.xht
+full-width-003.xht != reference/full-width-002-notcu-notref.xht != reference/full-width-002-horizontal-notref.xht
 height-width-inline-non-replaced-vlr-003.xht == reference/ref-filled-green-100px-square.xht
 height-width-inline-non-replaced-vrl-002.xht == reference/abs-pos-non-replaced-icb-vrl-008-ref.xht
 horizontal-rule-vlr-003.xht == reference/horizontal-rule-vlr-003-ref.xht
