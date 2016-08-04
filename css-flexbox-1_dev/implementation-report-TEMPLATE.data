@@ -407,8 +407,8 @@ html/flexbox-basic-img-horiz-001.htm	f458bf0b4de3a16ec2691ca5dd7e81a267c123aa	?
 xhtml1/flexbox-basic-img-horiz-001.xht	f458bf0b4de3a16ec2691ca5dd7e81a267c123aa	?
 html/flexbox-basic-img-vert-001.htm	125a32aa462d4727c81109b4e3e15120bbaedba6	?
 xhtml1/flexbox-basic-img-vert-001.xht	125a32aa462d4727c81109b4e3e15120bbaedba6	?
-html/flexbox-basic-textarea-horiz-001.htm	76e81cfa0324e78f62eddd19dfaf60dc9cb29701	?
-xhtml1/flexbox-basic-textarea-horiz-001.xht	76e81cfa0324e78f62eddd19dfaf60dc9cb29701	?
+html/flexbox-basic-textarea-horiz-001.htm	c68a52997168de56c78c8f4d9c5bffa94814a41d	?
+xhtml1/flexbox-basic-textarea-horiz-001.xht	c68a52997168de56c78c8f4d9c5bffa94814a41d	?
 html/flexbox-basic-textarea-vert-001.htm	5cc3168e6c0a2df12f14e9167eb748460cc49e93	?
 xhtml1/flexbox-basic-textarea-vert-001.xht	5cc3168e6c0a2df12f14e9167eb748460cc49e93	?
 html/flexbox-basic-video-horiz-001.htm	8b3ab455f84b2a833309454ea85bdabfb816f2d8	?
@@ -601,10 +601,10 @@ html/flexbox-sizing-vert-002.htm	752f2a91acbff746fd6ba7414e962a2c4e0e09e6	?
 xhtml1/flexbox-sizing-vert-002.xht	752f2a91acbff746fd6ba7414e962a2c4e0e09e6	?
 html/flexbox-table-fixup-001.htm	e077c9a8352635c9dce0fe7f2ff57ddc326c1035	?
 xhtml1/flexbox-table-fixup-001.xht	e077c9a8352635c9dce0fe7f2ff57ddc326c1035	?
-html/flexbox-whitespace-handling-001a.htm	adf4c8485f397ef7c079db3aeb1df21b633b35aa	?
-xhtml1/flexbox-whitespace-handling-001a.xht	adf4c8485f397ef7c079db3aeb1df21b633b35aa	?
-html/flexbox-whitespace-handling-001b.htm	97512777163dc1da26e9a2df8abd4694ec32572c	?
-xhtml1/flexbox-whitespace-handling-001b.xht	97512777163dc1da26e9a2df8abd4694ec32572c	?
+html/flexbox-whitespace-handling-001a.htm	09a0d50b300982346cb94004377650313dd1fbb6	?
+xhtml1/flexbox-whitespace-handling-001a.xht	09a0d50b300982346cb94004377650313dd1fbb6	?
+html/flexbox-whitespace-handling-001b.htm	d41a5c9d87c66f9678b0d7cc5cf274fb8a424a51	?
+xhtml1/flexbox-whitespace-handling-001b.xht	d41a5c9d87c66f9678b0d7cc5cf274fb8a424a51	?
 html/flexbox-whitespace-handling-002.htm	6de836d376b85b954af361b51db27193dd535603	?
 xhtml1/flexbox-whitespace-handling-002.xht	6de836d376b85b954af361b51db27193dd535603	?
 html/flexbox-with-pseudo-elements-001.htm	840f23805278348fabc43767fbda8357c1e58b8a	?
