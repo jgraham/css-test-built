@@ -37,7 +37,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.1">+</a>
         <a href="https://www.w3.org/TR/css-masking-1/#the-mask-image">7.1 Mask Image Source: the mask-image property</a></th></tr>
-      <!-- 12 tests -->
+      <!-- 14 tests -->
       <tr id="mask-image-1a-7.1" class="primary">
         <td><strong>
             <a href="mask-image-1a.htm">mask-image-1a</a></strong></td>
@@ -74,7 +74,7 @@
       <tr id="mask-image-1d-7.1" class="primary">
         <td><strong>
             <a href="mask-image-1d.htm">mask-image-1d</a></strong></td>
-        <td><a href="reference/mask-image-3-ref.htm">=</a> </td>
+        <td><a href="reference/mask-image-1-ref.htm">=</a> </td>
         <td></td>
         <td>CSS Masking: mask-image: mask layer image
           <ul class="assert">
@@ -145,6 +145,28 @@
         <td>CSS Masking: mask-image: interleave SVG mask with image mask
           <ul class="assert">
             <li>Test checks whether SVG mask and image as mask layer works correctly or not.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-image-3f-7.1" class="primary">
+        <td><strong>
+            <a href="mask-image-3f.htm">mask-image-3f</a></strong></td>
+        <td><a href="reference/mask-image-3-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-image: SVG masks apply on border area
+          <ul class="assert">
+            <li>Test checks whether SVG mask layer can be positioned on box-shadow area correctly or not.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-image-3g-7.1" class="primary">
+        <td><strong>
+            <a href="mask-image-3g.htm">mask-image-3g</a></strong></td>
+        <td><a href="reference/mask-image-3-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-image: SVG masks apply on border area
+          <ul class="assert">
+            <li>Test checks whether apply transfrom to a SVG mask layer works correctly or not.</li>
           </ul>
         </td>
       </tr>
@@ -769,7 +791,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.8">+</a>
         <a href="https://www.w3.org/TR/css-masking-1/#the-mask-composite">7.8 Compositing mask layers: the mask-composite property</a></th></tr>
-      <!-- 8 tests -->
+      <!-- 6 tests -->
       <tr id="mask-composite-1a-7.8" class="">
         <td>
             <a href="mask-composite-1a.htm">mask-composite-1a</a></td>
@@ -833,28 +855,6 @@
         <td>CSS Masking: mask-composite: compose SVG mask
           <ul class="assert">
             <li>Test checks that vector-mask-image can be composed correctly by different mask-composite value.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="mask-image-3f-7.8" class="">
-        <td>
-            <a href="mask-image-3f.htm">mask-image-3f</a></td>
-        <td><a href="reference/mask-composite-3-ref.htm">=</a> </td>
-        <td></td>
-        <td>CSS Masking: mask-image: SVG masks apply on border area
-          <ul class="assert">
-            <li>Test checks whether SVG mask layer can be positioned on box-shadow area correctly or not.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="mask-image-3g-7.8" class="">
-        <td>
-            <a href="mask-image-3g.htm">mask-image-3g</a></td>
-        <td><a href="reference/mask-composite-3-ref.htm">=</a> </td>
-        <td></td>
-        <td>CSS Masking: mask-image: SVG masks apply on border area
-          <ul class="assert">
-            <li>Test checks whether apply transfrom to a SVG mask layer works correctly or not.</li>
           </ul>
         </td>
       </tr>
