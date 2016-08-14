@@ -66,15 +66,14 @@ mask-composite-2c.xht == reference/mask-composite-2-ref.xht
 mask-image-1a.xht == reference/mask-image-1-ref.xht
 mask-image-1b.xht == reference/mask-image-1-ref.xht
 mask-image-1c.xht == reference/mask-image-1-ref.xht
-mask-image-1d.xht == reference/mask-image-1-ref.xht
 mask-image-2.xht == reference/mask-image-2-ref.xht
 mask-image-3a.xht == reference/mask-image-3-ref.xht
 mask-image-3b.xht == reference/mask-image-3-ref.xht
 mask-image-3c.xht == reference/mask-image-3-ref.xht
 mask-image-3d.xht == reference/mask-image-3-ref.xht
 mask-image-3e.xht == reference/mask-image-3-ref.xht
-mask-image-3f.xht == reference/mask-image-3-ref.xht
-mask-image-3g.xht == reference/mask-image-3-ref.xht
+mask-image-3f.xht == reference/mask-composite-3-ref.xht
+mask-image-3g.xht == reference/mask-composite-3-ref.xht
 mask-image-4a.xht == blank.xht
 mask-image-4b.xht == blank.xht
 mask-mode-a.xht == reference/mask-mode-ref.xht
