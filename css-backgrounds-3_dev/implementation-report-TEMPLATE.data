@@ -133,8 +133,8 @@ html4/background-clip-padding-box-with-border-radius.htm	2f60b410f132cba65c5c836
 xhtml1/background-clip-padding-box-with-border-radius.xht	2f60b410f132cba65c5c8360403f369129deb3ab	?
 html4/background-clip-root.htm	7fa6b5415bc6624809f4dfd162e3eb004938f10d	?
 xhtml1/background-clip-root.xht	7fa6b5415bc6624809f4dfd162e3eb004938f10d	?
-html4/background-clip_padding-box.htm	3bf8081be12fc66f317f1af9551c6888cfd320f0	?
-xhtml1/background-clip_padding-box.xht	3bf8081be12fc66f317f1af9551c6888cfd320f0	?
+html4/background-clip_padding-box.htm	5abf1b3e22799117d66b7a04f93c3eb19f847624	?
+xhtml1/background-clip_padding-box.xht	5abf1b3e22799117d66b7a04f93c3eb19f847624	?
 html4/background-color-applied-to-rounded-inline-element.htm	74ad10d6ed6ee2754512a3873eba51d31a8b34dd	?
 xhtml1/background-color-applied-to-rounded-inline-element.xht	74ad10d6ed6ee2754512a3873eba51d31a8b34dd	?
 html4/background-color-border-box.htm	54a4fa69477befc57c1f54316a7fa8f74f0d25ac	?
@@ -317,8 +317,8 @@ html4/background-size-033.htm	4718350b22a059ed9d8315a72c06f693a3d3371a	?
 xhtml1/background-size-033.xht	4718350b22a059ed9d8315a72c06f693a3d3371a	?
 html4/background-size-034.htm	3fc2ab4d71ad30e3de7064065340412f21682aac	?
 xhtml1/background-size-034.xht	3fc2ab4d71ad30e3de7064065340412f21682aac	?
-html4/background-size-035.htm	80b65cb2ec6b6ccce3f65ae447260464a1b71543	?
-xhtml1/background-size-035.xht	80b65cb2ec6b6ccce3f65ae447260464a1b71543	?
+html4/background-size-035.htm	0afbb434f581e374e360c192c2b44943390b1a87	?
+xhtml1/background-size-035.xht	0afbb434f581e374e360c192c2b44943390b1a87	?
 html4/background-size-applies-to-block.htm	0a809377a72418e1524250623b7a77d47301b6cd	?
 xhtml1/background-size-applies-to-block.xht	0a809377a72418e1524250623b7a77d47301b6cd	?
 html4/background-size-aspect-ratio.htm	363b739b8ef0936ac23e2f68648296e12995ed17	?
@@ -471,8 +471,8 @@ html4/border-bottom-right-radius-013.htm	033344f1f722b102330a32347d6655e2d6d2406
 xhtml1/border-bottom-right-radius-013.xht	033344f1f722b102330a32347d6655e2d6d24067	?
 html4/border-bottom-right-radius-014.htm	344be3e376e814808318eebb489a61e4ca02409c	?
 xhtml1/border-bottom-right-radius-014.xht	344be3e376e814808318eebb489a61e4ca02409c	?
-html4/border-color_transparent.htm	b49637ff5a553ca66e7fba67e1a533c18c06fdda	?
-xhtml1/border-color_transparent.xht	b49637ff5a553ca66e7fba67e1a533c18c06fdda	?
+html4/border-color_transparent.htm	b182b8e5eb3ada5357d1ba4a068c261abc3b1d40	?
+xhtml1/border-color_transparent.xht	b182b8e5eb3ada5357d1ba4a068c261abc3b1d40	?
 html4/border-image-017.htm	d989efaaaf69da114fdf8d622cda3827d7b6048b	?
 xhtml1/border-image-017.xht	d989efaaaf69da114fdf8d622cda3827d7b6048b	?
 html4/border-image-018.htm	c7c3fbd31a77382c5eb0c92e98d0a4d5d659c41f	?
