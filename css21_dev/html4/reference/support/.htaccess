@@ -1,7 +1,3 @@
-<Files ~ "^at-charset-00[1-6].css$">
-AddCharset Shift_JIS .css
-</Files>
-
 <Files "http1.css">
 AddCharset iso-8859-1 .css
 </Files>
