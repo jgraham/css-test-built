@@ -3,10 +3,10 @@
 # http://test.csswg.org/suites/css-transforms-1_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
-html/2d-rotate-001.htm	076244fcaea4ccdb259cf0ae3ccf266710d2e402	?
-xhtml1/2d-rotate-001.xht	076244fcaea4ccdb259cf0ae3ccf266710d2e402	?
-html/2d-rotate-js.htm	8d5285fd124af1a71a0d72ed0388fbb11a7216e8	?
-xhtml1/2d-rotate-js.xht	8d5285fd124af1a71a0d72ed0388fbb11a7216e8	?
+html/2d-rotate-001.htm	95505220953a0969451b03fe25a9147ccc8d7e2f	?
+xhtml1/2d-rotate-001.xht	95505220953a0969451b03fe25a9147ccc8d7e2f	?
+html/2d-rotate-js.htm	8db66262d5557349bda23816637c13e758bd3cdc	?
+xhtml1/2d-rotate-js.xht	8db66262d5557349bda23816637c13e758bd3cdc	?
 html/animations-001.htm	a4cee4791955488eed14303cedc0330b0531f6f5	?
 xhtml1/animations-001.xht	a4cee4791955488eed14303cedc0330b0531f6f5	?
 html/backface-visibility-hidden-001.htm	b4607716790b1493ef762e8ca5c7d0afe14cd375	?

@@ -251,7 +251,6 @@ box-shadow-inset-spread-without-border-radius.xht == reference/box-shadow-inset-
 box-shadow-inset-without-border-radius.xht == reference/box-shadow-inset-without-border-radius.xht
 box-shadow-outset-spread-without-border-radius.xht == reference/box-shadow-outset-spread-without-border-radius.xht
 box-shadow-outset-without-border-radius.xht == reference/box-shadow-outset-without-border-radius.xht
-box-shadow-syntax-001.xht == reference/box-shadow-syntax-001.xht
 css-border-radius-001.xht == reference/css-border-radius-ref-001.xht
 css-border-radius-002.xht == reference/css-border-radius-ref-002.xht
 css-box-shadow-001.xht == reference/css-box-shadow-ref-001.xht
