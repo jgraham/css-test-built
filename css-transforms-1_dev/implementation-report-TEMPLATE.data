@@ -5,8 +5,8 @@
 testname	revision	result	comment
 html/2d-rotate-001.htm	4636f410c95bec3fcdb2d2e4dca33d2eadd5e681	?
 xhtml1/2d-rotate-001.xht	4636f410c95bec3fcdb2d2e4dca33d2eadd5e681	?
-html/2d-rotate-js.htm	8aac339e45911f0a01ec5a7e21c345dc35d7480b	?
-xhtml1/2d-rotate-js.xht	8aac339e45911f0a01ec5a7e21c345dc35d7480b	?
+html/2d-rotate-js.htm	abcdcd51c5f40a6ff816bba1242cabd80f69c3d1	?
+xhtml1/2d-rotate-js.xht	abcdcd51c5f40a6ff816bba1242cabd80f69c3d1	?
 html/animations-001.htm	a4cee4791955488eed14303cedc0330b0531f6f5	?
 xhtml1/animations-001.xht	a4cee4791955488eed14303cedc0330b0531f6f5	?
 html/backface-visibility-hidden-001.htm	b4607716790b1493ef762e8ca5c7d0afe14cd375	?
