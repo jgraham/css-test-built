@@ -761,7 +761,7 @@ text-combine-upright-decorations-001.xht == reference/text-combine-upright-decor
 text-combine-upright-inherit-all-001.xht == reference/text-combine-upright-inherit-all-001.xht
 text-combine-upright-inherit-all-002.xht == reference/text-combine-upright-inherit-all-002.xht
 text-combine-upright-layout-rules-001.xht == reference/text-combine-upright-layout-rules-001-ref.xht
-text-combine-upright-line-breaking-rules-001.xht == reference/text-combine-upright-line-breaking-rules-001.xht
+text-combine-upright-line-breaking-rules-001.xht == reference/text-combine-upright-line-breaking-rules-001-ref.xht
 text-combine-upright-value-all-001.xht == reference/text-combine-upright-value-single-character.xht
 text-combine-upright-value-all-002.xht == reference/vertical-ahem-1x1-ref.xht != reference/horizontal-ahem-1x1-notref.xht
 text-combine-upright-value-all-003.xht == reference/vertical-ahem-1x1-ref.xht != reference/horizontal-ahem-1x1-notref.xht

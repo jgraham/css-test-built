@@ -1,0 +1,17 @@
+# UA version OS version
+# UA string (if applicable)
+# http://test.csswg.org/suites/css-color-4_dev/DATESTAMP/
+# See http://wiki.csswg.org/test/implementation-report for instructions
+testname	revision	result	comment
+html/border-bottom-color.htm	79e0f655013f7585c3817656632d449fcadcf2b4	?
+xhtml1/border-bottom-color.xht	79e0f655013f7585c3817656632d449fcadcf2b4	?
+html/border-left-color.htm	2f2424ca07c10701813d1d52811c113794e13451	?
+xhtml1/border-left-color.xht	2f2424ca07c10701813d1d52811c113794e13451	?
+html/border-right-color.htm	4baa69dd17c4593022e00b394eecd9b2b8cf78b5	?
+xhtml1/border-right-color.xht	4baa69dd17c4593022e00b394eecd9b2b8cf78b5	?
+html/border-top-color.htm	36dd8fc359f31235f9b475f3ee72d224e013d988	?
+xhtml1/border-top-color.xht	36dd8fc359f31235f9b475f3ee72d224e013d988	?
+html/caret-color-007.htm	0fed077ccd76dda72464599a6a0d65e4da219853	?
+xhtml1/caret-color-007.xht	0fed077ccd76dda72464599a6a0d65e4da219853	?
+html/caret-color-009.htm	3efca5b376fb810727d32b43a4668b49a681c476	?
+xhtml1/caret-color-009.xht	3efca5b376fb810727d32b43a4668b49a681c476	?
