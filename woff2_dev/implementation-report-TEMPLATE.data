@@ -3,12 +3,8 @@
 # http://test.csswg.org/suites/woff2_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
-html/available-001.htm	4fd4ac7ee5b32f5f89aeed31c0a877c5c31d5529	?
-xhtml1/available-001.xht	4fd4ac7ee5b32f5f89aeed31c0a877c5c31d5529	?
-html/available-001a.htm	636903d04115ed71d2c2f4fbe4746692b3b7d785	?
-xhtml1/available-001a.xht	636903d04115ed71d2c2f4fbe4746692b3b7d785	?
-html/available-001b.htm	105cf87dfb418dfd74ea92d108dc4cbbd12bc206	?
-xhtml1/available-001b.xht	105cf87dfb418dfd74ea92d108dc4cbbd12bc206	?
+html/available-001.htm	6efd0169bf1df0397a1360fe77e0d358cc10ca9e	?
+xhtml1/available-001.xht	6efd0169bf1df0397a1360fe77e0d358cc10ca9e	?
 html/blocks-extraneous-data-001.htm	707851c361f163fce0fac0f1393fc59670d902e6	?
 xhtml1/blocks-extraneous-data-001.xht	707851c361f163fce0fac0f1393fc59670d902e6	?
 html/blocks-extraneous-data-002.htm	0eb67cc25386b5fa94ba89d4f963d418579ea05b	?

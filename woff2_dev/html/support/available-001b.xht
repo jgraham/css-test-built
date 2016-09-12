@@ -3,6 +3,7 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 		<title>WOFF Test: Font access</title>
+		<link rel="author" title="Tal Leming" href="http://typesupply.com" />
 		<link rel="author" title="Chris Lilley" href="http://www.w3.org/People" />
 		<link rel="help" href="http://dev.w3.org/webfonts/WOFF2/spec/#General" />
 		<link rel="help" href="http://dev.w3.org/webfonts/WOFF2/spec/#conform-css3font-available" />
@@ -15,18 +16,14 @@
 			pre {
 				font-size: 12px;
 			}
-			iframe {
-				width: 24em;
-				height: 300px;
-				border: thin solid green
+			.test {
+				font-family: "WOFF Test", "WOFF Test CFF Fallback";
+				font-size: 200px;
+				margin-top: 50px;
 			}
 		]]></style>
 	</head>
 	<body>
-		<p><a href="support/FontsToInstall">Test fonts</a> must be installed for this test. The WOFF being tested will be loaded over the network so please wait until the download is complete before determing the success of this test.</p>
-		<p>Test passes if the word PASS appears <em>twice</em> below.</p>
-		<iframe src="support/available-001a.xht"></iframe>
-		<iframe src="support/available-001b.xht"></iframe>
-
+		<div class="test">F</div>
 	</body>
 </html>
