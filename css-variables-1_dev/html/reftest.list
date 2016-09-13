@@ -173,3 +173,5 @@ variable-supports-64.htm == support/color-green-ref.htm
 variable-supports-65.htm == support/color-green-ref.htm
 variable-supports-66.htm == support/color-green-ref.htm
 variable-supports-67.htm == support/color-green-ref.htm
+vars-background-shorthand-001.htm == reference/vars-background-shorthand-001-ref.htm
+vars-font-shorthand-001.htm == reference/vars-font-shorthand-001-ref.htm
