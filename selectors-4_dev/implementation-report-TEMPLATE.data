@@ -3,6 +3,8 @@
 # http://test.csswg.org/suites/selectors-4_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
+html/child-index-no-parent-01.htm	93788025a0802f396f7e7107d1ea609af8ade682	?
+xhtml1/child-index-no-parent-01.xht	93788025a0802f396f7e7107d1ea609af8ade682	?
 html/dir-style-01a.htm	195388533dc9a831a036d88710a08898b0b511fe	?
 xhtml1/dir-style-01a.xht	195388533dc9a831a036d88710a08898b0b511fe	?
 html/dir-style-01b.htm	8bbc06bb9d3033095f155c2bcf5c7419b8b05037	?
