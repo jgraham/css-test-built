@@ -6424,8 +6424,8 @@ text-indent-067.htm == reference/pass_if_box_ahem.htm
 text-indent-068.htm == reference/pass_if_box_ahem.htm
 text-indent-079.htm == reference/pass_if_box_ahem.htm
 text-indent-080.htm == reference/pass_if_box_ahem.htm
-text-indent-113.htm == reference/text-indent-113-ref-margin.htm != reference/text-indent-114-ref.htm != text-indent-114.htm
-text-indent-114.htm == reference/text-indent-114-ref.htm
+text-indent-113.htm == reference/text-indent-113-ref-margin.htm != reference/text-indent-114-ref.htm
+text-indent-114.htm == reference/text-indent-114-ref.htm != reference/text-indent-113-ref-margin.htm
 text-indent-115.htm == reference/text-indent-115-ref-block-margin.htm == reference/text-indent-115-ref-inline-margin.htm
 text-indent-intrinsic-001.htm == reference/text-indent-intrinsic-001-ref.htm
 text-indent-intrinsic-002.htm == reference/text-indent-intrinsic-002-ref.htm
