@@ -296,6 +296,7 @@ tall--auto-32px--percent-width-omitted-height.htm == reference/ref-tall-lime256x
 tall--auto-32px--percent-width-omitted-height-viewbox.htm == reference/ref-tall-lime2x16-aqua2x16.htm
 tall--auto-32px--percent-width-percent-height.htm == reference/ref-tall-lime256x16-aqua256x16.htm
 tall--auto-32px--percent-width-percent-height-viewbox.htm == reference/ref-tall-lime2x16-aqua2x16.htm
+tall--contain--height.htm == reference/ref-tall-empty.htm
 tall--contain--nonpercent-width-nonpercent-height.htm == reference/ref-tall-lime192x384-aqua192x384.htm
 tall--contain--nonpercent-width-nonpercent-height-viewbox.htm == reference/ref-tall-lime192x384-aqua192x384.htm
 tall--contain--nonpercent-width-omitted-height.htm == reference/ref-tall-lime256x384-aqua256x384.htm
@@ -314,6 +315,8 @@ tall--contain--percent-width-omitted-height.htm == reference/ref-tall-lime256x38
 tall--contain--percent-width-omitted-height-viewbox.htm == reference/ref-tall-lime48x384-aqua48x384.htm
 tall--contain--percent-width-percent-height.htm == reference/ref-tall-lime256x384-aqua256x384.htm
 tall--contain--percent-width-percent-height-viewbox.htm == reference/ref-tall-lime48x384-aqua48x384.htm
+tall--contain--width.htm == reference/ref-tall-empty.htm
+tall--cover--height.htm == reference/ref-tall-lime.htm
 tall--cover--nonpercent-width-omitted-height.htm == reference/ref-tall-lime256x384-aqua256x384.htm
 tall--cover--nonpercent-width-omitted-height-viewbox.htm == reference/ref-tall-lime256x768.htm
 tall--cover--nonpercent-width-percent-height.htm == reference/ref-tall-lime256x384-aqua256x384.htm
@@ -330,6 +333,7 @@ tall--cover--percent-width-omitted-height.htm == reference/ref-tall-lime256x384-
 tall--cover--percent-width-omitted-height-viewbox.htm == reference/ref-tall-lime256x768.htm
 tall--cover--percent-width-percent-height.htm == reference/ref-tall-lime256x384-aqua256x384.htm
 tall--cover--percent-width-percent-height-viewbox.htm == reference/ref-tall-lime256x768.htm
+tall--cover--width.htm == reference/ref-tall-lime.htm
 ttwf-reftest-borderRadius.htm == reference/ttwf-reftest-borderRadius-ref.htm
 wide--12px-auto--nonpercent-width-nonpercent-height.htm == reference/ref-wide-lime12x24-aqua12x24.htm
 wide--12px-auto--nonpercent-width-nonpercent-height-viewbox.htm == reference/ref-wide-lime12x24-aqua12x24.htm
@@ -385,6 +389,7 @@ wide--auto-32px--percent-width-omitted-height.htm == reference/ref-wide-lime768x
 wide--auto-32px--percent-width-omitted-height-viewbox.htm == reference/ref-wide-lime2x16-aqua2x16.htm
 wide--auto-32px--percent-width-percent-height.htm == reference/ref-wide-lime768x16-aqua768x16.htm
 wide--auto-32px--percent-width-percent-height-viewbox.htm == reference/ref-wide-lime2x16-aqua2x16.htm
+wide--contain--height.htm == reference/ref-wide-empty.htm
 wide--contain--nonpercent-width-nonpercent-height.htm == reference/ref-wide-lime64x128-aqua64x128.htm
 wide--contain--nonpercent-width-nonpercent-height-viewbox.htm == reference/ref-wide-lime64x128-aqua64x128.htm
 wide--contain--nonpercent-width-omitted-height.htm == reference/ref-wide-lime768x128-aqua768x128.htm
@@ -403,6 +408,8 @@ wide--contain--percent-width-omitted-height.htm == reference/ref-wide-lime768x12
 wide--contain--percent-width-omitted-height-viewbox.htm == reference/ref-wide-lime16x128-aqua16x128.htm
 wide--contain--percent-width-percent-height.htm == reference/ref-wide-lime768x128-aqua768x128.htm
 wide--contain--percent-width-percent-height-viewbox.htm == reference/ref-wide-lime16x128-aqua16x128.htm
+wide--contain--width.htm == reference/ref-wide-empty.htm
+wide--cover--height.htm == reference/ref-wide-lime.htm
 wide--cover--nonpercent-width-nonpercent-height.htm == reference/ref-wide-lime768x256.htm
 wide--cover--nonpercent-width-nonpercent-height-viewbox.htm == reference/ref-wide-lime768x256.htm
 wide--cover--nonpercent-width-omitted-height.htm == reference/ref-wide-lime768x128-aqua768x128.htm
@@ -421,3 +428,19 @@ wide--cover--percent-width-omitted-height.htm == reference/ref-wide-lime768x128-
 wide--cover--percent-width-omitted-height-viewbox.htm == reference/ref-wide-lime768x256.htm
 wide--cover--percent-width-percent-height.htm == reference/ref-wide-lime768x128-aqua768x128.htm
 wide--cover--percent-width-percent-height-viewbox.htm == reference/ref-wide-lime768x256.htm
+wide--cover--width.htm == reference/ref-wide-lime.htm
+zero-height-ratio-5px-auto.htm == reference/ref-tall-empty.htm
+zero-height-ratio-auto-5px.htm == reference/ref-tall-empty.htm
+zero-height-ratio-auto-auto.htm == reference/ref-tall-empty.htm
+zero-height-ratio-contain.htm == reference/ref-tall-empty.htm
+zero-height-ratio-cover.htm == reference/ref-tall-empty.htm
+zero-ratio-no-dimensions-5px-auto.htm == reference/ref-tall-empty.htm
+zero-ratio-no-dimensions-auto-5px.htm == reference/ref-tall-empty.htm
+zero-ratio-no-dimensions-auto-auto.htm == reference/ref-tall-empty.htm
+zero-ratio-no-dimensions-contain.htm == reference/ref-tall-empty.htm
+zero-ratio-no-dimensions-cover.htm == reference/ref-tall-empty.htm
+zero-width-ratio-5px-auto.htm == reference/ref-tall-empty.htm
+zero-width-ratio-auto-5px.htm == reference/ref-tall-empty.htm
+zero-width-ratio-auto-auto.htm == reference/ref-tall-empty.htm
+zero-width-ratio-contain.htm == reference/ref-tall-empty.htm
+zero-width-ratio-cover.htm == reference/ref-tall-empty.htm
