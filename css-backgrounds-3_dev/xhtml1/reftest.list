@@ -317,6 +317,8 @@ tall--contain--percent-width-percent-height.xht == reference/ref-tall-lime256x38
 tall--contain--percent-width-percent-height-viewbox.xht == reference/ref-tall-lime48x384-aqua48x384.xht
 tall--contain--width.xht == reference/ref-tall-empty.xht
 tall--cover--height.xht == reference/ref-tall-lime.xht
+tall--cover--nonpercent-width-nonpercent-height.xht == reference/ref-tall-lime256x512-aqua256x256.xht
+tall--cover--nonpercent-width-nonpercent-height-viewbox.xht == reference/ref-tall-lime256x512-aqua256x256.xht
 tall--cover--nonpercent-width-omitted-height.xht == reference/ref-tall-lime256x384-aqua256x384.xht
 tall--cover--nonpercent-width-omitted-height-viewbox.xht == reference/ref-tall-lime256x768.xht
 tall--cover--nonpercent-width-percent-height.xht == reference/ref-tall-lime256x384-aqua256x384.xht
