@@ -40,6 +40,7 @@ clip-path-ellipse-008.htm == reference/clip-path-ellipse-ref.htm
 clip-path-fillBox-1a.htm == reference/clip-path-geometryBox-1-ref.htm
 clip-path-geometryBox-2.htm == reference/clip-path-geometryBox-2-ref.htm
 clip-path-marginBox-1a.htm == reference/clip-path-geometryBox-1-ref.htm
+clip-path-mix-blend-mode-1.htm == reference/clip-path-mix-blend-mode-1-ref.htm
 clip-path-paddingBox-1a.htm == reference/clip-path-geometryBox-1-ref.htm
 clip-path-paddingBox-1b.htm == reference/clip-path-geometryBox-1-ref.htm
 clip-path-paddingBox-1c.htm == reference/clip-path-geometryBox-1-ref.htm
