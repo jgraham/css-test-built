@@ -85,7 +85,7 @@
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>column-rule-color: inherit (complex)
           <ul class="assert">
-            <li>This test checks that, by default, column-rule-color is the current color applying to the element.</li>
+            <li>This test checks that, by default, column-rule-color is the current color applying to the element. In this test, div#parent's computed 'column-rule-color' is given by div#parent's 'currentcolor', which is 'green'. And div.child's 'column-rule-color' will take such specified value (green) from its parent (due to 'inherit' keyword) and not use its own current color.</li>
           </ul>
         </td>
       </tr>
