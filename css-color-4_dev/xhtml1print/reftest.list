@@ -3,3 +3,4 @@ border-bottom-color.xht == reference/border-color-ref.xht
 border-left-color.xht == reference/border-color-ref.xht
 border-right-color.xht == reference/border-color-ref.xht
 border-top-color.xht == reference/border-color-ref.xht
+multicol-rule-color-inherit-002.xht == reference/multicol-rule-color-inherit-001-ref.xht
