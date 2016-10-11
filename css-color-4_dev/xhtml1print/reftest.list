@@ -20,6 +20,10 @@ lab-007.xht == reference/blacktext-ref.xht
 lch-001.xht == reference/greentext-ref.xht
 lch-002.xht == reference/blacktext-ref.xht
 lch-003.xht == reference/whitetext-ref.xht
+lch-004.xht == reference/blacktext-ref.xht
+lch-005.xht == reference/blacktext-ref.xht
+lch-006.xht == reference/blacktext-ref.xht
+lch-007.xht == reference/blacktext-ref.xht
 multicol-rule-color-inherit-002.xht == reference/multicol-rule-color-inherit-001-ref.xht
 named-001.xht == reference/rebeccapurple-ref.xht
 rgb-001.xht == reference/greentext-ref.xht
