@@ -10,6 +10,13 @@ currentcolor-001.xht == reference/greentext-ref.xht
 currentcolor-002.xht == reference/greentext-ref.xht
 hex-001.xht == reference/greentext-ref.xht
 hex-002.xht == reference/greentext-ref.xht
+lab-001.xht == reference/greentext-ref.xht
+lab-002.xht == reference/blacktext-ref.xht
+lab-003.xht == reference/whitetext-ref.xht
+lab-004.xht == reference/blacktext-ref.xht
+lab-005.xht == reference/blacktext-ref.xht
+lab-006.xht == reference/blacktext-ref.xht
+lab-007.xht == reference/blacktext-ref.xht
 multicol-rule-color-inherit-002.xht == reference/multicol-rule-color-inherit-001-ref.xht
 named-001.xht == reference/rebeccapurple-ref.xht
 rgb-001.xht == reference/greentext-ref.xht
