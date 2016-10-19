@@ -1,4 +1,11 @@
 
+background-color-hsl-001.htm == reference/background-color-hsl-001-ref.htm
+background-color-hsl-002.htm == reference/background-color-hsl-002-ref.htm
+background-color-hsl-003.htm == reference/background-color-hsl-003-ref.htm
+background-color-hsl-004.htm == reference/background-color-hsl-004-ref.htm
+background-color-rgb-001.htm == reference/background-color-rgb-001-ref.htm
+background-color-rgb-002.htm == reference/background-color-rgb-002-ref.htm
+background-color-rgb-003.htm == reference/background-color-rgb-003-ref.htm
 border-bottom-color.htm == reference/border-color-ref.htm
 border-left-color.htm == reference/border-color-ref.htm
 border-right-color.htm == reference/border-color-ref.htm

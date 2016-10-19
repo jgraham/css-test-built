@@ -1,4 +1,11 @@
 
+background-color-hsl-001.xht == reference/background-color-hsl-001-ref.xht
+background-color-hsl-002.xht == reference/background-color-hsl-002-ref.xht
+background-color-hsl-003.xht == reference/background-color-hsl-003-ref.xht
+background-color-hsl-004.xht == reference/background-color-hsl-004-ref.xht
+background-color-rgb-001.xht == reference/background-color-rgb-001-ref.xht
+background-color-rgb-002.xht == reference/background-color-rgb-002-ref.xht
+background-color-rgb-003.xht == reference/background-color-rgb-003-ref.xht
 border-bottom-color.xht == reference/border-color-ref.xht
 border-left-color.xht == reference/border-color-ref.xht
 border-right-color.xht == reference/border-color-ref.xht

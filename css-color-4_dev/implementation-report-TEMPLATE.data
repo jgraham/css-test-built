@@ -3,6 +3,20 @@
 # http://test.csswg.org/suites/css-color-4_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
+html/background-color-hsl-001.htm	56b5f4d3c0e5dfc93d051ab336a3dc6deed80252	?
+xhtml1/background-color-hsl-001.xht	56b5f4d3c0e5dfc93d051ab336a3dc6deed80252	?
+html/background-color-hsl-002.htm	62b253e6c209a37502f372d9f011dd6e194d2ba9	?
+xhtml1/background-color-hsl-002.xht	62b253e6c209a37502f372d9f011dd6e194d2ba9	?
+html/background-color-hsl-003.htm	0da537e5147937f85b44e013ed53b9b5fd3b8f3e	?
+xhtml1/background-color-hsl-003.xht	0da537e5147937f85b44e013ed53b9b5fd3b8f3e	?
+html/background-color-hsl-004.htm	52506b9632ef12684629dfc8c5b4de13980655ce	?
+xhtml1/background-color-hsl-004.xht	52506b9632ef12684629dfc8c5b4de13980655ce	?
+html/background-color-rgb-001.htm	e696ff9605b67d45b13e3fd62b3111b3ecbf6bca	?
+xhtml1/background-color-rgb-001.xht	e696ff9605b67d45b13e3fd62b3111b3ecbf6bca	?
+html/background-color-rgb-002.htm	7e9c6a63fe65bcd9a3d8c8d2faf4108c47d4c9b7	?
+xhtml1/background-color-rgb-002.xht	7e9c6a63fe65bcd9a3d8c8d2faf4108c47d4c9b7	?
+html/background-color-rgb-003.htm	90e6ae4db967ca13f24f11619bd8eab499ce9ae4	?
+xhtml1/background-color-rgb-003.xht	90e6ae4db967ca13f24f11619bd8eab499ce9ae4	?
 html/border-bottom-color.htm	79e0f655013f7585c3817656632d449fcadcf2b4	?
 xhtml1/border-bottom-color.xht	79e0f655013f7585c3817656632d449fcadcf2b4	?
 html/border-left-color.htm	2f2424ca07c10701813d1d52811c113794e13451	?
