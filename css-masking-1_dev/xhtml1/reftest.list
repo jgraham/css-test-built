@@ -39,9 +39,7 @@ clip-path-ellipse-007.xht == reference/clip-path-ellipse-ref.xht
 clip-path-ellipse-008.xht == reference/clip-path-ellipse-ref.xht
 clip-path-fillBox-1a.xht == reference/clip-path-geometryBox-1-ref.xht
 clip-path-geometryBox-2.xht == reference/clip-path-geometryBox-2-ref.xht
-clip-path-localRef-1.xht == reference/clip-path-localRef-1-ref.xht
 clip-path-marginBox-1a.xht == reference/clip-path-geometryBox-1-ref.xht
-clip-path-mix-blend-mode-1.xht == reference/clip-path-mix-blend-mode-1-ref.xht
 clip-path-paddingBox-1a.xht == reference/clip-path-geometryBox-1-ref.xht
 clip-path-paddingBox-1b.xht == reference/clip-path-geometryBox-1-ref.xht
 clip-path-paddingBox-1c.xht == reference/clip-path-geometryBox-1-ref.xht

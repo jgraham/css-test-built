@@ -842,11 +842,6 @@ vertical-alignment-vlr-027.xht == reference/vertical-alignment-vrl-026-ref.xht
 vertical-alignment-vrl-022.xht == reference/vertical-alignment-vrl-022-ref.xht
 vertical-alignment-vrl-024.xht == reference/vertical-alignment-vrl-022-ref.xht
 vertical-alignment-vrl-026.xht == reference/vertical-alignment-vrl-026-ref.xht
-wm-propagation-body-006.xht == reference/block-flow-direction-025-ref.xht
-wm-propagation-body-008.xht == reference/block-flow-direction-025-ref.xht
-wm-propagation-body-010.xht == reference/wm-propagation-body-003-ref.xht
-wm-propagation-body-011.xht == reference/wm-propagation-body-003-ref.xht
-wm-propagation-body-015.xht == reference/block-flow-direction-025-ref.xht
 writing-mode-horizontal-001l.xht == reference/writing-mode-horizontal-001l-ref.xht
 writing-mode-horizontal-001r.xht == reference/writing-mode-horizontal-001r-ref.xht
 writing-mode-vertical-lr-002.xht == reference/writing-mode-vertical-lr-002-ref.xht
