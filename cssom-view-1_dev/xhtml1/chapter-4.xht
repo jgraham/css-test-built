@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSSOM View Module Level 1 Test Suite</h1>
-  <h2>Extensions to the Window Interface (0 tests)</h2>
+  <h2>Extensions to the Window Interface (13 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -31,7 +31,29 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4">+</a>
         <a href="https://www.w3.org/TR/cssom-view/#extensions-to-the-window-interface">4 Extensions to the Window Interface</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 2 tests -->
+      <tr id="media-query-list-interface-4" class="dom script">
+        <td>
+            <a href="media-query-list-interface.xht">media-query-list-interface</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>Properties and Functions
+          <ul class="assert">
+            <li>All properties exist and are readonly. All functions exist and are instances of Function</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="window-interface-4" class="dom script">
+        <td>
+            <a href="window-interface.xht">window-interface</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>Properties and Functions
+          <ul class="assert">
+            <li>All properties exist and are readonly. All functions exist and are instances of Function</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.#allowed-to-resize-and-move">
       <!-- 0 tests -->
@@ -70,7 +92,15 @@
       <!-- 0 tests -->
     </tbody>
     <tbody id="s4.#dom-window-matchmedia">
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="matchmedia-4.#dom-window-matchmedia" class="dom script">
+        <td>
+            <a href="matchMedia.xht">matchmedia</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM View matchMedia and MediaQueryList
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.#dom-window-matchmedia-query-query">
       <!-- 0 tests -->
@@ -538,7 +568,42 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.2">+</a>
         <a href="https://www.w3.org/TR/cssom-view/#the-mediaquerylist-interface">4.2 The MediaQueryList Interface</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 4 tests -->
+      <tr id="matchmedia-4.2" class="dom script">
+        <td>
+            <a href="matchMedia.xht">matchmedia</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM View matchMedia and MediaQueryList
+        </td>
+      </tr>
+      <tr id="matchmediaaddlistener-4.2" class="dom script">
+        <td>
+            <a href="matchMediaAddListener.xht">matchmediaaddlistener</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM View matchMedia addListener
+        </td>
+      </tr>
+      <tr id="media-query-list-interface-4.2" class="dom script">
+        <td>
+            <a href="media-query-list-interface.xht">media-query-list-interface</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>Properties and Functions
+          <ul class="assert">
+            <li>All properties exist and are readonly. All functions exist and are instances of Function</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mediaquerylist-001-4.2" class="script">
+        <td>
+            <a href="MediaQueryList-001.xht">mediaquerylist-001</a></td>
+        <td></td>
+        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>MediaQueryList
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.2.#dictdef-mediaquerylisteventinit">
       <!-- 0 tests -->
@@ -730,7 +795,92 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.3">+</a>
         <a href="https://www.w3.org/TR/cssom-view/#the-screen-interface">4.3 The Screen Interface</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 8 tests -->
+      <tr id="cssom-view-window-screen-interface-4.3" class="dom script">
+        <td>
+            <a href="cssom-view-window-screen-interface.xht">cssom-view-window-screen-interface</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>cssom view window screen attribute
+          <ul class="assert">
+            <li>window screen interface</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="screen-pixeldepth-screen-colordepth001-4.3" class="script">
+        <td>
+            <a href="Screen-pixelDepth-Screen-colorDepth001.xht">screen-pixeldepth-screen-colordepth001</a></td>
+        <td></td>
+        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>Screen-pixelDepth,Screen-colorDepth
+        </td>
+      </tr>
+      <tr id="window-screen-height-4.3" class="dom script">
+        <td>
+            <a href="window-screen-height.xht">window-screen-height</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM View - 4.2 - screen.height range tests
+          <ul class="assert">
+            <li>window.screen.height has sensible values</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="window-screen-height-immutable-4.3" class="dom script">
+        <td>
+            <a href="window-screen-height-immutable.xht">window-screen-height-immutable</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM View - 4.2 - screen.height immutability
+          <ul class="assert">
+            <li>screen.height is immutable</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="window-screen-height-mutation-throws-4.3" class="dom script">
+        <td>
+            <a href="window-screen-height-mutation-throws.xht">window-screen-height-mutation-throws</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM View - 4.2 - screen.height mutation throws exception
+          <ul class="assert">
+            <li>screen.height mutation throws exception</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="window-screen-width-4.3" class="dom script">
+        <td>
+            <a href="window-screen-width.xht">window-screen-width</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM View - 4.2 - screen.width range tests
+          <ul class="assert">
+            <li>window.screen.width has sensible values</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="window-screen-width-immutable-4.3" class="dom script">
+        <td>
+            <a href="window-screen-width-immutable.xht">window-screen-width-immutable</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM View - 4.2 - screen.width immutability
+          <ul class="assert">
+            <li>screen.width is immutable</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="window-screen-width-mutation-throws-4.3" class="dom script">
+        <td>
+            <a href="window-screen-width-mutation-throws.xht">window-screen-width-mutation-throws</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM View - 4.2 - screen.width mutation throws exception
+          <ul class="assert">
+            <li>screen.width mutation throws exception</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.3.#dom-screen-availheight">
       <!-- 0 tests -->
