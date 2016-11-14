@@ -313,10 +313,10 @@ html/flexbox-align-content-vert-001a.htm	6238298391aac9bd8b28a7065407eb63a01b8df
 xhtml1/flexbox-align-content-vert-001a.xht	6238298391aac9bd8b28a7065407eb63a01b8df7	?
 html/flexbox-align-content-vert-001b.htm	5c85769810fcdc23817a4ba0c96fc19fc5b18fe4	?
 xhtml1/flexbox-align-content-vert-001b.xht	5c85769810fcdc23817a4ba0c96fc19fc5b18fe4	?
-html/flexbox-align-self-baseline-horiz-001a.htm	fabc16fabb851108f082dfb7cf42b497666e3447	?
-xhtml1/flexbox-align-self-baseline-horiz-001a.xht	fabc16fabb851108f082dfb7cf42b497666e3447	?
-html/flexbox-align-self-baseline-horiz-001b.htm	675397922dd82ff7b3372977662aaba0d9c91943	?
-xhtml1/flexbox-align-self-baseline-horiz-001b.xht	675397922dd82ff7b3372977662aaba0d9c91943	?
+html/flexbox-align-self-baseline-horiz-001a.htm	54adf30cf492ee4a11011c75d5e9dcadca0357cc	?
+xhtml1/flexbox-align-self-baseline-horiz-001a.xht	54adf30cf492ee4a11011c75d5e9dcadca0357cc	?
+html/flexbox-align-self-baseline-horiz-001b.htm	5609c5630809e849d8d238eafff81cddc6aed932	?
+xhtml1/flexbox-align-self-baseline-horiz-001b.xht	5609c5630809e849d8d238eafff81cddc6aed932	?
 html/flexbox-align-self-baseline-horiz-002.htm	8b040717c0aa1788f98a5ed0095399b1f8ac64fc	?
 xhtml1/flexbox-align-self-baseline-horiz-002.xht	8b040717c0aa1788f98a5ed0095399b1f8ac64fc	?
 html/flexbox-align-self-baseline-horiz-003.htm	218fc9c38f93ce1e661f9d95e2cacccf8f9dfa7b	?
@@ -325,6 +325,10 @@ html/flexbox-align-self-baseline-horiz-004.htm	e0299d04b12aad85d3d0a583c3b0d27e7
 xhtml1/flexbox-align-self-baseline-horiz-004.xht	e0299d04b12aad85d3d0a583c3b0d27e7b9f990a	?
 html/flexbox-align-self-baseline-horiz-005.htm	87aa705213832e513475800e2a74f844e80a0da2	?
 xhtml1/flexbox-align-self-baseline-horiz-005.xht	87aa705213832e513475800e2a74f844e80a0da2	?
+html/flexbox-align-self-baseline-horiz-006.htm	28ca13d3960038effa6689b4ef5121c2b2f115c2	?
+xhtml1/flexbox-align-self-baseline-horiz-006.xht	28ca13d3960038effa6689b4ef5121c2b2f115c2	?
+html/flexbox-align-self-baseline-horiz-007.htm	1e03904c87d3a33eba55c98367c8b9c69197cd07	?
+xhtml1/flexbox-align-self-baseline-horiz-007.xht	1e03904c87d3a33eba55c98367c8b9c69197cd07	?
 html/flexbox-align-self-horiz-001-block.htm	9ba8782db7882c020858550665000d7a9b93826f	?
 xhtml1/flexbox-align-self-horiz-001-block.xht	9ba8782db7882c020858550665000d7a9b93826f	?
 html/flexbox-align-self-horiz-001-table.htm	974a216e5d30bbeddbad266125ceccb2d0d33dae	?

@@ -138,6 +138,8 @@ flexbox-align-self-baseline-horiz-002.xht == reference/flexbox-align-self-baseli
 flexbox-align-self-baseline-horiz-003.xht == reference/flexbox-align-self-baseline-horiz-003-ref.xht
 flexbox-align-self-baseline-horiz-004.xht == reference/flexbox-align-self-baseline-horiz-004-ref.xht
 flexbox-align-self-baseline-horiz-005.xht == reference/flexbox-align-self-baseline-horiz-005-ref.xht
+flexbox-align-self-baseline-horiz-006.xht == reference/flexbox-align-self-baseline-horiz-006-ref.xht
+flexbox-align-self-baseline-horiz-007.xht == reference/flexbox-align-self-baseline-horiz-007-ref.xht
 flexbox-align-self-horiz-001-block.xht == reference/flexbox-align-self-horiz-001-ref.xht
 flexbox-align-self-horiz-001-table.xht == reference/flexbox-align-self-horiz-001-ref.xht
 flexbox-align-self-horiz-002.xht == reference/flexbox-align-self-horiz-002-ref.xht
