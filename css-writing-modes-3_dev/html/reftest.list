@@ -569,9 +569,9 @@ float-vrl-006.htm == reference/ref-filled-green-100px-square.htm
 float-vrl-008.htm == reference/ref-filled-green-100px-square.htm
 float-vrl-010.htm == reference/ref-filled-green-100px-square.htm
 float-vrl-012.htm == reference/ref-filled-green-100px-square.htm
-full-width-001.htm == reference/full-width-ref.htm != reference/full-width-notcu-notref.htm != reference/full-width-horizontal-notref.htm
-full-width-002.htm == reference/full-width-ref.htm != reference/full-width-notcu-notref.htm != reference/full-width-horizontal-notref.htm
-full-width-003.htm == reference/full-width-ref.htm != reference/full-width-notcu-notref.htm != reference/full-width-horizontal-notref.htm
+full-width-001.htm != reference/full-width-001-horizontal-notref.htm != reference/full-width-001-nofullwidth-notref.htm
+full-width-002.htm != reference/full-width-002-notcu-notref.htm != reference/full-width-002-horizontal-notref.htm
+full-width-003.htm != reference/full-width-002-notcu-notref.htm != reference/full-width-002-horizontal-notref.htm
 height-width-inline-non-replaced-vlr-003.htm == reference/ref-filled-green-100px-square.htm
 height-width-inline-non-replaced-vrl-002.htm == reference/abs-pos-non-replaced-icb-vrl-008-ref.htm
 horizontal-rule-vlr-003.htm == reference/horizontal-rule-vlr-003-ref.htm
@@ -641,6 +641,8 @@ line-box-height-vlr-007.htm == reference/line-box-height-vlr-007-ref.htm
 line-box-height-vlr-009.htm == reference/line-box-height-vlr-007-ref.htm
 line-box-height-vlr-011.htm == reference/line-box-height-vlr-011-ref.htm
 line-box-height-vlr-013.htm == reference/line-box-height-vlr-011-ref.htm
+line-box-height-vlr-021.htm == reference/line-box-height-vlr-021-ref.htm
+line-box-height-vlr-023.htm == reference/line-box-height-vlr-023-ref.htm
 line-box-height-vrl-002.htm == reference/line-box-height-vrl-002-ref.htm
 line-box-height-vrl-004.htm == reference/line-box-height-vrl-002-ref.htm
 line-box-height-vrl-006.htm == reference/line-box-height-vrl-006-ref.htm
@@ -667,6 +669,10 @@ margin-collapse-vrl-034.htm == reference/ref-filled-green-100px-square.htm
 margin-collapse-vrl-036.htm == reference/ref-filled-green-100px-square.htm
 margin-vlr-003.htm == reference/margin-vrl-002-ref.htm
 margin-vrl-002.htm == reference/margin-vrl-002-ref.htm
+ortho-htb-alongside-vrl-floats-002.htm == reference/ortho-htb-alongside-vrl-floats-002-ref.htm
+ortho-htb-alongside-vrl-floats-006.htm == reference/ortho-htb-alongside-vrl-floats-006-ref.htm
+ortho-htb-alongside-vrl-floats-010.htm == reference/ortho-htb-alongside-vrl-floats-010-ref.htm
+ortho-htb-alongside-vrl-floats-014.htm == reference/ortho-htb-alongside-vrl-floats-014-ref.htm
 outline-inline-block-vrl-006.htm == reference/outline-inline-block-vrl-006.htm
 outline-inline-vlr-006.htm == reference/outline-inline-vlr-006.htm
 outline-inline-vrl-006.htm == reference/outline-inline-vrl-006.htm
@@ -740,11 +746,22 @@ text-baseline-vlr-007.htm == reference/text-baseline-vrl-006-ref.htm
 text-baseline-vrl-002.htm == reference/text-baseline-vrl-002-ref.htm
 text-baseline-vrl-004.htm == reference/text-baseline-vrl-002-ref.htm
 text-baseline-vrl-006.htm == reference/text-baseline-vrl-006-ref.htm
+text-combine-upright-break-inside-001.htm == reference/text-combine-upright-break-inside-001-ref.htm
+text-combine-upright-break-inside-001a.htm == reference/text-combine-upright-break-inside-001-ref.htm
+text-combine-upright-compression-001.htm == reference/text-combine-upright-compression-001-ref.htm
+text-combine-upright-compression-002.htm == reference/text-combine-upright-compression-002-ref.htm
+text-combine-upright-compression-003.htm == reference/text-combine-upright-compression-003-ref.htm
+text-combine-upright-compression-004.htm == reference/text-combine-upright-compression-004-ref.htm
+text-combine-upright-compression-005.htm == reference/text-combine-upright-compression-005-ref.htm
+text-combine-upright-compression-005a.htm == reference/text-combine-upright-compression-005-ref.htm
+text-combine-upright-compression-006.htm == reference/text-combine-upright-compression-006-ref.htm
+text-combine-upright-compression-006a.htm == reference/text-combine-upright-compression-006-ref.htm
+text-combine-upright-compression-007.htm == reference/text-combine-upright-compression-007-ref.htm
 text-combine-upright-decorations-001.htm == reference/text-combine-upright-decorations-001.htm
 text-combine-upright-inherit-all-001.htm == reference/text-combine-upright-inherit-all-001.htm
 text-combine-upright-inherit-all-002.htm == reference/text-combine-upright-inherit-all-002.htm
 text-combine-upright-layout-rules-001.htm == reference/text-combine-upright-layout-rules-001-ref.htm
-text-combine-upright-line-breaking-rules-001.htm == reference/text-combine-upright-line-breaking-rules-001.htm
+text-combine-upright-line-breaking-rules-001.htm == reference/text-combine-upright-line-breaking-rules-001-ref.htm
 text-combine-upright-value-all-001.htm == reference/text-combine-upright-value-single-character.htm
 text-combine-upright-value-all-002.htm == reference/vertical-ahem-1x1-ref.htm != reference/horizontal-ahem-1x1-notref.htm
 text-combine-upright-value-all-003.htm == reference/vertical-ahem-1x1-ref.htm != reference/horizontal-ahem-1x1-notref.htm
@@ -780,6 +797,7 @@ text-orientation-mixed-vlr-100.htm == reference/text-orientation-mixed-vlr-100-r
 text-orientation-mixed-vrl-100.htm == reference/text-orientation-mixed-vrl-100-ref.htm
 text-orientation-sideways-vlr-100.htm == reference/text-orientation-sideways-vlr-100-ref.htm
 text-orientation-sideways-vrl-100.htm == reference/text-orientation-sideways-vrl-100-ref.htm
+text-orientation-upright-directionality-001.htm == reference/text-orientation-upright-directionality-001-ref.htm
 text-orientation-upright-srl-018.htm == reference/text-orientation-mixed-srl-016-ref.htm
 text-orientation-upright-vlr-100.htm == reference/text-orientation-upright-vlr-100-ref.htm
 text-orientation-upright-vrl-100.htm == reference/text-orientation-upright-vrl-100-ref.htm
@@ -824,6 +842,11 @@ vertical-alignment-vlr-027.htm == reference/vertical-alignment-vrl-026-ref.htm
 vertical-alignment-vrl-022.htm == reference/vertical-alignment-vrl-022-ref.htm
 vertical-alignment-vrl-024.htm == reference/vertical-alignment-vrl-022-ref.htm
 vertical-alignment-vrl-026.htm == reference/vertical-alignment-vrl-026-ref.htm
+wm-propagation-body-006.htm == reference/block-flow-direction-025-ref.htm
+wm-propagation-body-008.htm == reference/block-flow-direction-025-ref.htm
+wm-propagation-body-010.htm == reference/wm-propagation-body-003-ref.htm
+wm-propagation-body-011.htm == reference/wm-propagation-body-003-ref.htm
+wm-propagation-body-015.htm == reference/block-flow-direction-025-ref.htm
 writing-mode-horizontal-001l.htm == reference/writing-mode-horizontal-001l-ref.htm
 writing-mode-horizontal-001r.htm == reference/writing-mode-horizontal-001r-ref.htm
 writing-mode-vertical-lr-002.htm == reference/writing-mode-vertical-lr-002-ref.htm

@@ -447,45 +447,46 @@ anonymous-boxes-inheritance-001.htm == reference/anonymous-boxes-inheritance-001
 anonymous-inline-whitespace-001.htm == reference/ref-if-there-is-no-red.htm
 anonymous-table-box-width-001.htm == reference/ref-filled-green-100px-square.htm
 at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-002.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-003.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-004.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-005.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-006.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-007.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-008.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-009.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-010.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-011.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-012.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-014.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-015.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-016.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-019.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-020.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-021.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-024.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-025.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-026.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-027.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-028.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-029.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-030.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
+at-charset-002.htm == reference/at-charset-001-ref.htm
+at-charset-003.htm == reference/at-charset-001-ref.htm
+at-charset-004.htm == reference/at-charset-001-ref.htm
+at-charset-005.htm == reference/at-charset-001-ref.htm
+at-charset-006.htm == reference/at-charset-001-ref.htm
+at-charset-007.htm == reference/at-charset-001-ref.htm
+at-charset-008.htm == reference/at-charset-001-ref.htm
+at-charset-009.htm == reference/at-charset-001-ref.htm
+at-charset-010.htm == reference/at-charset-001-ref.htm
+at-charset-011.htm == reference/at-charset-001-ref.htm
+at-charset-012.htm == reference/at-charset-001-ref.htm
+at-charset-014.htm == reference/at-charset-001-ref.htm
+at-charset-015.htm == reference/at-charset-001-ref.htm
+at-charset-016.htm == reference/at-charset-001-ref.htm
+at-charset-019.htm == reference/at-charset-001-ref.htm
+at-charset-020.htm == reference/at-charset-001-ref.htm
+at-charset-021.htm == reference/at-charset-001-ref.htm
+at-charset-024.htm == reference/at-charset-001-ref.htm
+at-charset-025.htm == reference/at-charset-001-ref.htm
+at-charset-026.htm == reference/at-charset-001-ref.htm
+at-charset-027.htm == reference/at-charset-001-ref.htm
+at-charset-028.htm == reference/at-charset-001-ref.htm
+at-charset-029.htm == reference/at-charset-001-ref.htm
+at-charset-030.htm == reference/at-charset-001-ref.htm
 at-charset-033.htm == reference/filler-text-below-green.htm
 at-charset-034.htm == reference/filler-text-below-green.htm
 at-charset-035.htm == reference/filler-text-below-green.htm
 at-charset-036.htm == reference/filler-text-below-green.htm
 at-charset-037.htm == reference/filler-text-below-green.htm
 at-charset-038.htm == reference/filler-text-below-green.htm
-at-charset-040.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-041.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-042.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-043.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-044.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-045.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-046.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-047.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
-at-charset-048.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
+at-charset-039.htm == reference/at-charset-039-ref.htm
+at-charset-040.htm == reference/at-charset-001-ref.htm
+at-charset-041.htm == reference/at-charset-001-ref.htm
+at-charset-042.htm == reference/at-charset-001-ref.htm
+at-charset-043.htm == reference/at-charset-001-ref.htm
+at-charset-044.htm == reference/at-charset-001-ref.htm
+at-charset-045.htm == reference/at-charset-001-ref.htm
+at-charset-046.htm == reference/at-charset-001-ref.htm
+at-charset-047.htm == reference/at-charset-001-ref.htm
+at-charset-048.htm == reference/at-charset-001-ref.htm
 at-charset-049.htm == reference/filler-text-below-green.htm
 at-charset-050.htm == reference/filler-text-below-green.htm
 at-charset-051.htm == reference/filler-text-below-green.htm
@@ -497,7 +498,7 @@ at-charset-056.htm == reference/filler-text-below-green.htm
 at-charset-057.htm == reference/filler-text-below-green.htm
 at-charset-058.htm == reference/filler-text-below-green.htm
 at-charset-059.htm == reference/filler-text-below-green.htm
-at-charset-060.htm == at-charset-001.htm == reference/at-charset-001-ref.htm
+at-charset-060.htm == reference/at-charset-001-ref.htm
 at-charset-061.htm == reference/filler-text-below-green.htm
 at-charset-071.htm == reference/ref-green-background.htm
 at-charset-072.htm == reference/ref-green-background.htm
@@ -4327,7 +4328,6 @@ inline-table-alignment-005.htm == reference/inline-table-alignment-003-ref.htm
 inline-table-height-001.htm == reference/inline-table-height-001-ref.htm
 inline-table-height-002.htm == reference/inline-table-height-002-ref.htm
 inline-table-valign-001.htm == reference/inline-table-valign-001-ref.htm
-inline-table-valign-002.htm == reference/inline-table-valign-002-ref.htm
 inline-table-width-001a.htm == reference/inline-table-width-001-ref.htm
 inline-table-width-001b.htm == reference/inline-table-width-001-ref.htm
 inline-table-width-002a.htm == reference/inline-table-width-002-ref.htm
@@ -4444,6 +4444,34 @@ left-offset-003.htm == reference/left-offset-003-ref.htm
 left-offset-percentage-001.htm == reference/left-offset-percentage-001-ref.htm
 left-offset-percentage-002.htm == reference/left-offset-percentage-002-ref.htm
 left-offset-position-fixed-001.htm == reference/left-offset-position-fixed-001-ref.htm
+letter-spacing-004.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-005.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-006.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-016.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-017.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-018.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-028.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-029.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-030.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-040.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-041.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-042.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-052.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-053.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-054.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-064.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-065.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-066.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-076.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-077.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-078.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-088.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-089.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-090.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-097.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-098.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-099.htm == reference/letter-spacing-004-ref.htm
+letter-spacing-100.htm == reference/letter-spacing-004-ref.htm
 letter-spacing-applies-to-001.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
 letter-spacing-applies-to-002.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
 letter-spacing-applies-to-004.htm == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.htm
@@ -4461,6 +4489,8 @@ line-box-height-vlr-007.htm == reference/line-box-height-vlr-007-ref.htm
 line-box-height-vlr-009.htm == reference/line-box-height-vlr-007-ref.htm
 line-box-height-vlr-011.htm == reference/line-box-height-vlr-011-ref.htm
 line-box-height-vlr-013.htm == reference/line-box-height-vlr-011-ref.htm
+line-box-height-vlr-021.htm == reference/line-box-height-vlr-021-ref.htm
+line-box-height-vlr-023.htm == reference/line-box-height-vlr-023-ref.htm
 line-box-height-vrl-002.htm == reference/line-box-height-vrl-002-ref.htm
 line-box-height-vrl-004.htm == reference/line-box-height-vrl-002-ref.htm
 line-box-height-vrl-006.htm == reference/line-box-height-vrl-006-ref.htm
@@ -4566,6 +4596,7 @@ list-style-applies-to-014.htm == reference/single_square_list_marker.htm
 list-style-applies-to-015.htm == reference/single_square_list_marker.htm
 list-style-image-004.htm == reference/list-style-image-004-ref.htm
 list-style-image-005.htm == reference/list-style-image-005-ref.htm
+list-style-position-018.htm == reference/list-style-position-018-ref.htm
 list-style-position-023.htm == reference/list-style-position-023-ref.htm
 list-style-position-024.htm == reference/list-style-position-024-ref.htm
 list-style-type-applies-to-001.htm == reference/single_square_list_marker.htm
@@ -5416,7 +5447,6 @@ outline-color-122.htm == reference/boxes_same_color_100px_black_50px_margin.htm
 outline-color-130.htm == reference/boxes_same_color_100px_black_50px_margin.htm
 outline-color-applies-to-005.htm == reference/no-red-on-blank-page-ref.htm
 outline-color-applies-to-006.htm == reference/no-red-on-blank-page-ref.htm
-outline-layout-006.htm == reference/outline-layout-006-ref.htm
 outline-style-001.htm == reference/no-red-filler-text-ref.htm
 outline-style-011.htm == reference/outline-style-011-ref.htm
 outline-style-012.htm == reference/outline-style-012-ref.htm
@@ -5451,6 +5481,7 @@ outline-width-082.htm == reference/no-red-filler-text-ref.htm
 outline-width-089.htm == reference/no-red-filler-text-ref.htm
 outline-width-090.htm == reference/no-red-filler-text-ref.htm
 outline-width-091.htm == reference/no-red-filler-text-ref.htm
+outline-width-096.htm == reference/outline-width-096-ref.htm
 outline-width-applies-to-005.htm == reference/no-red-on-blank-page-ref.htm
 outline-width-applies-to-006.htm == reference/no-red-on-blank-page-ref.htm
 overflow-applies-to-001.htm == reference/overflow-applies-to-001-ref.htm
@@ -6391,8 +6422,8 @@ text-indent-067.htm == reference/pass_if_box_ahem.htm
 text-indent-068.htm == reference/pass_if_box_ahem.htm
 text-indent-079.htm == reference/pass_if_box_ahem.htm
 text-indent-080.htm == reference/pass_if_box_ahem.htm
-text-indent-113.htm == reference/text-indent-113-ref-margin.htm != reference/text-indent-114-ref.htm != text-indent-114.htm
-text-indent-114.htm == reference/text-indent-114-ref.htm
+text-indent-113.htm == reference/text-indent-113-ref-margin.htm != reference/text-indent-114-ref.htm
+text-indent-114.htm == reference/text-indent-114-ref.htm != reference/text-indent-113-ref-margin.htm
 text-indent-115.htm == reference/text-indent-115-ref-block-margin.htm == reference/text-indent-115-ref-inline-margin.htm
 text-indent-intrinsic-001.htm == reference/text-indent-intrinsic-001-ref.htm
 text-indent-intrinsic-002.htm == reference/text-indent-intrinsic-002-ref.htm

@@ -569,9 +569,9 @@ float-vrl-006.xht == reference/ref-filled-green-100px-square.xht
 float-vrl-008.xht == reference/ref-filled-green-100px-square.xht
 float-vrl-010.xht == reference/ref-filled-green-100px-square.xht
 float-vrl-012.xht == reference/ref-filled-green-100px-square.xht
-full-width-001.xht == reference/full-width-ref.xht != reference/full-width-notcu-notref.xht != reference/full-width-horizontal-notref.xht
-full-width-002.xht == reference/full-width-ref.xht != reference/full-width-notcu-notref.xht != reference/full-width-horizontal-notref.xht
-full-width-003.xht == reference/full-width-ref.xht != reference/full-width-notcu-notref.xht != reference/full-width-horizontal-notref.xht
+full-width-001.xht != reference/full-width-001-horizontal-notref.xht != reference/full-width-001-nofullwidth-notref.xht
+full-width-002.xht != reference/full-width-002-notcu-notref.xht != reference/full-width-002-horizontal-notref.xht
+full-width-003.xht != reference/full-width-002-notcu-notref.xht != reference/full-width-002-horizontal-notref.xht
 height-width-inline-non-replaced-vlr-003.xht == reference/ref-filled-green-100px-square.xht
 height-width-inline-non-replaced-vrl-002.xht == reference/abs-pos-non-replaced-icb-vrl-008-ref.xht
 horizontal-rule-vlr-003.xht == reference/horizontal-rule-vlr-003-ref.xht
@@ -641,6 +641,8 @@ line-box-height-vlr-007.xht == reference/line-box-height-vlr-007-ref.xht
 line-box-height-vlr-009.xht == reference/line-box-height-vlr-007-ref.xht
 line-box-height-vlr-011.xht == reference/line-box-height-vlr-011-ref.xht
 line-box-height-vlr-013.xht == reference/line-box-height-vlr-011-ref.xht
+line-box-height-vlr-021.xht == reference/line-box-height-vlr-021-ref.xht
+line-box-height-vlr-023.xht == reference/line-box-height-vlr-023-ref.xht
 line-box-height-vrl-002.xht == reference/line-box-height-vrl-002-ref.xht
 line-box-height-vrl-004.xht == reference/line-box-height-vrl-002-ref.xht
 line-box-height-vrl-006.xht == reference/line-box-height-vrl-006-ref.xht
@@ -667,6 +669,10 @@ margin-collapse-vrl-034.xht == reference/ref-filled-green-100px-square.xht
 margin-collapse-vrl-036.xht == reference/ref-filled-green-100px-square.xht
 margin-vlr-003.xht == reference/margin-vrl-002-ref.xht
 margin-vrl-002.xht == reference/margin-vrl-002-ref.xht
+ortho-htb-alongside-vrl-floats-002.xht == reference/ortho-htb-alongside-vrl-floats-002-ref.xht
+ortho-htb-alongside-vrl-floats-006.xht == reference/ortho-htb-alongside-vrl-floats-006-ref.xht
+ortho-htb-alongside-vrl-floats-010.xht == reference/ortho-htb-alongside-vrl-floats-010-ref.xht
+ortho-htb-alongside-vrl-floats-014.xht == reference/ortho-htb-alongside-vrl-floats-014-ref.xht
 outline-inline-block-vrl-006.xht == reference/outline-inline-block-vrl-006.xht
 outline-inline-vlr-006.xht == reference/outline-inline-vlr-006.xht
 outline-inline-vrl-006.xht == reference/outline-inline-vrl-006.xht
@@ -740,11 +746,22 @@ text-baseline-vlr-007.xht == reference/text-baseline-vrl-006-ref.xht
 text-baseline-vrl-002.xht == reference/text-baseline-vrl-002-ref.xht
 text-baseline-vrl-004.xht == reference/text-baseline-vrl-002-ref.xht
 text-baseline-vrl-006.xht == reference/text-baseline-vrl-006-ref.xht
+text-combine-upright-break-inside-001.xht == reference/text-combine-upright-break-inside-001-ref.xht
+text-combine-upright-break-inside-001a.xht == reference/text-combine-upright-break-inside-001-ref.xht
+text-combine-upright-compression-001.xht == reference/text-combine-upright-compression-001-ref.xht
+text-combine-upright-compression-002.xht == reference/text-combine-upright-compression-002-ref.xht
+text-combine-upright-compression-003.xht == reference/text-combine-upright-compression-003-ref.xht
+text-combine-upright-compression-004.xht == reference/text-combine-upright-compression-004-ref.xht
+text-combine-upright-compression-005.xht == reference/text-combine-upright-compression-005-ref.xht
+text-combine-upright-compression-005a.xht == reference/text-combine-upright-compression-005-ref.xht
+text-combine-upright-compression-006.xht == reference/text-combine-upright-compression-006-ref.xht
+text-combine-upright-compression-006a.xht == reference/text-combine-upright-compression-006-ref.xht
+text-combine-upright-compression-007.xht == reference/text-combine-upright-compression-007-ref.xht
 text-combine-upright-decorations-001.xht == reference/text-combine-upright-decorations-001.xht
 text-combine-upright-inherit-all-001.xht == reference/text-combine-upright-inherit-all-001.xht
 text-combine-upright-inherit-all-002.xht == reference/text-combine-upright-inherit-all-002.xht
 text-combine-upright-layout-rules-001.xht == reference/text-combine-upright-layout-rules-001-ref.xht
-text-combine-upright-line-breaking-rules-001.xht == reference/text-combine-upright-line-breaking-rules-001.xht
+text-combine-upright-line-breaking-rules-001.xht == reference/text-combine-upright-line-breaking-rules-001-ref.xht
 text-combine-upright-value-all-001.xht == reference/text-combine-upright-value-single-character.xht
 text-combine-upright-value-all-002.xht == reference/vertical-ahem-1x1-ref.xht != reference/horizontal-ahem-1x1-notref.xht
 text-combine-upright-value-all-003.xht == reference/vertical-ahem-1x1-ref.xht != reference/horizontal-ahem-1x1-notref.xht
@@ -780,6 +797,7 @@ text-orientation-mixed-vlr-100.xht == reference/text-orientation-mixed-vlr-100-r
 text-orientation-mixed-vrl-100.xht == reference/text-orientation-mixed-vrl-100-ref.xht
 text-orientation-sideways-vlr-100.xht == reference/text-orientation-sideways-vlr-100-ref.xht
 text-orientation-sideways-vrl-100.xht == reference/text-orientation-sideways-vrl-100-ref.xht
+text-orientation-upright-directionality-001.xht == reference/text-orientation-upright-directionality-001-ref.xht
 text-orientation-upright-srl-018.xht == reference/text-orientation-mixed-srl-016-ref.xht
 text-orientation-upright-vlr-100.xht == reference/text-orientation-upright-vlr-100-ref.xht
 text-orientation-upright-vrl-100.xht == reference/text-orientation-upright-vrl-100-ref.xht
@@ -824,6 +842,11 @@ vertical-alignment-vlr-027.xht == reference/vertical-alignment-vrl-026-ref.xht
 vertical-alignment-vrl-022.xht == reference/vertical-alignment-vrl-022-ref.xht
 vertical-alignment-vrl-024.xht == reference/vertical-alignment-vrl-022-ref.xht
 vertical-alignment-vrl-026.xht == reference/vertical-alignment-vrl-026-ref.xht
+wm-propagation-body-006.xht == reference/block-flow-direction-025-ref.xht
+wm-propagation-body-008.xht == reference/block-flow-direction-025-ref.xht
+wm-propagation-body-010.xht == reference/wm-propagation-body-003-ref.xht
+wm-propagation-body-011.xht == reference/wm-propagation-body-003-ref.xht
+wm-propagation-body-015.xht == reference/block-flow-direction-025-ref.xht
 writing-mode-horizontal-001l.xht == reference/writing-mode-horizontal-001l-ref.xht
 writing-mode-horizontal-001r.xht == reference/writing-mode-horizontal-001r-ref.xht
 writing-mode-vertical-lr-002.xht == reference/writing-mode-vertical-lr-002-ref.xht
