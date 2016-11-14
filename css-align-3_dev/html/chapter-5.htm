@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Box Alignment Module Level 3 CR Test Suite</h1>
-  <h2>Self-Alignment: Aligning the Box within its Parent (45 tests)</h2>
+  <h2>Self-Alignment: Aligning the Box within its Parent (69 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -449,7 +449,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.2.3">+</a>
         <a href="https://www.w3.org/TR/css3-align/#align-abspos-static">5.2.3 Static Position of Absolutely-Positioned Boxes</a></th></tr>
-      <!-- 31 tests -->
+      <!-- 55 tests -->
       <tr id="flex-abspos-staticpos-align-content-001-5.2.3" class="primary">
         <td><strong>
             <a href="flex-abspos-staticpos-align-content-001.htm">flex-abspos-staticpos-align-content-001</a></strong></td>
@@ -696,6 +696,198 @@
         <td><a href="reference/flex-abspos-staticpos-margin-002-ref.htm">=</a> </td>
         <td></td>
         <td>Static position of abspos children in a row flex container, with various margins applied, and &quot;justify-content: flex-end&quot;
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-align-self-001-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-align-self-001.htm">grid-abspos-staticpos-align-self-001</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-align-self-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos children in a grid container, with various &quot;align-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-align-self-002-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-align-self-002.htm">grid-abspos-staticpos-align-self-002</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-align-self-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos children in a static-pos grid container, with various &quot;align-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-align-self-img-001-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-align-self-img-001.htm">grid-abspos-staticpos-align-self-img-001</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-align-self-img-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos replaced children in a grid container, with various &quot;align-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-align-self-img-002-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-align-self-img-002.htm">grid-abspos-staticpos-align-self-img-002</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-align-self-img-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos replaced children in a static-pos grid container, with various &quot;align-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-align-self-rtl-001-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-align-self-rtl-001.htm">grid-abspos-staticpos-align-self-rtl-001</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-align-self-rtl-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos children in a RTL grid container, with various &quot;align-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-align-self-rtl-002-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-align-self-rtl-002.htm">grid-abspos-staticpos-align-self-rtl-002</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-align-self-rtl-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos LTR children in a RTL grid container, with various &quot;align-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-align-self-rtl-003-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-align-self-rtl-003.htm">grid-abspos-staticpos-align-self-rtl-003</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-align-self-rtl-003-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos children in a RTL static-pos grid container, with various &quot;align-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-align-self-rtl-004-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-align-self-rtl-004.htm">grid-abspos-staticpos-align-self-rtl-004</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-align-self-rtl-004-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos LTR children in a RTL static-pos grid container, with various &quot;align-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-align-self-vertwm-001-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-align-self-vertWM-001.htm">grid-abspos-staticpos-align-self-vertwm-001</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-align-self-vertWM-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos children in a vertical-rl grid container, with various &quot;align-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-align-self-vertwm-002-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-align-self-vertWM-002.htm">grid-abspos-staticpos-align-self-vertwm-002</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-align-self-vertWM-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos horizontal-tb children in a vertical-rl grid container, with various &quot;align-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-align-self-vertwm-003-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-align-self-vertWM-003.htm">grid-abspos-staticpos-align-self-vertwm-003</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-align-self-vertWM-003-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos children in a vertical-rl static-pos grid container, with various &quot;align-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-align-self-vertwm-004-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-align-self-vertWM-004.htm">grid-abspos-staticpos-align-self-vertwm-004</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-align-self-vertWM-004-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos horizontal-tb children in a static-pos vertical-rl grid container, with various &quot;align-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-justify-self-001-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-justify-self-001.htm">grid-abspos-staticpos-justify-self-001</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-justify-self-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos children in a grid container, with various &quot;justify-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-justify-self-002-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-justify-self-002.htm">grid-abspos-staticpos-justify-self-002</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-justify-self-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos children in a static-pos grid container, with various &quot;justify-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-justify-self-img-001-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-justify-self-img-001.htm">grid-abspos-staticpos-justify-self-img-001</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-justify-self-img-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos replaced children in a grid container, with various &quot;justify-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-justify-self-img-002-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-justify-self-img-002.htm">grid-abspos-staticpos-justify-self-img-002</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-justify-self-img-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos replaced children in a static-pos grid container, with various &quot;justify-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-justify-self-rtl-001-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-justify-self-rtl-001.htm">grid-abspos-staticpos-justify-self-rtl-001</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-justify-self-rtl-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos children in a RTL grid container, with various &quot;justify-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-justify-self-rtl-002-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-justify-self-rtl-002.htm">grid-abspos-staticpos-justify-self-rtl-002</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-justify-self-rtl-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos LTR children in a RTL grid container, with various &quot;justify-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-justify-self-rtl-003-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-justify-self-rtl-003.htm">grid-abspos-staticpos-justify-self-rtl-003</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-justify-self-rtl-003-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos children in a RTL static-pos grid container, with various &quot;justify-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-justify-self-rtl-004-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-justify-self-rtl-004.htm">grid-abspos-staticpos-justify-self-rtl-004</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-justify-self-rtl-004-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos LTR children in a RTL static-pos grid container, with various &quot;justify-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-justify-self-vertwm-001-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-justify-self-vertWM-001.htm">grid-abspos-staticpos-justify-self-vertwm-001</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-justify-self-vertWM-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos children in a vertical-rl grid container, with various &quot;justify-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-justify-self-vertwm-002-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-justify-self-vertWM-002.htm">grid-abspos-staticpos-justify-self-vertwm-002</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-justify-self-vertWM-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos horizontal-tb children in a vertical-rl grid container, with various &quot;justify-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-justify-self-vertwm-003-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-justify-self-vertWM-003.htm">grid-abspos-staticpos-justify-self-vertwm-003</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-justify-self-vertWM-003-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos children in a vertical-rl static-pos grid container, with various &quot;justify-self&quot; values
+        </td>
+      </tr>
+      <tr id="grid-abspos-staticpos-justify-self-vertwm-004-5.2.3" class="primary">
+        <td><strong>
+            <a href="grid-abspos-staticpos-justify-self-vertWM-004.htm">grid-abspos-staticpos-justify-self-vertwm-004</a></strong></td>
+        <td><a href="reference/grid-abspos-staticpos-justify-self-vertWM-004-ref.htm">=</a> </td>
+        <td></td>
+        <td>Static position of abspos horizontal-tb children in a vertical-rl static-pos grid container, with various &quot;justify-self&quot; values
         </td>
       </tr>
     </tbody>

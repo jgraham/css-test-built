@@ -193,6 +193,7 @@ border-image-019.htm == reference/ref-filled-green-100px-square.htm
 border-image-020.htm == reference/ref-filled-green-100px-square.htm
 border-image-5.htm == support/reftest-border-image-5.png
 border-image-6.htm == support/reftest-border-image-5.png
+border-image-repeat-1.htm == reference/border-image-repeat-1-ref.htm
 border-image-repeat-round.htm == reference/border-image-repeat-round-ref.htm
 border-image-repeat-round-1.htm == reference/border-image-repeat-round-1-ref.htm
 border-image-repeat-round-2.htm == reference/border-image-repeat-round-2-ref.htm

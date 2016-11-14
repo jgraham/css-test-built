@@ -193,6 +193,7 @@ border-image-019.xht == reference/ref-filled-green-100px-square.xht
 border-image-020.xht == reference/ref-filled-green-100px-square.xht
 border-image-5.xht == support/reftest-border-image-5.png
 border-image-6.xht == support/reftest-border-image-5.png
+border-image-repeat-1.xht == reference/border-image-repeat-1-ref.xht
 border-image-repeat-round.xht == reference/border-image-repeat-round-ref.xht
 border-image-repeat-round-1.xht == reference/border-image-repeat-round-1-ref.xht
 border-image-repeat-round-2.xht == reference/border-image-repeat-round-2-ref.xht
