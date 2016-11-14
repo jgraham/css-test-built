@@ -447,46 +447,45 @@ anonymous-boxes-inheritance-001.xht == reference/anonymous-boxes-inheritance-001
 anonymous-inline-whitespace-001.xht == reference/ref-if-there-is-no-red.xht
 anonymous-table-box-width-001.xht == reference/ref-filled-green-100px-square.xht
 at-charset-001.xht == reference/at-charset-001-ref.xht
-at-charset-002.xht == reference/at-charset-001-ref.xht
-at-charset-003.xht == reference/at-charset-001-ref.xht
-at-charset-004.xht == reference/at-charset-001-ref.xht
-at-charset-005.xht == reference/at-charset-001-ref.xht
-at-charset-006.xht == reference/at-charset-001-ref.xht
-at-charset-007.xht == reference/at-charset-001-ref.xht
-at-charset-008.xht == reference/at-charset-001-ref.xht
-at-charset-009.xht == reference/at-charset-001-ref.xht
-at-charset-010.xht == reference/at-charset-001-ref.xht
-at-charset-011.xht == reference/at-charset-001-ref.xht
-at-charset-012.xht == reference/at-charset-001-ref.xht
-at-charset-014.xht == reference/at-charset-001-ref.xht
-at-charset-015.xht == reference/at-charset-001-ref.xht
-at-charset-016.xht == reference/at-charset-001-ref.xht
-at-charset-019.xht == reference/at-charset-001-ref.xht
-at-charset-020.xht == reference/at-charset-001-ref.xht
-at-charset-021.xht == reference/at-charset-001-ref.xht
-at-charset-024.xht == reference/at-charset-001-ref.xht
-at-charset-025.xht == reference/at-charset-001-ref.xht
-at-charset-026.xht == reference/at-charset-001-ref.xht
-at-charset-027.xht == reference/at-charset-001-ref.xht
-at-charset-028.xht == reference/at-charset-001-ref.xht
-at-charset-029.xht == reference/at-charset-001-ref.xht
-at-charset-030.xht == reference/at-charset-001-ref.xht
+at-charset-002.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-003.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-004.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-005.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-006.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-007.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-008.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-009.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-010.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-011.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-012.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-014.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-015.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-016.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-019.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-020.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-021.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-024.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-025.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-026.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-027.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-028.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-029.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-030.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
 at-charset-033.xht == reference/filler-text-below-green.xht
 at-charset-034.xht == reference/filler-text-below-green.xht
 at-charset-035.xht == reference/filler-text-below-green.xht
 at-charset-036.xht == reference/filler-text-below-green.xht
 at-charset-037.xht == reference/filler-text-below-green.xht
 at-charset-038.xht == reference/filler-text-below-green.xht
-at-charset-039.xht == reference/at-charset-039-ref.xht
-at-charset-040.xht == reference/at-charset-001-ref.xht
-at-charset-041.xht == reference/at-charset-001-ref.xht
-at-charset-042.xht == reference/at-charset-001-ref.xht
-at-charset-043.xht == reference/at-charset-001-ref.xht
-at-charset-044.xht == reference/at-charset-001-ref.xht
-at-charset-045.xht == reference/at-charset-001-ref.xht
-at-charset-046.xht == reference/at-charset-001-ref.xht
-at-charset-047.xht == reference/at-charset-001-ref.xht
-at-charset-048.xht == reference/at-charset-001-ref.xht
+at-charset-040.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-041.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-042.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-043.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-044.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-045.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-046.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-047.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
+at-charset-048.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
 at-charset-049.xht == reference/filler-text-below-green.xht
 at-charset-050.xht == reference/filler-text-below-green.xht
 at-charset-051.xht == reference/filler-text-below-green.xht
@@ -498,7 +497,7 @@ at-charset-056.xht == reference/filler-text-below-green.xht
 at-charset-057.xht == reference/filler-text-below-green.xht
 at-charset-058.xht == reference/filler-text-below-green.xht
 at-charset-059.xht == reference/filler-text-below-green.xht
-at-charset-060.xht == reference/at-charset-001-ref.xht
+at-charset-060.xht == at-charset-001.xht == reference/at-charset-001-ref.xht
 at-charset-061.xht == reference/filler-text-below-green.xht
 at-charset-071.xht == reference/ref-green-background.xht
 at-charset-072.xht == reference/ref-green-background.xht
@@ -4328,6 +4327,7 @@ inline-table-alignment-005.xht == reference/inline-table-alignment-003-ref.xht
 inline-table-height-001.xht == reference/inline-table-height-001-ref.xht
 inline-table-height-002.xht == reference/inline-table-height-002-ref.xht
 inline-table-valign-001.xht == reference/inline-table-valign-001-ref.xht
+inline-table-valign-002.xht == reference/inline-table-valign-002-ref.xht
 inline-table-width-001a.xht == reference/inline-table-width-001-ref.xht
 inline-table-width-001b.xht == reference/inline-table-width-001-ref.xht
 inline-table-width-002a.xht == reference/inline-table-width-002-ref.xht
@@ -4444,34 +4444,6 @@ left-offset-003.xht == reference/left-offset-003-ref.xht
 left-offset-percentage-001.xht == reference/left-offset-percentage-001-ref.xht
 left-offset-percentage-002.xht == reference/left-offset-percentage-002-ref.xht
 left-offset-position-fixed-001.xht == reference/left-offset-position-fixed-001-ref.xht
-letter-spacing-004.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-005.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-006.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-016.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-017.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-018.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-028.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-029.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-030.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-040.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-041.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-042.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-052.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-053.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-054.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-064.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-065.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-066.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-076.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-077.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-078.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-088.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-089.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-090.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-097.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-098.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-099.xht == reference/letter-spacing-004-ref.xht
-letter-spacing-100.xht == reference/letter-spacing-004-ref.xht
 letter-spacing-applies-to-001.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
 letter-spacing-applies-to-002.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
 letter-spacing-applies-to-004.xht == reference/black_box_ends_when_blue_box_ends_6_boxes_ahem.xht
@@ -4489,8 +4461,6 @@ line-box-height-vlr-007.xht == reference/line-box-height-vlr-007-ref.xht
 line-box-height-vlr-009.xht == reference/line-box-height-vlr-007-ref.xht
 line-box-height-vlr-011.xht == reference/line-box-height-vlr-011-ref.xht
 line-box-height-vlr-013.xht == reference/line-box-height-vlr-011-ref.xht
-line-box-height-vlr-021.xht == reference/line-box-height-vlr-021-ref.xht
-line-box-height-vlr-023.xht == reference/line-box-height-vlr-023-ref.xht
 line-box-height-vrl-002.xht == reference/line-box-height-vrl-002-ref.xht
 line-box-height-vrl-004.xht == reference/line-box-height-vrl-002-ref.xht
 line-box-height-vrl-006.xht == reference/line-box-height-vrl-006-ref.xht
@@ -4596,7 +4566,6 @@ list-style-applies-to-014.xht == reference/single_square_list_marker.xht
 list-style-applies-to-015.xht == reference/single_square_list_marker.xht
 list-style-image-004.xht == reference/list-style-image-004-ref.xht
 list-style-image-005.xht == reference/list-style-image-005-ref.xht
-list-style-position-018.xht == reference/list-style-position-018-ref.xht
 list-style-position-023.xht == reference/list-style-position-023-ref.xht
 list-style-position-024.xht == reference/list-style-position-024-ref.xht
 list-style-type-applies-to-001.xht == reference/single_square_list_marker.xht
@@ -5447,6 +5416,7 @@ outline-color-122.xht == reference/boxes_same_color_100px_black_50px_margin.xht
 outline-color-130.xht == reference/boxes_same_color_100px_black_50px_margin.xht
 outline-color-applies-to-005.xht == reference/no-red-on-blank-page-ref.xht
 outline-color-applies-to-006.xht == reference/no-red-on-blank-page-ref.xht
+outline-layout-006.xht == reference/outline-layout-006-ref.xht
 outline-style-001.xht == reference/no-red-filler-text-ref.xht
 outline-style-011.xht == reference/outline-style-011-ref.xht
 outline-style-012.xht == reference/outline-style-012-ref.xht
@@ -5481,7 +5451,6 @@ outline-width-082.xht == reference/no-red-filler-text-ref.xht
 outline-width-089.xht == reference/no-red-filler-text-ref.xht
 outline-width-090.xht == reference/no-red-filler-text-ref.xht
 outline-width-091.xht == reference/no-red-filler-text-ref.xht
-outline-width-096.xht == reference/outline-width-096-ref.xht
 outline-width-applies-to-005.xht == reference/no-red-on-blank-page-ref.xht
 outline-width-applies-to-006.xht == reference/no-red-on-blank-page-ref.xht
 overflow-applies-to-001.xht == reference/overflow-applies-to-001-ref.xht
@@ -6422,8 +6391,8 @@ text-indent-067.xht == reference/pass_if_box_ahem.xht
 text-indent-068.xht == reference/pass_if_box_ahem.xht
 text-indent-079.xht == reference/pass_if_box_ahem.xht
 text-indent-080.xht == reference/pass_if_box_ahem.xht
-text-indent-113.xht == reference/text-indent-113-ref-margin.xht != reference/text-indent-114-ref.xht
-text-indent-114.xht == reference/text-indent-114-ref.xht != reference/text-indent-113-ref-margin.xht
+text-indent-113.xht == reference/text-indent-113-ref-margin.xht != reference/text-indent-114-ref.xht != text-indent-114.xht
+text-indent-114.xht == reference/text-indent-114-ref.xht
 text-indent-115.xht == reference/text-indent-115-ref-block-margin.xht == reference/text-indent-115-ref-inline-margin.xht
 text-indent-intrinsic-001.xht == reference/text-indent-intrinsic-001-ref.xht
 text-indent-intrinsic-002.xht == reference/text-indent-intrinsic-002-ref.xht

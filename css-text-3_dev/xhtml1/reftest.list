@@ -442,8 +442,8 @@ css3-text-line-break-opclns-266.xht == reference/css3-text-line-break-opclns-266
 css3-text-line-break-opclns-267.xht == reference/css3-text-line-break-opclns-267-ref.xht
 css3-text-line-break-opclns-268.xht == reference/css3-text-line-break-opclns-268-ref.xht
 css3-text-line-break-opclns-269.xht == reference/css3-text-line-break-opclns-269-ref.xht
-full-width-002.xht != reference/full-width-002-notcu-notref.xht != reference/full-width-002-horizontal-notref.xht
-full-width-003.xht != reference/full-width-002-notcu-notref.xht != reference/full-width-002-horizontal-notref.xht
+full-width-002.xht == reference/full-width-ref.xht != reference/full-width-notcu-notref.xht != reference/full-width-horizontal-notref.xht
+full-width-003.xht == reference/full-width-ref.xht != reference/full-width-notcu-notref.xht != reference/full-width-horizontal-notref.xht
 hanging-punctuation-allow-end-001.xht == reference/hanging-punctuation-allow-end-001-ref.xht
 hanging-punctuation-first-001.xht == reference/hanging-punctuation-first-001-ref.xht
 hanging-punctuation-force-end-001.xht == reference/hanging-punctuation-force-end-001-ref.xht

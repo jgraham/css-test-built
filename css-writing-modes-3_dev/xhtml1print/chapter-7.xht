@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Abstract Box Layout (554 tests)</h2>
+  <h2>Abstract Box Layout (546 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -37,7 +37,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.1">+</a>
         <a href="https://www.w3.org/TR/css-writing-modes-3/#vertical-layout">7.1 Principles of Layout in Vertical Writing Modes</a></th></tr>
-      <!-- 376 tests -->
+      <!-- 368 tests -->
       <tr id="abs-pos-non-replaced-icb-vlr-003-7.1" class="">
         <td>
             <a href="abs-pos-non-replaced-icb-vlr-003.xht">abs-pos-non-replaced-icb-vlr-003</a></td>
@@ -703,9 +703,9 @@
             <a href="abs-pos-non-replaced-vlr-059.xht">abs-pos-non-replaced-vlr-059</a></td>
         <td><a href="reference/abs-pos-non-replaced-vrl-004-ref.xht">=</a> </td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>absolutely positioned non-replaced element - 'direction: rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto'
+        <td>absolutely positioned non-replaced element - 'direction: rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto', then solve for 'left'
           <ul class="assert">
-            <li>When 'direction' is 'rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto', then solve for 'left'.</li>
+            <li>When 'direction' is 'rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto', then solve for 'left', then solve for 'left'.</li>
           </ul>
         </td>
       </tr>
@@ -1935,9 +1935,9 @@
             <a href="abs-pos-non-replaced-vrl-058.xht">abs-pos-non-replaced-vrl-058</a></td>
         <td><a href="reference/abs-pos-non-replaced-vrl-004-ref.xht">=</a> </td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>absolutely positioned non-replaced element - 'direction: rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto'
+        <td>absolutely positioned non-replaced element - 'direction: rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto', then solve for 'left'
           <ul class="assert">
-            <li>When 'direction' is 'rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto', then solve for 'left'.</li>
+            <li>When 'direction' is 'rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto', then solve for 'left', then solve for 'left'.</li>
           </ul>
         </td>
       </tr>
@@ -3623,28 +3623,6 @@
           </ul>
         </td>
       </tr>
-      <tr id="line-box-height-vlr-021-7.1" class="">
-        <td>
-            <a href="line-box-height-vlr-021.xht">line-box-height-vlr-021</a></td>
-        <td><a href="reference/line-box-height-vlr-021-ref.xht">=</a> </td>
-        <td></td>
-        <td>line box height and border on non-replaced inline box (complex)
-          <ul class="assert">
-            <li>This test checks that a line box height does not increase because an inline non-replaced box has a border. In this test, the '34' inline box and the '56' inline box should be lined up with its inline '12' sibling. The line box height, enclosed by the blue border should not grow to accomodate transparent 'border-left' of inline box and transparent 'border-right' of inline box.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="line-box-height-vlr-023-7.1" class="">
-        <td>
-            <a href="line-box-height-vlr-023.xht">line-box-height-vlr-023</a></td>
-        <td><a href="reference/line-box-height-vlr-023-ref.xht">=</a> </td>
-        <td></td>
-        <td>line box height and border on non-replaced inline box (complex)
-          <ul class="assert">
-            <li>This test checks that a line box height does not increase because an inline non-replaced box has a border. In this test, the '34' inline box and the '56' inline box should be lined up with its inline '12' sibling. The line box height, enclosed by the blue border should not grow to accomodate transparent 'border-left' of inline box and transparent 'border-right' of inline box.</li>
-          </ul>
-        </td>
-      </tr>
       <tr id="line-box-height-vrl-002-7.1" class="">
         <td>
             <a href="line-box-height-vrl-002.xht">line-box-height-vrl-002</a></td>
@@ -3733,50 +3711,6 @@
           </ul>
         </td>
       </tr>
-      <tr id="ortho-htb-alongside-vrl-floats-002-7.1" class="image">
-        <td>
-            <a href="ortho-htb-alongside-vrl-floats-002.xht">ortho-htb-alongside-vrl-floats-002</a></td>
-        <td><a href="reference/ortho-htb-alongside-vrl-floats-002-ref.xht">=</a> </td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>positioning of an orthogonal (horizontal-tb) block alongside vertical-rl floats
-          <ul class="assert">
-            <li>This test checks that non-positioned block boxes created after the float box flow vertically as if the float did not exist. In this test, the orange block box, which creates a new block formatting context, should flow next to the earliest float that offers sufficient (logical width) space.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="ortho-htb-alongside-vrl-floats-006-7.1" class="image">
-        <td>
-            <a href="ortho-htb-alongside-vrl-floats-006.xht">ortho-htb-alongside-vrl-floats-006</a></td>
-        <td><a href="reference/ortho-htb-alongside-vrl-floats-006-ref.xht">=</a> </td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>positioning of an orthogonal (horizontal-tb) block alongside vertical-rl floats
-          <ul class="assert">
-            <li>This test checks that non-positioned block boxes created after the float box flow vertically as if the float did not exist. In this test, the orange block box, which creates a new block formatting context, should flow next to the earliest float that offers sufficient (logical width) space: in this test, this is the blue rectangle.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="ortho-htb-alongside-vrl-floats-010-7.1" class="image">
-        <td>
-            <a href="ortho-htb-alongside-vrl-floats-010.xht">ortho-htb-alongside-vrl-floats-010</a></td>
-        <td><a href="reference/ortho-htb-alongside-vrl-floats-010-ref.xht">=</a> </td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>positioning of an orthogonal (horizontal-tb) block alongside vertical-rl floats
-          <ul class="assert">
-            <li>This test checks that non-positioned block boxes created after the float box flow vertically as if the float did not exist. In this test, the orange block box, which creates a new block formatting context, should flow next to the earliest float that offers sufficient (logical width) space: in this test, this is the blue rectangle.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="ortho-htb-alongside-vrl-floats-014-7.1" class="image">
-        <td>
-            <a href="ortho-htb-alongside-vrl-floats-014.xht">ortho-htb-alongside-vrl-floats-014</a></td>
-        <td><a href="reference/ortho-htb-alongside-vrl-floats-014-ref.xht">=</a> </td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>positioning of an orthogonal (horizontal-tb) block alongside vertical-rl floats
-          <ul class="assert">
-            <li>This test checks that non-positioned block boxes created after the float box flow vertically as if the float did not exist. In this test, the orange block box, which creates a new block formatting context, should flow next to the earliest float that offers sufficient (logical width) space.</li>
-          </ul>
-        </td>
-      </tr>
       <tr id="outline-inline-block-vrl-006-7.1" class="ahem">
         <td>
             <a href="outline-inline-block-vrl-006.xht">outline-inline-block-vrl-006</a></td>
@@ -3817,17 +3751,6 @@
         <td>outline layout and non-replaced inline and vertical-lr writing-mode
         </td>
       </tr>
-      <tr id="outline-inline-vlr-013-7.1" class="">
-        <td>
-            <a href="outline-inline-vlr-013.xht">outline-inline-vlr-013</a></td>
-        <td></td>
-        <td></td>
-        <td>outline and multi-line non-replaced inline box
-          <ul class="assert">
-            <li>Outline border must be connected and must enclose entirely a multi-line (non-replaced) inline box in a vertical writing-mode.</li>
-          </ul>
-        </td>
-      </tr>
       <tr id="outline-inline-vrl-002-7.1" class="">
         <td>
             <a href="outline-inline-vrl-002.xht">outline-inline-vrl-002</a></td>
@@ -3842,17 +3765,6 @@
         <td><a href="reference/outline-inline-vrl-006.xht">=</a> </td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
         <td>outline layout and non-replaced inline and vertical-rl writing-mode
-        </td>
-      </tr>
-      <tr id="outline-inline-vrl-012-7.1" class="">
-        <td>
-            <a href="outline-inline-vrl-012.xht">outline-inline-vrl-012</a></td>
-        <td></td>
-        <td></td>
-        <td>outline and multi-line non-replaced inline box
-          <ul class="assert">
-            <li>Outline border must be connected and must enclose entirely a multi-line (non-replaced) inline box in a vertical writing-mode.</li>
-          </ul>
         </td>
       </tr>
       <tr id="padding-vlr-005-7.1" class="image">
