@@ -1,5 +1,6 @@
 id	references	title	flags	links	revision	credits	assertion
 line-break-around-ruby-001		Test line breaking before and after <ruby> elements.	dom,script	https://drafts.csswg.org/css-ruby-1/#ruby-layout	f3a68fc7edfd4063f9aa787a0c7dc33da6b64e4e	`Koji Ishii`<mailto:kojiishi@gmail.com>	est line breaking before and after <ruby> elements
+nested-ruby-pairing-001	reference/nested-ruby-pairing-001-ref	Basic nested ruby		https://drafts.csswg.org/css-ruby-1/#nested-pairing	b36a437a777e56ff908b53dd1fefe31eb0c3e5d1	`Xidorn Quan`<mailto:csswg@upsuper.org>	
 ruby-autohide-001	reference/ruby-autohide-001-ref	Autohide ruby annotations which are identical to their bases		http://www.w3.org/TR/css-ruby-1/#autohide	f6e1a9ffa2315e0c0a37a2e354429d157926f62a	`Xidorn Quan`<mailto:quanxunzhen@gmail.com>	
 ruby-autohide-002	reference/ruby-autohide-002-ref	Autohide ruby annotations which are identical to their bases		http://www.w3.org/TR/css-ruby-1/#autohide	09956f841cb229fc1eb7ca7a045fd186d2b9bc57	`Xidorn Quan`<mailto:quanxunzhen@gmail.com>	
 ruby-autohide-003	reference/ruby-autohide-003-ref	Autohide ruby annotations which are identical to their bases		http://www.w3.org/TR/css-ruby-1/#autohide	feccf8c01327233aa1a73a03f72c167ca1de7ff6	`Xidorn Quan`<mailto:quanxunzhen@gmail.com>	

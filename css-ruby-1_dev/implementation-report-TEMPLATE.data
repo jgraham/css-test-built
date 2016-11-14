@@ -5,6 +5,8 @@
 testname	revision	result	comment
 html/line-break-around-ruby-001.htm	f3a68fc7edfd4063f9aa787a0c7dc33da6b64e4e	?
 xhtml1/line-break-around-ruby-001.xht	f3a68fc7edfd4063f9aa787a0c7dc33da6b64e4e	?
+html/nested-ruby-pairing-001.htm	b36a437a777e56ff908b53dd1fefe31eb0c3e5d1	?
+xhtml1/nested-ruby-pairing-001.xht	b36a437a777e56ff908b53dd1fefe31eb0c3e5d1	?
 html/ruby-autohide-001.htm	f6e1a9ffa2315e0c0a37a2e354429d157926f62a	?
 xhtml1/ruby-autohide-001.xht	f6e1a9ffa2315e0c0a37a2e354429d157926f62a	?
 html/ruby-autohide-002.htm	09956f841cb229fc1eb7ca7a045fd186d2b9bc57	?
