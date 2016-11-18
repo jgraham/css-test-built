@@ -5,7 +5,7 @@
 <link href="http://www.w3.org/TR/css3-ui/#caret-color" rel="help" />
 <link href="https://drafts.csswg.org/css-color-4/#currentcolor-color" rel="help" />
 <meta content="dom" name="flags" />
-<meta content="Test checks that auto and currentcolor compute to themselves for caret-color" name="assert" />
+<meta content="Test checks that auto and currentcolor compute to themselves for caret-color. And initial computes to auto" name="assert" />
 <script src="/resources/testharness.js"></script>
 <script src="/resources/testharnessreport.js"></script>
 <style>
@@ -15,10 +15,14 @@
 #d2 {
 	caret-color: currentcolor;
 }
+#d3 {
+	caret-color: initial;
+}
 </style>
 </head><body>
   <div id="d1"></div>
   <div id="d2"></div>
+  <div id="d3"></div>
   <div id="log"></div>
 
 <script>
@@ -32,6 +36,11 @@ test(
    var d2 = document.getElementById("d2");
    assert_equals(window.getComputedStyle(d2)["caret-color"], "currentcolor");
   }, "The computed value of currentcolor should be currentcolor");
+test(
+  function(){
+   var d3 = document.getElementById("d3");
+   assert_equals(window.getComputedStyle(d3)["caret-color"], "auto");
+  }, "The computed value of initial should be auto");
 </script>
 
 
