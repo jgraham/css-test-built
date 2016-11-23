@@ -5,23 +5,16 @@
 <link href="http://www.w3.org/TR/css3-ui/#caret-color" rel="help" />
 <link href="https://www.w3.org/TR/web-animations-1/#dom-animatable-animate" rel="help" />
 <link href="https://www.w3.org/TR/css3-color/#color0" rel="help" />
-<meta content="dom interact animated" name="flags" />
 <meta content="Test checks that caret-color is animatable as a color, and that the computed values during the animation are the expected ones." name="assert" />
 <script src="/resources/testharness.js"></script>
 <script src="/resources/testharnessreport.js"></script>
 <style>
   textarea {
-    font-size: 3em;
-    font-weight: bold;
-    width: 10em;
-    padding: 10px;
-    background: black; color: white; /* the color of a thin object like the caret is easier to see on a black background. */
-
     caret-color: red;
   }
 </style>
 </head><body>
-  <textarea autofocus="" id="textarea"></textarea>
+  <textarea id="textarea"></textarea>
   <div id="log"></div>
 
   <script>
