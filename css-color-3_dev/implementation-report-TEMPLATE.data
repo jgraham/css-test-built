@@ -5,6 +5,8 @@
 testname	revision	result	comment
 html4/caret-color-013.htm	9d819d02f818d6dd752192ff7136ce1ca2fa2bc6	?
 xhtml1/caret-color-013.xht	9d819d02f818d6dd752192ff7136ce1ca2fa2bc6	?
+html4/caret-color-018.htm	31e65bd7e5931f2fd403b8cbfc77b095c2a1e895	?
+xhtml1/caret-color-018.xht	31e65bd7e5931f2fd403b8cbfc77b095c2a1e895	?
 html4/t31-color-currentcolor-b.htm	4dde926ad6a739b59385977b3d01c5676854e069	?
 xhtml1/t31-color-currentcolor-b.xht	4dde926ad6a739b59385977b3d01c5676854e069	?
 html4/t31-color-text-a.htm	17e2f9fc24d9de23f0059dc8d3b1f636e32942c7	?
