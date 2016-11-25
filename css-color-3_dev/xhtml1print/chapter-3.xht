@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Color Module Level 3 Conformance Test Suite</h1>
-  <h2>Color properties (15 tests)</h2>
+  <h2>Color properties (16 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -62,7 +62,7 @@
       </tr>
     </tbody>
     <tbody id="s3.1.#color0">
-      <!-- 2 tests -->
+      <!-- 3 tests -->
       <tr id="caret-color-013-3.1.#color0" class="dom script">
         <td>
             <a href="caret-color-013.xht">caret-color-013</a></td>
@@ -82,6 +82,17 @@
         <td>caret-color visited link computed value
           <ul class="assert">
             <li>Test checks that computed style of caret-color on visited links doesn't leak privacy information.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="caret-color-018-3.1.#color0" class="script">
+        <td>
+            <a href="caret-color-018.xht">caret-color-018</a></td>
+        <td></td>
+        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>caret-color test animation
+          <ul class="assert">
+            <li>Test checks that caret-color is animatable as a color, and that the computed values during the animation are the expected ones.</li>
           </ul>
         </td>
       </tr>
