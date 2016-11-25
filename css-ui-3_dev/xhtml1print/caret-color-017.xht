@@ -4,7 +4,7 @@
 <link href="mailto:rego@igalia.com" rel="author" title="Manuel Rego Casasnovas" />
 <link href="http://www.w3.org/TR/css3-ui/#caret-color" rel="help" />
 <link href="https://www.w3.org/TR/css3-transitions/#transition" rel="help" />
-<meta content="interact animated" name="flags" />
+<meta content="interact" name="flags" />
 <meta content="Test checks that caret-color can be used in a transition" name="assert" />
 <style>
   textarea {
@@ -23,8 +23,8 @@
   }
 </style>
 </head><body>
-  <p>Test passes if, when the text area below is focused for editing, the text insertion caret color transitions from magenta to green.</p>
+  <p>Test passes if, when the text area below is focused for editing, the text insertion caret color gradually changes from magenta to green.</p>
   <p>The shape of the caret, and whether it flashes, are not part of the test.</p>
-  <textarea autofocus=""></textarea>
+  <textarea></textarea>
 
 </body></html>
