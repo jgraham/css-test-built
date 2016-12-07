@@ -2470,11 +2470,8 @@ box-generation-001.xht == reference/box-generation-001-ref.xht
 box-generation-002.xht == reference/box-generation-002-ref.xht
 box-offsets-rel-pos-002.xht == reference/box-offsets-rel-pos-002-ref.xht
 box-sizing-001.xht == reference/box-sizing-001-ref.xht
-box-sizing-002.xht == reference/box-sizing-001-ref.xht
 box-sizing-003.xht == reference/box-sizing-001-ref.xht
-box-sizing-004.xht == reference/box-sizing-001-ref.xht
 box-sizing-005.xht == reference/box-sizing-001-ref.xht
-box-sizing-006.xht == reference/box-sizing-001-ref.xht
 box-sizing-007.xht == reference/box-sizing-007-ref.xht
 box-sizing-008.xht == reference/box-sizing-008-ref.xht
 box-sizing-009.xht == reference/box-sizing-009-ref.xht
