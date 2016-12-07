@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Basic User Interface Module Level 3 CR Test Suite</h1>
-  <h2>Pointing Devices and Keyboards (160 tests)</h2>
+  <h2>Pointing Devices and Keyboards (151 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -705,7 +705,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s6.2.1">+</a>
         <a href="https://www.w3.org/TR/css3-ui/#caret-color">6.2.1 Coloring the insertion caret: caret-color</a></th></tr>
-      <!-- 18 tests -->
+      <!-- 9 tests -->
       <tr id="caret-color-001-6.2.1" class="interact">
         <td>
             <a href="caret-color-001.xht">caret-color-001</a></td>
@@ -801,106 +801,7 @@
         <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
         <td>caret-color computed values
           <ul class="assert">
-            <li>Test checks that auto and currentcolor compute to themselves for caret-color and that initial computes to auto</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-010-6.2.1" class="interact">
-        <td>
-            <a href="caret-color-010.xht">caret-color-010</a></td>
-        <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>caret-color input
-          <ul class="assert">
-            <li>Test checks that caret-color can be set on an input</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-011-6.2.1" class="interact">
-        <td>
-            <a href="caret-color-011.xht">caret-color-011</a></td>
-        <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>caret-color contenteditable
-          <ul class="assert">
-            <li>Test checks that caret-color can be set on a contenteditable element</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-012-6.2.1" class="interact should">
-        <td>
-            <a href="caret-color-012.xht">caret-color-012</a></td>
-        <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="should" title="Behavior tested is recommended but not required">Recommend</abbr></td>
-        <td>caret-color: auto
-          <ul class="assert">
-            <li>Test checks that caret-color:auto is inherited as auto and resolves to the value of the color property at used value time</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-013-6.2.1" class="dom script">
-        <td>
-            <a href="caret-color-013.xht">caret-color-013</a></td>
-        <td></td>
-        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
-        <td>caret-color dynamic changes
-          <ul class="assert">
-            <li>Test checks checks that carret-color can be correctly changed using the style attribute, and that the computed value is done correctly.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-014-6.2.1" class="interact">
-        <td>
-            <a href="caret-color-014.xht">caret-color-014</a></td>
-        <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>caret-color links
-          <ul class="assert">
-            <li>Test checks that caret-color can be set on a contenteditable link</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-015-6.2.1" class="interact">
-        <td>
-            <a href="caret-color-015.xht">caret-color-015</a></td>
-        <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>caret-color visited links
-          <ul class="assert">
-            <li>Test checks that caret-color can be set on a contenteditable visited link</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-016-6.2.1" class="interact may script">
-        <td>
-            <a href="caret-color-016.xht">caret-color-016</a></td>
-        <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="may" title="Behavior tested is preferred but optional">Optional</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
-        <td>caret-color visited link computed value
-          <ul class="assert">
-            <li>Test checks that computed style of caret-color on visited links doesn't leak privacy information.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-017-6.2.1" class="interact">
-        <td>
-            <a href="caret-color-017.xht">caret-color-017</a></td>
-        <td></td>
-        <td><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>caret-color transition
-          <ul class="assert">
-            <li>Test checks that caret-color can be used in a transition</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-018-6.2.1" class="script">
-        <td>
-            <a href="caret-color-018.xht">caret-color-018</a></td>
-        <td></td>
-        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
-        <td>caret-color test animation
-          <ul class="assert">
-            <li>Test checks that caret-color is animatable as a color, and that the computed values during the animation are the expected ones.</li>
+            <li>Test checks that auto and currentcolor compute to themselves for caret-color</li>
           </ul>
         </td>
       </tr>

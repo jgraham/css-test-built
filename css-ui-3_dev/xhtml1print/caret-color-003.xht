@@ -8,18 +8,18 @@
 <meta content="Test checks that caret-color: auto matches currentColor" name="assert" />
 <style>
   textarea {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     width: 10em;
     padding: 10px;
     background: black; /* the color of a thin object like the caret is easier to see on a black background. */
 
-    color: lime;
+    color: green;
     caret-color: auto; /*initial value, but to be sure in case the UA stylesheet sets something else */
   }
 </style>
 </head><body>
-  <p>Test passes if, when the text area below is focused for editing, the text insertion caret is green,
+  <p>Test passes if, when the textarea is focused for editing, the text insertion caret is green,
   like the text in that textarea.</p>
   <p>The shape of the caret, and whether it flashes, are not part of the test.</p>
   <textarea autofocus=""></textarea>
