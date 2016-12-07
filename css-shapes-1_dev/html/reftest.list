@@ -40,6 +40,14 @@ shape-outside-border-box-border-radius-001.htm == reference/shape-outside-border
 shape-outside-border-box-border-radius-002.htm == reference/shape-outside-border-box-border-radius-002-ref.htm
 shape-outside-border-box-border-radius-003.htm == reference/shape-outside-border-box-border-radius-003-ref.htm
 shape-outside-border-box-border-radius-004.htm == reference/shape-outside-border-box-border-radius-004-ref.htm
+shape-outside-border-box-border-radius-005.htm == reference/shape-outside-border-box-border-radius-005-ref.htm
+shape-outside-border-box-border-radius-006.htm == reference/shape-outside-border-box-border-radius-006-ref.htm
+shape-outside-border-box-border-radius-007.htm == reference/shape-outside-border-box-border-radius-007-ref.htm
+shape-outside-border-box-border-radius-008.htm == reference/shape-outside-border-box-border-radius-008-ref.htm
+shape-outside-border-box-border-radius-009.htm == reference/shape-outside-border-box-border-radius-009-ref.htm
+shape-outside-border-box-border-radius-010.htm == reference/shape-outside-border-box-border-radius-010-ref.htm
+shape-outside-border-box-border-radius-011.htm == reference/shape-outside-border-box-border-radius-011-ref.htm
+shape-outside-border-box-border-radius-012.htm == reference/shape-outside-border-box-border-radius-012-ref.htm
 shape-outside-box-002.htm == reference/shape-outside-box-001-ref.htm
 shape-outside-box-003.htm == reference/shape-outside-box-001-ref.htm
 shape-outside-box-004.htm == reference/shape-outside-box-001-ref.htm
@@ -99,6 +107,10 @@ shape-outside-margin-box-border-radius-001.htm == reference/shape-outside-margin
 shape-outside-margin-box-border-radius-002.htm == reference/shape-outside-margin-box-border-radius-002-ref.htm
 shape-outside-margin-box-border-radius-003.htm == reference/shape-outside-margin-box-border-radius-003-ref.htm
 shape-outside-margin-box-border-radius-004.htm == reference/shape-outside-margin-box-border-radius-004-ref.htm
+shape-outside-margin-box-border-radius-005.htm == reference/shape-outside-margin-box-border-radius-005-ref.htm
+shape-outside-margin-box-border-radius-006.htm == reference/shape-outside-margin-box-border-radius-006-ref.htm
+shape-outside-margin-box-border-radius-007.htm == reference/shape-outside-margin-box-border-radius-007-ref.htm
+shape-outside-margin-box-border-radius-008.htm == reference/shape-outside-margin-box-border-radius-008-ref.htm
 shape-outside-padding-box-001.htm == reference/shape-outside-padding-box-001-ref.htm
 shape-outside-padding-box-002.htm == reference/shape-outside-padding-box-002-ref.htm
 shape-outside-padding-box-border-radius-001.htm == reference/shape-outside-padding-box-border-radius-001-ref.htm

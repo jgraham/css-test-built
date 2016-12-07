@@ -2,6 +2,7 @@
 2d-rotate-001.xht == reference/2d-rotate-ref.xht != reference/2d-rotate-notref.xht
 animations-001.xht == reference/animations-001-ref.xht
 backface-visibility-hidden-001.xht == reference/backface-visibility-hidden-ref.xht
+background-attachment-fixed-inside-transform-1.xht == reference/background-attachment-fixed-inside-transform-1-ref.xht
 canvas3d-001.xht == reference/canvas3d-001-ref.xht
 canvas3d-002.xht == reference/canvas3d-002-ref.xht
 css-rotate-2d-3d-001.xht == reference/css-rotate-2d-3d-001-ref.xht

@@ -40,6 +40,14 @@ shape-outside-border-box-border-radius-001.xht == reference/shape-outside-border
 shape-outside-border-box-border-radius-002.xht == reference/shape-outside-border-box-border-radius-002-ref.xht
 shape-outside-border-box-border-radius-003.xht == reference/shape-outside-border-box-border-radius-003-ref.xht
 shape-outside-border-box-border-radius-004.xht == reference/shape-outside-border-box-border-radius-004-ref.xht
+shape-outside-border-box-border-radius-005.xht == reference/shape-outside-border-box-border-radius-005-ref.xht
+shape-outside-border-box-border-radius-006.xht == reference/shape-outside-border-box-border-radius-006-ref.xht
+shape-outside-border-box-border-radius-007.xht == reference/shape-outside-border-box-border-radius-007-ref.xht
+shape-outside-border-box-border-radius-008.xht == reference/shape-outside-border-box-border-radius-008-ref.xht
+shape-outside-border-box-border-radius-009.xht == reference/shape-outside-border-box-border-radius-009-ref.xht
+shape-outside-border-box-border-radius-010.xht == reference/shape-outside-border-box-border-radius-010-ref.xht
+shape-outside-border-box-border-radius-011.xht == reference/shape-outside-border-box-border-radius-011-ref.xht
+shape-outside-border-box-border-radius-012.xht == reference/shape-outside-border-box-border-radius-012-ref.xht
 shape-outside-box-002.xht == reference/shape-outside-box-001-ref.xht
 shape-outside-box-003.xht == reference/shape-outside-box-001-ref.xht
 shape-outside-box-004.xht == reference/shape-outside-box-001-ref.xht
@@ -99,6 +107,10 @@ shape-outside-margin-box-border-radius-001.xht == reference/shape-outside-margin
 shape-outside-margin-box-border-radius-002.xht == reference/shape-outside-margin-box-border-radius-002-ref.xht
 shape-outside-margin-box-border-radius-003.xht == reference/shape-outside-margin-box-border-radius-003-ref.xht
 shape-outside-margin-box-border-radius-004.xht == reference/shape-outside-margin-box-border-radius-004-ref.xht
+shape-outside-margin-box-border-radius-005.xht == reference/shape-outside-margin-box-border-radius-005-ref.xht
+shape-outside-margin-box-border-radius-006.xht == reference/shape-outside-margin-box-border-radius-006-ref.xht
+shape-outside-margin-box-border-radius-007.xht == reference/shape-outside-margin-box-border-radius-007-ref.xht
+shape-outside-margin-box-border-radius-008.xht == reference/shape-outside-margin-box-border-radius-008-ref.xht
 shape-outside-padding-box-001.xht == reference/shape-outside-padding-box-001-ref.xht
 shape-outside-padding-box-002.xht == reference/shape-outside-padding-box-002-ref.xht
 shape-outside-padding-box-border-radius-001.xht == reference/shape-outside-padding-box-border-radius-001-ref.xht
