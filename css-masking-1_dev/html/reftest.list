@@ -76,6 +76,7 @@ clip-rect-comma-004.htm == reference/clip-no-clipping-ref.htm
 clip-rule-001.htm == reference/clip-rule-rectangle-border-ref.htm
 clip-rule-002.htm == reference/clip-rule-rectangle-border-ref.htm
 mask-clip-1.htm == reference/mask-clip-1-ref.htm
+mask-clip-2.htm == reference/mask-clip-2-ref.htm
 mask-composite-1a.htm == reference/mask-composite-1-ref.htm
 mask-composite-1b.htm == reference/mask-composite-1-ref.htm
 mask-composite-1c.htm == reference/mask-composite-1-ref.htm
@@ -108,6 +109,7 @@ mask-opacity-1b.htm == reference/mask-opacity-1-ref.htm
 mask-opacity-1c.htm == reference/mask-opacity-1-ref.htm
 mask-origin-1.htm == reference/mask-origin-1-ref.htm
 mask-origin-2.htm == reference/mask-origin-2-ref.htm
+mask-origin-3.htm == reference/mask-origin-3-ref.htm
 mask-position-1a.htm == reference/mask-position-1-ref.htm
 mask-position-1b.htm == reference/mask-position-1-ref.htm
 mask-position-1c.htm == reference/mask-position-1-ref.htm

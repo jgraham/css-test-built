@@ -155,8 +155,10 @@ html/clip-rule-001.htm	685b1c6b98405699db11621e3739893d03bb287f	?
 xhtml1/clip-rule-001.xht	685b1c6b98405699db11621e3739893d03bb287f	?
 html/clip-rule-002.htm	060477805299dce5079f7940f4140876d0d2d33e	?
 xhtml1/clip-rule-002.xht	060477805299dce5079f7940f4140876d0d2d33e	?
-html/mask-clip-1.htm	ab17761a9fea47931e59ef59248f25abd6791108	?
-xhtml1/mask-clip-1.xht	ab17761a9fea47931e59ef59248f25abd6791108	?
+html/mask-clip-1.htm	5a754aa2ad92ab071e20dc470a652aae1456e44e	?
+xhtml1/mask-clip-1.xht	5a754aa2ad92ab071e20dc470a652aae1456e44e	?
+html/mask-clip-2.htm	3d5c489b56c3210538e8d4fd1a26d93cc740e9bd	?
+xhtml1/mask-clip-2.xht	3d5c489b56c3210538e8d4fd1a26d93cc740e9bd	?
 html/mask-composite-1a.htm	7b1c3669ee5863c7b55615282f09823784176af6	?
 xhtml1/mask-composite-1a.xht	7b1c3669ee5863c7b55615282f09823784176af6	?
 html/mask-composite-1b.htm	8ad93e1885cc960ea03bb40f2c0f9685c143e73a	?
@@ -221,6 +223,8 @@ html/mask-origin-1.htm	5ba2e66ad99e92e67b9a3b9c04f249d41c16d517	?
 xhtml1/mask-origin-1.xht	5ba2e66ad99e92e67b9a3b9c04f249d41c16d517	?
 html/mask-origin-2.htm	66dea1e4283a718f62e2ea23616ebba929179c7e	?
 xhtml1/mask-origin-2.xht	66dea1e4283a718f62e2ea23616ebba929179c7e	?
+html/mask-origin-3.htm	e5185b16768d2f82f4336c30c2de5ec734b42720	?
+xhtml1/mask-origin-3.xht	e5185b16768d2f82f4336c30c2de5ec734b42720	?
 html/mask-position-1a.htm	2335ff1467039590c16bb12ebc78046fec611646	?
 xhtml1/mask-position-1a.xht	2335ff1467039590c16bb12ebc78046fec611646	?
 html/mask-position-1b.htm	ae0e1a39aa966e45b66460a567690b4163f61a3b	?

@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Masking Level 1 CR Test Suite</h1>
-  <h2>Positioned Masks (69 tests)</h2>
+  <h2>Positioned Masks (71 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -559,7 +559,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.5">+</a>
         <a href="https://www.w3.org/TR/css-masking-1/#the-mask-clip">7.5 Masking Area: the mask-clip property</a></th></tr>
-      <!-- 1 tests -->
+      <!-- 2 tests -->
       <tr id="mask-clip-1-7.5" class="">
         <td>
             <a href="mask-clip-1.xht">mask-clip-1</a></td>
@@ -567,7 +567,18 @@
         <td></td>
         <td>CSS Masking: mask-clip: clip mask image
           <ul class="assert">
-            <li>border-box, padding-box, and content-box values of mask-clip should clip to the appropriate boxes.</li>
+            <li>border-box, padding-box, content-box and no-clip values of mask-clip should clip to the appropriate boxes.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-clip-2-7.5" class="">
+        <td>
+            <a href="mask-clip-2.xht">mask-clip-2</a></td>
+        <td><a href="reference/mask-clip-2-ref.xht">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-clip: clip mask image
+          <ul class="assert">
+            <li>fill-box, stroke-box and view-box values of mask-clip should clip to the appropriate boxes.</li>
           </ul>
         </td>
       </tr>
@@ -606,7 +617,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.6">+</a>
         <a href="https://www.w3.org/TR/css-masking-1/#the-mask-origin">7.6 Positioning Area: the mask-origin property</a></th></tr>
-      <!-- 2 tests -->
+      <!-- 3 tests -->
       <tr id="mask-origin-1-7.6" class="primary">
         <td><strong>
             <a href="mask-origin-1.xht">mask-origin-1</a></strong></td>
@@ -626,6 +637,17 @@
         <td>CSS Masking: mask-origin: mask positioning area
           <ul class="assert">
             <li>Test checks whether setting mask origin to margin-box works correctly or not.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-origin-3-7.6" class="primary">
+        <td><strong>
+            <a href="mask-origin-3.xht">mask-origin-3</a></strong></td>
+        <td><a href="reference/mask-origin-3-ref.xht">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-origin: mask positioning area
+          <ul class="assert">
+            <li>Test checks whether setting mask position area works correctly or not.</li>
           </ul>
         </td>
       </tr>
