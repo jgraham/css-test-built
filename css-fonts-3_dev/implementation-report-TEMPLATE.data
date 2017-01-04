@@ -191,8 +191,6 @@ html/font-applies-to-016.htm	bf37c948fee9069d8f9e2251a62b124d8f91ae41	?
 xhtml1/font-applies-to-016.xht	bf37c948fee9069d8f9e2251a62b124d8f91ae41	?
 html/font-applies-to-017.htm	391b67fe41b021e22b2cff6713ed3fdbd9456a67	?
 xhtml1/font-applies-to-017.xht	391b67fe41b021e22b2cff6713ed3fdbd9456a67	?
-html/font-face-unicode-range-2.htm	0aaefa836b017cdbd0d6f3639749bc34323089ff	?
-xhtml1/font-face-unicode-range-2.xht	0aaefa836b017cdbd0d6f3639749bc34323089ff	?
 html/font-face-unicode-range.htm	fb9d5d8783d57aef35f79c941abedffdfe5350ed	?
 xhtml1/font-face-unicode-range.xht	fb9d5d8783d57aef35f79c941abedffdfe5350ed	?
 html/font-family-001.htm	bba29a131bbbc012b700948f820334dc00cbeddb	?
@@ -769,10 +767,10 @@ html/fonts-013.htm	c51d7c91c63c3668bc03a2a9fdf35bdea0043c46	?
 xhtml1/fonts-013.xht	c51d7c91c63c3668bc03a2a9fdf35bdea0043c46	?
 html/fonts-014.htm	2e0481edb25ec1143e7a83c2208ecc413691cfe7	?
 xhtml1/fonts-014.xht	2e0481edb25ec1143e7a83c2208ecc413691cfe7	?
-html/test-synthetic-bold.htm	86b1c489ef051793c46b397cf5b162d0aed58d0e	?
-xhtml1/test-synthetic-bold.xht	86b1c489ef051793c46b397cf5b162d0aed58d0e	?
-html/test-synthetic-italic.htm	24a67a1ef7cf86099d41b869f6b1def78a343694	?
-xhtml1/test-synthetic-italic.xht	24a67a1ef7cf86099d41b869f6b1def78a343694	?
+html/test-synthetic-bold.htm	289bc51877159287975be633c2ee2118b87f6421	?
+xhtml1/test-synthetic-bold.xht	289bc51877159287975be633c2ee2118b87f6421	?
+html/test-synthetic-italic.htm	7311bf5ca7d29f6ddc86d73fbbcb4be6bb8b6977	?
+xhtml1/test-synthetic-italic.xht	7311bf5ca7d29f6ddc86d73fbbcb4be6bb8b6977	?
 html/test_font_family_parsing.htm	0e4aa262ea1e9c8d4f4f1a9d1fe0cbd9ed8c75dd	?
 xhtml1/test_font_family_parsing.xht	0e4aa262ea1e9c8d4f4f1a9d1fe0cbd9ed8c75dd	?
 html/test_font_feature_values_parsing.htm	7eeb2572c3917be3f23f2ee6fdd3098cc2eb0462	?

@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Basic User Interface Module Level 3 CR Test Suite</h1>
-  <h2>Pointing Devices and Keyboards (201 tests)</h2>
+  <h2>Pointing Devices and Keyboards (198 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -1123,7 +1123,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s6.2.1">+</a>
         <a href="https://www.w3.org/TR/css3-ui/#caret-color">6.2.1 Coloring the insertion caret: caret-color</a></th></tr>
-      <!-- 21 tests -->
+      <!-- 18 tests -->
       <tr id="caret-color-001-6.2.1" class="interact">
         <td>
             <a href="caret-color-001.xht">caret-color-001</a></td>
@@ -1219,7 +1219,7 @@
         <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
         <td>caret-color computed values
           <ul class="assert">
-            <li>Test checks that auto and currentcolor compute to themselves for caret-color and that initial computes to auto</li>
+            <li>Test checks that the resolved value of auto, currentcolor and initial for caret-color property, is the used value.</li>
           </ul>
         </td>
       </tr>
@@ -1319,39 +1319,6 @@
         <td>caret-color test animation
           <ul class="assert">
             <li>Test checks that caret-color is animatable as a color, and that the computed values during the animation are the expected ones.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-019-6.2.1" class="script">
-        <td>
-            <a href="caret-color-019.xht">caret-color-019</a></td>
-        <td></td>
-        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
-        <td>caret-color auto test animation
-          <ul class="assert">
-            <li>Test checks that 'auto' value for caret-color property is not interpolatible.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-020-6.2.1" class="script">
-        <td>
-            <a href="caret-color-020.xht">caret-color-020</a></td>
-        <td></td>
-        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
-        <td>caret-color currentcolor test animation
-          <ul class="assert">
-            <li>Test checks that 'currentcolor' value for caret-color property is interpolatible.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="caret-color-021-6.2.1" class="script">
-        <td>
-            <a href="caret-color-021.xht">caret-color-021</a></td>
-        <td></td>
-        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
-        <td>Default caret-color test animation
-          <ul class="assert">
-            <li>Test checks that the default value for caret-color property, which is 'auto', is not interpolable.</li>
           </ul>
         </td>
       </tr>
