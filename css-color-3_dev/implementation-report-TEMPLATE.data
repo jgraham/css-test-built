@@ -3,12 +3,16 @@
 # http://test.csswg.org/suites/css-color-3_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
-html4/caret-color-013.htm	0e52cf5be9ac07172ba7be4d7feae0446c2156ee	?
-xhtml1/caret-color-013.xht	0e52cf5be9ac07172ba7be4d7feae0446c2156ee	?
+html4/caret-color-013.htm	9d819d02f818d6dd752192ff7136ce1ca2fa2bc6	?
+xhtml1/caret-color-013.xht	9d819d02f818d6dd752192ff7136ce1ca2fa2bc6	?
 html4/caret-color-016.htm	4d7ff9d4e4f8f12da4c2a6242ea91c22b8304d95	?
 xhtml1/caret-color-016.xht	4d7ff9d4e4f8f12da4c2a6242ea91c22b8304d95	?
 html4/caret-color-018.htm	2b42067b6dbf7c555d46c69f305f3fd7bd42876f	?
 xhtml1/caret-color-018.xht	2b42067b6dbf7c555d46c69f305f3fd7bd42876f	?
+html4/caret-color-019.htm	db4e2e0837e0788e22917c5a0112b3242b287b92	?
+xhtml1/caret-color-019.xht	db4e2e0837e0788e22917c5a0112b3242b287b92	?
+html4/caret-color-020.htm	34bcc32848a5cccf585aa0ef1005fdc241af2c28	?
+xhtml1/caret-color-020.xht	34bcc32848a5cccf585aa0ef1005fdc241af2c28	?
 html4/t31-color-currentcolor-b.htm	4dde926ad6a739b59385977b3d01c5676854e069	?
 xhtml1/t31-color-currentcolor-b.xht	4dde926ad6a739b59385977b3d01c5676854e069	?
 html4/t31-color-text-a.htm	17e2f9fc24d9de23f0059dc8d3b1f636e32942c7	?
