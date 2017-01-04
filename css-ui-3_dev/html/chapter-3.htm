@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Basic User Interface Module Level 3 CR Test Suite</h1>
-  <h2>Box Model addition (32 tests)</h2>
+  <h2>Box Model addition (25 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -37,7 +37,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s3.1">+</a>
         <a href="https://www.w3.org/TR/css3-ui/#box-sizing">3.1 box-sizing property</a></th></tr>
-      <!-- 32 tests -->
+      <!-- 25 tests -->
       <tr id="box-sizing-001-3.1" class="primary">
         <td><strong>
             <a href="box-sizing-001.htm">box-sizing-001</a></strong></td>
@@ -46,6 +46,17 @@
         <td>box-sizing:border-box and CSS2.1 10.3.3
           <ul class="assert">
             <li>When box-sizing is border-box, the content width, rather than the computed value of the width property, is considered when checking whether a block is larger than its containing block.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="box-sizing-002-3.1" class="primary">
+        <td><strong>
+            <a href="box-sizing-002.htm">box-sizing-002</a></strong></td>
+        <td><a href="reference/box-sizing-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>box-sizing:padding-box and CSS2.1 10.3.3
+          <ul class="assert">
+            <li>When box-sizing is padding-box, the content width, rather than the computed value of the width property, is considered when checking whether a block is larger than its containing block.</li>
           </ul>
         </td>
       </tr>
@@ -60,6 +71,17 @@
           </ul>
         </td>
       </tr>
+      <tr id="box-sizing-004-3.1" class="primary">
+        <td><strong>
+            <a href="box-sizing-004.htm">box-sizing-004</a></strong></td>
+        <td><a href="reference/box-sizing-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>box-sizing:padding-box and CSS2.1 10.3.7
+          <ul class="assert">
+            <li>When box-sizing is padding-box, the content width, rather than the computed value of the width property, should be used in the the constraint that determines the used values of sizing and positioning properties of absolutely positioned elements.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="box-sizing-005-3.1" class="primary">
         <td><strong>
             <a href="box-sizing-005.htm">box-sizing-005</a></strong></td>
@@ -68,6 +90,17 @@
         <td>box-sizing:border-box and CSS2.1 10.6.4
           <ul class="assert">
             <li>When box-sizing is border-box, the content height, rather than the computed value of the height property, should be used in the the constraint that determines the used values of sizing and positioning properties of absolutely positioned elements.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="box-sizing-006-3.1" class="primary">
+        <td><strong>
+            <a href="box-sizing-006.htm">box-sizing-006</a></strong></td>
+        <td><a href="reference/box-sizing-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>box-sizing:padding-box and CSS2.1 10.6.4
+          <ul class="assert">
+            <li>When box-sizing is padding-box, the content height, rather than the computed value of the height property, should be used in the the constraint that determines the used values of sizing and positioning properties of absolutely positioned elements.</li>
           </ul>
         </td>
       </tr>
@@ -277,116 +310,6 @@
         <td>auto sizing rules with box-sizing:border-box, intrinsic height and ratio, w &lt; min-width
           <ul class="assert">
             <li>Test checks that the CSS2.1 rules for auto width and height on replaced elements with intrinsic height and ratio with the w &lt; min-width constraint violation are properly interpreted when box-sizing is border-box.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="box-sizing-border-box-001-3.1" class="">
-        <td>
-            <a href="box-sizing-border-box-001.htm">box-sizing-border-box-001</a></td>
-        <td><a href="reference/box-sizing-border-box-001-ref.htm">=</a> </td>
-        <td></td>
-        <td>Box Sizing - Border-Box with specified width
-          <ul class="assert">
-            <li>box-sizing: border-box should make the element's (percentage) width be the distance from the left border edge to the right border edge.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="box-sizing-border-box-002-3.1" class="">
-        <td>
-            <a href="box-sizing-border-box-002.htm">box-sizing-border-box-002</a></td>
-        <td><a href="reference/box-sizing-border-box-002-ref.htm">=</a> </td>
-        <td></td>
-        <td>Box Sizing - Border-Box with specified width
-          <ul class="assert">
-            <li>box-sizing: border-box should make the element's (percentage) width be the distance from the left border edge to the right border edge.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="box-sizing-border-box-003-3.1" class="">
-        <td>
-            <a href="box-sizing-border-box-003.htm">box-sizing-border-box-003</a></td>
-        <td><a href="reference/box-sizing-border-box-003-ref.htm">=</a> </td>
-        <td></td>
-        <td>Box Sizing - Border-Box with specified width/height
-          <ul class="assert">
-            <li>box-sizing: border-box should make the element's (percentage) width be the distance from the left border edge to the right border edge and the height be the distance from the top border edge to the bottom border edge.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="box-sizing-border-box-004-3.1" class="">
-        <td>
-            <a href="box-sizing-border-box-004.htm">box-sizing-border-box-004</a></td>
-        <td><a href="reference/box-sizing-border-box-004-ref.htm">=</a> </td>
-        <td></td>
-        <td>Box Sizing - Border-Box with min/max width/height
-          <ul class="assert">
-            <li>box-sizing: border-box should make the element's (length) width be the distance from the left border edge to the right border edge and the height be the distance from the top border edge to the bottom border edge.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="box-sizing-content-box-001-3.1" class="">
-        <td>
-            <a href="box-sizing-content-box-001.htm">box-sizing-content-box-001</a></td>
-        <td><a href="reference/box-sizing-content-box-001-ref.htm">=</a> </td>
-        <td></td>
-        <td>Box Sizing - Content-Box with specified width/height
-          <ul class="assert">
-            <li>box-sizing: content-box should make the element's (percentage) width be the distance from the left content edge to the right content edge and the height be the distance from the top content edge to the bottom content edge.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="box-sizing-content-box-002-3.1" class="">
-        <td>
-            <a href="box-sizing-content-box-002.htm">box-sizing-content-box-002</a></td>
-        <td><a href="reference/box-sizing-content-box-002-ref.htm">=</a> </td>
-        <td></td>
-        <td>Box Sizing - Content-Box with specified width/height
-          <ul class="assert">
-            <li>box-sizing: content-box should make the element's (calc) width be the distance from the left content edge to the right content edge and the height be the distance from the top content edge to the bottom content edge.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="box-sizing-content-box-003-3.1" class="">
-        <td>
-            <a href="box-sizing-content-box-003.htm">box-sizing-content-box-003</a></td>
-        <td><a href="reference/box-sizing-content-box-003-ref.htm">=</a> </td>
-        <td></td>
-        <td>Box Sizing - Content-Box with min/max width/height
-          <ul class="assert">
-            <li>box-sizing: content-box should make the element's (percentage) width be the distance from the left content edge to the right content edge and the height be the distance from the top content edge to the bottom content edge.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="box-sizing-replaced-001-3.1" class="image">
-        <td>
-            <a href="box-sizing-replaced-001.htm">box-sizing-replaced-001</a></td>
-        <td><a href="reference/box-sizing-replaced-001-ref.htm">=</a> </td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>Min/Max Height and Width Constraints on Replaced Elements with Box-Sizing
-          <ul class="assert">
-            <li>All images should be sized at 75px x 75px, with 5px of padding around each.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="box-sizing-replaced-002-3.1" class="image">
-        <td>
-            <a href="box-sizing-replaced-002.htm">box-sizing-replaced-002</a></td>
-        <td><a href="reference/box-sizing-replaced-002-ref.htm">=</a> </td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>Min/Max Height and Width Constraints on Replaced Elements with Box-Sizing
-          <ul class="assert">
-            <li>All images should be sized at 75px x 75px, with 5px of padding and 5px of blue border around each.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="box-sizing-replaced-003-3.1" class="image">
-        <td>
-            <a href="box-sizing-replaced-003.htm">box-sizing-replaced-003</a></td>
-        <td><a href="reference/box-sizing-replaced-003-ref.htm">=</a> </td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>Min/Max Height and Width Constraints on Replaced Elements with Box-Sizing
-          <ul class="assert">
-            <li>All images should be sized at 75px x 75px.</li>
           </ul>
         </td>
       </tr>
