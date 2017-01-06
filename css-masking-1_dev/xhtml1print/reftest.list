@@ -107,6 +107,8 @@ mask-mode-to-mask-type.xht == reference/mask-mode-to-mask-type-ref.xht
 mask-opacity-1a.xht == reference/mask-opacity-1-ref.xht
 mask-opacity-1b.xht == reference/mask-opacity-1-ref.xht
 mask-opacity-1c.xht == reference/mask-opacity-1-ref.xht
+mask-opacity-1d.xht == reference/mask-opacity-1-ref.xht
+mask-opacity-1e.xht == reference/mask-opacity-1-ref.xht
 mask-origin-1.xht == reference/mask-origin-1-ref.xht
 mask-origin-2.xht == reference/mask-origin-2-ref.xht
 mask-origin-3.xht == reference/mask-origin-3-ref.xht

@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Masking Level 1 CR Test Suite</h1>
-  <h2>Positioned Masks (71 tests)</h2>
+  <h2>Positioned Masks (73 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -37,7 +37,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.1">+</a>
         <a href="https://www.w3.org/TR/css-masking-1/#the-mask-image">7.1 Mask Image Source: the mask-image property</a></th></tr>
-      <!-- 21 tests -->
+      <!-- 23 tests -->
       <tr id="mask-image-1a-7.1" class="primary">
         <td><strong>
             <a href="mask-image-1a.htm">mask-image-1a</a></strong></td>
@@ -264,6 +264,28 @@
         <td><a href="reference/mask-opacity-1-ref.htm">=</a> </td>
         <td></td>
         <td>CSS Masking: mask-image: filter with opacity
+          <ul class="assert">
+            <li>Test checks whether apply opacity to masked element correctly or not.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-opacity-1d-7.1" class="primary">
+        <td><strong>
+            <a href="mask-opacity-1d.htm">mask-opacity-1d</a></strong></td>
+        <td><a href="reference/mask-opacity-1-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-image: mask with opacity
+          <ul class="assert">
+            <li>Test checks whether apply opacity to masked element correctly or not.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="mask-opacity-1e-7.1" class="primary">
+        <td><strong>
+            <a href="mask-opacity-1e.htm">mask-opacity-1e</a></strong></td>
+        <td><a href="reference/mask-opacity-1-ref.htm">=</a> </td>
+        <td></td>
+        <td>CSS Masking: mask-image: mask with opacity
           <ul class="assert">
             <li>Test checks whether apply opacity to masked element correctly or not.</li>
           </ul>
