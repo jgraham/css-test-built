@@ -914,6 +914,7 @@ text-orientation-upright-directionality-001.htm == reference/text-orientation-up
 text-orientation-upright-srl-018.htm == reference/text-orientation-mixed-srl-016-ref.htm
 text-orientation-upright-vlr-100.htm == reference/text-orientation-upright-vlr-100-ref.htm
 text-orientation-upright-vrl-100.htm == reference/text-orientation-upright-vrl-100-ref.htm
+text-transform-fullwidth-002.htm == reference/text-transform-fullwidth-002-ref.htm
 unicode-bidi-001.htm == reference/direction-002-ref.htm
 unicode-bidi-002.htm == reference/unicode-bidi-002-ref.htm
 unicode-bidi-003.htm == reference/direction-002-ref.htm
