@@ -54,6 +54,7 @@ shape-outside-box-004.xht == reference/shape-outside-box-001-ref.xht
 shape-outside-box-006.xht == reference/shape-outside-box-005-ref.xht
 shape-outside-box-007.xht == reference/shape-outside-box-005-ref.xht
 shape-outside-box-008.xht == reference/shape-outside-box-005-ref.xht
+shape-outside-circle-012.xht == reference/shape-outside-circle-011-ref.xht
 shape-outside-circle-013.xht == reference/shape-outside-circle-013-ref.xht
 shape-outside-circle-014.xht == reference/shape-outside-circle-013-ref.xht
 shape-outside-circle-015.xht == reference/shape-outside-circle-013-ref.xht
@@ -64,6 +65,7 @@ shape-outside-circle-019.xht == reference/shape-outside-circle-013-ref.xht
 shape-outside-circle-020.xht == reference/shape-outside-circle-013-ref.xht
 shape-outside-circle-021.xht == reference/shape-outside-circle-013-ref.xht
 shape-outside-circle-022.xht == reference/shape-outside-circle-013-ref.xht
+shape-outside-circle-023.xht == reference/shape-outside-circle-023-ref.xht
 shape-outside-circle-024.xht == reference/shape-outside-circle-023-ref.xht
 shape-outside-circle-025.xht == reference/shape-outside-circle-023-ref.xht
 shape-outside-circle-026.xht == reference/shape-outside-circle-023-ref.xht
