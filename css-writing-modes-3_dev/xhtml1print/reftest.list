@@ -579,6 +579,9 @@ horizontal-rule-vlr-003.xht == reference/horizontal-rule-vlr-003-ref.xht
 horizontal-rule-vlr-005.xht == reference/horizontal-rule-vrl-004-ref.xht
 horizontal-rule-vrl-002.xht == reference/horizontal-rule-vrl-002-ref.xht
 horizontal-rule-vrl-004.xht == reference/horizontal-rule-vrl-004-ref.xht
+ic-unit-002.xht == reference/ic-unit-002-ref.xht
+ic-unit-003.xht == reference/ic-unit-002-ref.xht
+ic-unit-004.xht == reference/ic-unit-001-ref.xht
 inline-block-alignment-002.xht == reference/inline-block-alignment-002-ref.xht
 inline-block-alignment-003.xht == reference/inline-block-alignment-003-ref.xht
 inline-block-alignment-004.xht == reference/inline-block-alignment-002-ref.xht
