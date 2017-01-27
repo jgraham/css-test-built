@@ -3,8 +3,8 @@
 # http://test.csswg.org/suites/css-transforms-1_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
-html/2d-rotate-001.htm	a1d7b661e237b9b4a2735a914b0bc08f6018b622	?
-xhtml1/2d-rotate-001.xht	a1d7b661e237b9b4a2735a914b0bc08f6018b622	?
+html/2d-rotate-001.htm	f987efe0663e9659362b0c6f2115349fd5bbf1da	?
+xhtml1/2d-rotate-001.xht	f987efe0663e9659362b0c6f2115349fd5bbf1da	?
 html/2d-rotate-js.htm	abcdcd51c5f40a6ff816bba1242cabd80f69c3d1	?
 xhtml1/2d-rotate-js.xht	abcdcd51c5f40a6ff816bba1242cabd80f69c3d1	?
 html/animations-001.htm	a4cee4791955488eed14303cedc0330b0531f6f5	?
@@ -2103,10 +2103,10 @@ html/ttwf-css-3d-polygon-cycle.htm	e850913934fcfbd7254a50fb8c0e1f6a9f6957d5	?
 xhtml1/ttwf-css-3d-polygon-cycle.xht	e850913934fcfbd7254a50fb8c0e1f6a9f6957d5	?
 html/ttwf-reftest-rotate.htm	0081259fc5f0de5d3ae4763f9d7ad3a9ed115adf	?
 xhtml1/ttwf-reftest-rotate.xht	0081259fc5f0de5d3ae4763f9d7ad3a9ed115adf	?
-html/ttwf-transform-skewx-001.htm	8e5d3687be86d2fbd5a5e70b4352deacad6e3e90	?
-xhtml1/ttwf-transform-skewx-001.xht	8e5d3687be86d2fbd5a5e70b4352deacad6e3e90	?
-html/ttwf-transform-skewy-001.htm	de06e80663dcae50be2198ba04fa48d4ca9a5b21	?
-xhtml1/ttwf-transform-skewy-001.xht	de06e80663dcae50be2198ba04fa48d4ca9a5b21	?
+html/ttwf-transform-skewx-001.htm	16f2663d689ccc18c16bf39013fe2a605684ffd8	?
+xhtml1/ttwf-transform-skewx-001.xht	16f2663d689ccc18c16bf39013fe2a605684ffd8	?
+html/ttwf-transform-skewy-001.htm	23d86e1b810989a6fb25f9868141c2f695a35a92	?
+xhtml1/ttwf-transform-skewy-001.xht	23d86e1b810989a6fb25f9868141c2f695a35a92	?
 html/ttwf-transform-translatex-001.htm	5bcd1e07576267b0faedd7f3fe84058fb6faa370	?
 xhtml1/ttwf-transform-translatex-001.xht	5bcd1e07576267b0faedd7f3fe84058fb6faa370	?
 html/ttwf-transform-translatey-001.htm	a1f42153313e00c4133c79f1f77b41aa4e788e2b	?
