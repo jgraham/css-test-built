@@ -467,7 +467,6 @@ caption-side-vrl-002.xht == reference/ref-filled-green-100px-square.xht
 caption-side-vrl-004.xht == reference/ref-filled-green-100px-square.xht
 central-baseline-alignment-002.xht == reference/central-baseline-alignment-002-ref.xht
 central-baseline-alignment-003.xht == reference/central-baseline-alignment-002-ref.xht
-ch-unit-002.xht == reference/ch-unit-002-ref.xht
 clearance-calculations-vrl-002.xht == reference/clearance-calculations-vrl-002-ref.xht
 clearance-calculations-vrl-004.xht == reference/clearance-calculations-vrl-004-ref.xht
 clearance-calculations-vrl-006.xht == reference/clearance-calculations-vrl-006-ref.xht
@@ -579,9 +578,6 @@ horizontal-rule-vlr-003.xht == reference/horizontal-rule-vlr-003-ref.xht
 horizontal-rule-vlr-005.xht == reference/horizontal-rule-vrl-004-ref.xht
 horizontal-rule-vrl-002.xht == reference/horizontal-rule-vrl-002-ref.xht
 horizontal-rule-vrl-004.xht == reference/horizontal-rule-vrl-004-ref.xht
-ic-unit-002.xht == reference/ic-unit-002-ref.xht
-ic-unit-003.xht == reference/ic-unit-002-ref.xht
-ic-unit-004.xht == reference/ic-unit-001-ref.xht
 inline-block-alignment-002.xht == reference/inline-block-alignment-002-ref.xht
 inline-block-alignment-003.xht == reference/inline-block-alignment-003-ref.xht
 inline-block-alignment-004.xht == reference/inline-block-alignment-002-ref.xht
