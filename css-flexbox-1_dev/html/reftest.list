@@ -519,6 +519,8 @@ justify-content-002.htm == reference/justify-content-001-ref.htm
 justify-content-003.htm == reference/justify-content-001-ref.htm
 justify-content-004.htm == reference/justify-content-001-ref.htm
 justify-content-005.htm == reference/justify-content-001-ref.htm
+layout-algorithm_algo-cross-line-001.htm == reference/layout-algorithm_algo-cross-line-001-ref.htm
+layout-algorithm_algo-cross-line-002.htm == reference/layout-algorithm_algo-cross-line-002-ref.htm
 multi-line-wrap-reverse-column-reverse.htm == reference/multi-line-wrap-reverse-column-reverse-ref.htm
 multi-line-wrap-reverse-row-reverse.htm == reference/multi-line-wrap-reverse-row-reverse-ref.htm
 multi-line-wrap-with-column-reverse.htm == reference/multi-line-wrap-with-column-reverse-ref.htm
