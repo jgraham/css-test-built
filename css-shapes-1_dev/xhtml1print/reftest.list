@@ -78,6 +78,7 @@ shape-outside-content-box-001.xht == reference/shape-outside-content-box-001-ref
 shape-outside-content-box-002.xht == reference/shape-outside-content-box-002-ref.xht
 shape-outside-content-box-border-radius-001.xht == reference/shape-outside-content-box-border-radius-001-ref.xht
 shape-outside-content-box-border-radius-002.xht == reference/shape-outside-content-box-border-radius-002-ref.xht
+shape-outside-ellipse-012.xht == reference/shape-outside-ellipse-011-ref.xht
 shape-outside-ellipse-013.xht == reference/shape-outside-ellipse-013-ref.xht
 shape-outside-ellipse-014.xht == reference/shape-outside-ellipse-013-ref.xht
 shape-outside-ellipse-015.xht == reference/shape-outside-ellipse-013-ref.xht
