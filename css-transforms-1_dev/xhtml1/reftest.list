@@ -881,6 +881,7 @@ transform-origin-01.xht == reference/transform-origin-01-ref.xht
 transform-origin-010.xht == reference/transform-origin-007-ref.xht
 transform-origin-011.xht == reference/transform-origin-007-ref.xht
 transform-origin-012.xht == reference/transform-origin-007-ref.xht
+transform-origin-013.xht == reference/transform-origin-013-ref.xht
 transform-origin-name-001.xht == reference/transform-origin-name-ref-1.xht != reference/transform-origin-name-notref.xht
 transform-origin-name-002.xht == reference/transform-origin-name-ref-1.xht != reference/transform-origin-name-notref.xht
 transform-origin-name-003.xht == reference/transform-origin-name-ref-2.xht != reference/transform-origin-name-notref.xht
