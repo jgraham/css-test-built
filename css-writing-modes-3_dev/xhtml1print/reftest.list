@@ -682,6 +682,10 @@ margin-collapse-vrl-034.xht == reference/ref-filled-green-100px-square.xht
 margin-collapse-vrl-036.xht == reference/ref-filled-green-100px-square.xht
 margin-vlr-003.xht == reference/margin-vrl-002-ref.xht
 margin-vrl-002.xht == reference/margin-vrl-002-ref.xht
+normal-flow-overconstrained-vlr-003.xht == reference/abs-pos-non-replaced-vlr-007-ref.xht
+normal-flow-overconstrained-vlr-005.xht == reference/abs-pos-non-replaced-vlr-013-ref.xht
+normal-flow-overconstrained-vrl-002.xht == reference/abs-pos-non-replaced-vrl-006-ref.xht
+normal-flow-overconstrained-vrl-004.xht == reference/abs-pos-non-replaced-vrl-012-ref.xht
 ortho-htb-alongside-vrl-floats-002.xht == reference/ortho-htb-alongside-vrl-floats-002-ref.xht
 ortho-htb-alongside-vrl-floats-006.xht == reference/ortho-htb-alongside-vrl-floats-006-ref.xht
 ortho-htb-alongside-vrl-floats-010.xht == reference/ortho-htb-alongside-vrl-floats-010-ref.xht
