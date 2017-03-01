@@ -549,6 +549,8 @@ float-contiguous-vrl-006.xht == reference/float-contiguous-vrl-006-ref.xht
 float-contiguous-vrl-008.xht == reference/float-contiguous-vrl-008-ref.xht
 float-contiguous-vrl-010.xht == reference/ref-filled-green-100px-square.xht
 float-contiguous-vrl-012.xht == reference/float-contiguous-vrl-012-ref.xht
+float-lft-orthog-vrl-002.xht == reference/float-lft-orthog-vrl-002-ref.xht
+float-rgt-orthog-vrl-003.xht == reference/float-rgt-orthog-vrl-003-ref.xht
 float-shrink-to-fit-vlr-003.xht == reference/ref-filled-green-100px-square.xht
 float-shrink-to-fit-vlr-005.xht == reference/ref-filled-green-100px-square.xht
 float-shrink-to-fit-vlr-007.xht == reference/ref-filled-green-100px-square.xht
