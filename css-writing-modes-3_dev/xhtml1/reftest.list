@@ -927,6 +927,8 @@ text-orientation-upright-srl-018.xht == reference/text-orientation-mixed-srl-016
 text-orientation-upright-vlr-100.xht == reference/text-orientation-upright-vlr-100-ref.xht
 text-orientation-upright-vrl-100.xht == reference/text-orientation-upright-vrl-100-ref.xht
 text-transform-fullwidth-002.xht == reference/text-transform-fullwidth-002-ref.xht
+text-transform-fullwidth-004.xht == reference/text-transform-fullwidth-004-ref.xht
+text-transform-fullwidth-005.xht == reference/text-transform-fullwidth-005-ref.xht
 unicode-bidi-001.xht == reference/direction-002-ref.xht
 unicode-bidi-002.xht == reference/unicode-bidi-002-ref.xht
 unicode-bidi-003.xht == reference/direction-002-ref.xht
