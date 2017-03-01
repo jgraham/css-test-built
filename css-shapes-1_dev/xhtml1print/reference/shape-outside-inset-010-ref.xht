@@ -1,19 +1,50 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-        <title>CSS Reference File</title>
-        <link href="mailto:rhauck@adobe.com" rel="author" title="Rebecca Hauck" />
-    <style>
-        #shape {
-            margin-left: 25px;
-            width: 200px;
-            height: 200px;
-            background-color: green;
-        }
-    </style></head>
-    
-    <body>
-        <p>The test passes if there is a green square and no red.</p>
-        <div id="shape"></div>
-    
+<!-- Any copyright is dedicated to the Public Domain.
+   - http://creativecommons.org/publicdomain/zero/1.0/ --><html xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8" />
+  <title>CSS Shape Test: vertical-lr, float right, inset(10px round 60px 0/ 40px 0) border-box reference</title>
+  <link href="mailto:tlin@mozilla.com" rel="author" title="Ting-Yu Lin" />
+  <link href="http://www.mozilla.org/" rel="author" title="Mozilla" />
+  <style>
+  .container {
+    writing-mode: vertical-lr;
+    direction: rtl;
+    position: absolute;
+    inline-size: 200px;
+    line-height: 0;
+  }
+
+  .shape {
+    float: right;
+    /* Omit shape-outside */
+    clip-path: inset(10px round 60px 0/ 40px 0) border-box;
+    box-sizing: content-box;
+    block-size: 40px;
+    inline-size: 40px;
+    padding: 10px 20px;
+    border: solid lightgreen;
+    border-width: 20px 30px;
+    background-color: orange;
+  }
+
+  .box {
+    position: absolute;
+    inline-size: 80px;
+    background-color: blue;
+  }
+
+  .long {
+    inline-size: 200px;
+  }
+  </style>
+
+  </head><body class="container">
+    <div class="shape"></div>
+    <div style="block-size: 10px; offset-block-start: 0px; offset-inline-start: 0px;" class="long box"></div> <!-- Fill the inset space -->
+    <div style="block-size: 24px; offset-block-start: 10px; offset-inline-start: 82px;" class="box"></div> <!-- Box at corner -->
+    <div style="block-size: 36px; offset-block-start: 34px; offset-inline-start: 90px;" class="box"></div>
+    <div style="block-size: 36px; offset-block-start: 70px; offset-inline-start: 90px;" class="box"></div>
+    <div style="block-size: 24px; offset-block-start: 106px; offset-inline-start: 90px;" class="box"></div> <!-- Box at corner -->
+    <div style="block-size: 10px; offset-block-start: 130px; offset-inline-start: 0px;" class="long box"></div> <!-- Fill the inset space -->
+  
 
 </body></html>

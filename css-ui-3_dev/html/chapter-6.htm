@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Basic User Interface Module Level 3 CR Test Suite</h1>
-  <h2>Pointing Devices and Keyboards (210 tests)</h2>
+  <h2>Pointing Devices and Keyboards (201 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -43,7 +43,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s6.1.1">+</a>
         <a href="https://www.w3.org/TR/css3-ui/#cursor">6.1.1 cursor property</a></th></tr>
-      <!-- 104 tests -->
+      <!-- 95 tests -->
       <tr id="cursor-001-6.1.1" class="interact">
         <td>
             <a href="cursor-001.htm">cursor-001</a></td>
@@ -561,72 +561,6 @@
           </ul>
         </td>
       </tr>
-      <tr id="cursor-image-013-6.1.1" class="image interact may">
-        <td>
-            <a href="cursor-image-013.htm">cursor-image-013</a></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="may" title="Behavior tested is preferred but optional">Optional</abbr></td>
-        <td>Cursor property, gradient image value
-          <ul class="assert">
-            <li>For cursors, UAs may support gradients, which are part of &lt;image&gt; value type</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="cursor-image-014-6.1.1" class="image interact may">
-        <td>
-            <a href="cursor-image-014.htm">cursor-image-014</a></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="may" title="Behavior tested is preferred but optional">Optional</abbr></td>
-        <td>Cursor property, image() value
-          <ul class="assert">
-            <li>For cursors, UAs may support the image() function, which are part of &lt;image&gt; value type.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="cursor-image-015-6.1.1" class="image interact may">
-        <td>
-            <a href="cursor-image-015.htm">cursor-image-015</a></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="may" title="Behavior tested is preferred but optional">Optional</abbr></td>
-        <td>Cursor property, image-set() value
-          <ul class="assert">
-            <li>For cursors, UAs may support image-set(), which is part of &lt;image&gt; value type</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="cursor-image-016-6.1.1" class="image interact may">
-        <td>
-            <a href="cursor-image-016.htm">cursor-image-016</a></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr><abbr class="may" title="Behavior tested is preferred but optional">Optional</abbr></td>
-        <td>Cursor property, cross-fade image value
-          <ul class="assert">
-            <li>For cursors, UAs may support cross-fade(), which is part of &lt;image&gt; value type</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="cursor-image-017-6.1.1" class="image interact">
-        <td>
-            <a href="cursor-image-017.htm">cursor-image-017</a></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>Cursor property, fallback images
-          <ul class="assert">
-            <li>If the user agent cannot handle the first cursor of a list of cursors, it must attempt to handle the second, etc.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="cursor-image-018-6.1.1" class="image interact">
-        <td>
-            <a href="cursor-image-018.htm">cursor-image-018</a></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>Cursor property, fallback keyword
-          <ul class="assert">
-            <li>If the user agent cannot handle any user-defined cursor, it must use the cursor keyword at the end of the list.</li>
-          </ul>
-        </td>
-      </tr>
       <tr id="cursor-image-png-001-6.1.1" class="image interact">
         <td>
             <a href="cursor-image-png-001.htm">cursor-image-png-001</a></td>
@@ -1141,39 +1075,6 @@
         <td>cursor:text with rotated text
           <ul class="assert">
             <li>User agents may automatically display any angle of I-beam/cursor for text that is rendered at any particular angle</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="cursor-x-y-001-6.1.1" class="dom interact">
-        <td>
-            <a href="cursor-x-y-001.htm">cursor-x-y-001</a></td>
-        <td></td>
-        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>cursor hotspot coordinates
-          <ul class="assert">
-            <li>The coordnates of the cursor hotspot can be specified.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="cursor-x-y-002-6.1.1" class="dom interact">
-        <td>
-            <a href="cursor-x-y-002.htm">cursor-x-y-002</a></td>
-        <td></td>
-        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>cursor hotspot coordinates clamping
-          <ul class="assert">
-            <li>The coordinates of the hotspot must be clamped if they fall outside of the range of the image.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="cursor-x-y-003-6.1.1" class="dom interact">
-        <td>
-            <a href="cursor-x-y-003.htm">cursor-x-y-003</a></td>
-        <td></td>
-        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="interact" title="Requires user interaction">Interact</abbr></td>
-        <td>cursor hotspot coordinates clamping
-          <ul class="assert">
-            <li>The coordinates of the hotspot must be clamped if they fall outside of the range of the image, including negative numbers.</li>
           </ul>
         </td>
       </tr>

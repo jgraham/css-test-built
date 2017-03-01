@@ -549,6 +549,14 @@ float-contiguous-vrl-006.xht == reference/float-contiguous-vrl-006-ref.xht
 float-contiguous-vrl-008.xht == reference/float-contiguous-vrl-008-ref.xht
 float-contiguous-vrl-010.xht == reference/ref-filled-green-100px-square.xht
 float-contiguous-vrl-012.xht == reference/float-contiguous-vrl-012-ref.xht
+float-lft-orthog-htb-in-vlr-002.xht == reference/float-lft-orthog-htb-in-vlr-002-ref.xht
+float-lft-orthog-htb-in-vrl-002.xht == reference/float-lft-orthog-htb-in-vrl-002-ref.xht
+float-lft-orthog-vlr-in-htb-002.xht == reference/float-lft-orthog-vlr-in-htb-002-ref.xht
+float-lft-orthog-vrl-in-htb-002.xht == reference/float-lft-orthog-vrl-in-htb-002-ref.xht
+float-rgt-orthog-htb-in-vlr-003.xht == reference/float-rgt-orthog-htb-in-vlr-003-ref.xht
+float-rgt-orthog-htb-in-vrl-003.xht == reference/float-rgt-orthog-htb-in-vrl-003-ref.xht
+float-rgt-orthog-vlr-in-htb-003.xht == reference/float-rgt-orthog-vlr-in-htb-003-ref.xht
+float-rgt-orthog-vrl-in-htb-003.xht == reference/float-rgt-orthog-vrl-in-htb-003-ref.xht
 float-shrink-to-fit-vlr-003.xht == reference/ref-filled-green-100px-square.xht
 float-shrink-to-fit-vlr-005.xht == reference/ref-filled-green-100px-square.xht
 float-shrink-to-fit-vlr-007.xht == reference/ref-filled-green-100px-square.xht
@@ -674,6 +682,10 @@ margin-collapse-vrl-034.xht == reference/ref-filled-green-100px-square.xht
 margin-collapse-vrl-036.xht == reference/ref-filled-green-100px-square.xht
 margin-vlr-003.xht == reference/margin-vrl-002-ref.xht
 margin-vrl-002.xht == reference/margin-vrl-002-ref.xht
+normal-flow-overconstrained-vlr-003.xht == reference/abs-pos-non-replaced-vlr-007-ref.xht
+normal-flow-overconstrained-vlr-005.xht == reference/abs-pos-non-replaced-vlr-013-ref.xht
+normal-flow-overconstrained-vrl-002.xht == reference/abs-pos-non-replaced-vrl-006-ref.xht
+normal-flow-overconstrained-vrl-004.xht == reference/abs-pos-non-replaced-vrl-012-ref.xht
 ortho-htb-alongside-vrl-floats-002.xht == reference/ortho-htb-alongside-vrl-floats-002-ref.xht
 ortho-htb-alongside-vrl-floats-006.xht == reference/ortho-htb-alongside-vrl-floats-006-ref.xht
 ortho-htb-alongside-vrl-floats-010.xht == reference/ortho-htb-alongside-vrl-floats-010-ref.xht
@@ -919,6 +931,8 @@ text-orientation-upright-srl-018.xht == reference/text-orientation-mixed-srl-016
 text-orientation-upright-vlr-100.xht == reference/text-orientation-upright-vlr-100-ref.xht
 text-orientation-upright-vrl-100.xht == reference/text-orientation-upright-vrl-100-ref.xht
 text-transform-fullwidth-002.xht == reference/text-transform-fullwidth-002-ref.xht
+text-transform-fullwidth-004.xht == reference/text-transform-fullwidth-004-ref.xht
+text-transform-fullwidth-005.xht == reference/text-transform-fullwidth-005-ref.xht
 unicode-bidi-001.xht == reference/direction-002-ref.xht
 unicode-bidi-002.xht == reference/unicode-bidi-002-ref.xht
 unicode-bidi-003.xht == reference/direction-002-ref.xht
