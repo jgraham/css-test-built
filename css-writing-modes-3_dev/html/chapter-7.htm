@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Abstract Box Layout (666 tests)</h2>
+  <h2>Abstract Box Layout (668 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -4967,7 +4967,29 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.3.2">+</a>
         <a href="https://www.w3.org/TR/css-writing-modes-3/#auto-multicol">7.3.2 Auto-sizing Block Containers in Orthogonal Flows</a></th></tr>
-      <!-- 80 tests -->
+      <!-- 82 tests -->
+      <tr id="float-lft-orthog-vrl-002-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-lft-orthog-vrl-002.htm">float-lft-orthog-vrl-002</a></strong></td>
+        <td><a href="reference/float-lft-orthog-vrl-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>floated left in vertical-rl orthogonal context
+          <ul class="assert">
+            <li>This test checks that the vertical placement of an orthogonal floated left block box inside an horizontal-tb parent. The orthogonal floated left block box should be located as high as possible inside the horizontal-tb line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-rgt-orthog-vrl-003-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-rgt-orthog-vrl-003.htm">float-rgt-orthog-vrl-003</a></strong></td>
+        <td><a href="reference/float-rgt-orthog-vrl-003-ref.htm">=</a> </td>
+        <td></td>
+        <td>floated right in vertical-rl orthogonal context
+          <ul class="assert">
+            <li>This test checks that the vertical placement of an orthogonal floated right block box inside an horizontal-tb parent. The orthogonal floated right block box should be located as high as possible inside the horizontal-tb line box.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="sizing-orthog-htb-in-vlr-001-7.3.2" class="primary">
         <td><strong>
             <a href="sizing-orthog-htb-in-vlr-001.htm">sizing-orthog-htb-in-vlr-001</a></strong></td>
