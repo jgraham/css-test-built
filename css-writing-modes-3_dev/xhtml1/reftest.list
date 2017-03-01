@@ -693,6 +693,14 @@ ortho-htb-alongside-vrl-floats-014.xht == reference/ortho-htb-alongside-vrl-floa
 outline-inline-block-vrl-006.xht == reference/outline-inline-block-vrl-006.xht
 outline-inline-vlr-006.xht == reference/outline-inline-vlr-006.xht
 outline-inline-vrl-006.xht == reference/outline-inline-vrl-006.xht
+overconstrained-rel-pos-ltr-left-right-vlr-005.xht == reference/overconstrained-rel-pos-ltr-left-right-vlr-005-ref.xht
+overconstrained-rel-pos-ltr-left-right-vrl-004.xht == reference/overconstrained-rel-pos-ltr-left-right-vrl-004-ref.xht
+overconstrained-rel-pos-ltr-top-bottom-vlr-003.xht == reference/overconstrained-rel-pos-ltr-top-bottom-vlr-003-ref.xht
+overconstrained-rel-pos-ltr-top-bottom-vrl-002.xht == reference/overconstrained-rel-pos-ltr-top-bottom-vrl-002-ref.xht
+overconstrained-rel-pos-rtl-left-right-vlr-009.xht == reference/overconstrained-rel-pos-rtl-left-right-vlr-009-ref.xht
+overconstrained-rel-pos-rtl-left-right-vrl-008.xht == reference/overconstrained-rel-pos-rtl-left-right-vrl-008-ref.xht
+overconstrained-rel-pos-rtl-top-bottom-vlr-007.xht == reference/overconstrained-rel-pos-rtl-top-bottom-vlr-007-ref.xht
+overconstrained-rel-pos-rtl-top-bottom-vrl-006.xht == reference/overconstrained-rel-pos-rtl-top-bottom-vrl-006-ref.xht
 padding-vlr-005.xht == reference/margin-vrl-002-ref.xht
 padding-vrl-004.xht == reference/margin-vrl-002-ref.xht
 percent-margin-vlr-003.xht == reference/margin-vrl-002-ref.xht
