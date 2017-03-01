@@ -3,23 +3,31 @@
 
  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <title>CSS Reftest Reference</title>
+  <title>CSS Writing Modes Test: floated right in vertical-rl orthogonal context</title>
   <style type="text/css">
     @page { font: italic 8pt sans-serif; color: gray;
             margin: 7%;
             counter-increment: page;
             @top-left { content: "CSS Writing Modes Module Level 3 CR Test Suite"; }
-            @top-right { content: "Test float-rgt-orthog-vrl-003-ref"; }
+            @top-right { content: "Test float-rgt-orthog-vrl-in-htb-003"; }
             @bottom-right { content: counter(page); }
           }
 </style>
 
-  <meta name="DC.date.created" content="2016-12-14T09:54:03+11:00" scheme="W3CDTF" />
+  <meta name="DC.date.created" content="2016-11-08T09:54:03+11:00" scheme="W3CDTF" />
   <meta name="DC.date.modified" content="2017-02-04T09:54:03+11:00" scheme="W3CDTF" />
 
+  <!--
+  Inspired by the test in
+  http://lists.w3.org/Archives/Public/www-style/2016Nov/0044.html
+  -->
+
   <link rel="author" title="Gérard Talbot" href="http://www.gtalbot.org/BrowserBugsSection/css21testsuite/" />
+  <link rel="help" href="https://drafts.csswg.org/css-writing-modes-3/#auto-multicol" title="7.3.2 Auto-sizing Block Containers in Orthogonal Flows" />
+  <link rel="match" href="reference/float-rgt-orthog-vrl-003-ref.xht" />
 
   <meta content="" name="flags" />
+  <meta content="This test checks that the vertical placement of an orthogonal floated right block box inside an horizontal-tb parent. The orthogonal floated right block box should be located as high as possible inside the horizontal-tb line box." name="assert" />
 
   <style type="text/css"><![CDATA[
   div#horiz-parent
@@ -29,12 +37,11 @@
       line-height: 1.25;
     }
 
-  div#orthog-vert
+  div#orthog-vrl-float-right
     {
       background-color: blue;
       color: white;
-      right: 11px;
-      position: absolute;
+      float: right;
       writing-mode: vertical-rl;
     }
   ]]></style>
@@ -43,9 +50,8 @@
 
  <body>
 
-  <div id="horiz-parent">
-    <div id="orthog-vert">vertical-rl floated right</div>
-    horizontal-tb parent
+  <div id="horiz-parent">horizontal-tb parent
+    <div id="orthog-vrl-float-right">vertical-rl floated right</div>
   </div>
 
  </body>
