@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Abstract Box Layout (668 tests)</h2>
+  <h2>Abstract Box Layout (674 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -4967,26 +4967,92 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.3.2">+</a>
         <a href="https://www.w3.org/TR/css-writing-modes-3/#auto-multicol">7.3.2 Auto-sizing Block Containers in Orthogonal Flows</a></th></tr>
-      <!-- 82 tests -->
+      <!-- 88 tests -->
+      <tr id="float-lft-orthog-htb-in-vlr-002-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-lft-orthog-htb-in-vlr-002.htm">float-lft-orthog-htb-in-vlr-002</a></strong></td>
+        <td><a href="reference/float-lft-orthog-htb-in-vlr-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>orthogonal floated left in vertical-lr context
+          <ul class="assert">
+            <li>This test checks the horizontal position of an orthogonal floated left block box inside a vertical-lr parent. The orthogonal floated left block box must be put as far to the left as possible inside the vertical-lr line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-lft-orthog-htb-in-vrl-002-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-lft-orthog-htb-in-vrl-002.htm">float-lft-orthog-htb-in-vrl-002</a></strong></td>
+        <td><a href="reference/float-lft-orthog-htb-in-vrl-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>orthogonal floated left in vertical-rl context
+          <ul class="assert">
+            <li>This test checks the horizontal position of an orthogonal floated left block box inside an vertical-rl parent. The orthogonal floated left block box must be put as far to the right as possible inside the vertical-rl line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-lft-orthog-vlr-in-htb-002-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-lft-orthog-vlr-in-htb-002.htm">float-lft-orthog-vlr-in-htb-002</a></strong></td>
+        <td><a href="reference/float-lft-orthog-vlr-in-htb-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>orthogonal floated left in horizontal-tb context
+          <ul class="assert">
+            <li>This test checks the vertical position of an orthogonal floated left block box inside an horizontal-tb parent. The orthogonal floated left block box must be put as high as possible inside the horizontal-tb line box.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="float-lft-orthog-vrl-in-htb-002-7.3.2" class="primary">
         <td><strong>
             <a href="float-lft-orthog-vrl-in-htb-002.htm">float-lft-orthog-vrl-in-htb-002</a></strong></td>
-        <td><a href="reference/float-lft-orthog-vrl-002-ref.htm">=</a> </td>
+        <td><a href="reference/float-lft-orthog-vrl-in-htb-002-ref.htm">=</a> </td>
         <td></td>
-        <td>floated left in vertical-rl orthogonal context
+        <td>orthogonal floated left in horizontal-tb context
           <ul class="assert">
-            <li>This test checks that the vertical placement of an orthogonal floated left block box inside an horizontal-tb parent. The orthogonal floated left block box should be located as high as possible inside the horizontal-tb line box.</li>
+            <li>This test checks the vertical position of an orthogonal floated left block box inside an horizontal-tb parent. The orthogonal floated left block box must be put as high as possible inside the horizontal-tb line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-rgt-orthog-htb-in-vlr-003-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-rgt-orthog-htb-in-vlr-003.htm">float-rgt-orthog-htb-in-vlr-003</a></strong></td>
+        <td><a href="reference/float-rgt-orthog-htb-in-vlr-003-ref.htm">=</a> </td>
+        <td></td>
+        <td>orthogonal floated right in vertical-lr context
+          <ul class="assert">
+            <li>This test checks the horizontal position of an orthogonal floated right block box inside a vertical-lr parent. The orthogonal floated right block box must be put as far to the left as possible inside the vertical-lr line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-rgt-orthog-htb-in-vrl-003-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-rgt-orthog-htb-in-vrl-003.htm">float-rgt-orthog-htb-in-vrl-003</a></strong></td>
+        <td><a href="reference/float-rgt-orthog-htb-in-vrl-003-ref.htm">=</a> </td>
+        <td></td>
+        <td>orthogonal floated right in vertical-rl context
+          <ul class="assert">
+            <li>This test checks the horizontal position of an orthogonal floated right block box inside a vertical-rl parent. The orthogonal floated right block box must be put as far to the right as possible inside the vertical-rl line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-rgt-orthog-vlr-in-htb-003-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-rgt-orthog-vlr-in-htb-003.htm">float-rgt-orthog-vlr-in-htb-003</a></strong></td>
+        <td><a href="reference/float-rgt-orthog-vlr-in-htb-003-ref.htm">=</a> </td>
+        <td></td>
+        <td>orthogonal floated right in horizontal-tb context
+          <ul class="assert">
+            <li>This test checks the vertical position of an orthogonal floated right block box inside an horizontal-tb parent. The orthogonal floated right block box must be put as high as possible inside the horizontal-tb line box.</li>
           </ul>
         </td>
       </tr>
       <tr id="float-rgt-orthog-vrl-in-htb-003-7.3.2" class="primary">
         <td><strong>
             <a href="float-rgt-orthog-vrl-in-htb-003.htm">float-rgt-orthog-vrl-in-htb-003</a></strong></td>
-        <td><a href="reference/float-rgt-orthog-vrl-003-ref.htm">=</a> </td>
+        <td><a href="reference/float-rgt-orthog-vrl-in-htb-003-ref.htm">=</a> </td>
         <td></td>
-        <td>floated right in vertical-rl orthogonal context
+        <td>orthogonal floated right in horizontal-tb context
           <ul class="assert">
-            <li>This test checks that the vertical placement of an orthogonal floated right block box inside an horizontal-tb parent. The orthogonal floated right block box should be located as high as possible inside the horizontal-tb line box.</li>
+            <li>This test checks the vertical position of an orthogonal floated right block box inside an horizontal-tb parent. The orthogonal floated right block box must be put as high as possible inside the horizontal-tb line box.</li>
           </ul>
         </td>
       </tr>
