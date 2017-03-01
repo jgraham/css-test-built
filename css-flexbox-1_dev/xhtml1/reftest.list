@@ -132,6 +132,7 @@ flexbox-align-content-horiz-001a.xht == reference/flexbox-align-content-horiz-00
 flexbox-align-content-horiz-001b.xht == reference/flexbox-align-content-horiz-001-ref.xht
 flexbox-align-content-vert-001a.xht == reference/flexbox-align-content-vert-001-ref.xht
 flexbox-align-content-vert-001b.xht == reference/flexbox-align-content-vert-001-ref.xht
+flexbox-align-items-center-nested-001.xht == reference/flexbox-align-items-center-nested-001-ref.xht
 flexbox-align-self-baseline-horiz-001a.xht == reference/flexbox-align-self-baseline-horiz-001-ref.xht
 flexbox-align-self-baseline-horiz-001b.xht == reference/flexbox-align-self-baseline-horiz-001-ref.xht
 flexbox-align-self-baseline-horiz-002.xht == reference/flexbox-align-self-baseline-horiz-002-ref.xht
