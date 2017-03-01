@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html><head><title>CSS Rhythmic Sizing: line-height-step in vertical-rl</title>
 <link href="mailto:kojiishi@gmail.com" rel="author" title="Koji Ishii">
-<link href="https://drafts.csswg.org/css-rhythm-1/#line-height-step" rel="help">
-<link href="reference/line-height-step-writing-mode-vrl-001.htm" rel="match">
-<meta content="This test asserts the line-height-step property in vertical-rl writing mode." name="assert">
-<meta content="ahem" name="flags">
 <style>
 .container {
   font-family: Ahem;
@@ -16,10 +12,6 @@
   display: inline-block;
   vertical-align: top;
 }
-.test {
-  line-height: 40px;
-  line-height-step: 120px;
-}
 .ref {
   line-height: 120px;
 }
@@ -30,9 +22,8 @@
   <div class="ref">
     <div>XXXXX</div>
   </div>
-  <div class="test">
+  <div class="ref">
     <div>XXXXX</div>
   </div>
 </div>
-
 </body></html>
