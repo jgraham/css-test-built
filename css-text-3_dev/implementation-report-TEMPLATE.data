@@ -1551,6 +1551,14 @@ html/text-justify-004.htm	88321303c3f15c24c3c24a7f103ddc7821ed5e6b	?
 xhtml1/text-justify-004.xht	88321303c3f15c24c3c24a7f103ddc7821ed5e6b	?
 html/text-justify-005.htm	91be563ebd784fde1d932b575de2a6343f4bd37c	?
 xhtml1/text-justify-005.xht	91be563ebd784fde1d932b575de2a6343f4bd37c	?
+html/text-justify-distribute-001.htm	2c9bb7373f5d1c9e02ba55156131ca9c25240e71	?
+xhtml1/text-justify-distribute-001.xht	2c9bb7373f5d1c9e02ba55156131ca9c25240e71	?
+html/text-justify-inter-character-001.htm	0e690d9dcec8a5b07a79a73a7fa9909cc7f1c819	?
+xhtml1/text-justify-inter-character-001.xht	0e690d9dcec8a5b07a79a73a7fa9909cc7f1c819	?
+html/text-justify-inter-word-001.htm	cc8b2305afff4ad58a770261fd279334636541c7	?
+xhtml1/text-justify-inter-word-001.xht	cc8b2305afff4ad58a770261fd279334636541c7	?
+html/text-justify-none-001.htm	77f4e45eb714a789221e70ff2813d395e3afed60	?
+xhtml1/text-justify-none-001.xht	77f4e45eb714a789221e70ff2813d395e3afed60	?
 html/text-transform-capitalize-001.htm	f72cbe86477b1f5f3eb25b356099a6d42898cd92	?
 xhtml1/text-transform-capitalize-001.xht	f72cbe86477b1f5f3eb25b356099a6d42898cd92	?
 html/text-transform-capitalize-003.htm	f6fb1659a3ae48c129082c6baacf5f53ee7ac380	?
