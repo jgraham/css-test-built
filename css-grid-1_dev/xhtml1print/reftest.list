@@ -57,6 +57,7 @@ grid-items-001.xht == reference/ref-filled-green-100px-square.xht
 grid-items-002.xht == reference/ref-filled-green-100px-square.xht
 grid-items-003.xht == reference/ref-filled-green-100px-square.xht
 grid-items-inline-blocks-001.xht == reference/ref-filled-green-100px-square.xht
+grid-items-sizing-alignment-001.xht == reference/grid-items-sizing-alignment-001-ref.xht
 grid-layout-auto-tracks.xht == reference/grid-layout-auto-tracks-ref.xht
 grid-layout-basic.xht == reference/grid-layout-basic-ref.xht
 grid-layout-free-space-unit.xht == reference/grid-layout-basic-ref.xht

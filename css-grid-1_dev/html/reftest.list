@@ -57,6 +57,7 @@ grid-items-001.htm == reference/ref-filled-green-100px-square.htm
 grid-items-002.htm == reference/ref-filled-green-100px-square.htm
 grid-items-003.htm == reference/ref-filled-green-100px-square.htm
 grid-items-inline-blocks-001.htm == reference/ref-filled-green-100px-square.htm
+grid-items-sizing-alignment-001.htm == reference/grid-items-sizing-alignment-001-ref.htm
 grid-layout-auto-tracks.htm == reference/grid-layout-auto-tracks-ref.htm
 grid-layout-basic.htm == reference/grid-layout-basic-ref.htm
 grid-layout-free-space-unit.htm == reference/grid-layout-basic-ref.htm
