@@ -1,4 +1,7 @@
 
+animation-delay-008.xht == reference/animation-common-ref.xht
+animation-delay-009.xht == reference/animation-common-ref.xht
+animation-delay-010.xht == reference/animation-common-ref.xht
 animations-001.xht == reference/animations-001-ref.xht
 css-filters-animation-blur.xht == reference/css-filters-animation-blur-ref.xht
 css-filters-animation-brightness.xht == reference/css-filters-animation-brightness-ref.xht
