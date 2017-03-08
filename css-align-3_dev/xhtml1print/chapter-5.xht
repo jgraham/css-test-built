@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Box Alignment Module Level 3 CR Test Suite</h1>
-  <h2>Content Distribution: the justify-content and align-content properties and place-content shorthand (1 tests)</h2>
+  <h2>Content Distribution: the justify-content and align-content properties and place-content shorthand (6 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -51,7 +51,62 @@
       <!-- 0 tests -->
     </tbody>
     <tbody id="s5.#propdef-place-content">
-      <!-- 0 tests -->
+      <!-- 5 tests -->
+      <tr id="place-content-shorthand-001-5.#propdef-place-content" class="script">
+        <td>
+            <a href="place-content-shorthand-001.xht">place-content-shorthand-001</a></td>
+        <td></td>
+        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSS Box Alignment: place-content shorthand - single values specified
+          <ul class="assert">
+            <li>Check that setting a single value to place-content expands to such value set in both 'align-content' and 'justify-content'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="place-content-shorthand-002-5.#propdef-place-content" class="script">
+        <td>
+            <a href="place-content-shorthand-002.xht">place-content-shorthand-002</a></td>
+        <td></td>
+        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSS Boc Alignment: place-content shorthand - multiple values specified
+          <ul class="assert">
+            <li>Check that setting two values to place-content sets the first one to 'align-content' and the second one to 'justify-content'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="place-content-shorthand-003-5.#propdef-place-content" class="script">
+        <td>
+            <a href="place-content-shorthand-003.xht">place-content-shorthand-003</a></td>
+        <td></td>
+        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSS Boc Alignment: place-content shorthand - initial value
+          <ul class="assert">
+            <li>Check that place-content's initial value expands to 'align-content' and 'justify-content'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="place-content-shorthand-004-5.#propdef-place-content" class="invalid script">
+        <td>
+            <a href="place-content-shorthand-004.xht">place-content-shorthand-004</a></td>
+        <td></td>
+        <td><abbr class="invalid" title="Tests invalid CSS">Invalid</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSS Box Alignment: place-content shorthand - Invalid values
+          <ul class="assert">
+            <li>Check that place-content's invalid values are properly detected at parsing time.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="place-content-shorthand-005-5.#propdef-place-content" class="script">
+        <td>
+            <a href="place-content-shorthand-005.xht">place-content-shorthand-005</a></td>
+        <td></td>
+        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSS Boc Alignment: place-content shorthand - inherit value
+          <ul class="assert">
+            <li>Check that place-content's initial value expands to 'align-content' and 'justify-content'.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.#ref-for-fallback-alignment-7">
       <!-- 0 tests -->
