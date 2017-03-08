@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html><head><title>CSS Box Alignment: place-items shorthand - 'auto' value</title>
+<link href="mailto:jfernandez@igalia.com" rel="author" title="Javier Fernandez">
+<link href="http://www.w3.org/TR/css3-align/#place-items-property" rel="help">
+<meta content="Check that place-items accepts 'auto' as second value and expands to 'justify-items' as 'normal'." name="assert">
+<script src="/resources/testharness.js"></script>
+<script src="/resources/testharnessreport.js"></script>
+<style>
+    #test {
+        place-items: center auto;
+    }
+</style>
+</head><body><div id="log"></div>
+<div id="test"></div>
+<script>
+    var div = document.getElementById("test");
+    var style = getComputedStyle(div);
+
+    test(function() {
+        assert_equals(style.getPropertyValue("place-items"),
+            "center normal", "place-items computed value");
+    }, "Check place-items: auto - resolved value");
+
+    test(function() {
+        assert_equals(style.getPropertyValue("align-items"),
+            "center", "place-items specified value for align-items");
+    }, "Check place-items: auto - align-items resolved value");
+
+    test(function() {
+        assert_equals(style.getPropertyValue("justify-items"),
+           "normal", "place-items specified value for justify-items");
+    }, "Check place-items: auto - justify-items resolved value");
+</script>
+</body></html>
