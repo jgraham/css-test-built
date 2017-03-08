@@ -1,42 +1,36 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-      <title>CSS Boc Alignment: place-content shorthand - inherit value</title>
-      <link href="mailto:jfernandez@igalia.com" rel="author" title="Javier Fernandez" />
-      <link href="http://www.w3.org/TR/css3-align/#propdef-place-content" rel="help" />
-      <meta content="Check that place-content's initial value expands to 'align-content' and 'justify-content'." name="assert" />
-      <script src="/resources/testharness.js"></script>
-      <script src="/resources/testharnessreport.js"></script>
-      <style>
-          #test {
-              place-content: start end;
-          }
-      </style>
-  </head>
-  <body>
-      <div id="log"></div>
-      <div id="test"></div>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>CSS Box Alignment: place-content shorthand - inherit value</title>
+<link href="mailto:jfernandez@igalia.com" rel="author" title="Javier Fernandez" />
+<link href="http://www.w3.org/TR/css3-align/#propdef-place-content" rel="help" />
+<meta content="Check that place-content's 'inherit' value expands to 'align-content' and 'justify-content'." name="assert" />
+<script src="/resources/testharness.js"></script>
+<script src="/resources/testharnessreport.js"></script>
+<style>
+    #test {
+        place-content: start end;
+    }
+</style>
+</head><body><div id="log"></div>
+<div id="test"></div>
+<script>
+    var child = document.createElement("div");
+    document.getElementById("test").appendChild(child);
+    child.setAttribute("style", "place-content: inherit");
+    var cs = getComputedStyle(child, null);
 
-      <script>
-          var child = document.createElement("div");
-          document.getElementById("test").appendChild(child);
-          child.setAttribute("style", "place-content: inherit");
-          var cs = getComputedStyle(child, null);
+    test(function() {
+        assert_equals(cs.getPropertyValue("place-content"),
+            "start end", "place-content computed value");
+    }, "Check place-content: inherit - resolved value");
 
-          test(function() {
-              assert_equals(cs.getPropertyValue("place-content"),
-                  "start end", "place-content computed value");
-          }, "place-content_inherit_computed_value");
+    test(function() {
+        assert_equals(cs.getPropertyValue("align-content"),
+            "start", "place-content specified value for align-content");
+    }, "Check place-content: inherit - align-content resolved value");
 
-          test(function() {
-              assert_equals(cs.getPropertyValue("align-content"),
-                  "start", "place-content specified value for align-content");
-          }, "place-content_inherit_align-content");
-
-          test(function() {
-              assert_equals(cs.getPropertyValue("justify-content"),
-                  "end", "place-content specified value for justify-content");
-          }, "place-content_inherit_justify-content");
-    </script>
-  
-
+    test(function() {
+        assert_equals(cs.getPropertyValue("justify-content"),
+           "end", "place-content specified value for justify-content");
+    }, "Check place-content: inherit - justify-content resolved value");
+</script>
 </body></html>
