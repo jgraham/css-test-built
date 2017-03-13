@@ -448,6 +448,7 @@ hanging-punctuation-allow-end-001.xht == reference/hanging-punctuation-allow-end
 hanging-punctuation-first-001.xht == reference/hanging-punctuation-first-001-ref.xht
 hanging-punctuation-force-end-001.xht == reference/hanging-punctuation-force-end-001-ref.xht
 hanging-punctuation-last-001.xht == reference/hanging-punctuation-last-001-ref.xht
+hyphenation-control-1.xht == reference/hyphenation-control-1-ref.xht
 line-break-normal-021.xht == reference/line-break-normal-021-ref.xht
 line-break-normal-022.xht == reference/line-break-normal-022-ref.xht
 line-break-normal-023.xht == reference/line-break-normal-023-ref.xht

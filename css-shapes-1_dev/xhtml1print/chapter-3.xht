@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Shapes Module Level 1 CR Test Suite</h1>
-  <h2>Basic Shapes (172 tests)</h2>
+  <h2>Basic Shapes (186 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -65,7 +65,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s3.1">+</a>
         <a href="https://www.w3.org/TR/css-shapes-1/#supported-basic-shapes">3.1 Supported Shapes</a></th></tr>
-      <!-- 79 tests -->
+      <!-- 93 tests -->
       <tr id="shape-outside-001-3.1" class="ahem">
         <td>
             <a href="shape-outside-001.xht">shape-outside-001</a></td>
@@ -932,6 +932,160 @@
         <td>Inset Rectangles - invalid left param
           <ul class="assert">
             <li>shape-outside declaration is invalid if inset shape function has an invalid left param</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-018-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-018.xht">shape-outside-polygon-018</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-018-ref.xht">=</a> </td>
+        <td></td>
+        <td>horizontal-tb, float left, polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box
+          <ul class="assert">
+            <li>Test the boxes are wrapping around the left float shape defined by the polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box value under horizontal-tb writing-mode.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-019-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-019.xht">shape-outside-polygon-019</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-019-ref.xht">=</a> </td>
+        <td></td>
+        <td>horizontal-tb, float right, polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box
+          <ul class="assert">
+            <li>Test the boxes are wrapping around the right float shape defined by the polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box value under horizontal-tb writing-mode.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-020-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-020.xht">shape-outside-polygon-020</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-020-ref.xht">=</a> </td>
+        <td></td>
+        <td>vertical-rl, float left, polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box
+          <ul class="assert">
+            <li>Test the boxes are wrapping around the left float shape defined by the polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box value under vertical-rl writing-mode.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-021-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-021.xht">shape-outside-polygon-021</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-021-ref.xht">=</a> </td>
+        <td></td>
+        <td>vertical-rl, float right, polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box
+          <ul class="assert">
+            <li>Test the boxes are wrapping around the right float shape defined by the polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box value under vertical-rl writing-mode.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-022-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-022.xht">shape-outside-polygon-022</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-022-ref.xht">=</a> </td>
+        <td></td>
+        <td>vertical-lr, float left, polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box
+          <ul class="assert">
+            <li>Test the boxes are wrapping around the left float shape defined by the polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box value under vertical-lr writing-mode.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-023-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-023.xht">shape-outside-polygon-023</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-023-ref.xht">=</a> </td>
+        <td></td>
+        <td>vertical-lr, float right, polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box
+          <ul class="assert">
+            <li>Test the boxes are wrapping around the right float shape defined by the polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box value under vertical-lr writing-mode.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-024-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-024.xht">shape-outside-polygon-024</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-024-ref.xht">=</a> </td>
+        <td></td>
+        <td>sideways-lr, float left, polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box
+          <ul class="assert">
+            <li>Test the boxes are wrapping around the left float shape defined by the polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box value under sideways-lr writing-mode.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-025-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-025.xht">shape-outside-polygon-025</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-025-ref.xht">=</a> </td>
+        <td></td>
+        <td>sideways-lr, float right, polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box
+          <ul class="assert">
+            <li>Test the boxes are wrapping around the right float shape defined by the polygon(60px 20px, 100px 60px, 20px 60px, 60px 100px) border-box value under sideways-lr writing-mode.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-026-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-026.xht">shape-outside-polygon-026</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-026-ref.xht">=</a> </td>
+        <td></td>
+        <td>float left, polygon(60px 20px, 100px 60px) border-box
+          <ul class="assert">
+            <li>Test the left float shape defines an empty float area by the polygon(60px 20px, 100px 60px) border-box value.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-027-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-027.xht">shape-outside-polygon-027</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-027-ref.xht">=</a> </td>
+        <td></td>
+        <td>float right, polygon(60px 20px, 100px 60px) border-box
+          <ul class="assert">
+            <li>Test the right float shape defines an empty float area by the polygon(60px 20px, 100px 60px) border-box value.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-028-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-028.xht">shape-outside-polygon-028</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-026-ref.xht">=</a> </td>
+        <td></td>
+        <td>float left, polygon(50% 50%, 0% 0%, 20% 20%, 100% 100%) border-box
+          <ul class="assert">
+            <li>Test the left float shape defines an empty float area by the polygon(50% 50%, 0% 0%, 20% 20%, 100% 100%) border-box value.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-029-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-029.xht">shape-outside-polygon-029</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-027-ref.xht">=</a> </td>
+        <td></td>
+        <td>float right, polygon(50% 50%, 0% 0%, 20% 20%, 100% 100%) border-box
+          <ul class="assert">
+            <li>Test the right float shape defines an empty float area by the polygon(50% 50%, 0% 0%, 20% 20%, 100% 100%) border-box value.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-030-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-030.xht">shape-outside-polygon-030</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-030-ref.xht">=</a> </td>
+        <td></td>
+        <td>float left, polygon(0% 0%, 50% 0%, 100% 0%, 50% 0%, 50% 100%, 100% 100%, 50% 100%) border-box
+          <ul class="assert">
+            <li>Test the boxes are wrapping around the left float shape defined by the polygon(0% 0%, 50% 0%, 100% 0%, 50% 0%, 50% 100%, 100% 100%, 50% 100%) border-box value.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-polygon-031-3.1" class="primary">
+        <td><strong>
+            <a href="shape-outside-polygon-031.xht">shape-outside-polygon-031</a></strong></td>
+        <td><a href="reference/shape-outside-polygon-031-ref.xht">=</a> </td>
+        <td></td>
+        <td>float right, polygon(100% 0%, 50% 0%, 0% 0%, 50% 0%, 50% 100%, 0% 100%, 50% 100%) border-box
+          <ul class="assert">
+            <li>Test the boxes are wrapping around the right float shape defined by the polygon(100% 0%, 50% 0%, 0% 0%, 50% 0%, 50% 100%, 0% 100%, 50% 100%) border-box value.</li>
           </ul>
         </td>
       </tr>
