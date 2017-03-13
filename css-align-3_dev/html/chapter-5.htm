@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Box Alignment Module Level 3 CR Test Suite</h1>
-  <h2>Content Distribution: the justify-content and align-content properties and place-content shorthand (6 tests)</h2>
+  <h2>Content Distribution: the justify-content and align-content properties and place-content shorthand (7 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -51,7 +51,7 @@
       <!-- 0 tests -->
     </tbody>
     <tbody id="s5.#propdef-place-content">
-      <!-- 5 tests -->
+      <!-- 6 tests -->
       <tr id="place-content-shorthand-001-5.#propdef-place-content" class="script">
         <td>
             <a href="place-content-shorthand-001.htm">place-content-shorthand-001</a></td>
@@ -85,11 +85,11 @@
           </ul>
         </td>
       </tr>
-      <tr id="place-content-shorthand-004-5.#propdef-place-content" class="invalid script">
+      <tr id="place-content-shorthand-004-5.#propdef-place-content" class="script">
         <td>
             <a href="place-content-shorthand-004.htm">place-content-shorthand-004</a></td>
         <td></td>
-        <td><abbr class="invalid" title="Tests invalid CSS">Invalid</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
         <td>CSS Box Alignment: place-content shorthand - invalid values
           <ul class="assert">
             <li>Check that place-content's invalid values are properly detected at parsing time.</li>
@@ -104,6 +104,17 @@
         <td>CSS Box Alignment: place-content shorthand - inherit value
           <ul class="assert">
             <li>Check that place-content's 'inherit' value expands to 'align-content' and 'justify-content'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="place-content-shorthand-006-5.#propdef-place-content" class="script">
+        <td>
+            <a href="place-content-shorthand-006.htm">place-content-shorthand-006</a></td>
+        <td></td>
+        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSS Box Alignment: place-content shorthand - Shorthand 'specified' and 'resolved' value
+          <ul class="assert">
+            <li>Check the place-content's 'specified' and 'resolved' values serialization.</li>
           </ul>
         </td>
       </tr>

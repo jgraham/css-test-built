@@ -1,36 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>CSS Box Alignment: place-self shorthand - 'auto' value</title>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>CSS Box Alignment: place-self shorthand - Shorthand 'specified' and 'resolved' value</title>
 <link href="mailto:jfernandez@igalia.com" rel="author" title="Javier Fernandez" />
 <link href="http://www.w3.org/TR/css3-align/#place-self-property" rel="help" />
-<meta content="Check that place-self accepts 'auto' as second value and expands to 'align-self' and 'justify-self' as 'normal'." name="assert" />
+<meta content="Check the place-self's 'specified' and 'resolved' values serialization." name="assert" />
 <script src="/resources/testharness.js"></script>
 <script src="/resources/testharnessreport.js"></script>
-<style>
-    #test {
-        align-self: center;
-        justify-self: start;
-        place-self: auto auto;
-    }
-</style>
+<script src="/css-align-3/resources/alignment-parsing-utils.js"></script>
 </head><body><div id="log"></div>
-<div id="test"></div>
 <script>
-    var div = document.getElementById("test");
-    var style = getComputedStyle(div);
-
-    test(function() {
-        assert_equals(style.getPropertyValue("place-self"),
-            "normal normal", "place-self computed value");
-    }, "Check place-self: auto - resolved value");
-
-    test(function() {
-        assert_equals(style.getPropertyValue("align-self"),
-            "normal", "place-self specified value for align-self");
-    }, "Check place-self: auto - align-self resolved value");
-
-    test(function() {
-        assert_equals(style.getPropertyValue("justify-self"),
-           "normal", "place-self specified value for justify-self");
-    }, "Check place-self: auto - justify-self resolved value");
+    var values = ["auto", "normal", "stretch"].concat(selfPositionValues, baselineValues);
+    values.forEach(function(alignValue) {
+        [""].concat(values).forEach(function(justifyValue) {
+            var value = (alignValue + " " + justifyValue).trim();
+            test(function() {
+                checkPlaceShorhand("place-self", alignValue, justifyValue)
+            }, "Checking place-self: " + value);
+        });
+    });
 </script>
 </body></html>

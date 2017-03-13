@@ -2,15 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head><title>CSS Box Alignment: place-items shorthand - single values specified</title>
 <link href="mailto:jfernandez@igalia.com" rel="author" title="Javier Fernandez" />
 <link href="http://www.w3.org/TR/css3-align/#place-items-property" rel="help" />
-<meta content="Check that setting a single value to place-items expands to such value set in both 'align-items' and  'justify-items'." name="assert" />
+<meta content="Check that setting a single value to place-items expands to such value set in both 'align-items' and 'justify-items'." name="assert" />
 <script src="/resources/testharness.js"></script>
 <script src="/resources/testharnessreport.js"></script>
 <script src="/css-align-3/resources/alignment-parsing-utils.js"></script>
 </head><body><div id="log"></div>
 <script>
-    var values = ["normal"].concat(selfPositionValues, baselineValues);
-        values.forEach(function(value) {
-        test(function() { checkPlaceItems(value, "") }, "Checking place-items: " + value);
+    var values = ["normal", "stretch"].concat(selfPositionValues, baselineValues);
+    values.forEach(function(value) {
+        test(function() {
+            checkPlaceShorhandLonghands("place-items", "align-items", "justify-items", value);
+        }, "Checking place-items: " + value);
     });
 </script>
 </body></html>
