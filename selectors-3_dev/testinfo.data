@@ -1,4 +1,5 @@
 id	references	title	flags	links	revision	credits	assertion
+a			script	https://drafts.csswg.org/selectors-3/#type-selectors	fb0df1dcb1ed4e266b7c070ba9acd7e3947d091e		
 css3-selectors-lang-001		:lang(es), lang="es"	script	http://www.w3.org/TR/css3-selectors/#lang-pseudo	1b77e548e82409f3293a2fed4c385f752b9696f6	`Richard Ishida`<mailto:ishida@w3.org>	
 css3-selectors-lang-002		:lang(es), lang="es" on parent	script	http://www.w3.org/TR/css3-selectors/#lang-pseudo	38b016d3649ef7929cc033fe5c261c0555fd5a9a	`Richard Ishida`<mailto:ishida@w3.org>	
 css3-selectors-lang-004		:lang(es), lang="ES"	HTMLonly,script	http://www.w3.org/TR/css3-selectors/#lang-pseudo	18622faac19d3c5239d5e866c402e0075888413f	`Richard Ishida`<mailto:ishida@w3.org>	

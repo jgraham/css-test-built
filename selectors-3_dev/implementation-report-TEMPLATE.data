@@ -3,6 +3,8 @@
 # http://test.csswg.org/suites/selectors-3_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
+html/a.htm	fb0df1dcb1ed4e266b7c070ba9acd7e3947d091e	?
+xhtml1/a.xht	fb0df1dcb1ed4e266b7c070ba9acd7e3947d091e	?
 html/css3-selectors-lang-001.htm	1b77e548e82409f3293a2fed4c385f752b9696f6	?
 xhtml1/css3-selectors-lang-001.xht	1b77e548e82409f3293a2fed4c385f752b9696f6	?
 html/css3-selectors-lang-002.htm	38b016d3649ef7929cc033fe5c261c0555fd5a9a	?
