@@ -524,6 +524,12 @@ direction-vlr-003.htm == reference/direction-vlr-003-ref.htm
 direction-vlr-005.htm == reference/ref-filled-green-100px-square.htm
 direction-vrl-002.htm == reference/direction-vrl-002-ref.htm
 direction-vrl-004.htm == reference/direction-vrl-004-ref.htm
+dynamic-offset-rtl-001.htm == reference/dynamic-offset-rtl-001-ref.htm
+dynamic-offset-rtl-002.htm == reference/dynamic-offset-rtl-001-ref.htm
+dynamic-offset-vrl-001.htm == reference/dynamic-offset-rtl-001-ref.htm
+dynamic-offset-vrl-002.htm == reference/dynamic-offset-rtl-001-ref.htm
+dynamic-offset-vrl-rtl-001.htm == reference/dynamic-offset-rtl-001-ref.htm
+dynamic-offset-vrl-rtl-002.htm == reference/dynamic-offset-rtl-001-ref.htm
 extract-ordered-list-direction-and-writing-modes.htm == reference/extract-ordered-list-direction-and-writing-modes-ref.htm
 flexbox-writing-mode-007.htm == reference/flexbox-writing-mode-007-ref.htm
 flexbox-writing-mode-008.htm == reference/flexbox-writing-mode-008-ref.htm
