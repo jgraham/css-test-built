@@ -103,6 +103,7 @@ mask-image-5.xht == reference/mask-image-5-ref.xht
 mask-image-6.xht == reference/mask-image-6-ref.xht
 mask-mode-a.xht == reference/mask-mode-ref.xht
 mask-mode-b.xht == reference/mask-mode-ref.xht
+mask-mode-c.xht == reference/mask-mode-ref.xht
 mask-mode-to-mask-type.xht == reference/mask-mode-to-mask-type-ref.xht
 mask-opacity-1a.xht == reference/mask-opacity-1-ref.xht
 mask-opacity-1b.xht == reference/mask-opacity-1-ref.xht
