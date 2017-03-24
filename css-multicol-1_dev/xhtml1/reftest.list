@@ -5,6 +5,10 @@ multicol-basic-001.xht == reference/multicol-basic-ref.xht
 multicol-basic-002.xht == reference/multicol-basic-ref.xht
 multicol-basic-003.xht == reference/multicol-basic-ref.xht
 multicol-basic-004.xht == reference/multicol-basic-ref.xht
+multicol-basic-005.xht == reference/multicol-basic-005-ref.xht
+multicol-basic-006.xht == reference/multicol-basic-005-ref.xht
+multicol-basic-007.xht == reference/multicol-basic-005-ref.xht
+multicol-basic-008.xht == reference/multicol-basic-005-ref.xht
 multicol-block-clip-001.xht == reference/multicol-block-clip-001-ref.xht
 multicol-block-clip-002.xht == reference/multicol-block-clip-002-ref.xht
 multicol-br-inside-avoidcolumn-001.xht == reference/multicol-br-inside-avoidcolumn-ref.xht
