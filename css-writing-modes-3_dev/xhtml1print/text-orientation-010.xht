@@ -15,12 +15,16 @@
 		<link rel="author" title="Gérard Talbot" href="http://www.gtalbot.org/BrowserBugsSection/css21testsuite/"/>
 		<link rel="help" title="5.1. Orienting Text: the 'text-orientation' property" href="http://www.w3.org/TR/css-writing-modes-3/#text-orientation"/>
 		<meta name="flags" content="image"/>
-		<meta name="assert" content="This test checks that 'text-orientation: mixed' causes characters from horizontal-only scripts are set sideways, i.e. rotated 90° clockwise from their standard orientation in horizontal text. Characters from vertical scripts are set according to their intrinsic orientation (Vertical Orientation Property as given by UTR50)."/>
+		&deg;<meta name="assert" content="This test checks that 'text-orientation: mixed' causes characters from horizontal-only scripts are set sideways, i.e. rotated 90 clockwise from their standard orientation in horizontal text. Characters from vertical scripts are set according to their intrinsic orientation (Vertical Orientation Property as given by UTR50)."/>
 		<style type="text/css">
 				@font-face
 				{
 					font-family: "mplus-1p-regular";
 					src: url("support/mplus-1p-regular.woff") format("woff");
+					/* filesize: 803300 bytes (784.5 KBytes) */
+					/*
+					mplus-1p-regular.ttf can be downloaded at/from [TBD later]
+					*/
 				}
 
 				div
@@ -46,7 +50,7 @@
 	</head>
 	<body>
 
-		<p>Test passes if characters of both rectangles have the <strong>same order</strong>, <strong>same layout</strong> and the <strong>same orientation</strong>. Note that a different inter-character spacing is considered as PASS.</p>
+		<p>Test passes if characters of both rectangles have the <strong>same order</strong>, <strong>same layout</strong> and the <strong>same orientation</strong>.</p>
 
 		<div xml:lang="ja" id="test"><span>月火水Abc<br/>def木金土</span></div>
 

@@ -17,12 +17,6 @@ html/animation-delay-006.htm	13c48bd6b709280df6a9a5bfff09c2880e868a41	?
 xhtml1/animation-delay-006.xht	13c48bd6b709280df6a9a5bfff09c2880e868a41	?
 html/animation-delay-007.htm	2f27e7970e6df9f0039f97e9543f4cf5fb16d5a3	?
 xhtml1/animation-delay-007.xht	2f27e7970e6df9f0039f97e9543f4cf5fb16d5a3	?
-html/animation-delay-008.htm	abbed52d39b7fabe301ad6be773a549dcc1f1a63	?
-xhtml1/animation-delay-008.xht	abbed52d39b7fabe301ad6be773a549dcc1f1a63	?
-html/animation-delay-009.htm	aee35e1f3065a98a74166c7c831d6b4b2b2a16b4	?
-xhtml1/animation-delay-009.xht	aee35e1f3065a98a74166c7c831d6b4b2b2a16b4	?
-html/animation-delay-010.htm	1567756494432a26495d292ad66d8d90d00bf737	?
-xhtml1/animation-delay-010.xht	1567756494432a26495d292ad66d8d90d00bf737	?
 html/animation-direction-001.htm	2df75f525c9035f1bf324ee6c8aa27c88d24e7a0	?
 xhtml1/animation-direction-001.xht	2df75f525c9035f1bf324ee6c8aa27c88d24e7a0	?
 html/animation-direction-002.htm	d4e3070511f1c29235cf046381b915d0d000d79d	?
@@ -147,10 +141,6 @@ html/animations-001.htm	a4cee4791955488eed14303cedc0330b0531f6f5	?
 xhtml1/animations-001.xht	a4cee4791955488eed14303cedc0330b0531f6f5	?
 html/animationstart-and-animationend-events.htm	8faa1d6d24026a7e26d4c00bc57b7f70d4042146	?
 xhtml1/animationstart-and-animationend-events.xht	8faa1d6d24026a7e26d4c00bc57b7f70d4042146	?
-html/caret-color-008.htm	c3fc7a168f032dc38dbfde1e2a0c7e3a7a2c5a87	?
-xhtml1/caret-color-008.xht	c3fc7a168f032dc38dbfde1e2a0c7e3a7a2c5a87	?
-html/caret-color-021.htm	ce7d2127a0f927e25179a3262b09532fd758c337	?
-xhtml1/caret-color-021.xht	ce7d2127a0f927e25179a3262b09532fd758c337	?
 html/css-filters-animation-blur.htm	53622387367e3daa90b9880e22ff9548665f4883	?
 xhtml1/css-filters-animation-blur.xht	53622387367e3daa90b9880e22ff9548665f4883	?
 html/css-filters-animation-brightness.htm	6ef87e3d77b51aaa2d33c91de5b6c84e96b41eae	?
@@ -173,8 +163,8 @@ html/css-filters-animation-saturate.htm	1527b952f6a2421d3ff02ce50405d38d1cbb45b5
 xhtml1/css-filters-animation-saturate.xht	1527b952f6a2421d3ff02ce50405d38d1cbb45b5	?
 html/css-filters-animation-sepia.htm	36a7316bfb518ea1cdefd38151449383c02b57a0	?
 xhtml1/css-filters-animation-sepia.xht	36a7316bfb518ea1cdefd38151449383c02b57a0	?
-html/vh-interpolate-pct.htm	b3791c1f30e52dc8582b2081404c23d6c2a15292	?
-xhtml1/vh-interpolate-pct.xht	b3791c1f30e52dc8582b2081404c23d6c2a15292	?
+html/vh-interpolate-pct.htm	ceef2964c18d7fd3cab6f5923fa60a633ec97442	?
+xhtml1/vh-interpolate-pct.xht	ceef2964c18d7fd3cab6f5923fa60a633ec97442	?
 html/vh-interpolate-px.htm	ade4e7b3374856c99aa9515a936630f49c5c44fb	?
 xhtml1/vh-interpolate-px.xht	ade4e7b3374856c99aa9515a936630f49c5c44fb	?
 html/vh-interpolate-vh.htm	9a46dd5fa51b77278d6d50f7c7f862592aea3413	?

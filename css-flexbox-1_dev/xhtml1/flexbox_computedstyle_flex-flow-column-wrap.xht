@@ -4,24 +4,24 @@
 <link href="http://www.w3.org/TR/css-flexbox-1/#propdef-flex-flow" rel="help" />
 <link href="http://www.w3.org/TR/css-flexbox-1/#valdef-flex-direction-column" rel="help" />
 <link href="http://www.w3.org/TR/css-flexbox-1/#valdef-flex-wrap-wrap" rel="help" />
-<script src="/resources/testharness.js"></script>
-<script src="/resources/testharnessreport.js"></script>
+<link href="reference/ref-pass-body.xht" rel="match" />
 <meta content="dom" name="flags" />
 <style>
 body {
 	color: red;
 	flex-flow: column wrap;
 }
+.PASS {color: black;}
 </style>
-</head><body><div id="log"></div>
+</head><body><h1>FAIL, enable javascript</h1>
 <script>
-test(function() {
     var body = document.body;
 
-    assert_equals(getComputedStyle(body).getPropertyValue("flex-direction"),
-	          "column");
-    assert_equals(getComputedStyle(body).getPropertyValue("flex-wrap"),
-	          "wrap");
-});
+    var passed =
+	    (getComputedStyle(body).getPropertyValue("flex-direction") ==
+	    "column" &amp;&amp;
+	    getComputedStyle(body).getPropertyValue("flex-wrap") ==
+	    "wrap");
+    body.textContent = body.className = passed ? "PASS" : "FAIL";
 </script>
 </body></html>
