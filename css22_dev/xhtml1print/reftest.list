@@ -8,6 +8,7 @@ height-computed-002.xht == reference/height-computed-002-ref.xht
 height-percentage-004.xht == reference/height-percentage-004-ref.xht
 inherit-computed-001.xht == reference/inherit-computed-001-ref.xht
 inherit-computed-002.xht == reference/inherit-computed-002-ref.xht
+inline-formatting-context-001.xht == reference/inline-formatting-context-001-ref.xht
 left-offset-position-fixed-001.xht == reference/left-offset-position-fixed-001-ref.xht
 margin-collapse-min-height-001.xht == reference/margin-collapse-min-height-001-ref.xht
 min-width-tables-001.xht == reference/ref-filled-green-100px-square.xht
