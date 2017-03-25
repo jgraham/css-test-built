@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Basic User Interface Module Level 3 CR Test Suite</h1>
-  <h2>Box Model addition (32 tests)</h2>
+  <h2>Box Model addition (33 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -37,7 +37,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s3.1">+</a>
         <a href="https://www.w3.org/TR/css3-ui/#box-sizing">3.1 Changing the Box Model: the box-sizing property</a></th></tr>
-      <!-- 32 tests -->
+      <!-- 33 tests -->
       <tr id="box-sizing-001-3.1" class="primary">
         <td><strong>
             <a href="box-sizing-001.htm">box-sizing-001</a></strong></td>
@@ -277,6 +277,17 @@
         <td>auto sizing rules with box-sizing:border-box, intrinsic height and ratio, w &lt; min-width
           <ul class="assert">
             <li>Test checks that the CSS2.1 rules for auto width and height on replaced elements with intrinsic height and ratio with the w &lt; min-width constraint violation are properly interpreted when box-sizing is border-box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="box-sizing-026-3.1" class="primary">
+        <td><strong>
+            <a href="box-sizing-026.htm">box-sizing-026</a></strong></td>
+        <td><a href="reference/box-sizing-001-ref.htm">=</a> <a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td></td>
+        <td>box-sizing:border-box floors to 0
+          <ul class="assert">
+            <li>Floor width and height computation to 0 as they cannot be negative.</li>
           </ul>
         </td>
       </tr>

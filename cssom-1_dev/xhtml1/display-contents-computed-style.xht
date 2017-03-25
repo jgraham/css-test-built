@@ -15,7 +15,11 @@
 
     #t3 .contents { color: green }
 
-    #t4 {
+    #t4 { display: flex; align-items: center }
+    #t4 .contents { align-items: baseline }
+    #t4 span { align-self: auto }
+
+    #t5 {
         width: auto;
         height: 50%;
         margin-left: 25%;
@@ -38,7 +42,7 @@
         <span></span>
     </div>
 </div>
-<div class="contents" id="t4"></div>
+<div class="contents" id="t5"></div>
 <script>
     test(function(){
         assert_equals(getComputedStyle(document.querySelector("#t1")).display, "contents");
@@ -53,7 +57,11 @@
     }, "display:contents element as inherit parent - implicit inheritance");
 
     test(function(){
-        var computed = getComputedStyle(document.querySelector("#t4"));
+        assert_equals(getComputedStyle(document.querySelector("#t4 span")).alignSelf, "baseline");
+    }, "align-self:auto resolution for flex item inside display:contents");
+
+    test(function(){
+        var computed = getComputedStyle(document.querySelector("#t5"));
         assert_equals(computed.width, "auto");
         assert_equals(computed.height, "50%");
         assert_equals(computed.marginLeft, "25%");

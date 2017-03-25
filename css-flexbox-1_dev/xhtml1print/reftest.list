@@ -99,7 +99,6 @@ flex-grow-003.xht == reference/ref-filled-green-100px-square.xht
 flex-grow-004.xht == reference/ref-filled-green-100px-square.xht
 flex-grow-005.xht == reference/ref-filled-green-100px-square.xht
 flex-grow-006.xht == reference/ref-filled-green-100px-square.xht
-flex-grow-007.xht == reference/ref-filled-green-100px-square.xht
 flex-items-flexibility.xht == reference/flex-items-flexibility.xht
 flex-margin-no-collapse.xht == reference/flex-margin-no-collapse-ref.xht
 flex-minimum-height-flex-items-001.xht == reference/ref-filled-green-100px-square.xht
@@ -126,7 +125,6 @@ flex-shrink-004.xht == reference/ref-filled-green-100px-square.xht
 flex-shrink-005.xht == reference/ref-filled-green-100px-square.xht
 flex-shrink-006.xht == reference/ref-filled-green-100px-square.xht
 flex-shrink-007.xht == reference/ref-filled-green-100px-square.xht
-flex-shrink-008.xht == reference/ref-filled-green-100px-square.xht
 flex-vertical-align-effect.xht == reference/flex-vertical-align-effect.xht
 flexbox-abspos-child-001a.xht == reference/flexbox-abspos-child-001-ref.xht
 flexbox-abspos-child-001b.xht == reference/flexbox-abspos-child-001-ref.xht
@@ -134,7 +132,6 @@ flexbox-align-content-horiz-001a.xht == reference/flexbox-align-content-horiz-00
 flexbox-align-content-horiz-001b.xht == reference/flexbox-align-content-horiz-001-ref.xht
 flexbox-align-content-vert-001a.xht == reference/flexbox-align-content-vert-001-ref.xht
 flexbox-align-content-vert-001b.xht == reference/flexbox-align-content-vert-001-ref.xht
-flexbox-align-items-center-nested-001.xht == reference/flexbox-align-items-center-nested-001-ref.xht
 flexbox-align-self-baseline-horiz-001a.xht == reference/flexbox-align-self-baseline-horiz-001-ref.xht
 flexbox-align-self-baseline-horiz-001b.xht == reference/flexbox-align-self-baseline-horiz-001-ref.xht
 flexbox-align-self-baseline-horiz-002.xht == reference/flexbox-align-self-baseline-horiz-002-ref.xht

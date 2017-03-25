@@ -1141,8 +1141,6 @@ html/hanging-punctuation-force-end-001.htm	d2e8c955987d49cad1abf22c9a61e5c977eb1
 xhtml1/hanging-punctuation-force-end-001.xht	d2e8c955987d49cad1abf22c9a61e5c977eb1d81	?
 html/hanging-punctuation-last-001.htm	0c878241442d1d9b544ebfb43dd239f1606c4e9a	?
 xhtml1/hanging-punctuation-last-001.xht	0c878241442d1d9b544ebfb43dd239f1606c4e9a	?
-html/hyphenation-control-1.htm	b8db92786e300aec0fc25a78e5901f1357b62c26	?
-xhtml1/hyphenation-control-1.xht	b8db92786e300aec0fc25a78e5901f1357b62c26	?
 html/line-break-normal-021.htm	594b6490e47894060a4d3ecc56266eeaa9893757	?
 xhtml1/line-break-normal-021.xht	594b6490e47894060a4d3ecc56266eeaa9893757	?
 html/line-break-normal-022.htm	28d64255152f225db66a553b5f037a0ba5cf54eb	?
@@ -1553,14 +1551,6 @@ html/text-justify-004.htm	88321303c3f15c24c3c24a7f103ddc7821ed5e6b	?
 xhtml1/text-justify-004.xht	88321303c3f15c24c3c24a7f103ddc7821ed5e6b	?
 html/text-justify-005.htm	91be563ebd784fde1d932b575de2a6343f4bd37c	?
 xhtml1/text-justify-005.xht	91be563ebd784fde1d932b575de2a6343f4bd37c	?
-html/text-justify-distribute-001.htm	2c9bb7373f5d1c9e02ba55156131ca9c25240e71	?
-xhtml1/text-justify-distribute-001.xht	2c9bb7373f5d1c9e02ba55156131ca9c25240e71	?
-html/text-justify-inter-character-001.htm	0e690d9dcec8a5b07a79a73a7fa9909cc7f1c819	?
-xhtml1/text-justify-inter-character-001.xht	0e690d9dcec8a5b07a79a73a7fa9909cc7f1c819	?
-html/text-justify-inter-word-001.htm	cc8b2305afff4ad58a770261fd279334636541c7	?
-xhtml1/text-justify-inter-word-001.xht	cc8b2305afff4ad58a770261fd279334636541c7	?
-html/text-justify-none-001.htm	77f4e45eb714a789221e70ff2813d395e3afed60	?
-xhtml1/text-justify-none-001.xht	77f4e45eb714a789221e70ff2813d395e3afed60	?
 html/text-transform-capitalize-001.htm	f72cbe86477b1f5f3eb25b356099a6d42898cd92	?
 xhtml1/text-transform-capitalize-001.xht	f72cbe86477b1f5f3eb25b356099a6d42898cd92	?
 html/text-transform-capitalize-003.htm	f6fb1659a3ae48c129082c6baacf5f53ee7ac380	?
@@ -1601,10 +1591,6 @@ html/text-transform-fullwidth-001.htm	3ce14e96ac5b083ef463997c3b6d1da292b3e449	?
 xhtml1/text-transform-fullwidth-001.xht	3ce14e96ac5b083ef463997c3b6d1da292b3e449	?
 html/text-transform-fullwidth-002.htm	66baca9c7f391da7bd1546b0a094088ba65a3fa8	?
 xhtml1/text-transform-fullwidth-002.xht	66baca9c7f391da7bd1546b0a094088ba65a3fa8	?
-html/text-transform-fullwidth-004.htm	c569797c12d00e096419f1c3d9fd0b7d1bd5b518	?
-xhtml1/text-transform-fullwidth-004.xht	c569797c12d00e096419f1c3d9fd0b7d1bd5b518	?
-html/text-transform-fullwidth-005.htm	f483bb3037eb56367714be84c6e168ec681ddfdf	?
-xhtml1/text-transform-fullwidth-005.xht	f483bb3037eb56367714be84c6e168ec681ddfdf	?
 html/text-transform-lowercase-001.htm	b99d33435f651a9ba6d835eaa2fd51ad6684ae48	?
 xhtml1/text-transform-lowercase-001.xht	b99d33435f651a9ba6d835eaa2fd51ad6684ae48	?
 html/text-transform-lowercase-002.htm	9eb47a5bb06a75d36467296c30f98c18d51a549c	?

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<title>CSS Basic User Interface Test: box-sizing:border-box floors to 0</title>
+<link href="http://florian.rivoal.net/" rel="author" title="Florian Rivoal">
+<link href="https://drafts.csswg.org/css-ui-3/#box-sizing" rel="help">
+<meta content="" name="flags">
+<link href="reference/box-sizing-001-ref.htm" rel="match">
+<link href="reference/ref-filled-green-100px-square.htm" rel="match">
+<meta content="Floor width and height computation to 0 as they cannot be negative." name="assert">
+<style>
+#red {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background:red;
+	z-index: -1;
+}
+#test {
+	box-sizing: border-box;
+	border: 50px green solid;
+	width: 10px;
+	height: 10px;
+}
+</style>
+</head><body>
+  <p>Test passes if there is a filled green square and <strong>no red</strong>.</p>
+  <div id="red"></div>
+  <div id="test"></div>
+
+</body></html>

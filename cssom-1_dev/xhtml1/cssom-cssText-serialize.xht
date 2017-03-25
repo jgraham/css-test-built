@@ -13,16 +13,25 @@
 
     <body>
         <div id="log"></div>
+
         <div id="box"></div>
+
         <script>
-          test(function() {
-            var style = document.getElementById('box').style;
+
+          var style = document.getElementById('box').style;
+
+          test(function(){
+
             style.left = "10px";
             assert_equals(style.cssText, "left: 10px;");
             style.right = "20px";
             assert_equals(style.cssText, "left: 10px; right: 20px;");
+
           }, 'CSSStyleDeclaration cssText serializes declaration blocks.');
+
         </script>
+
+
     
 
 </body></html>

@@ -21,6 +21,8 @@ box-sizing-022.xht == reference/box-sizing-022-ref.xht
 box-sizing-023.xht == reference/box-sizing-023-ref.xht
 box-sizing-024.xht == reference/box-sizing-020-ref.xht
 box-sizing-025.xht == reference/box-sizing-020-ref.xht
+box-sizing-026.xht == reference/box-sizing-001-ref.xht
+box-sizing-026.xht == reference/ref-filled-green-100px-square.xht
 box-sizing-border-box-001.xht == reference/box-sizing-border-box-001-ref.xht
 box-sizing-border-box-002.xht == reference/box-sizing-border-box-002-ref.xht
 box-sizing-border-box-003.xht == reference/box-sizing-border-box-003-ref.xht

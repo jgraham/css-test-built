@@ -448,7 +448,6 @@ hanging-punctuation-allow-end-001.xht == reference/hanging-punctuation-allow-end
 hanging-punctuation-first-001.xht == reference/hanging-punctuation-first-001-ref.xht
 hanging-punctuation-force-end-001.xht == reference/hanging-punctuation-force-end-001-ref.xht
 hanging-punctuation-last-001.xht == reference/hanging-punctuation-last-001-ref.xht
-hyphenation-control-1.xht == reference/hyphenation-control-1-ref.xht
 line-break-normal-021.xht == reference/line-break-normal-021-ref.xht
 line-break-normal-022.xht == reference/line-break-normal-022-ref.xht
 line-break-normal-023.xht == reference/line-break-normal-023-ref.xht
@@ -612,10 +611,6 @@ text-emphasis-style-shape-001.xht == reference/text-emphasis-style-shape-001-ref
 text-emphasis-style-string-001.xht == reference/text-emphasis-style-string-001-ref.xht
 text-indent-percentage-001.xht == reference/text-indent-percentage-001-ref.xht
 text-justify-001.xht == reference/text-justify-ref-001.xht
-text-justify-distribute-001.xht == reference/text-justify-inter-character-001-ref.xht
-text-justify-inter-character-001.xht == reference/text-justify-inter-character-001-ref.xht
-text-justify-inter-word-001.xht == reference/text-justify-inter-word-001-ref.xht
-text-justify-none-001.xht == reference/text-justify-none-001-ref.xht
 text-transform-capitalize-001.xht == reference/text-transform-capitalize-001-ref.xht
 text-transform-capitalize-003.xht == reference/text-transform-capitalize-003-ref.xht
 text-transform-capitalize-005.xht == reference/text-transform-capitalize-005-ref.xht
@@ -636,8 +631,6 @@ text-transform-capitalize-031.xht == reference/text-transform-capitalize-031-ref
 text-transform-capitalize-032.xht == reference/text-transform-capitalize-032-ref.xht
 text-transform-fullwidth-001.xht == reference/text-transform-fullwidth-001-ref.xht
 text-transform-fullwidth-002.xht == reference/text-transform-fullwidth-002-ref.xht
-text-transform-fullwidth-004.xht == reference/text-transform-fullwidth-004-ref.xht
-text-transform-fullwidth-005.xht == reference/text-transform-fullwidth-005-ref.xht
 text-transform-lowercase-001.xht == reference/text-transform-lowercase-001-ref.xht
 text-transform-lowercase-002.xht == reference/text-transform-lowercase-002-ref.xht
 text-transform-none-001.xht == reference/text-transform-none-001-ref.xht
