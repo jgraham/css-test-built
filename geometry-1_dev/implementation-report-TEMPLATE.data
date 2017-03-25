@@ -3,12 +3,8 @@
 # http://test.csswg.org/suites/geometry-1_dev/DATESTAMP/
 # See http://wiki.csswg.org/test/implementation-report for instructions
 testname	revision	result	comment
-html/dommatrix-001.htm	00070fa8b363606edf4b8f330c9511b667ecfde0	?
-xhtml1/dommatrix-001.xht	00070fa8b363606edf4b8f330c9511b667ecfde0	?
-html/dommatrix-002.htm	e81471f95a3fd70cdbcb552fef472322aa39af55	?
-xhtml1/dommatrix-002.xht	e81471f95a3fd70cdbcb552fef472322aa39af55	?
-html/dommatrix-003.htm	5165c9810482fc5ecb9556f0cca338f22b10c8ef	?
-xhtml1/dommatrix-003.xht	5165c9810482fc5ecb9556f0cca338f22b10c8ef	?
+html/dommatrix-001.htm	073bb957a964c40741226edda571b0051fde11d7	?
+xhtml1/dommatrix-001.xht	073bb957a964c40741226edda571b0051fde11d7	?
 html/dompoint-001.htm	665e2664c436ff50a27f1ab0532d656205e7f441	?
 xhtml1/dompoint-001.xht	665e2664c436ff50a27f1ab0532d656205e7f441	?
 html/domquad-001.htm	608cb7264f7f7f64838baf911bf9e470cf89444c	?

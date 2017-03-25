@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS 2.1 Conformance Test Suite</h1>
-  <h2>Visual formatting model details (1464 tests)</h2>
+  <h2>Visual formatting model details (1463 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -1654,7 +1654,7 @@
       <tr id="width-applies-to-005-10.2" class="">
         <td>
             <a href="width-applies-to-005.xht">width-applies-to-005</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Width applied to elements with 'display' set to 'table-column-group'
           <ul class="assert">
@@ -1720,7 +1720,7 @@
       <tr id="width-applies-to-011-10.2" class="">
         <td>
             <a href="width-applies-to-011.xht">width-applies-to-011</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Width applied to elements with 'display' set to 'run-in'
           <ul class="assert">
@@ -2636,7 +2636,7 @@
       <tr id="width-applies-to-005-10.2.#propdef-width" class="">
         <td>
             <a href="width-applies-to-005.xht">width-applies-to-005</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Width applied to elements with 'display' set to 'table-column-group'
           <ul class="assert">
@@ -2702,7 +2702,7 @@
       <tr id="width-applies-to-011-10.2.#propdef-width" class="">
         <td>
             <a href="width-applies-to-011.xht">width-applies-to-011</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Width applied to elements with 'display' set to 'run-in'
           <ul class="assert">
@@ -2810,18 +2810,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s10.3.2">+</a>
         <a href="https://www.w3.org/TR/CSS21/visudet.html#inline-replaced-width">10.3.2 Inline, replaced elements</a></th></tr>
-      <!-- 54 tests -->
-      <tr id="absolute-non-replaced-width-028-10.3.2" class="image scroll">
-        <td>
-            <a href="absolute-non-replaced-width-028.xht">absolute-non-replaced-width-028</a></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="scroll" title="Only valid for continuous media">Scroll</abbr></td>
-        <td>width - absolutely positioned non-replaced element with scrollbar and percentage height of inline replaced child
-          <ul class="assert">
-            <li>This test checks interaction of percentage height of an inline replaced element with its parent having scrollbars and with the parent's width determined by 'shrink-to-fit' width algorithm. In this test, the image height should be 100px minus scrollbar height since space taken up by generated scrollbars should be taken out of (subtracted from the dimensions of) the containing block formed by the element with the scrollbars. Then the width of parent should be (used image height == 100px minus scrollbar) * (intrinsic ratio == 5width:1height).</li>
-          </ul>
-        </td>
-      </tr>
+      <!-- 51 tests -->
       <tr id="box-sizing-007-10.3.2" class="svg">
         <td>
             <a href="box-sizing-007.xht">box-sizing-007</a></td>
@@ -3028,28 +3017,6 @@
         <td>auto sizing rules with box-sizing:border-box, intrinsic height and ratio, w &lt; min-width
           <ul class="assert">
             <li>Test checks that the CSS2.1 rules for auto width and height on replaced elements with intrinsic height and ratio with the w &lt; min-width constraint violation are properly interpreted when box-sizing is border-box.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="float-non-replaced-width-013-10.3.2" class="image scroll">
-        <td>
-            <a href="float-non-replaced-width-013.xht">float-non-replaced-width-013</a></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="scroll" title="Only valid for continuous media">Scroll</abbr></td>
-        <td>width - non-replaced float with scrollbar and percentage height of inline replaced child
-          <ul class="assert">
-            <li>This test checks interaction of percentage height of an inline replaced element with its parent having scrollbars and with the parent's width determined by 'shrink-to-fit' width algorithm. In this test, the image height should be 100px minus scrollbar height since space taken up by generated scrollbars should be taken out of (subtracted from the dimensions of) the containing block formed by the element with the scrollbars. Then the width of parent should be (used image height == 100px minus scrollbar) * (intrinsic ratio == 5width:1height).</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="inline-block-non-replaced-width-005-10.3.2" class="image scroll">
-        <td>
-            <a href="inline-block-non-replaced-width-005.xht">inline-block-non-replaced-width-005</a></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="scroll" title="Only valid for continuous media">Scroll</abbr></td>
-        <td>width - non-replaced inline-block with scrollbar and percentage height of inline replaced child
-          <ul class="assert">
-            <li>This test checks interaction of percentage height of an inline replaced element with its parent having scrollbars and with the parent's width determined by 'shrink-to-fit' width algorithm. In this test, the image height should be 100px minus scrollbar height since space taken up by generated scrollbars should be taken out of (subtracted from the dimensions of) the containing block formed by the element with the scrollbars. Then the width of parent should be (used image height == 100px minus scrollbar) * (intrinsic ratio == 5width:1height).</li>
           </ul>
         </td>
       </tr>
@@ -3356,7 +3323,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s10.3.3">+</a>
         <a href="https://www.w3.org/TR/CSS21/visudet.html#blockwidth">10.3.3 Block-level, non-replaced elements in normal flow</a></th></tr>
-      <!-- 13 tests -->
+      <!-- 14 tests -->
       <tr id="block-non-replaced-width-001-10.3.3" class="">
         <td>
             <a href="block-non-replaced-width-001.xht">block-non-replaced-width-001</a></td>
@@ -3469,6 +3436,17 @@
         <td>box-sizing:border-box and CSS2.1 10.3.3
           <ul class="assert">
             <li>When box-sizing is border-box, the content width, rather than the computed value of the width property, is considered when checking whether a block is larger than its containing block.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="box-sizing-002-10.3.3" class="">
+        <td>
+            <a href="box-sizing-002.xht">box-sizing-002</a></td>
+        <td><a href="reference/box-sizing-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>box-sizing:padding-box and CSS2.1 10.3.3
+          <ul class="assert">
+            <li>When box-sizing is padding-box, the content width, rather than the computed value of the width property, is considered when checking whether a block is larger than its containing block.</li>
           </ul>
         </td>
       </tr>
@@ -3592,7 +3570,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s10.3.5">+</a>
         <a href="https://www.w3.org/TR/CSS21/visudet.html#float-width">10.3.5 Floating, non-replaced elements</a></th></tr>
-      <!-- 19 tests -->
+      <!-- 16 tests -->
       <tr id="absolute-non-replaced-width-019-10.3.5" class="ahem">
         <td>
             <a href="absolute-non-replaced-width-019.xht">absolute-non-replaced-width-019</a></td>
@@ -3634,17 +3612,6 @@
         <td>'shrink-to-fit' width of absolutely positioned, non-replaced elements - direction (right-to-left), float and max-width
           <ul class="assert">
             <li>When direction is right-to-left and 'right' is set to static position and 'width' and 'left' are 'auto', then the used value of 'width' is given by 'shrink-to-fit' width calculation. If 'width' of an floating, non-replaced element in normal flow computes to 'auto', then the used value of 'width' is also given by 'shrink-to-fit' width calculation. If 'width' of a floating, non-replaced element in normal flow is given by 'shrink-to-fit' width calculation, then such calculated width can be furthermore constrained, reduced by a max-width declaration. If width of an absolutely positioned, non-replaced element resorts to 'shrink-to-fit' width calculation but its own child uses a constrained length resulting from a max-width declaration, then such constrained length will define the preferred width in 'shrink-to-fit' width calculation.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="absolute-non-replaced-width-028-10.3.5" class="image scroll">
-        <td>
-            <a href="absolute-non-replaced-width-028.xht">absolute-non-replaced-width-028</a></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="scroll" title="Only valid for continuous media">Scroll</abbr></td>
-        <td>width - absolutely positioned non-replaced element with scrollbar and percentage height of inline replaced child
-          <ul class="assert">
-            <li>This test checks interaction of percentage height of an inline replaced element with its parent having scrollbars and with the parent's width determined by 'shrink-to-fit' width algorithm. In this test, the image height should be 100px minus scrollbar height since space taken up by generated scrollbars should be taken out of (subtracted from the dimensions of) the containing block formed by the element with the scrollbars. Then the width of parent should be (used image height == 100px minus scrollbar) * (intrinsic ratio == 5width:1height).</li>
           </ul>
         </td>
       </tr>
@@ -3780,28 +3747,6 @@
           </ul>
         </td>
       </tr>
-      <tr id="float-non-replaced-width-013-10.3.5" class="image scroll">
-        <td>
-            <a href="float-non-replaced-width-013.xht">float-non-replaced-width-013</a></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="scroll" title="Only valid for continuous media">Scroll</abbr></td>
-        <td>width - non-replaced float with scrollbar and percentage height of inline replaced child
-          <ul class="assert">
-            <li>This test checks interaction of percentage height of an inline replaced element with its parent having scrollbars and with the parent's width determined by 'shrink-to-fit' width algorithm. In this test, the image height should be 100px minus scrollbar height since space taken up by generated scrollbars should be taken out of (subtracted from the dimensions of) the containing block formed by the element with the scrollbars. Then the width of parent should be (used image height == 100px minus scrollbar) * (intrinsic ratio == 5width:1height).</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="inline-block-non-replaced-width-005-10.3.5" class="image scroll">
-        <td>
-            <a href="inline-block-non-replaced-width-005.xht">inline-block-non-replaced-width-005</a></td>
-        <td></td>
-        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr><abbr class="scroll" title="Only valid for continuous media">Scroll</abbr></td>
-        <td>width - non-replaced inline-block with scrollbar and percentage height of inline replaced child
-          <ul class="assert">
-            <li>This test checks interaction of percentage height of an inline replaced element with its parent having scrollbars and with the parent's width determined by 'shrink-to-fit' width algorithm. In this test, the image height should be 100px minus scrollbar height since space taken up by generated scrollbars should be taken out of (subtracted from the dimensions of) the containing block formed by the element with the scrollbars. Then the width of parent should be (used image height == 100px minus scrollbar) * (intrinsic ratio == 5width:1height).</li>
-          </ul>
-        </td>
-      </tr>
     </tbody>
     <tbody id="s10.3.5.#shrink-to-fit-float">
       <!-- 0 tests -->
@@ -3926,7 +3871,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s10.3.7">+</a>
         <a href="https://www.w3.org/TR/CSS21/visudet.html#abs-non-replaced-width">10.3.7 Absolutely positioned, non-replaced elements</a></th></tr>
-      <!-- 138 tests -->
+      <!-- 139 tests -->
       <tr id="abs-pos-non-replaced-vlr-003-10.3.7" class="ahem image">
         <td>
             <a href="abs-pos-non-replaced-vlr-003.xht">abs-pos-non-replaced-vlr-003</a></td>
@@ -4229,9 +4174,9 @@
             <a href="abs-pos-non-replaced-vlr-059.xht">abs-pos-non-replaced-vlr-059</a></td>
         <td><a href="reference/abs-pos-non-replaced-vrl-004-ref.xht">=</a> </td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>absolutely positioned non-replaced element - 'direction: rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto'
+        <td>absolutely positioned non-replaced element - 'direction: rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto', then solve for 'left'
           <ul class="assert">
-            <li>When 'direction' is 'rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto', then solve for 'left'.</li>
+            <li>When 'direction' is 'rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto', then solve for 'left', then solve for 'left'.</li>
           </ul>
         </td>
       </tr>
@@ -4757,9 +4702,9 @@
             <a href="abs-pos-non-replaced-vrl-058.xht">abs-pos-non-replaced-vrl-058</a></td>
         <td><a href="reference/abs-pos-non-replaced-vrl-004-ref.xht">=</a> </td>
         <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
-        <td>absolutely positioned non-replaced element - 'direction: rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto'
+        <td>absolutely positioned non-replaced element - 'direction: rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto', then solve for 'left'
           <ul class="assert">
-            <li>When 'direction' is 'rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto', then solve for 'left'.</li>
+            <li>When 'direction' is 'rtl' and 'left' is 'auto', 'width' and 'right' are not 'auto', then solve for 'left', then solve for 'left'.</li>
           </ul>
         </td>
       </tr>
@@ -5387,6 +5332,17 @@
         <td>box-sizing:border-box and CSS2.1 10.3.7
           <ul class="assert">
             <li>When box-sizing is border-box, the content width, rather than the computed value of the width property, should be used in the the constraint that determines the used values of sizing and positioning properties of absolutely positioned elements.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="box-sizing-004-10.3.7" class="">
+        <td>
+            <a href="box-sizing-004.xht">box-sizing-004</a></td>
+        <td><a href="reference/box-sizing-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>box-sizing:padding-box and CSS2.1 10.3.7
+          <ul class="assert">
+            <li>When box-sizing is padding-box, the content width, rather than the computed value of the width property, should be used in the the constraint that determines the used values of sizing and positioning properties of absolutely positioned elements.</li>
           </ul>
         </td>
       </tr>
@@ -7491,7 +7447,7 @@
       <tr id="max-width-applies-to-005-10.4" class="">
         <td>
             <a href="max-width-applies-to-005.xht">max-width-applies-to-005</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-width applied to elements with 'display' set to 'table-column-group'
           <ul class="assert">
@@ -7502,7 +7458,7 @@
       <tr id="max-width-applies-to-006-10.4" class="">
         <td>
             <a href="max-width-applies-to-006.xht">max-width-applies-to-006</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-width applied to elements with 'display' set to 'table-column'
           <ul class="assert">
@@ -7513,7 +7469,7 @@
       <tr id="max-width-applies-to-007-10.4" class="">
         <td>
             <a href="max-width-applies-to-007.xht">max-width-applies-to-007</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-width applied to elements with 'display' set to 'table-cell'
           <ul class="assert">
@@ -7557,7 +7513,7 @@
       <tr id="max-width-applies-to-011-10.4" class="">
         <td>
             <a href="max-width-applies-to-011.xht">max-width-applies-to-011</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-width applied to elements with 'display' set to 'run-in'
           <ul class="assert">
@@ -7579,7 +7535,7 @@
       <tr id="max-width-applies-to-013-10.4" class="">
         <td>
             <a href="max-width-applies-to-013.xht">max-width-applies-to-013</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-width applied to elements with 'display' set to 'table'
           <ul class="assert">
@@ -7590,7 +7546,7 @@
       <tr id="max-width-applies-to-014-10.4" class="">
         <td>
             <a href="max-width-applies-to-014.xht">max-width-applies-to-014</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-width applied to elements with 'display' set to 'inline-table'
           <ul class="assert">
@@ -8437,7 +8393,7 @@
       <tr id="min-width-applies-to-005-10.4" class="">
         <td>
             <a href="min-width-applies-to-005.xht">min-width-applies-to-005</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-width applied to elements with 'display' set to 'table-column-group'
           <ul class="assert">
@@ -8448,7 +8404,7 @@
       <tr id="min-width-applies-to-006-10.4" class="">
         <td>
             <a href="min-width-applies-to-006.xht">min-width-applies-to-006</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-width applied to elements with 'display' set to 'table-column'
           <ul class="assert">
@@ -8459,7 +8415,7 @@
       <tr id="min-width-applies-to-007-10.4" class="">
         <td>
             <a href="min-width-applies-to-007.xht">min-width-applies-to-007</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-width applied to elements with 'display' set to 'table-cell'
           <ul class="assert">
@@ -8503,7 +8459,7 @@
       <tr id="min-width-applies-to-011-10.4" class="">
         <td>
             <a href="min-width-applies-to-011.xht">min-width-applies-to-011</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-width applied to elements with 'display' set to 'run-in'
           <ul class="assert">
@@ -8525,7 +8481,7 @@
       <tr id="min-width-applies-to-013-10.4" class="">
         <td>
             <a href="min-width-applies-to-013.xht">min-width-applies-to-013</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-width applied to elements with 'display' set to 'table'
           <ul class="assert">
@@ -8536,7 +8492,7 @@
       <tr id="min-width-applies-to-014-10.4" class="">
         <td>
             <a href="min-width-applies-to-014.xht">min-width-applies-to-014</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-width applied to elements with 'display' set to 'inline-table'
           <ul class="assert">
@@ -9477,7 +9433,7 @@
       <tr id="max-width-applies-to-005-10.4.#propdef-max-width" class="">
         <td>
             <a href="max-width-applies-to-005.xht">max-width-applies-to-005</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-width applied to elements with 'display' set to 'table-column-group'
           <ul class="assert">
@@ -9488,7 +9444,7 @@
       <tr id="max-width-applies-to-006-10.4.#propdef-max-width" class="">
         <td>
             <a href="max-width-applies-to-006.xht">max-width-applies-to-006</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-width applied to elements with 'display' set to 'table-column'
           <ul class="assert">
@@ -9499,7 +9455,7 @@
       <tr id="max-width-applies-to-007-10.4.#propdef-max-width" class="">
         <td>
             <a href="max-width-applies-to-007.xht">max-width-applies-to-007</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-width applied to elements with 'display' set to 'table-cell'
           <ul class="assert">
@@ -9543,7 +9499,7 @@
       <tr id="max-width-applies-to-011-10.4.#propdef-max-width" class="">
         <td>
             <a href="max-width-applies-to-011.xht">max-width-applies-to-011</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-width applied to elements with 'display' set to 'run-in'
           <ul class="assert">
@@ -9565,7 +9521,7 @@
       <tr id="max-width-applies-to-013-10.4.#propdef-max-width" class="">
         <td>
             <a href="max-width-applies-to-013.xht">max-width-applies-to-013</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-width applied to elements with 'display' set to 'table'
           <ul class="assert">
@@ -9576,7 +9532,7 @@
       <tr id="max-width-applies-to-014-10.4.#propdef-max-width" class="">
         <td>
             <a href="max-width-applies-to-014.xht">max-width-applies-to-014</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-width applied to elements with 'display' set to 'inline-table'
           <ul class="assert">
@@ -10382,7 +10338,7 @@
       <tr id="min-width-applies-to-005-10.4.#propdef-min-width" class="">
         <td>
             <a href="min-width-applies-to-005.xht">min-width-applies-to-005</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-width applied to elements with 'display' set to 'table-column-group'
           <ul class="assert">
@@ -10393,7 +10349,7 @@
       <tr id="min-width-applies-to-006-10.4.#propdef-min-width" class="">
         <td>
             <a href="min-width-applies-to-006.xht">min-width-applies-to-006</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-width applied to elements with 'display' set to 'table-column'
           <ul class="assert">
@@ -10404,7 +10360,7 @@
       <tr id="min-width-applies-to-007-10.4.#propdef-min-width" class="">
         <td>
             <a href="min-width-applies-to-007.xht">min-width-applies-to-007</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-width applied to elements with 'display' set to 'table-cell'
           <ul class="assert">
@@ -10448,7 +10404,7 @@
       <tr id="min-width-applies-to-011-10.4.#propdef-min-width" class="">
         <td>
             <a href="min-width-applies-to-011.xht">min-width-applies-to-011</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-width applied to elements with 'display' set to 'run-in'
           <ul class="assert">
@@ -10470,7 +10426,7 @@
       <tr id="min-width-applies-to-013-10.4.#propdef-min-width" class="">
         <td>
             <a href="min-width-applies-to-013.xht">min-width-applies-to-013</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-width applied to elements with 'display' set to 'table'
           <ul class="assert">
@@ -10481,7 +10437,7 @@
       <tr id="min-width-applies-to-014-10.4.#propdef-min-width" class="">
         <td>
             <a href="min-width-applies-to-014.xht">min-width-applies-to-014</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-width applied to elements with 'display' set to 'inline-table'
           <ul class="assert">
@@ -11484,7 +11440,7 @@
       <tr id="height-applies-to-011-10.5" class="">
         <td>
             <a href="height-applies-to-011.xht">height-applies-to-011</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Height applied to elements with 'display' set to 'run-in'
           <ul class="assert">
@@ -12565,7 +12521,7 @@
       <tr id="height-applies-to-011-10.5.#propdef-height" class="">
         <td>
             <a href="height-applies-to-011.xht">height-applies-to-011</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Height applied to elements with 'display' set to 'run-in'
           <ul class="assert">
@@ -13714,7 +13670,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s10.6.4">+</a>
         <a href="https://www.w3.org/TR/CSS21/visudet.html#abs-non-replaced-height">10.6.4 Absolutely positioned, non-replaced elements</a></th></tr>
-      <!-- 156 tests -->
+      <!-- 157 tests -->
       <tr id="abs-pos-non-replaced-vlr-027-10.6.4" class="ahem image">
         <td>
             <a href="abs-pos-non-replaced-vlr-027.xht">abs-pos-non-replaced-vlr-027</a></td>
@@ -15431,6 +15387,17 @@
           </ul>
         </td>
       </tr>
+      <tr id="box-sizing-006-10.6.4" class="">
+        <td>
+            <a href="box-sizing-006.xht">box-sizing-006</a></td>
+        <td><a href="reference/box-sizing-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>box-sizing:padding-box and CSS2.1 10.6.4
+          <ul class="assert">
+            <li>When box-sizing is padding-box, the content height, rather than the computed value of the height property, should be used in the the constraint that determines the used values of sizing and positioning properties of absolutely positioned elements.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s10.6.5">
       <tr><th colspan="4" scope="rowgroup">
@@ -16863,7 +16830,7 @@
       <tr id="max-height-applies-to-011-10.7" class="">
         <td>
             <a href="max-height-applies-to-011.xht">max-height-applies-to-011</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-height applied to elements with 'display' set to 'run-in'
           <ul class="assert">
@@ -17877,7 +17844,7 @@
       <tr id="min-height-applies-to-011-10.7" class="">
         <td>
             <a href="min-height-applies-to-011.xht">min-height-applies-to-011</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-height applied to elements with 'display' set to 'run-in'
           <ul class="assert">
@@ -18826,7 +18793,7 @@
       <tr id="max-height-applies-to-011-10.7.#propdef-max-height" class="">
         <td>
             <a href="max-height-applies-to-011.xht">max-height-applies-to-011</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Max-height applied to elements with 'display' set to 'run-in'
           <ul class="assert">
@@ -19731,7 +19698,7 @@
       <tr id="min-height-applies-to-011-10.7.#propdef-min-height" class="">
         <td>
             <a href="min-height-applies-to-011.xht">min-height-applies-to-011</a></td>
-        <td><a href="reference/pass_if_square_96px_black.xht">=</a> </td>
+        <td></td>
         <td></td>
         <td>Min-height applied to elements with 'display' set to 'run-in'
           <ul class="assert">
@@ -19794,7 +19761,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s10.8">+</a>
         <a href="https://www.w3.org/TR/CSS21/visudet.html#line-height">10.8 Line height calculations: the 'line-height' and 'vertical-align' properties</a></th></tr>
-      <!-- 38 tests -->
+      <!-- 36 tests -->
       <tr id="c43-center-000-10.8" class="ahem image">
         <td>
             <a href="c43-center-000.xht">c43-center-000</a></td>
@@ -19985,28 +19952,6 @@
           </ul>
         </td>
       </tr>
-      <tr id="line-box-height-vlr-021-10.8" class="">
-        <td>
-            <a href="line-box-height-vlr-021.xht">line-box-height-vlr-021</a></td>
-        <td><a href="reference/line-box-height-vlr-021-ref.xht">=</a> </td>
-        <td></td>
-        <td>line box height and border on non-replaced inline box (complex)
-          <ul class="assert">
-            <li>This test checks that a line box height does not increase because an inline non-replaced box has a border. In this test, the '34' inline box and the '56' inline box should be lined up with its inline '12' sibling. The line box height, enclosed by the blue border should not grow to accomodate transparent 'border-left' of inline box and transparent 'border-right' of inline box.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr id="line-box-height-vlr-023-10.8" class="">
-        <td>
-            <a href="line-box-height-vlr-023.xht">line-box-height-vlr-023</a></td>
-        <td><a href="reference/line-box-height-vlr-023-ref.xht">=</a> </td>
-        <td></td>
-        <td>line box height and border on non-replaced inline box (complex)
-          <ul class="assert">
-            <li>This test checks that a line box height does not increase because an inline non-replaced box has a border. In this test, the '34' inline box and the '56' inline box should be lined up with its inline '12' sibling. The line box height, enclosed by the blue border should not grow to accomodate transparent 'border-left' of inline box and transparent 'border-right' of inline box.</li>
-          </ul>
-        </td>
-      </tr>
       <tr id="line-box-height-vrl-002-10.8" class="">
         <td>
             <a href="line-box-height-vrl-002.xht">line-box-height-vrl-002</a></td>
@@ -20161,7 +20106,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s10.8.1">+</a>
         <a href="https://www.w3.org/TR/CSS21/visudet.html#leading">10.8.1 Leading and half-leading</a></th></tr>
-      <!-- 225 tests -->
+      <!-- 226 tests -->
       <tr id="border-padding-bleed-001-10.8.1" class="ahem">
         <td>
             <a href="border-padding-bleed-001.xht">border-padding-bleed-001</a></td>
@@ -20507,6 +20452,17 @@
           <ul class="assert">
             <li>it is a rectangular block that participates in an inline formatting context).</li>
             <li>The baseline of an 'inline-table' is the baseline of the first row of the table.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="inline-table-valign-002-10.8.1" class="ahem">
+        <td>
+            <a href="inline-table-valign-002.xht">inline-table-valign-002</a></td>
+        <td><a href="reference/inline-table-valign-002-ref.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>vertical baseline alignment of an element with 'display' set to 'inline-table' with a 'border-bottom' and with a first row made of empty cells
+          <ul class="assert">
+            <li>The baseline of an 'inline-table' is the baseline of the first row of the table. If the content of cells in such first row are empty, then the baseline of such first row coincides with the bottom edge of the content box of cells.</li>
           </ul>
         </td>
       </tr>
