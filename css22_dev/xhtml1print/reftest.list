@@ -5,6 +5,7 @@ characters-0080-009F-001.xht == reference/characters-0080-009F-001-ref.xht
 escaped-url-001.xht == reference/escaped-url-001-ref.xht
 height-computed-001.xht == reference/height-computed-001-ref.xht
 height-computed-002.xht == reference/height-computed-002-ref.xht
+height-percentage-004.xht == reference/height-percentage-004-ref.xht
 inherit-computed-001.xht == reference/inherit-computed-001-ref.xht
 inherit-computed-002.xht == reference/inherit-computed-002-ref.xht
 left-offset-position-fixed-001.xht == reference/left-offset-position-fixed-001-ref.xht
