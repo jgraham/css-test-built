@@ -3,6 +3,7 @@ border-collapse-005.xht == reference/border-collapse-005-ref.xht
 character-encoding-041.xht == reference/character-encoding-041-ref.xht
 characters-0080-009F-001.xht == reference/characters-0080-009F-001-ref.xht
 escaped-url-001.xht == reference/escaped-url-001-ref.xht
+fixed-pos-stacking-001.xht == reference/fixed-pos-stacking-001-ref.xht
 height-computed-001.xht == reference/height-computed-001-ref.xht
 height-computed-002.xht == reference/height-computed-002-ref.xht
 height-percentage-004.xht == reference/height-percentage-004-ref.xht
