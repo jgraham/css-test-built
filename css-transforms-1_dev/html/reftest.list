@@ -2,6 +2,7 @@
 2d-rotate-001.htm == reference/2d-rotate-ref.htm != reference/2d-rotate-notref.htm
 animations-001.htm == reference/animations-001-ref.htm
 backface-visibility-hidden-001.htm == reference/backface-visibility-hidden-ref.htm
+background-attachment-fixed-inside-transform-1.htm == reference/background-attachment-fixed-inside-transform-1-ref.htm
 canvas3d-001.htm == reference/canvas3d-001-ref.htm
 canvas3d-002.htm == reference/canvas3d-002-ref.htm
 css-rotate-2d-3d-001.htm == reference/css-rotate-2d-3d-001-ref.htm
@@ -880,6 +881,7 @@ transform-origin-01.htm == reference/transform-origin-01-ref.htm
 transform-origin-010.htm == reference/transform-origin-007-ref.htm
 transform-origin-011.htm == reference/transform-origin-007-ref.htm
 transform-origin-012.htm == reference/transform-origin-007-ref.htm
+transform-origin-013.htm == reference/transform-origin-013-ref.htm
 transform-origin-name-001.htm == reference/transform-origin-name-ref-1.htm != reference/transform-origin-name-notref.htm
 transform-origin-name-002.htm == reference/transform-origin-name-ref-1.htm != reference/transform-origin-name-notref.htm
 transform-origin-name-003.htm == reference/transform-origin-name-ref-2.htm != reference/transform-origin-name-notref.htm

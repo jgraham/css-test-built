@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Grid Layout Module Level 1 CR Test Suite</h1>
-  <h2>Grid Items (65 tests)</h2>
+  <h2>Grid Items (77 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -192,7 +192,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s6.2">+</a>
         <a href="https://www.w3.org/TR/css-grid-1/#grid-item-sizing">6.2 Grid Item Sizing</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="grid-items-sizing-alignment-001-6.2" class="primary">
+        <td><strong>
+            <a href="grid-items-sizing-alignment-001.xht">grid-items-sizing-alignment-001</a></strong></td>
+        <td><a href="reference/grid-items-sizing-alignment-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>Grid Item Sizing
+          <ul class="assert">
+            <li>Checks how alignment properties affect the size of the non-replaced vs replaced grid items.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s6.2.#ref-for-grid-area-13">
       <!-- 0 tests -->
@@ -629,7 +640,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s6.6">+</a>
         <a href="https://www.w3.org/TR/css-grid-1/#min-size-auto">6.6 Implied Minimum Size of Grid Items</a></th></tr>
-      <!-- 9 tests -->
+      <!-- 20 tests -->
       <tr id="grid-minimum-size-grid-items-001-6.6" class="ahem">
         <td>
             <a href="grid-minimum-size-grid-items-001.xht">grid-minimum-size-grid-items-001</a></td>
@@ -677,7 +688,7 @@
       <tr id="grid-minimum-size-grid-items-005-6.6" class="image">
         <td>
             <a href="grid-minimum-size-grid-items-005.xht">grid-minimum-size-grid-items-005</a></td>
-        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><a href="reference/ref-filled-green-100px-square-image.xht">=</a> </td>
         <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
         <td>Minimum size of grid items
           <ul class="assert">
@@ -688,7 +699,7 @@
       <tr id="grid-minimum-size-grid-items-006-6.6" class="image">
         <td>
             <a href="grid-minimum-size-grid-items-006.xht">grid-minimum-size-grid-items-006</a></td>
-        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><a href="reference/ref-filled-green-100px-square-image.xht">=</a> </td>
         <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
         <td>Minimum size of grid items
           <ul class="assert">
@@ -699,7 +710,7 @@
       <tr id="grid-minimum-size-grid-items-007-6.6" class="image">
         <td>
             <a href="grid-minimum-size-grid-items-007.xht">grid-minimum-size-grid-items-007</a></td>
-        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><a href="reference/ref-filled-green-100px-square-image.xht">=</a> </td>
         <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
         <td>Minimum size of grid items
           <ul class="assert">
@@ -710,7 +721,7 @@
       <tr id="grid-minimum-size-grid-items-008-6.6" class="image">
         <td>
             <a href="grid-minimum-size-grid-items-008.xht">grid-minimum-size-grid-items-008</a></td>
-        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><a href="reference/ref-filled-green-100px-square-image.xht">=</a> </td>
         <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
         <td>Minimum size of grid items
           <ul class="assert">
@@ -721,11 +732,132 @@
       <tr id="grid-minimum-size-grid-items-009-6.6" class="image">
         <td>
             <a href="grid-minimum-size-grid-items-009.xht">grid-minimum-size-grid-items-009</a></td>
-        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><a href="reference/ref-filled-green-100px-square-image.xht">=</a> </td>
         <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
         <td>Minimum size of grid items
           <ul class="assert">
             <li>Checks that minimum size for grid items is the specified size for height (regardless the content size) and the content size for width (as it's smaller than the transferred size of the image).</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="grid-minimum-size-grid-items-010-6.6" class="">
+        <td>
+            <a href="grid-minimum-size-grid-items-010.xht">grid-minimum-size-grid-items-010</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td></td>
+        <td>Minimum size of grid items
+          <ul class="assert">
+            <li>Checks that automatic minimum size gets clamped, so the grid item doesn't overflow the fixed size area.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="grid-minimum-size-grid-items-011-6.6" class="">
+        <td>
+            <a href="grid-minimum-size-grid-items-011.xht">grid-minimum-size-grid-items-011</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td></td>
+        <td>Minimum size of grid items
+          <ul class="assert">
+            <li>Checks that automatic minimum size gets clamped, so the grid item doesn't overflow the fixed size area.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="grid-minimum-size-grid-items-012-6.6" class="">
+        <td>
+            <a href="grid-minimum-size-grid-items-012.xht">grid-minimum-size-grid-items-012</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td></td>
+        <td>Minimum size of grid items
+          <ul class="assert">
+            <li>Checks that automatic minimum size gets clamped, so the grid item doesn't overflow the fixed size area.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="grid-minimum-size-grid-items-013-6.6" class="ahem">
+        <td>
+            <a href="grid-minimum-size-grid-items-013.xht">grid-minimum-size-grid-items-013</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr></td>
+        <td>Minimum size of grid items
+          <ul class="assert">
+            <li>Checks that automatic minimum size is not clamped if the grid item has not stretch alignment.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="grid-minimum-size-grid-items-014-6.6" class="">
+        <td>
+            <a href="grid-minimum-size-grid-items-014.xht">grid-minimum-size-grid-items-014</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td></td>
+        <td>Minimum size of grid items
+          <ul class="assert">
+            <li>Checks that automatic minimum size is not clamped if the grid item has not stretch alignment.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="grid-minimum-size-grid-items-015-6.6" class="">
+        <td>
+            <a href="grid-minimum-size-grid-items-015.xht">grid-minimum-size-grid-items-015</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td></td>
+        <td>Minimum size of grid items
+          <ul class="assert">
+            <li>Checks that automatic minimum size is not clamped if the grid item if it spans some not fixed grid tracks.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="grid-minimum-size-grid-items-016-6.6" class="">
+        <td>
+            <a href="grid-minimum-size-grid-items-016.xht">grid-minimum-size-grid-items-016</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td></td>
+        <td>Minimum size of grid items
+          <ul class="assert">
+            <li>Checks that automatic minimum size is clamped if the grid item only spans fixed grid tracks.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="grid-minimum-size-grid-items-017-6.6" class="">
+        <td>
+            <a href="grid-minimum-size-grid-items-017.xht">grid-minimum-size-grid-items-017</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td></td>
+        <td>Minimum size of grid items
+          <ul class="assert">
+            <li>Checks that automatic minimum size is not clamped if the track has an 'auto' min track sizing function.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="grid-minimum-size-grid-items-018-6.6" class="">
+        <td>
+            <a href="grid-minimum-size-grid-items-018.xht">grid-minimum-size-grid-items-018</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td></td>
+        <td>Minimum size of grid items
+          <ul class="assert">
+            <li>Checks that automatic minimum size is not clamped if the track has an 'auto' min track sizing function.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="grid-minimum-size-grid-items-019-6.6" class="">
+        <td>
+            <a href="grid-minimum-size-grid-items-019.xht">grid-minimum-size-grid-items-019</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td></td>
+        <td>Minimum size of grid items
+          <ul class="assert">
+            <li>Checks that automatic minimum size gets clamped, so the grid item doesn't overflow the fixed size area.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="grid-minimum-size-grid-items-020-6.6" class="">
+        <td>
+            <a href="grid-minimum-size-grid-items-020.xht">grid-minimum-size-grid-items-020</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td></td>
+        <td>Minimum size of grid items
+          <ul class="assert">
+            <li>Checks that automatic minimum size is clamped if the grid item only spans fixed grid tracks.</li>
           </ul>
         </td>
       </tr>

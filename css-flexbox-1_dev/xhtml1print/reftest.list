@@ -99,6 +99,7 @@ flex-grow-003.xht == reference/ref-filled-green-100px-square.xht
 flex-grow-004.xht == reference/ref-filled-green-100px-square.xht
 flex-grow-005.xht == reference/ref-filled-green-100px-square.xht
 flex-grow-006.xht == reference/ref-filled-green-100px-square.xht
+flex-grow-007.xht == reference/ref-filled-green-100px-square.xht
 flex-items-flexibility.xht == reference/flex-items-flexibility.xht
 flex-margin-no-collapse.xht == reference/flex-margin-no-collapse-ref.xht
 flex-minimum-height-flex-items-001.xht == reference/ref-filled-green-100px-square.xht
@@ -132,6 +133,7 @@ flexbox-align-content-horiz-001a.xht == reference/flexbox-align-content-horiz-00
 flexbox-align-content-horiz-001b.xht == reference/flexbox-align-content-horiz-001-ref.xht
 flexbox-align-content-vert-001a.xht == reference/flexbox-align-content-vert-001-ref.xht
 flexbox-align-content-vert-001b.xht == reference/flexbox-align-content-vert-001-ref.xht
+flexbox-align-items-center-nested-001.xht == reference/flexbox-align-items-center-nested-001-ref.xht
 flexbox-align-self-baseline-horiz-001a.xht == reference/flexbox-align-self-baseline-horiz-001-ref.xht
 flexbox-align-self-baseline-horiz-001b.xht == reference/flexbox-align-self-baseline-horiz-001-ref.xht
 flexbox-align-self-baseline-horiz-002.xht == reference/flexbox-align-self-baseline-horiz-002-ref.xht
@@ -519,6 +521,8 @@ justify-content-002.xht == reference/justify-content-001-ref.xht
 justify-content-003.xht == reference/justify-content-001-ref.xht
 justify-content-004.xht == reference/justify-content-001-ref.xht
 justify-content-005.xht == reference/justify-content-001-ref.xht
+layout-algorithm_algo-cross-line-001.xht == reference/layout-algorithm_algo-cross-line-001-ref.xht
+layout-algorithm_algo-cross-line-002.xht == reference/layout-algorithm_algo-cross-line-002-ref.xht
 multi-line-wrap-reverse-column-reverse.xht == reference/multi-line-wrap-reverse-column-reverse-ref.xht
 multi-line-wrap-reverse-row-reverse.xht == reference/multi-line-wrap-reverse-row-reverse-ref.xht
 multi-line-wrap-with-column-reverse.xht == reference/multi-line-wrap-with-column-reverse-ref.xht

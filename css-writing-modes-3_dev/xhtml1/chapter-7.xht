@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Writing Modes Module Level 3 CR Test Suite</h1>
-  <h2>Abstract Box Layout (554 tests)</h2>
+  <h2>Abstract Box Layout (692 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -37,7 +37,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.1">+</a>
         <a href="https://www.w3.org/TR/css-writing-modes-3/#vertical-layout">7.1 Principles of Layout in Vertical Writing Modes</a></th></tr>
-      <!-- 376 tests -->
+      <!-- 390 tests -->
       <tr id="abs-pos-non-replaced-icb-vlr-003-7.1" class="">
         <td>
             <a href="abs-pos-non-replaced-icb-vlr-003.xht">abs-pos-non-replaced-icb-vlr-003</a></td>
@@ -3052,6 +3052,72 @@
           </ul>
         </td>
       </tr>
+      <tr id="dynamic-offset-rtl-001-7.1" class="primary dom">
+        <td><strong>
+            <a href="dynamic-offset-rtl-001.xht">dynamic-offset-rtl-001</a></strong></td>
+        <td><a href="reference/dynamic-offset-rtl-001-ref.xht">=</a> </td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>dynamic changes to offset properties
+          <ul class="assert">
+            <li>Layout rules for 'right' and 'left' are handled correctly for absolutely positioned elements, in the presence of dynamic changes to 'width' of the containing block.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="dynamic-offset-rtl-002-7.1" class="primary dom">
+        <td><strong>
+            <a href="dynamic-offset-rtl-002.xht">dynamic-offset-rtl-002</a></strong></td>
+        <td><a href="reference/dynamic-offset-rtl-001-ref.xht">=</a> </td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>dynamic changes to offset properties
+          <ul class="assert">
+            <li>Layout rules for 'right' and 'left' are handled correctly for absolutely positioned elements, in the presence of dynamic changes to 'width' of the containing block.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="dynamic-offset-vrl-001-7.1" class="primary dom">
+        <td><strong>
+            <a href="dynamic-offset-vrl-001.xht">dynamic-offset-vrl-001</a></strong></td>
+        <td><a href="reference/dynamic-offset-rtl-001-ref.xht">=</a> </td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>dynamic changes to offset properties
+          <ul class="assert">
+            <li>Layout rules for 'right' and 'left' are handled correctly for absolutely positioned elements, in the presence of dynamic changes to 'width' of the containing block.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="dynamic-offset-vrl-002-7.1" class="primary dom">
+        <td><strong>
+            <a href="dynamic-offset-vrl-002.xht">dynamic-offset-vrl-002</a></strong></td>
+        <td><a href="reference/dynamic-offset-rtl-001-ref.xht">=</a> </td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>dynamic changes to offset properties
+          <ul class="assert">
+            <li>Layout rules for 'right' and 'left' are handled correctly for absolutely positioned elements, in the presence of dynamic changes to 'width' of the containing block.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="dynamic-offset-vrl-rtl-001-7.1" class="primary dom">
+        <td><strong>
+            <a href="dynamic-offset-vrl-rtl-001.xht">dynamic-offset-vrl-rtl-001</a></strong></td>
+        <td><a href="reference/dynamic-offset-rtl-001-ref.xht">=</a> </td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>dynamic changes to offset properties
+          <ul class="assert">
+            <li>Layout rules for 'right' and 'left' are handled correctly for absolutely positioned elements, in the presence of dynamic changes to 'width' of the containing block.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="dynamic-offset-vrl-rtl-002-7.1" class="primary dom">
+        <td><strong>
+            <a href="dynamic-offset-vrl-rtl-002.xht">dynamic-offset-vrl-rtl-002</a></strong></td>
+        <td><a href="reference/dynamic-offset-rtl-001-ref.xht">=</a> </td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
+        <td>dynamic changes to offset properties
+          <ul class="assert">
+            <li>Layout rules for 'right' and 'left' are handled correctly for absolutely positioned elements, in the presence of dynamic changes to 'width' of the containing block.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="float-clear-vlr-003-7.1" class="ahem image">
         <td>
             <a href="float-clear-vlr-003.xht">float-clear-vlr-003</a></td>
@@ -3855,6 +3921,94 @@
           </ul>
         </td>
       </tr>
+      <tr id="overconstrained-rel-pos-ltr-left-right-vlr-005-7.1" class="image">
+        <td>
+            <a href="overconstrained-rel-pos-ltr-left-right-vlr-005.xht">overconstrained-rel-pos-ltr-left-right-vlr-005</a></td>
+        <td><a href="reference/overconstrained-rel-pos-ltr-left-right-vlr-005-ref.xht">=</a> </td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>over-constrained relatively positioned element - 'direction: ltr' and 'left' and 'right' are not 'auto' in vertical-lr context
+          <ul class="assert">
+            <li>When a relatively positioned element's 'direction' is 'ltr' and its 'left' and 'right' are not 'auto' in a vertical-lr context, then the value of 'left' wins and 'right' becomes -'left'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="overconstrained-rel-pos-ltr-left-right-vrl-004-7.1" class="image">
+        <td>
+            <a href="overconstrained-rel-pos-ltr-left-right-vrl-004.xht">overconstrained-rel-pos-ltr-left-right-vrl-004</a></td>
+        <td><a href="reference/overconstrained-rel-pos-ltr-left-right-vrl-004-ref.xht">=</a> </td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>over-constrained relatively positioned element - 'direction: ltr' and 'left' and 'right' are not 'auto' in vertical-rl context
+          <ul class="assert">
+            <li>When a relatively positioned element's 'direction' is 'ltr' and its 'left' and 'right' are not 'auto' in a vertical-rl context, then the value of 'right' wins and 'left' becomes -'right'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="overconstrained-rel-pos-ltr-top-bottom-vlr-003-7.1" class="image">
+        <td>
+            <a href="overconstrained-rel-pos-ltr-top-bottom-vlr-003.xht">overconstrained-rel-pos-ltr-top-bottom-vlr-003</a></td>
+        <td><a href="reference/overconstrained-rel-pos-ltr-top-bottom-vlr-003-ref.xht">=</a> </td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>over-constrained relatively positioned element - 'direction: ltr' and 'top' and 'bottom' are not 'auto' in vertical-lr context
+          <ul class="assert">
+            <li>When a relatively positioned element's 'direction' is 'ltr' and its 'top' and 'bottom' are not 'auto' in a vertical-lr context, then the value of 'top' wins and 'bottom' becomes -'top'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="overconstrained-rel-pos-ltr-top-bottom-vrl-002-7.1" class="image">
+        <td>
+            <a href="overconstrained-rel-pos-ltr-top-bottom-vrl-002.xht">overconstrained-rel-pos-ltr-top-bottom-vrl-002</a></td>
+        <td><a href="reference/overconstrained-rel-pos-ltr-top-bottom-vrl-002-ref.xht">=</a> </td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>over-constrained relatively positioned element - 'direction: ltr' and 'top' and 'bottom' are not 'auto' in vertical-rl context
+          <ul class="assert">
+            <li>When a relatively positioned element's 'direction' is 'ltr' and its 'top' and 'bottom' are not 'auto' in a vertical-rl context, then the value of 'top' wins and 'bottom' becomes -'top'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="overconstrained-rel-pos-rtl-left-right-vlr-009-7.1" class="image">
+        <td>
+            <a href="overconstrained-rel-pos-rtl-left-right-vlr-009.xht">overconstrained-rel-pos-rtl-left-right-vlr-009</a></td>
+        <td><a href="reference/overconstrained-rel-pos-rtl-left-right-vlr-009-ref.xht">=</a> </td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>over-constrained relatively positioned element - 'direction: rtl' and 'left' and 'right' are not 'auto' in vertical-lr context
+          <ul class="assert">
+            <li>When a relatively positioned element's 'direction' is 'rtl' and its 'left' and 'right' are not 'auto' in a vertical-lr context, then the value of 'right' wins and 'left' becomes -'right'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="overconstrained-rel-pos-rtl-left-right-vrl-008-7.1" class="image">
+        <td>
+            <a href="overconstrained-rel-pos-rtl-left-right-vrl-008.xht">overconstrained-rel-pos-rtl-left-right-vrl-008</a></td>
+        <td><a href="reference/overconstrained-rel-pos-rtl-left-right-vrl-008-ref.xht">=</a> </td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>over-constrained relatively positioned element - 'direction: rtl' and 'left' and 'right' are not 'auto' in vertical-rl context
+          <ul class="assert">
+            <li>When a relatively positioned element's 'direction' is 'rtl' and its 'left' and 'right' are not 'auto' in a vertical-rl context, then the value of 'right' wins and 'left' becomes -'right'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="overconstrained-rel-pos-rtl-top-bottom-vlr-007-7.1" class="image">
+        <td>
+            <a href="overconstrained-rel-pos-rtl-top-bottom-vlr-007.xht">overconstrained-rel-pos-rtl-top-bottom-vlr-007</a></td>
+        <td><a href="reference/overconstrained-rel-pos-rtl-top-bottom-vlr-007-ref.xht">=</a> </td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>over-constrained relatively positioned element - 'direction: rtl' and 'top' and 'bottom' are not 'auto' in vertical-lr context
+          <ul class="assert">
+            <li>When a relatively positioned element's 'direction' is 'rtl' and its 'top' and 'bottom' are not 'auto' in a vertical-lr context, then the value of 'top' wins and 'bottom' becomes -'top'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="overconstrained-rel-pos-rtl-top-bottom-vrl-006-7.1" class="image">
+        <td>
+            <a href="overconstrained-rel-pos-rtl-top-bottom-vrl-006.xht">overconstrained-rel-pos-rtl-top-bottom-vrl-006</a></td>
+        <td><a href="reference/overconstrained-rel-pos-rtl-top-bottom-vrl-006-ref.xht">=</a> </td>
+        <td><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>over-constrained relatively positioned element - 'direction: rtl' and 'top' and 'bottom' are not 'auto' in vertical-rl context
+          <ul class="assert">
+            <li>When a relatively positioned element's 'direction' is 'rtl' and its 'top' and 'bottom' are not 'auto' in a vertical-rl context, then the value of 'top' wins and 'bottom' becomes -'top'.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="padding-vlr-005-7.1" class="image">
         <td>
             <a href="padding-vlr-005.xht">padding-vlr-005</a></td>
@@ -4606,7 +4760,359 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.3.1">+</a>
         <a href="https://www.w3.org/TR/css-writing-modes-3/#orthogonal-auto">7.3.1 Available Sizes in Orthogonal Flows</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 32 tests -->
+      <tr id="sizing-orthog-prct-htb-in-vlr-001-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vlr-001.xht">sizing-orthog-prct-htb-in-vlr-001</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vlr-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside auto-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the width of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vlr-002-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vlr-002.xht">sizing-orthog-prct-htb-in-vlr-002</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vlr-002-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside auto-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the width of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vlr-003-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vlr-003.xht">sizing-orthog-prct-htb-in-vlr-003</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vlr-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the width of the containing block is definite, therefore 50% is applied on the width of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vlr-004-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vlr-004.xht">sizing-orthog-prct-htb-in-vlr-004</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vlr-004-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the width of the containing block is definite, therefore 50% is applied on the width of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vlr-005-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vlr-005.xht">sizing-orthog-prct-htb-in-vlr-005</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vlr-005-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside auto-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the width of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vlr-006-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vlr-006.xht">sizing-orthog-prct-htb-in-vlr-006</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vlr-006-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside auto-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the width of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vlr-007-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vlr-007.xht">sizing-orthog-prct-htb-in-vlr-007</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vlr-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the width of the containing block is definite, therefore 50% is applied on the width of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vlr-008-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vlr-008.xht">sizing-orthog-prct-htb-in-vlr-008</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vlr-008-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the width of the containing block is definite, therefore 50% is applied on the width of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vrl-001-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vrl-001.xht">sizing-orthog-prct-htb-in-vrl-001</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vrl-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside auto-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the width of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vrl-002-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vrl-002.xht">sizing-orthog-prct-htb-in-vrl-002</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vrl-002-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside auto-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the width of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vrl-003-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vrl-003.xht">sizing-orthog-prct-htb-in-vrl-003</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vrl-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the width of the containing block is definite, therefore 50% is applied on the width of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vrl-004-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vrl-004.xht">sizing-orthog-prct-htb-in-vrl-004</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vrl-004-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the width of the containing block is definite, therefore 50% is applied on the width of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vrl-005-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vrl-005.xht">sizing-orthog-prct-htb-in-vrl-005</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vrl-005-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside auto-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the width of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vrl-006-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vrl-006.xht">sizing-orthog-prct-htb-in-vrl-006</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vrl-006-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside auto-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the width of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vrl-007-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vrl-007.xht">sizing-orthog-prct-htb-in-vrl-007</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vrl-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the width of the containing block is definite, therefore 50% is applied on the width of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-htb-in-vrl-008-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-htb-in-vrl-008.xht">sizing-orthog-prct-htb-in-vrl-008</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-htb-in-vrl-008-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with percent inline-size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the width of the containing block is definite, therefore 50% is applied on the width of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vlr-in-htb-001-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vlr-in-htb-001.xht">sizing-orthog-prct-vlr-in-htb-001</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vlr-in-htb-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with percent inline-size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the height of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vlr-in-htb-002-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vlr-in-htb-002.xht">sizing-orthog-prct-vlr-in-htb-002</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vlr-in-htb-002-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with percent inline-size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the height of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vlr-in-htb-003-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vlr-in-htb-003.xht">sizing-orthog-prct-vlr-in-htb-003</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vlr-in-htb-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with percent inline-size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the height of the containing block is definite, therefore 50% is applied on the height of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vlr-in-htb-004-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vlr-in-htb-004.xht">sizing-orthog-prct-vlr-in-htb-004</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vlr-in-htb-004-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with percent inline-size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the height of the containing block is definite, therefore 50% is applied on the height of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vlr-in-htb-005-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vlr-in-htb-005.xht">sizing-orthog-prct-vlr-in-htb-005</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vlr-in-htb-005-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with percent inline-size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the height of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vlr-in-htb-006-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vlr-in-htb-006.xht">sizing-orthog-prct-vlr-in-htb-006</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vlr-in-htb-006-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with percent inline-size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the height of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vlr-in-htb-007-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vlr-in-htb-007.xht">sizing-orthog-prct-vlr-in-htb-007</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vlr-in-htb-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with percent inline-size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the height of the containing block is definite, therefore 50% is applied on the height of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vlr-in-htb-008-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vlr-in-htb-008.xht">sizing-orthog-prct-vlr-in-htb-008</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vlr-in-htb-008-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with percent inline-size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the height of the containing block is definite, therefore 50% is applied on the height of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vrl-in-htb-001-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vrl-in-htb-001.xht">sizing-orthog-prct-vrl-in-htb-001</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vrl-in-htb-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with percent inline-size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the height of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vrl-in-htb-002-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vrl-in-htb-002.xht">sizing-orthog-prct-vrl-in-htb-002</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vrl-in-htb-002-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with percent inline-size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the height of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vrl-in-htb-003-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vrl-in-htb-003.xht">sizing-orthog-prct-vrl-in-htb-003</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vrl-in-htb-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with percent inline-size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the height of the containing block is definite, therefore 50% is applied on the height of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vrl-in-htb-004-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vrl-in-htb-004.xht">sizing-orthog-prct-vrl-in-htb-004</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vrl-in-htb-004-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with percent inline-size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the height of the containing block is definite, therefore 50% is applied on the height of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vrl-in-htb-005-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vrl-in-htb-005.xht">sizing-orthog-prct-vrl-in-htb-005</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vrl-in-htb-005-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with percent inline-size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the height of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vrl-in-htb-006-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vrl-in-htb-006.xht">sizing-orthog-prct-vrl-in-htb-006</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vrl-in-htb-006-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with percent inline-size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is '50%' and its containing block's block size is 'auto'. Since the height of the containing block is indefinite in this test, then the initial containing block's size is used as a fallback which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vrl-in-htb-007-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vrl-in-htb-007.xht">sizing-orthog-prct-vrl-in-htb-007</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vrl-in-htb-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with percent inline-size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the height of the containing block is definite, therefore 50% is applied on the height of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-prct-vrl-in-htb-008-7.3.1" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-prct-vrl-in-htb-008.xht">sizing-orthog-prct-vrl-in-htb-008</a></strong></td>
+        <td><a href="reference/sizing-orthog-prct-vrl-in-htb-008-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with percent inline-size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the height of the containing block is definite, therefore 50% is applied on the height of such containing block which is, in this test, 400px.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s7.3.1.#issue-ca47cbba">
       <!-- 0 tests -->
@@ -4615,7 +5121,975 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.3.2">+</a>
         <a href="https://www.w3.org/TR/css-writing-modes-3/#auto-multicol">7.3.2 Auto-sizing Block Containers in Orthogonal Flows</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 88 tests -->
+      <tr id="float-lft-orthog-htb-in-vlr-002-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-lft-orthog-htb-in-vlr-002.xht">float-lft-orthog-htb-in-vlr-002</a></strong></td>
+        <td><a href="reference/float-lft-orthog-htb-in-vlr-002-ref.xht">=</a> </td>
+        <td></td>
+        <td>orthogonal floated left in vertical-lr context
+          <ul class="assert">
+            <li>This test checks the horizontal position of an orthogonal floated left block box inside a vertical-lr parent. The orthogonal floated left block box must be put as far to the left as possible inside the vertical-lr line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-lft-orthog-htb-in-vrl-002-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-lft-orthog-htb-in-vrl-002.xht">float-lft-orthog-htb-in-vrl-002</a></strong></td>
+        <td><a href="reference/float-lft-orthog-htb-in-vrl-002-ref.xht">=</a> </td>
+        <td></td>
+        <td>orthogonal floated left in vertical-rl context
+          <ul class="assert">
+            <li>This test checks the horizontal position of an orthogonal floated left block box inside an vertical-rl parent. The orthogonal floated left block box must be put as far to the right as possible inside the vertical-rl line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-lft-orthog-vlr-in-htb-002-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-lft-orthog-vlr-in-htb-002.xht">float-lft-orthog-vlr-in-htb-002</a></strong></td>
+        <td><a href="reference/float-lft-orthog-vlr-in-htb-002-ref.xht">=</a> </td>
+        <td></td>
+        <td>orthogonal floated left in horizontal-tb context
+          <ul class="assert">
+            <li>This test checks the vertical position of an orthogonal floated left block box inside an horizontal-tb parent. The orthogonal floated left block box must be put as high as possible inside the horizontal-tb line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-lft-orthog-vrl-in-htb-002-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-lft-orthog-vrl-in-htb-002.xht">float-lft-orthog-vrl-in-htb-002</a></strong></td>
+        <td><a href="reference/float-lft-orthog-vrl-in-htb-002-ref.xht">=</a> </td>
+        <td></td>
+        <td>orthogonal floated left in horizontal-tb context
+          <ul class="assert">
+            <li>This test checks the vertical position of an orthogonal floated left block box inside an horizontal-tb parent. The orthogonal floated left block box must be put as high as possible inside the horizontal-tb line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-rgt-orthog-htb-in-vlr-003-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-rgt-orthog-htb-in-vlr-003.xht">float-rgt-orthog-htb-in-vlr-003</a></strong></td>
+        <td><a href="reference/float-rgt-orthog-htb-in-vlr-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>orthogonal floated right in vertical-lr context
+          <ul class="assert">
+            <li>This test checks the horizontal position of an orthogonal floated right block box inside a vertical-lr parent. The orthogonal floated right block box must be put as far to the left as possible inside the vertical-lr line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-rgt-orthog-htb-in-vrl-003-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-rgt-orthog-htb-in-vrl-003.xht">float-rgt-orthog-htb-in-vrl-003</a></strong></td>
+        <td><a href="reference/float-rgt-orthog-htb-in-vrl-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>orthogonal floated right in vertical-rl context
+          <ul class="assert">
+            <li>This test checks the horizontal position of an orthogonal floated right block box inside a vertical-rl parent. The orthogonal floated right block box must be put as far to the right as possible inside the vertical-rl line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-rgt-orthog-vlr-in-htb-003-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-rgt-orthog-vlr-in-htb-003.xht">float-rgt-orthog-vlr-in-htb-003</a></strong></td>
+        <td><a href="reference/float-rgt-orthog-vlr-in-htb-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>orthogonal floated right in horizontal-tb context
+          <ul class="assert">
+            <li>This test checks the vertical position of an orthogonal floated right block box inside an horizontal-tb parent. The orthogonal floated right block box must be put as high as possible inside the horizontal-tb line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="float-rgt-orthog-vrl-in-htb-003-7.3.2" class="primary">
+        <td><strong>
+            <a href="float-rgt-orthog-vrl-in-htb-003.xht">float-rgt-orthog-vrl-in-htb-003</a></strong></td>
+        <td><a href="reference/float-rgt-orthog-vrl-in-htb-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>orthogonal floated right in horizontal-tb context
+          <ul class="assert">
+            <li>This test checks the vertical position of an orthogonal floated right block box inside an horizontal-tb parent. The orthogonal floated right block box must be put as high as possible inside the horizontal-tb line box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-001-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-001.xht">sizing-orthog-htb-in-vlr-001</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-003-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-003.xht">sizing-orthog-htb-in-vlr-003</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport. In this test, the max-content will be less than the width of the initial containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-004-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-004.xht">sizing-orthog-htb-in-vlr-004</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-004-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-006-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-006.xht">sizing-orthog-htb-in-vlr-006</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-006-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport. In this test, the max-content will be less than the width of the initial containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-007-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-007.xht">sizing-orthog-htb-in-vlr-007</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-008-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-008.xht">sizing-orthog-htb-in-vlr-008</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-008-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px. In this test, min-content inline size (50ch) is greater than the width (400px) of the containing block. Therefore, the inline size of the orthogonal block will be the min-content inline size.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-009-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-009.xht">sizing-orthog-htb-in-vlr-009</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px. In this test, the max-content will be less than the width of the containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-010-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-010.xht">sizing-orthog-htb-in-vlr-010</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-010-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-011-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-011.xht">sizing-orthog-htb-in-vlr-011</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-011-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px. In this test, we assume that the 50 characters long word is wider than the div#sized-400px-vlr-containing-block. Therefore, min-content is greater than constraint.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-012-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-012.xht">sizing-orthog-htb-in-vlr-012</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-006-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px. In this test, the max-content will be less than the width of the containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-013-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-013.xht">sizing-orthog-htb-in-vlr-013</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-013-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-015-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-015.xht">sizing-orthog-htb-in-vlr-015</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-015-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport. In this test, the max-content will be less than the width of the initial containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-016-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-016.xht">sizing-orthog-htb-in-vlr-016</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-016-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-018-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-018.xht">sizing-orthog-htb-in-vlr-018</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-018-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport. In this test, the max-content will be less than the width of the initial containing block. Therefore the inline size of div#ortho-block-vlr will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-019-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-019.xht">sizing-orthog-htb-in-vlr-019</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-019-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-020-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-020.xht">sizing-orthog-htb-in-vlr-020</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-020-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width (inline-size) of the containing block is definite in this test, then the constrain is the width (inline-size) of such containing block which is, in this test, 400px. But the min-content inline size of the orthogonal block is greater than the width (inline-size) of the containing block. Therefore, the min-content inline-size will become the width of the orthogonal block.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-021-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-021.xht">sizing-orthog-htb-in-vlr-021</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-015-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px. In this test, the max-content will be less than the width of the containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-022-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-022.xht">sizing-orthog-htb-in-vlr-022</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-022-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then the constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-023-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-023.xht">sizing-orthog-htb-in-vlr-023</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-023-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px. In this test, we assume that the 50 characters long word is wider than the div#sized-400px-vlr-containing-block. Therefore, min-content is greater than constraint.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vlr-024-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vlr-024.xht">sizing-orthog-htb-in-vlr-024</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-018-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-lr' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px. In this test, the max-content will be less than the width of the containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-001-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-001.xht">sizing-orthog-htb-in-vrl-001</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-003-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-003.xht">sizing-orthog-htb-in-vrl-003</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport. In this test, the max-content will be less than the width of the initial containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-004-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-004.xht">sizing-orthog-htb-in-vrl-004</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-004-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-006-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-006.xht">sizing-orthog-htb-in-vrl-006</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-006-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport. In this test, the max-content will be less than the width of the initial containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-007-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-007.xht">sizing-orthog-htb-in-vrl-007</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-008-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-008.xht">sizing-orthog-htb-in-vrl-008</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-008-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px. In this test, min-content inline size (50ch) is greater than the width (400px) of the containing block. Therefore, the inline size of the orthogonal block will be the min-content inline size.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-009-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-009.xht">sizing-orthog-htb-in-vrl-009</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. In this test, the max-content inline size of the orthogonal block will be smaller than the width of its containing block. Therefore the inline size of div#ortho-block-htb will be its max-content inline-size.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-010-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-010.xht">sizing-orthog-htb-in-vrl-010</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-010-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px. Therefore, the outer edges of the inline-axis of the orthogonal block becomes '400px'.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-011-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-011.xht">sizing-orthog-htb-in-vrl-011</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-011-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. But the min-content inline size of the orthogonal block is greater than '400px' and less than the width of the initial containing block. In such case, the inline-size content edges of the orthogonal block becomes its min-content. In this test, we assume that the 50 characters long word is wider than the div#sized-400px-vrl-containing-block. Therefore, min-content is greater than constraint.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-012-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-012.xht">sizing-orthog-htb-in-vrl-012</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-006-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. The max-content is narrower than the definite-sized width of the containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-013-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-013.xht">sizing-orthog-htb-in-vrl-013</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-013-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-015-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-015.xht">sizing-orthog-htb-in-vrl-015</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-015-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport. But the max-content inline size of the orthogonal block is less than the width of the initial containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-016-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-016.xht">sizing-orthog-htb-in-vrl-016</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vlr-016-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-018-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-018.xht">sizing-orthog-htb-in-vrl-018</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-018-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside auto-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the width of the containing block is indefinite in this test, then constrain is the width of initial containing block which is, in this test, equal to the width of the viewport. In this test, the max-content inline size of the orthogonal block is less than the width of the initial containing block. Therefore the inline size of div#ortho-block-vrl will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-019-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-019.xht">sizing-orthog-htb-in-vrl-019</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-019-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-020-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-020.xht">sizing-orthog-htb-in-vrl-020</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-020-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. min-content inline size is greater than 400px. Therefore, the inline size of the orthogonal block will be its min-content. This test presumes that the initial containing block's width is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-021-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-021.xht">sizing-orthog-htb-in-vrl-021</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-015-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px. In this test, the max-content will be less than the width of the containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-022-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-022.xht">sizing-orthog-htb-in-vrl-022</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-022-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-023-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-023.xht">sizing-orthog-htb-in-vrl-023</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-023-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px. In this test, we assume that the 50 characters long word is wider than the div#sized-400px-vrl-containing-block. Therefore, min-content is greater than constraint.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-htb-in-vrl-024-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-htb-in-vrl-024.xht">sizing-orthog-htb-in-vrl-024</a></strong></td>
+        <td><a href="reference/sizing-orthog-htb-in-vrl-018-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'horizontal-tb' block with 'auto' inline size inside definite-sized 'vertical-rl' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the width of the containing block is definite in this test, then constrain is the width of such containing block which is, in this test, 400px. This test presumes that the initial containing block's width is greater than 400px. In this test, the max-content will be less than the width of the containing block. Therefore the inline size of div#ortho-block-htb will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-001-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-001.xht">sizing-orthog-vlr-in-htb-001</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-003-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-003.xht">sizing-orthog-vlr-in-htb-003</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport. In this test, the max-content will be smaller than the height of the initial containing block. Therefore the inline size of div#ortho-block-vlr will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-004-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-004.xht">sizing-orthog-vlr-in-htb-004</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-004-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-006-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-006.xht">sizing-orthog-vlr-in-htb-006</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-006-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport. In this test, the max-content will be smaller than the height of the initial containing block. Therefore the inline size of div#ortho-block-vlr will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-007-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-007.xht">sizing-orthog-vlr-in-htb-007</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-008-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-008.xht">sizing-orthog-vlr-in-htb-008</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-008-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, min-content inline size is presumed to be greater than the height (400px) of the containing block. Therefore the content edges of the inline size of the orthogonal block will be its min-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-009-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-009.xht">sizing-orthog-vlr-in-htb-009</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-009-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, the max-content will be smaller than the height of the containing block. Therefore the inline size of div#ortho-block-vlr will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-010-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-010.xht">sizing-orthog-vlr-in-htb-010</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-010-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-011-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-011.xht">sizing-orthog-vlr-in-htb-011</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-011-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, we assume that the 50 characters long word is greater than the height of div#sized-400px-htb-containing-block. Therefore, min-content is greater than constraint.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-012-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-012.xht">sizing-orthog-vlr-in-htb-012</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-012-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, the max-content will be smaller than the height of the initial containing block. Therefore the inline size of div#ortho-block-vlr will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-013-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-013.xht">sizing-orthog-vlr-in-htb-013</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-013-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-015-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-015.xht">sizing-orthog-vlr-in-htb-015</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-015-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport. In this test, the max-content will be smaller than the height of the initial containing block. Therefore the inline size of div#ortho-block-vlr will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-016-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-016.xht">sizing-orthog-vlr-in-htb-016</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-016-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-018-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-018.xht">sizing-orthog-vlr-in-htb-018</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-018-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport. In this test, the max-content will be smaller than the height of the initial containing block. Therefore the inline size of div#ortho-block-vlr will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-019-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-019.xht">sizing-orthog-vlr-in-htb-019</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-019-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-020-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-020.xht">sizing-orthog-vlr-in-htb-020</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-020-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, min-content will be greater than the height of the containing block. Therefore, the inline size of the orthogonal block will be its min-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-021-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-021.xht">sizing-orthog-vlr-in-htb-021</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-015-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, the max-content of the orthogonal block will be less than the height of its definite containing block. Therefore the inline size of div#ortho-block-vlr will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-022-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-022.xht">sizing-orthog-vlr-in-htb-022</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-022-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-023-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-023.xht">sizing-orthog-vlr-in-htb-023</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-023-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, we assume that the 50 characters long word is greater than the height of div#sized-400px-htb-containing-block. Therefore, min-content is greater than constraint.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vlr-in-htb-024-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vlr-in-htb-024.xht">sizing-orthog-vlr-in-htb-024</a></strong></td>
+        <td><a href="reference/sizing-orthog-vlr-in-htb-018-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-lr' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, the max-content will be smaller than the height of the containing block. Therefore the inline size of div#ortho-block-vlr will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-001-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-001.xht">sizing-orthog-vrl-in-htb-001</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-001-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-003-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-003.xht">sizing-orthog-vrl-in-htb-003</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-003-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport. In this test, the max-content will be smaller than the height of the initial containing block. Therefore the inline size of div#ortho-block-vrl will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-004-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-004.xht">sizing-orthog-vrl-in-htb-004</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-004-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-006-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-006.xht">sizing-orthog-vrl-in-htb-006</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-006-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport. In this test, the max-content will be smaller than the height of the initial containing block. Therefore the inline size of div#ortho-block-vrl will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-007-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-007.xht">sizing-orthog-vrl-in-htb-007</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-007-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-008-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-008.xht">sizing-orthog-vrl-in-htb-008</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-008-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, min-content inline size is presumed to be greater than the height (400px) of the containing block. Therefore the content edges of the inline size of the orthogonal block will be its min-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-009-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-009.xht">sizing-orthog-vrl-in-htb-009</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-009-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, the max-content will be smaller than the height of the containing block. Therefore the inline size of div#ortho-block-vrl will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-010-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-010.xht">sizing-orthog-vrl-in-htb-010</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-010-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-011-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-011.xht">sizing-orthog-vrl-in-htb-011</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-011-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, we assume that the 50 characters long word is greater than the height of div#sized-400px-htb-containing-block. Therefore, min-content is greater than constraint.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-012-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-012.xht">sizing-orthog-vrl-in-htb-012</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-012-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, the max-content will be smaller than the height of the initial containing block. Therefore the inline size of div#ortho-block-vrl will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-013-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-013.xht">sizing-orthog-vrl-in-htb-013</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-013-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-015-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-015.xht">sizing-orthog-vrl-in-htb-015</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-015-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport. In this test, the max-content will be smaller than the height of the initial containing block. Therefore the inline size of div#ortho-block-vrl will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-016-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-016.xht">sizing-orthog-vrl-in-htb-016</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-016-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-018-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-018.xht">sizing-orthog-vrl-in-htb-018</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-018-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside auto-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is also 'auto'. Since the height of the containing block is indefinite in this test, then constrain is the height of initial containing block which is, in this test, equal to the height of the viewport. In this test, the max-content will be smaller than the height of the initial containing block. Therefore the inline size of div#ortho-block-vrl will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-019-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-019.xht">sizing-orthog-vrl-in-htb-019</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-019-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-020-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-020.xht">sizing-orthog-vrl-in-htb-020</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-020-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, min-content will be greater than the height of the containing block. Therefore, the inline size of the orthogonal block will be its min-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-021-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-021.xht">sizing-orthog-vrl-in-htb-021</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-015-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, the max-content of the orthogonal block will be less than the height of its definite containing block. Therefore the inline size of div#ortho-block-vlr will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-022-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-022.xht">sizing-orthog-vrl-in-htb-022</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-022-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-023-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-023.xht">sizing-orthog-vrl-in-htb-023</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-023-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, we assume that the 50 characters long word is greater than the height of div#sized-400px-htb-containing-block. Therefore, min-content is greater than constraint.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="sizing-orthog-vrl-in-htb-024-7.3.2" class="primary">
+        <td><strong>
+            <a href="sizing-orthog-vrl-in-htb-024.xht">sizing-orthog-vrl-in-htb-024</a></strong></td>
+        <td><a href="reference/sizing-orthog-vrl-in-htb-018-ref.xht">=</a> </td>
+        <td></td>
+        <td>sizing of orthogonal 'vertical-rl' block with 'auto' inline size inside definite-sized 'horizontal-tb' containing block
+          <ul class="assert">
+            <li>In this test, the inline size of the orthogonal block is 'auto' and its containing block's block size is '400px'. Since the height of the containing block is definite in this test, then constrain is the height of such containing block which is, in this test, 400px. This test presumes that the initial containing block's height is greater than 400px. In this test, the max-content will be smaller than the height of the containing block. Therefore the inline size of div#ortho-block-vrl will be its max-content.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s7.3.2.#issue-bddd6a30">
       <!-- 0 tests -->
@@ -4639,7 +6113,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7.4">+</a>
         <a href="https://www.w3.org/TR/css-writing-modes-3/#logical-direction-layout">7.4 Flow-Relative Mappings</a></th></tr>
-      <!-- 40 tests -->
+      <!-- 44 tests -->
       <tr id="caption-side-vlr-003-7.4" class="primary ahem image">
         <td><strong>
             <a href="caption-side-vlr-003.xht">caption-side-vlr-003</a></strong></td>
@@ -4901,6 +6375,50 @@
         <td>'vertical-rl' and margin collapsing - left margin of a block collapses with left margin of its last child
           <ul class="assert">
             <li>This test checks that, in a vertical-rl context, the left margin an in-flow block box collapses with its last in-flow block-level child's left margin if the element has no left padding and no left border and the child's left margin does not collapse with a right margin that has clearance.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="normal-flow-overconstrained-vlr-003-7.4" class="ahem image">
+        <td>
+            <a href="normal-flow-overconstrained-vlr-003.xht">normal-flow-overconstrained-vlr-003</a></td>
+        <td><a href="reference/abs-pos-non-replaced-vlr-007-ref.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>non-replaced block in normal flow with 'direction: ltr' in vertical-lr (overconstrained)
+          <ul class="assert">
+            <li>This test checks that when an inline dimension of a non-replaced block in normal flow is over-constrained, the inline-end margin is dropped and recalculated so that the equation involving inline-size is balanced; such equation takes under account the inline's direction (ltr or rtl). In this test, the inline-end margin (physical margin-bottom) is recalculated.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="normal-flow-overconstrained-vlr-005-7.4" class="ahem image">
+        <td>
+            <a href="normal-flow-overconstrained-vlr-005.xht">normal-flow-overconstrained-vlr-005</a></td>
+        <td><a href="reference/abs-pos-non-replaced-vlr-013-ref.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>non-replaced block in normal flow with 'direction: rtl' in vertical-lr (overconstrained)
+          <ul class="assert">
+            <li>This test checks that when an inline dimension of a non-replaced block in normal flow is over-constrained, the inline-end margin is dropped and recalculated so that the equation involving inline-size is balanced; such equation takes under account the inline's direction (ltr or rtl). In this test, the inline-end margin (physical margin-top) is recalculated.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="normal-flow-overconstrained-vrl-002-7.4" class="ahem image">
+        <td>
+            <a href="normal-flow-overconstrained-vrl-002.xht">normal-flow-overconstrained-vrl-002</a></td>
+        <td><a href="reference/abs-pos-non-replaced-vrl-006-ref.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>non-replaced block in normal flow with 'direction: ltr' in vertical-rl (overconstrained)
+          <ul class="assert">
+            <li>This test checks that when an inline dimension of a non-replaced block in normal flow is over-constrained, the inline-end margin is dropped and recalculated so that the equation involving inline-size is balanced; such equation takes under account the inline's direction (ltr or rtl). In this test, the inline-end margin (physical margin-bottom) is recalculated.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="normal-flow-overconstrained-vrl-004-7.4" class="ahem image">
+        <td>
+            <a href="normal-flow-overconstrained-vrl-004.xht">normal-flow-overconstrained-vrl-004</a></td>
+        <td><a href="reference/abs-pos-non-replaced-vrl-012-ref.xht">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="image" title="Requires bitmap graphic support">Bitmaps</abbr></td>
+        <td>non-replaced block in normal flow with 'direction: rtl' in vertical-rl (overconstrained)
+          <ul class="assert">
+            <li>This test checks that when an inline dimension of a non-replaced block in normal flow is over-constrained, the inline-end margin is dropped and recalculated so that the equation involving inline-size is balanced; such equation takes under account the inline's direction (ltr or rtl). In this test, the inline-end margin (physical margin-top) is recalculated.</li>
           </ul>
         </td>
       </tr>

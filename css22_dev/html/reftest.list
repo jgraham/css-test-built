@@ -1,5 +1,22 @@
 
 border-collapse-005.htm == reference/border-collapse-005-ref.htm
+character-encoding-041.htm == reference/character-encoding-041-ref.htm
+characters-0080-009F-001.htm == reference/characters-0080-009F-001-ref.htm
+escaped-url-001.htm == reference/escaped-url-001-ref.htm
+fixed-pos-stacking-001.htm == reference/fixed-pos-stacking-001-ref.htm
+height-computed-001.htm == reference/height-computed-001-ref.htm
+height-computed-002.htm == reference/height-computed-002-ref.htm
+height-percentage-004.htm == reference/height-percentage-004-ref.htm
+inherit-computed-001.htm == reference/inherit-computed-001-ref.htm
+inherit-computed-002.htm == reference/inherit-computed-002-ref.htm
+inline-formatting-context-001.htm == reference/inline-formatting-context-001-ref.htm
 left-offset-position-fixed-001.htm == reference/left-offset-position-fixed-001-ref.htm
+malformed-decl-block-001.htm == reference/malformed-decl-block-001-ref.htm
+margin-collapse-min-height-001.htm == reference/margin-collapse-min-height-001-ref.htm
+margin-collapse-min-height-002.htm == reference/margin-collapse-min-height-002-ref.htm
 min-width-tables-001.htm == reference/ref-filled-green-100px-square.htm
+overflow-applies-to-001.htm == reference/overflow-applies-to-001-ref.htm
 right-offset-position-fixed-001.htm == reference/right-offset-position-fixed-001-ref.htm
+scientific-notation-001.htm == reference/scientific-notation-001-ref.htm
+signed-numbers-001.htm == reference/signed-numbers-001-ref.htm
+signed-numbers-002.htm == reference/signed-numbers-001-ref.htm
