@@ -13,6 +13,7 @@ inline-formatting-context-001.xht == reference/inline-formatting-context-001-ref
 left-offset-position-fixed-001.xht == reference/left-offset-position-fixed-001-ref.xht
 malformed-decl-block-001.xht == reference/malformed-decl-block-001-ref.xht
 margin-collapse-min-height-001.xht == reference/margin-collapse-min-height-001-ref.xht
+margin-collapse-min-height-002.xht == reference/margin-collapse-min-height-002-ref.xht
 min-width-tables-001.xht == reference/ref-filled-green-100px-square.xht
 overflow-applies-to-001.xht == reference/overflow-applies-to-001-ref.xht
 right-offset-position-fixed-001.xht == reference/right-offset-position-fixed-001-ref.xht
