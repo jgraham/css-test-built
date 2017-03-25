@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Flexible Box Layout Module Level 1 CR Test Suite</h1>
-  <h2>Flexibility (155 tests)</h2>
+  <h2>Flexibility (157 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -1234,7 +1234,7 @@
       <!-- 0 tests -->
     </tbody>
     <tbody id="s7.2.1.#propdef-flex-grow">
-      <!-- 13 tests -->
+      <!-- 14 tests -->
       <tr id="autoheight-regions-in-fixed-sized-flexbox-001-7.2.1.#propdef-flex-grow" class="ahem">
         <td>
             <a href="autoheight-regions-in-fixed-sized-flexbox-001.xht">autoheight-regions-in-fixed-sized-flexbox-001</a></td>
@@ -1334,6 +1334,17 @@
           </ul>
         </td>
       </tr>
+      <tr id="flex-grow-007-7.2.1.#propdef-flex-grow" class="">
+        <td>
+            <a href="flex-grow-007.xht">flex-grow-007</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td></td>
+        <td>flex-grow - less than one
+          <ul class="assert">
+            <li>Test checks that remaining free space is calculated from 'flex-grow' set to positive number less than one.</li>
+          </ul>
+        </td>
+      </tr>
       <tr id="flexbox_computedstyle_flex-grow-0-7.2.1.#propdef-flex-grow" class="dom script">
         <td>
             <a href="flexbox_computedstyle_flex-grow-0.xht">flexbox_computedstyle_flex-grow-0</a></td>
@@ -1395,7 +1406,7 @@
       <!-- 0 tests -->
     </tbody>
     <tbody id="s7.2.2.#propdef-flex-shrink">
-      <!-- 12 tests -->
+      <!-- 13 tests -->
       <tr id="flex-shrink-001-7.2.2.#propdef-flex-shrink" class="">
         <td>
             <a href="flex-shrink-001.xht">flex-shrink-001</a></td>
@@ -1470,6 +1481,17 @@
         <td>flex-shrink - applied to flex container
           <ul class="assert">
             <li>The flex-shrink property applied to flex container is invalid, all flex items will use the default value 1</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="flex-shrink-008-7.2.2.#propdef-flex-shrink" class="">
+        <td>
+            <a href="flex-shrink-008.xht">flex-shrink-008</a></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
+        <td></td>
+        <td>flex-shrink - less than one
+          <ul class="assert">
+            <li>Test checks that remaining free space is calculated from 'flex-shrink' set to positive number less than one.</li>
           </ul>
         </td>
       </tr>
