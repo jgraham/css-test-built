@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- Any copyright is dedicated to the Public Domain.
+   - http://creativecommons.org/publicdomain/zero/1.0/ --><html xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8" />
+  <title>CSS Shape Test: float left, inset(20px) border-box reference</title>
+  <link href="mailto:tlin@mozilla.com" rel="author" title="Ting-Yu Lin" />
+  <link href="http://www.mozilla.org/" rel="author" title="Mozilla" />
+  <style>
+  .container {
+    position: absolute;
+    width: 200px;
+    line-height: 0;
+  }
+
+  .shape {
+    float: left;
+    /* Omit shape-outside */
+    clip-path: inset(20px) border-box;
+    box-sizing: content-box;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    border: 20px solid lightgreen;
+    margin: 20px;
+    background-color: orange;
+  }
+
+  .box {
+    position: absolute;
+    width: 60px;
+    background-color: blue;
+  }
+
+  .long {
+    width: 200px;
+  }
+  </style>
+
+  </head><body class="container">
+    <div class="shape"></div>
+    <div style="height: 40px; top: 0; left: 0;" class="long box"></div> <!-- Fill the margin and inset space -->
+    <div style="height: 40px; top: 40px; left: 120px;" class="box"></div>
+    <div style="height: 40px; top: 80px; left: 120px;" class="box"></div>
+    <div style="height: 40px; top: 120px; left: 0;" class="long box"></div> <!-- Fill the margin and inset space -->
+  
+
+</body></html>

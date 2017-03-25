@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="reftest-wait" xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8" />
+<title>CSS Animations Test: animation-delay - liveness with
+  animationstart</title>
+<link href="mailto:bbirtles@mozilla.com" rel="author" title="Brian Birtles" />
+<link href="https://drafts.csswg.org/css-animations-1/#animations" rel="help" />
+<meta content="Check that extending the animation-delay triggers
+an animationstart event" name="assert" />
+<meta content="dom" name="flags" />
+<link href="reference/animation-common-ref.xht" rel="match" />
+<style>
+@keyframes all-orange {
+  from { background-color: orange }
+  to   { background-color: orange }
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+</style>
+</head><body><div></div>
+<script>
+// Set up animation with a negative delay such that it finishes very soon
+var div = document.querySelector('div');
+div.style.animation = 'all-orange 1000s -999.99s';
+
+// Wait for the animation to finish
+div.addEventListener('animationend', function() {
+  // Set up an animationstart event handler to change the background color
+  div.addEventListener('animationstart', function() {
+    div.style.animation = 'none';
+    div.style.backgroundColor = 'green';
+  });
+
+  // Then extend the delay so that the animation restarts
+  div.style.animationDelay = '0s';
+
+  // Wait a frame to allow the event handler to run
+  window.requestAnimationFrame(function() {
+    document.documentElement.removeAttribute('class');
+  });
+});
+</script>
+
+</body></html>

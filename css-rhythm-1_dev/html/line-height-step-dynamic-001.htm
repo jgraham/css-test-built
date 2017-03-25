@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html><head><title>CSS Rhythmic Sizing: line-height-step dynamic change</title>
+<link href="mailto:kojiishi@gmail.com" rel="author" title="Koji Ishii">
+<link href="https://drafts.csswg.org/css-rhythm-1/#line-height-step" rel="help">
+<meta content="This test asserts changing the line-height-step property takes effects." name="assert">
+<meta content="dom" name="flags">
+<script src="/resources/testharness.js"></script>
+<script src="/resources/testharnessreport.js"></script>
+<style>
+div {
+  font-size: 20px;
+  line-height: 1;
+}
+</style>
+</head><body><div id="log"></div>
+<div id="target">X</div>
+<div id="next">X</div>
+<script>
+runTests();
+function runTests() {
+  var before = next.offsetTop;
+  target.style.lineHeightStep = "40px";
+  var after = next.offsetTop;
+  forceRelayout(document.documentElement);
+  var afterRelayout = next.offsetTop;
+
+  test(function () {
+    assert_not_equals(after, before);
+  }, "Height must change when line-height-step changes");
+  test(function () {
+    assert_equals(after, afterRelayout);
+  }, "Height must not change after relayout");
+}
+
+function forceRelayout(element) {
+  var saved = element.style.display;
+  element.style.display = "none";
+  element.offsetTop;
+  element.style.display = saved;
+  element.offsetTop;
+}
+</script>
+</body></html>

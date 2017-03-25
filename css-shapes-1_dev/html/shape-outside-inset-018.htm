@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Any copyright is dedicated to the Public Domain.
+   - http://creativecommons.org/publicdomain/zero/1.0/ --><html><head><meta charset="utf-8">
+  <title>CSS Shape Test: float left, inset(50%)</title>
+  <link href="mailto:tlin@mozilla.com" rel="author" title="Ting-Yu Lin">
+  <link href="http://www.mozilla.org/" rel="author" title="Mozilla">
+  <link href="https://drafts.csswg.org/css-shapes-1/#supported-basic-shapes" rel="help">
+  <link href="reference/shape-outside-inset-018-ref.htm" rel="match">
+  <meta content="" name="flags">
+  <meta content="Test the left float shape defines an empty float area by the basic shape inset(50%) value." name="assert">
+  <style>
+  .container {
+    width: 200px;
+    line-height: 0;
+  }
+
+  .shape {
+    float: left;
+    shape-outside: inset(50%);
+    clip-path: inset(50%);
+    box-sizing: content-box;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    border: 20px solid lightgreen;
+    margin: 20px;
+    background-color: orange;
+  }
+
+  .box {
+    display: inline-block;
+    width: 200px;
+    background-color: blue;
+  }
+  </style>
+
+  </head><body class="container">
+    <div class="shape"></div>
+    <div style="height: 24px;" class="box"></div>
+    <div style="height: 36px;" class="box"></div>
+    <div style="height: 36px;" class="box"></div>
+    <div style="height: 24px;" class="box"></div>
+  
+
+</body></html>

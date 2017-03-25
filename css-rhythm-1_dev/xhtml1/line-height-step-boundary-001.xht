@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>CSS Rhythmic Sizing: line-height-step boundary test</title>
+<link href="mailto:kojiishi@gmail.com" rel="author" title="Koji Ishii" />
+<link href="https://drafts.csswg.org/css-rhythm-1/#line-height-step" rel="help" />
+<link href="reference/line-height-step-boundary-001.xht" rel="match" />
+<meta content="This test asserts the line-height-step property rounds up line box height." name="assert" />
+<meta content="ahem" name="flags" />
+<style>
+div {
+  font-family: Ahem;
+  font-size: 30px;
+}
+.test, .ref {
+  display: inline-block;
+  vertical-align: top;
+  width: 5em;
+}
+.test {
+  line-height-step: 40px;
+}
+</style>
+</head><body><p class="instructions">Test passes if left and right are the same.
+</p><div class="ref">
+  <div style="line-height: 40px">XXXXX</div>
+  <div style="line-height: 40px">XXXXX</div>
+  <div style="line-height: 80px">XXXXX</div>
+  <div style="line-height: 80px">XXXXX</div>
+  <div style="line-height: 80px">XXXXX</div>
+  <div style="line-height: 120px">XXXXX</div>
+</div>
+<div class="test">
+  <div style="line-height: 39px">XXXXX</div>
+  <div style="line-height: 40px">XXXXX</div>
+  <div style="line-height: 41px">XXXXX</div>
+  <div style="line-height: 79px">XXXXX</div>
+  <div style="line-height: 80px">XXXXX</div>
+  <div style="line-height: 81px">XXXXX</div>
+</div>
+</body></html>

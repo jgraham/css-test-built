@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- Any copyright is dedicated to the Public Domain.
+   - http://creativecommons.org/publicdomain/zero/1.0/ --><html xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8" />
+  <title>CSS Shape Test: float right, polygon(100% 0%, 50% 0%, 0% 0%, 50% 0%, 50% 100%, 0% 100%, 50% 100%) border-box</title>
+  <link href="mailto:tlin@mozilla.com" rel="author" title="Ting-Yu Lin" />
+  <link href="http://www.mozilla.org/" rel="author" title="Mozilla" />
+  <link href="https://drafts.csswg.org/css-shapes-1/#supported-basic-shapes" rel="help" />
+  <link href="reference/shape-outside-polygon-031-ref.xht" rel="match" />
+  <meta content="" name="flags" />
+  <meta content="Test the boxes are wrapping around the right float shape defined by the polygon(100% 0%, 50% 0%, 0% 0%, 50% 0%, 50% 100%, 0% 100%, 50% 100%) border-box value." name="assert" />
+  <style>
+  .container {
+    direction: rtl;
+    width: 200px;
+    line-height: 0;
+  }
+
+  .shape {
+    float: right;
+    /* polygon contains horizontal lines. */
+    shape-outside: polygon(100% 0%, 50% 0%, 0% 0%, 50% 0%, 50% 100%, 0% 100%, 50% 100%) border-box;
+    clip-path: polygon(100% 0%, 50% 0%, 0% 0%, 50% 0%, 50% 100%, 0% 100%, 50% 100%) border-box;
+    box-sizing: content-box;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    margin: 20px;
+    border: 20px solid lightgreen;
+    background-color: orange;
+  }
+
+  .box {
+    display: inline-block;
+    width: 80px;
+    background-color: blue;
+  }
+  </style>
+
+  </head><body class="container">
+    <div class="shape"></div>
+    <div style="height: 30px;" class="box"></div>
+    <div style="height: 30px;" class="box"></div>
+    <div style="height: 20px;" class="box"></div>
+    <div style="height: 20px;" class="box"></div>
+    <div style="height: 30px;" class="box"></div>
+    <div style="height: 30px;" class="box"></div>
+  
+
+</body></html>

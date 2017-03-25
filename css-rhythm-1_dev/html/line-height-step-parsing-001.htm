@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html><head><title>CSS Rhythmic Sizing: parsing line-height-step</title>
+<link href="mailto:kojiishi@gmail.com" rel="author" title="Koji Ishii">
+<link href="https://drafts.csswg.org/css-rhythm-1/#line-height-step" rel="help">
+<meta content="This test asserts the parsing and getComputedStyle works correctly for the line-height-step property." name="assert">
+<meta content="dom" name="flags">
+<script src="/resources/testharness.js"></script>
+<script src="/resources/testharnessreport.js"></script>
+
+</head><body><div data-expected="0px" title="initial value should be '0px'"></div>
+
+<div data-expected="20px" style="line-height-step: 20px">
+  <div data-expected="20px" title="line-height-step should inherit"></div>
+  <div data-expected="0px" style="line-height-step: initial"></div>
+
+  <div data-expected="40px" style="line-height-step: 40px"></div>
+
+  <div data-expected="0px" style="line-height-step: 0" title="'0' should be a valid length"></div>
+
+  <div data-expected="20px" style="line-height-step: 1" title="Interger should be invalid"></div>
+  <div data-expected="20px" style="line-height-step: -1px" title="Negative length should be invalid"></div>
+</div>
+
+<div style="line-height-step: 40pt" id="pt"></div>
+
+<script>
+Array.prototype.forEach.call(document.querySelectorAll("[data-expected]"), function (element) {
+  var expected = element.dataset.expected;
+  test(function () {
+    var actual = getComputedStyle(element).lineHeightStep;
+    assert_equals(actual, expected);
+  }, element.title || "'" + element.getAttribute("style") + "' should compute to '" + expected + "'");
+});
+
+test(function () {
+  assert_equals(getComputedStyle(document.getElementById("pt")).lineHeightStep.slice(-2), "px");
+}, "Computed value should be the absolute length");
+</script>
+</body></html>
