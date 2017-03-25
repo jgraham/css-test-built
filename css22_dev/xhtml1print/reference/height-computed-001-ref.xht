@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CSS Reference File</title>
+  <style type="text/css">
+    @page { font: italic 8pt sans-serif; color: gray;
+            margin: 7%;
+            counter-increment: page;
+            @top-left { content: "CSS 2.2 CR Test Suite"; }
+            @top-right { content: "Test height-computed-001-ref"; }
+            @bottom-right { content: counter(page); }
+          }
+</style>
+    <link rel="author" title="Bert Bos" href="mailto:bert@w3.org" />
+
+    <style type="text/css"><![CDATA[
+    body {background: white; color: black; font-size: 14px}
+    span {display: inline-block}
+    #container {background: green; height: 70px; min-height: 140px}
+    #child1 {background: #66F; width: 70px; height: 70px}
+    #child2 {background: #AAF; width: 70px; height: 70px}
+    ]]></style>
+  </head>
+
+  <body>
+    <p>Test passes if (1) the two blue rectangles have the same height
+    and (2) that height is about the same as the green rectangle.</p>
+
+    <p>
+      <span id="container">
+	<span id="child1"></span><span id="child2"></span>
+      </span>
+    </p>
+  </body>
+</html>

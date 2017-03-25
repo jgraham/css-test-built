@@ -34,6 +34,11 @@ AddCharset koi8-r .css
 RemoveCharset .css
 </files>
 
+<files character-encoding-041.css>
+AddCharset utf-16be .css
+</files>
+
+
 <Files "http1.css">
 AddCharset iso-8859-1 .css
 </Files>
