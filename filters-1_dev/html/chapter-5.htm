@@ -13,7 +13,7 @@
  <body>
 
   <h1>Filter Effects Level 1 CR Test Suite</h1>
-  <h2>Graphic filters: the filter property (29 tests)</h2>
+  <h2>Graphic filters: the filter property (33 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -331,7 +331,7 @@
       </tr>
     </tbody>
     <tbody id="s5.#FilterFunction">
-      <!-- 1 tests -->
+      <!-- 5 tests -->
       <tr id="filter-grayscale-001-5.#FilterFunction" class="">
         <td>
             <a href="filter-grayscale-001.htm">filter-grayscale-001</a></td>
@@ -340,6 +340,50 @@
         <td>apply a filter to a div with background-color
           <ul class="assert">
             <li>The background color of an div element change when a grayscale filter apply</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="filter-grayscale-002-5.#FilterFunction" class="">
+        <td>
+            <a href="filter-grayscale-002.htm">filter-grayscale-002</a></td>
+        <td><a href="reference/filter-grayscale-ref.htm">=</a> </td>
+        <td></td>
+        <td>apply a filter to a div with background-color
+          <ul class="assert">
+            <li>grayscale syntax (zero percent)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="filter-grayscale-003-5.#FilterFunction" class="">
+        <td>
+            <a href="filter-grayscale-003.htm">filter-grayscale-003</a></td>
+        <td><a href="reference/filter-grayscale-ref.htm">=</a> </td>
+        <td></td>
+        <td>apply a filter to a div with background-color
+          <ul class="assert">
+            <li>grayscale syntax (zero)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="filter-grayscale-004-5.#FilterFunction" class="">
+        <td>
+            <a href="filter-grayscale-004.htm">filter-grayscale-004</a></td>
+        <td><a href="reference/filter-grayscale-ref.htm">=</a> </td>
+        <td></td>
+        <td>apply a filter to a div with background-color
+          <ul class="assert">
+            <li>grayscale syntax (1)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="filter-grayscale-005-5.#FilterFunction" class="">
+        <td>
+            <a href="filter-grayscale-005.htm">filter-grayscale-005</a></td>
+        <td><a href="reference/filter-grayscale-ref.htm">=</a> </td>
+        <td></td>
+        <td>apply a filter to a div with background-color
+          <ul class="assert">
+            <li>grayscale syntax (300%, clamp to 1)</li>
           </ul>
         </td>
       </tr>

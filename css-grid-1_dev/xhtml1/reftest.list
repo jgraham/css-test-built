@@ -49,6 +49,10 @@ grid-inline-z-axis-ordering-overlapped-items-003.xht == reference/grid-filled-bl
 grid-inline-z-axis-ordering-overlapped-items-004.xht == reference/grid-filled-blue-yellow-green-overlapped-100px-squares.xht
 grid-inline-z-axis-ordering-overlapped-items-005.xht == reference/grid-filled-blue-yellow-green-overlapped-100px-squares.xht
 grid-inline-z-axis-ordering-overlapped-items-006.xht == reference/grid-filled-blue-yellow-green-overlapped-100px-squares.xht
+grid-item-containing-block-001.xht == reference/ref-filled-green-100px-square.xht
+grid-item-containing-block-002.xht == reference/ref-filled-green-100px-square.xht
+grid-item-containing-block-003.xht == reference/ref-filled-green-100px-square.xht
+grid-item-containing-block-004.xht == reference/ref-filled-green-100px-square.xht
 grid-items-001.xht == reference/ref-filled-green-100px-square.xht
 grid-items-002.xht == reference/ref-filled-green-100px-square.xht
 grid-items-003.xht == reference/ref-filled-green-100px-square.xht
