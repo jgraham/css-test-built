@@ -99,7 +99,6 @@ flex-grow-003.htm == reference/ref-filled-green-100px-square.htm
 flex-grow-004.htm == reference/ref-filled-green-100px-square.htm
 flex-grow-005.htm == reference/ref-filled-green-100px-square.htm
 flex-grow-006.htm == reference/ref-filled-green-100px-square.htm
-flex-grow-007.htm == reference/ref-filled-green-100px-square.htm
 flex-items-flexibility.htm == reference/flex-items-flexibility.htm
 flex-margin-no-collapse.htm == reference/flex-margin-no-collapse-ref.htm
 flex-minimum-height-flex-items-001.htm == reference/ref-filled-green-100px-square.htm
@@ -126,7 +125,6 @@ flex-shrink-004.htm == reference/ref-filled-green-100px-square.htm
 flex-shrink-005.htm == reference/ref-filled-green-100px-square.htm
 flex-shrink-006.htm == reference/ref-filled-green-100px-square.htm
 flex-shrink-007.htm == reference/ref-filled-green-100px-square.htm
-flex-shrink-008.htm == reference/ref-filled-green-100px-square.htm
 flex-vertical-align-effect.htm == reference/flex-vertical-align-effect.htm
 flexbox-abspos-child-001a.htm == reference/flexbox-abspos-child-001-ref.htm
 flexbox-abspos-child-001b.htm == reference/flexbox-abspos-child-001-ref.htm
