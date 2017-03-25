@@ -191,8 +191,6 @@ html/font-applies-to-016.htm	bf37c948fee9069d8f9e2251a62b124d8f91ae41	?
 xhtml1/font-applies-to-016.xht	bf37c948fee9069d8f9e2251a62b124d8f91ae41	?
 html/font-applies-to-017.htm	391b67fe41b021e22b2cff6713ed3fdbd9456a67	?
 xhtml1/font-applies-to-017.xht	391b67fe41b021e22b2cff6713ed3fdbd9456a67	?
-html/font-face-unicode-range-2.htm	0aaefa836b017cdbd0d6f3639749bc34323089ff	?
-xhtml1/font-face-unicode-range-2.xht	0aaefa836b017cdbd0d6f3639749bc34323089ff	?
 html/font-face-unicode-range.htm	fb9d5d8783d57aef35f79c941abedffdfe5350ed	?
 xhtml1/font-face-unicode-range.xht	fb9d5d8783d57aef35f79c941abedffdfe5350ed	?
 html/font-family-001.htm	bba29a131bbbc012b700948f820334dc00cbeddb	?
@@ -263,8 +261,6 @@ html/font-family-invalid-characters-005.htm	5024d4008e25d8c9bdc41fbe60ee41040d4f
 xhtml1/font-family-invalid-characters-005.xht	5024d4008e25d8c9bdc41fbe60ee41040d4f6819	?
 html/font-family-invalid-characters-006.htm	825885808c4250ef0babc9fed4f49577e8b7de20	?
 xhtml1/font-family-invalid-characters-006.xht	825885808c4250ef0babc9fed4f49577e8b7de20	?
-html/font-family-name-000.htm	dbd733da44c59bc8b5c9511fb4a3b7252a00a3fb	?
-xhtml1/font-family-name-000.xht	dbd733da44c59bc8b5c9511fb4a3b7252a00a3fb	?
 html/font-family-name-001.htm	7b14f6d140576152871525a8f532383679e60e50	?
 xhtml1/font-family-name-001.xht	7b14f6d140576152871525a8f532383679e60e50	?
 html/font-family-name-002.htm	4d882507a40bb4db9fd5acc74fc6b725e7053ef8	?
@@ -549,8 +545,8 @@ html/font-size-adjust-001.htm	46f5fd861c048d4b7623e050749230b0fef45685	?
 xhtml1/font-size-adjust-001.xht	46f5fd861c048d4b7623e050749230b0fef45685	?
 html/font-size-adjust-002.htm	e23b1613f315bb08db2dd889eea82327952536f6	?
 xhtml1/font-size-adjust-002.xht	e23b1613f315bb08db2dd889eea82327952536f6	?
-html/font-size-adjust-003.htm	2dd428469026beb3c850fb9e2042685095a9c973	?
-xhtml1/font-size-adjust-003.xht	2dd428469026beb3c850fb9e2042685095a9c973	?
+html/font-size-adjust-003.htm	76bdd71fdd1aef6fb668dbe98db2fe362e10cdb4	?
+xhtml1/font-size-adjust-003.xht	76bdd71fdd1aef6fb668dbe98db2fe362e10cdb4	?
 html/font-size-adjust-005.htm	e9cb807e44ec0adf5b74f551e5ff98acd60bb063	?
 xhtml1/font-size-adjust-005.xht	e9cb807e44ec0adf5b74f551e5ff98acd60bb063	?
 html/font-size-adjust-006.htm	621bfe5815fe71abab1b2ff9b85e68662bf187a6	?
@@ -771,10 +767,10 @@ html/fonts-013.htm	c51d7c91c63c3668bc03a2a9fdf35bdea0043c46	?
 xhtml1/fonts-013.xht	c51d7c91c63c3668bc03a2a9fdf35bdea0043c46	?
 html/fonts-014.htm	2e0481edb25ec1143e7a83c2208ecc413691cfe7	?
 xhtml1/fonts-014.xht	2e0481edb25ec1143e7a83c2208ecc413691cfe7	?
-html/test-synthetic-bold.htm	86b1c489ef051793c46b397cf5b162d0aed58d0e	?
-xhtml1/test-synthetic-bold.xht	86b1c489ef051793c46b397cf5b162d0aed58d0e	?
-html/test-synthetic-italic.htm	1afe6706bc2f079f658923f94a4ade061b27d46e	?
-xhtml1/test-synthetic-italic.xht	1afe6706bc2f079f658923f94a4ade061b27d46e	?
+html/test-synthetic-bold.htm	289bc51877159287975be633c2ee2118b87f6421	?
+xhtml1/test-synthetic-bold.xht	289bc51877159287975be633c2ee2118b87f6421	?
+html/test-synthetic-italic.htm	7311bf5ca7d29f6ddc86d73fbbcb4be6bb8b6977	?
+xhtml1/test-synthetic-italic.xht	7311bf5ca7d29f6ddc86d73fbbcb4be6bb8b6977	?
 html/test_font_family_parsing.htm	0e4aa262ea1e9c8d4f4f1a9d1fe0cbd9ed8c75dd	?
 xhtml1/test_font_family_parsing.xht	0e4aa262ea1e9c8d4f4f1a9d1fe0cbd9ed8c75dd	?
 html/test_font_feature_values_parsing.htm	7eeb2572c3917be3f23f2ee6fdd3098cc2eb0462	?

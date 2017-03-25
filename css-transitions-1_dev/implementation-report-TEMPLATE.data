@@ -7,8 +7,6 @@ html/before-domcontentloaded-001.htm	5c2342b85b3733b8033782a120900cd85fc18358	?
 xhtml1/before-domcontentloaded-001.xht	5c2342b85b3733b8033782a120900cd85fc18358	?
 html/before-load-001.htm	ca9c84cdf8b6806ef604388b5545e1e21ceb8ff1	?
 xhtml1/before-load-001.xht	ca9c84cdf8b6806ef604388b5545e1e21ceb8ff1	?
-html/caret-color-017.htm	0a20d6a97f859a574df4cb016a26b2f8057836ad	?
-xhtml1/caret-color-017.xht	0a20d6a97f859a574df4cb016a26b2f8057836ad	?
 html/changing-while-transition.htm	01e89225705d0ab69fc08e822e0bb6a4842c37eb	?
 xhtml1/changing-while-transition.xht	01e89225705d0ab69fc08e822e0bb6a4842c37eb	?
 html/currentcolor-animation-001.htm	129324654a8fbb1270f0f1628c3800cdd2ffd2a5	?
@@ -159,8 +157,8 @@ html/transition-property-045.htm	67966222b8276cbe2efe2528467574bdbfe62d54	?
 xhtml1/transition-property-045.xht	67966222b8276cbe2efe2528467574bdbfe62d54	?
 html/transition-test.htm	1d7d701b6ca35d00e1f4a1962f636c61e45bac6b	?
 xhtml1/transition-test.xht	1d7d701b6ca35d00e1f4a1962f636c61e45bac6b	?
-html/transition-timing-function-001.htm	9e6f3cfaf520f961f53e2041bff44baccd31b015	?
-xhtml1/transition-timing-function-001.xht	9e6f3cfaf520f961f53e2041bff44baccd31b015	?
+html/transition-timing-function-001.htm	30a144d6b678cf02e2143d42a8483af60af72d79	?
+xhtml1/transition-timing-function-001.xht	30a144d6b678cf02e2143d42a8483af60af72d79	?
 html/transition-timing-function-002.htm	70cde45e58d25dac817c480c333547e64e1d3130	?
 xhtml1/transition-timing-function-002.xht	70cde45e58d25dac817c480c333547e64e1d3130	?
 html/transition-timing-function-003.htm	c8efb42a48251c36280c78246d17b8df0abec3d8	?
