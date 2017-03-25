@@ -5,8 +5,14 @@
 testname	revision	result	comment
 html/border-collapse-005.htm	92d076759a1c6112c8d259eaa185f381815fe95e	?
 xhtml1/border-collapse-005.xht	92d076759a1c6112c8d259eaa185f381815fe95e	?
+html/inherit-computed-001.htm	395df3e1bc48801f9949637d71fcae0ef7dd2a6e	?
+xhtml1/inherit-computed-001.xht	395df3e1bc48801f9949637d71fcae0ef7dd2a6e	?
+html/inherit-computed-002.htm	49fae20fcbd529b9bd6ede407e450ffbdb60e9df	?
+xhtml1/inherit-computed-002.xht	49fae20fcbd529b9bd6ede407e450ffbdb60e9df	?
 html/left-offset-position-fixed-001.htm	ef00d8c4e4949be47753fac480c33302bec380c0	?
 xhtml1/left-offset-position-fixed-001.xht	ef00d8c4e4949be47753fac480c33302bec380c0	?
+html/margin-collapse-min-height-001.htm	905987b659d83872d6d6f6795f0d38ca407964b4	?
+xhtml1/margin-collapse-min-height-001.xht	905987b659d83872d6d6f6795f0d38ca407964b4	?
 html/min-width-tables-001.htm	e63eaf57baa48408b03756b911cc11dd20e4b850	?
 xhtml1/min-width-tables-001.xht	e63eaf57baa48408b03756b911cc11dd20e4b850	?
 html/right-offset-position-fixed-001.htm	e7356485cac8b547338752f7374ee3c3e5d743f4	?
