@@ -5,6 +5,8 @@
 testname	revision	result	comment
 html/border-collapse-005.htm	92d076759a1c6112c8d259eaa185f381815fe95e	?
 xhtml1/border-collapse-005.xht	92d076759a1c6112c8d259eaa185f381815fe95e	?
+html/escaped-url-001.htm	b72978d9cf8ac03393438c9e8929124910bca13a	?
+xhtml1/escaped-url-001.xht	b72978d9cf8ac03393438c9e8929124910bca13a	?
 html/height-computed-001.htm	c432e2860e216e649193026c00b09db93ba20413	?
 xhtml1/height-computed-001.xht	c432e2860e216e649193026c00b09db93ba20413	?
 html/height-computed-002.htm	232dd45991638a4c030d2baac0056847deaf1711	?
