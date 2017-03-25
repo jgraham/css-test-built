@@ -126,6 +126,7 @@ flex-shrink-004.xht == reference/ref-filled-green-100px-square.xht
 flex-shrink-005.xht == reference/ref-filled-green-100px-square.xht
 flex-shrink-006.xht == reference/ref-filled-green-100px-square.xht
 flex-shrink-007.xht == reference/ref-filled-green-100px-square.xht
+flex-shrink-008.xht == reference/ref-filled-green-100px-square.xht
 flex-vertical-align-effect.xht == reference/flex-vertical-align-effect.xht
 flexbox-abspos-child-001a.xht == reference/flexbox-abspos-child-001-ref.xht
 flexbox-abspos-child-001b.xht == reference/flexbox-abspos-child-001-ref.xht
