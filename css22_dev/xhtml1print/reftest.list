@@ -1,5 +1,6 @@
 
 border-collapse-005.xht == reference/border-collapse-005-ref.xht
+characters-0080-009F-001.xht == reference/characters-0080-009F-001-ref.xht
 escaped-url-001.xht == reference/escaped-url-001-ref.xht
 height-computed-001.xht == reference/height-computed-001-ref.xht
 height-computed-002.xht == reference/height-computed-002-ref.xht
