@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Flexible Box Layout Module Level 1 CR Test Suite</h1>
-  <h2>Flex Layout Algorithm (68 tests)</h2>
+  <h2>Flex Layout Algorithm (79 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -520,7 +520,7 @@
       <!-- 0 tests -->
     </tbody>
     <tbody id="s9.2.#hypothetical-main-size">
-      <!-- 2 tests -->
+      <!-- 8 tests -->
       <tr id="flex-aspect-ratio-img-column-001-9.2.#hypothetical-main-size" class="primary">
         <td><strong>
             <a href="flex-aspect-ratio-img-column-001.htm">flex-aspect-ratio-img-column-001</a></strong></td>
@@ -535,6 +535,54 @@
         <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
         <td></td>
         <td>Aspect ratio handling of images
+        </td>
+      </tr>
+      <tr id="flexbox-intrinsic-ratio-001-9.2.#hypothetical-main-size" class="primary">
+        <td><strong>
+            <a href="flexbox-intrinsic-ratio-001.htm">flexbox-intrinsic-ratio-001</a></strong></td>
+        <td><a href="reference/flexbox-intrinsic-ratio-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>Testing how explicit main-size &amp; cross-size constraints influence sizing on non-stretched flex item w/ intrinsic ratio.
+        </td>
+      </tr>
+      <tr id="flexbox-intrinsic-ratio-002-9.2.#hypothetical-main-size" class="primary">
+        <td><strong>
+            <a href="flexbox-intrinsic-ratio-002.htm">flexbox-intrinsic-ratio-002</a></strong></td>
+        <td><a href="reference/flexbox-intrinsic-ratio-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>Testing how explicit main-size &amp; cross-size constraints influence sizing on non-stretched flex item w/ intrinsic ratio.
+        </td>
+      </tr>
+      <tr id="flexbox-intrinsic-ratio-003-9.2.#hypothetical-main-size" class="primary">
+        <td><strong>
+            <a href="flexbox-intrinsic-ratio-003.htm">flexbox-intrinsic-ratio-003</a></strong></td>
+        <td><a href="reference/flexbox-intrinsic-ratio-003-ref.htm">=</a> </td>
+        <td></td>
+        <td>Testing how explicit main-size &amp; cross-size constraints influence sizing on stretched flex item w/ intrinsic ratio.
+        </td>
+      </tr>
+      <tr id="flexbox-intrinsic-ratio-004-9.2.#hypothetical-main-size" class="primary">
+        <td><strong>
+            <a href="flexbox-intrinsic-ratio-004.htm">flexbox-intrinsic-ratio-004</a></strong></td>
+        <td><a href="reference/flexbox-intrinsic-ratio-004-ref.htm">=</a> </td>
+        <td></td>
+        <td>Testing how explicit main-size &amp; cross-size constraints influence sizing on stretched flex item w/ intrinsic ratio.
+        </td>
+      </tr>
+      <tr id="flexbox-intrinsic-ratio-005-9.2.#hypothetical-main-size" class="primary">
+        <td><strong>
+            <a href="flexbox-intrinsic-ratio-005.htm">flexbox-intrinsic-ratio-005</a></strong></td>
+        <td><a href="reference/flexbox-intrinsic-ratio-005-ref.htm">=</a> </td>
+        <td></td>
+        <td>Testing how explicit main-size &amp; cross-size constraints influence sizing on non-stretched flexible flex item w/ intrinsic ratio.
+        </td>
+      </tr>
+      <tr id="flexbox-intrinsic-ratio-006-9.2.#hypothetical-main-size" class="primary">
+        <td><strong>
+            <a href="flexbox-intrinsic-ratio-006.htm">flexbox-intrinsic-ratio-006</a></strong></td>
+        <td><a href="reference/flexbox-intrinsic-ratio-006-ref.htm">=</a> </td>
+        <td></td>
+        <td>Testing how explicit main-size &amp; cross-size constraints influence sizing on non-stretched flexible flex item w/ intrinsic ratio.
         </td>
       </tr>
     </tbody>
@@ -820,7 +868,53 @@
       </tr>
     </tbody>
     <tbody id="s9.4.#algo-cross-line">
-      <!-- 0 tests -->
+      <!-- 5 tests -->
+      <tr id="flexbox-single-line-clamp-1-9.4.#algo-cross-line" class="primary">
+        <td><strong>
+            <a href="flexbox-single-line-clamp-1.htm">flexbox-single-line-clamp-1</a></strong></td>
+        <td><a href="reference/flexbox-single-line-clamp-1-ref.htm">=</a> </td>
+        <td></td>
+        <td>Single-line flex containers should clamp their line's height to the container's computed min and max cross-size.
+        </td>
+      </tr>
+      <tr id="flexbox-single-line-clamp-2-9.4.#algo-cross-line" class="primary">
+        <td><strong>
+            <a href="flexbox-single-line-clamp-2.htm">flexbox-single-line-clamp-2</a></strong></td>
+        <td><a href="reference/flexbox-single-line-clamp-2-ref.htm">=</a> </td>
+        <td></td>
+        <td>Single-line flex containers should clamp their line's height to the container's computed min and max cross-size.
+        </td>
+      </tr>
+      <tr id="flexbox-single-line-clamp-3-9.4.#algo-cross-line" class="primary">
+        <td><strong>
+            <a href="flexbox-single-line-clamp-3.htm">flexbox-single-line-clamp-3</a></strong></td>
+        <td><a href="reference/flexbox-single-line-clamp-3-ref.htm">=</a> </td>
+        <td></td>
+        <td>Single-line flex containers should clamp their line's height to the container's computed min and max cross-size.
+        </td>
+      </tr>
+      <tr id="layout-algorithm_algo-cross-line-001-9.4.#algo-cross-line" class="primary">
+        <td><strong>
+            <a href="layout-algorithm_algo-cross-line-001.htm">layout-algorithm_algo-cross-line-001</a></strong></td>
+        <td><a href="reference/layout-algorithm_algo-cross-line-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>cross size determination with overflow:scroll
+          <ul class="assert">
+            <li>This test checks that correct height is applied if overflow: scroll is set</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="layout-algorithm_algo-cross-line-002-9.4.#algo-cross-line" class="primary">
+        <td><strong>
+            <a href="layout-algorithm_algo-cross-line-002.htm">layout-algorithm_algo-cross-line-002</a></strong></td>
+        <td><a href="reference/layout-algorithm_algo-cross-line-002-ref.htm">=</a> </td>
+        <td></td>
+        <td>cross size determination with overflow:scroll
+          <ul class="assert">
+            <li>This test checks that correct width is applied if overflow: scroll is set</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s9.4.#algo-line-stretch">
       <!-- 0 tests -->
@@ -864,7 +958,55 @@
       </tr>
     </tbody>
     <tbody id="s9.4.#hypothetical-cross-size">
-      <!-- 0 tests -->
+      <!-- 6 tests -->
+      <tr id="flexbox-intrinsic-ratio-001-9.4.#hypothetical-cross-size" class="">
+        <td>
+            <a href="flexbox-intrinsic-ratio-001.htm">flexbox-intrinsic-ratio-001</a></td>
+        <td><a href="reference/flexbox-intrinsic-ratio-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>Testing how explicit main-size &amp; cross-size constraints influence sizing on non-stretched flex item w/ intrinsic ratio.
+        </td>
+      </tr>
+      <tr id="flexbox-intrinsic-ratio-002-9.4.#hypothetical-cross-size" class="">
+        <td>
+            <a href="flexbox-intrinsic-ratio-002.htm">flexbox-intrinsic-ratio-002</a></td>
+        <td><a href="reference/flexbox-intrinsic-ratio-001-ref.htm">=</a> </td>
+        <td></td>
+        <td>Testing how explicit main-size &amp; cross-size constraints influence sizing on non-stretched flex item w/ intrinsic ratio.
+        </td>
+      </tr>
+      <tr id="flexbox-intrinsic-ratio-003-9.4.#hypothetical-cross-size" class="">
+        <td>
+            <a href="flexbox-intrinsic-ratio-003.htm">flexbox-intrinsic-ratio-003</a></td>
+        <td><a href="reference/flexbox-intrinsic-ratio-003-ref.htm">=</a> </td>
+        <td></td>
+        <td>Testing how explicit main-size &amp; cross-size constraints influence sizing on stretched flex item w/ intrinsic ratio.
+        </td>
+      </tr>
+      <tr id="flexbox-intrinsic-ratio-004-9.4.#hypothetical-cross-size" class="">
+        <td>
+            <a href="flexbox-intrinsic-ratio-004.htm">flexbox-intrinsic-ratio-004</a></td>
+        <td><a href="reference/flexbox-intrinsic-ratio-004-ref.htm">=</a> </td>
+        <td></td>
+        <td>Testing how explicit main-size &amp; cross-size constraints influence sizing on stretched flex item w/ intrinsic ratio.
+        </td>
+      </tr>
+      <tr id="flexbox-intrinsic-ratio-005-9.4.#hypothetical-cross-size" class="">
+        <td>
+            <a href="flexbox-intrinsic-ratio-005.htm">flexbox-intrinsic-ratio-005</a></td>
+        <td><a href="reference/flexbox-intrinsic-ratio-005-ref.htm">=</a> </td>
+        <td></td>
+        <td>Testing how explicit main-size &amp; cross-size constraints influence sizing on non-stretched flexible flex item w/ intrinsic ratio.
+        </td>
+      </tr>
+      <tr id="flexbox-intrinsic-ratio-006-9.4.#hypothetical-cross-size" class="">
+        <td>
+            <a href="flexbox-intrinsic-ratio-006.htm">flexbox-intrinsic-ratio-006</a></td>
+        <td><a href="reference/flexbox-intrinsic-ratio-006-ref.htm">=</a> </td>
+        <td></td>
+        <td>Testing how explicit main-size &amp; cross-size constraints influence sizing on non-stretched flexible flex item w/ intrinsic ratio.
+        </td>
+      </tr>
     </tbody>
     <tbody id="s9.4.#ref-for-cross-size-12">
       <!-- 0 tests -->

@@ -12,9 +12,9 @@
           }
 </style>
         <link rel="author" title="Manuel Rego Casasnovas" href="mailto:rego@igalia.com" />
-        <link rel="help" href="http://www.w3.org/TR/css-grid-1/#min-size-auto" title="4.4. Implied Minimum Size of Grid Items" />
+        <link rel="help" href="http://www.w3.org/TR/css-grid-1/#min-size-auto" title="6.6. Implied Minimum Size of Grid Items" />
         <link rel="match" href="reference/ref-filled-green-100px-square.xht" />
-        <meta name="assert" content="Checks that minimum size for grid items is the min-content size." />
+        <meta name="assert" content="Checks that minimum size for grid items is the content size." />
         <style type="text/css"><![CDATA[
             #reference-overlapped-red {
                 position: absolute;
@@ -26,7 +26,8 @@
 
             #constrained-grid {
                 display: grid;
-                grid: 10px / 10px;
+                width: 10px;
+                height: 10px;
             }
 
             #test-grid-item-overlapping-green {

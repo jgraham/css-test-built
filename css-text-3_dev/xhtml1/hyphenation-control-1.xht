@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta charset="utf-8" />
+<title>CSS Text 6.1. Hyphenation Control: the hyphens property</title>
+<link href="mailto:jeremychen@mozilla.com" rel="author" title="Chun-Min (Jeremy) Chen" />
+<link href="https://www.mozilla.org" rel="author" title="Mozilla" />
+<link href="https://drafts.csswg.org/css-text-3/#valdef-hyphens-auto" rel="help" />
+<link href="reference/hyphenation-control-1-ref.xht" rel="match" />
+<meta content="Test checks that automatic hyphenation opportunities within a word
+must be ignored if the word contains a conditional hyphen (­ or U+00AD), in favor of the
+conditional hyphen(s)." name="assert" />
+<style>
+code {
+  display:block;
+  hyphens:auto;
+  border: 1px solid black;
+}
+</style>
+</head>
+<body lang="en-us">
+<!--
+  Hyphenation opportunities of the texts in this test are as follows,
+
+        frag[A]ilis[A]tic[C]ex[A]pi[A]ali
+
+  where [A] is an automatic hyphen, and [C] is a conditional hyphen.
+
+  In this test, we set width to somewhere after the conditional hyphen,
+  then we see if automatic hyphen breaks are ignored correctly.
+-->
+<code style="width:12ch;">
+fragilistic­expiali
+</code>
+<br />
+<code style="width:14ch;">
+fragilistic­expiali
+</code>
+<br />
+<code style="width:16ch;">
+fragilistic­expiali
+</code>
+
+
+</body></html>
