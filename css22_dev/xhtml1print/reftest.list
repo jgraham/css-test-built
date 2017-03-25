@@ -7,6 +7,7 @@ inherit-computed-002.xht == reference/inherit-computed-002-ref.xht
 left-offset-position-fixed-001.xht == reference/left-offset-position-fixed-001-ref.xht
 margin-collapse-min-height-001.xht == reference/margin-collapse-min-height-001-ref.xht
 min-width-tables-001.xht == reference/ref-filled-green-100px-square.xht
+overflow-applies-to-001.xht == reference/overflow-applies-to-001-ref.xht
 right-offset-position-fixed-001.xht == reference/right-offset-position-fixed-001-ref.xht
 signed-numbers-001.xht == reference/signed-numbers-001-ref.xht
 signed-numbers-002.xht == reference/signed-numbers-001-ref.xht
