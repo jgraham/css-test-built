@@ -77,3 +77,8 @@ AddCharset koi8-r .css
 RemoveCharset .css
 </files>
 
+<files character-encoding-041.css>
+AddCharset utf-16be .css
+</files>
+
+
