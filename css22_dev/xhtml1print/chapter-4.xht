@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS 2.2 CR Test Suite</h1>
-  <h2>Syntax and basic data types (4 tests)</h2>
+  <h2>Syntax and basic data types (5 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -378,7 +378,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.4">+</a>
         <a href="https://www.w3.org/TR/CSS22/syndata.html#charset">4.4 CSS style sheet representation</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="character-encoding-041-4.4" class="http">
+        <td>
+            <a href="character-encoding-041.xht">character-encoding-041</a></td>
+        <td><a href="reference/character-encoding-041-ref.xht">=</a> </td>
+        <td><abbr class="http" title="Requires HTTP headers">HTTP</abbr></td>
+        <td>Stylesheet encodings UTF with a BOM override
+          <ul class="assert">
+            <li>If rule 1 above (an HTTP &quot;charset&quot; parameter or similar) yields a character encoding and it is one of UTF-8, UTF-16 or UTF-32, then a BOM, if any, at the start of the file overrides that character encoding, as follows: [...]</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.4.#x50">
       <!-- 0 tests -->
