@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Object Model  Level 1 CR Test Suite</h1>
-  <h2>CSS (1 tests)</h2>
+  <h2>CSS (20 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -37,7 +37,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.1">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#css-style-sheets">5.1 CSS Style Sheets</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="style-sheet-interfaces-001-5.1" class="dom script">
+        <td>
+            <a href="style-sheet-interfaces-001.xht">style-sheet-interfaces-001</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM StyleSheet Initial Values
+          <ul class="assert">
+            <li>StyleSheet and CSSStyleSheet objects have the properties specified in their interfaces</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.1.#concept-css-style-sheet-alternate-flag">
       <!-- 0 tests -->
@@ -286,7 +297,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.1.2">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#the-cssstylesheet-interface">5.1.2 The CSSStyleSheet Interface</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="style-sheet-interfaces-002-5.1.2" class="dom script">
+        <td>
+            <a href="style-sheet-interfaces-002.xht">style-sheet-interfaces-002</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM StyleSheet Modify Rule List
+          <ul class="assert">
+            <li>StyleSheet and CSSStyleSheet objects have the properties specified in their interfaces</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.1.2.#cssstylesheet">
       <!-- 0 tests -->
@@ -385,7 +407,29 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.2">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#css-style-sheet-collections">5.2 CSS Style Sheet Collections</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 2 tests -->
+      <tr id="ttwf-cssom-doc-ext-load-count-5.2" class="dom script">
+        <td>
+            <a href="ttwf-cssom-doc-ext-load-count.xht">ttwf-cssom-doc-ext-load-count</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM - Extensions to the Document Interface: StyleSheetList length reflects dynamically loaded and unloaded sheets
+          <ul class="assert">
+            <li>The styleSheets length attribute must reflect the number of sheets at page load and after dynamically</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="ttwf-cssom-doc-ext-load-tree-order-5.2" class="dom script">
+        <td>
+            <a href="ttwf-cssom-doc-ext-load-tree-order.xht">ttwf-cssom-doc-ext-load-tree-order</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM - Extensions to the Document Interface: Stylesheet header load order
+          <ul class="assert">
+            <li>Document's style sheets created from HTTP Link headers are first in list and loaded in header order</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.2.#add-a-css-style-sheet">
       <!-- 0 tests -->
@@ -637,7 +681,40 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.2.2">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#the-stylesheetlist-interface">5.2.2 The StyleSheetList Interface</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 3 tests -->
+      <tr id="ttwf-cssom-doc-ext-load-count-5.2.2" class="dom script">
+        <td>
+            <a href="ttwf-cssom-doc-ext-load-count.xht">ttwf-cssom-doc-ext-load-count</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM - Extensions to the Document Interface: StyleSheetList length reflects dynamically loaded and unloaded sheets
+          <ul class="assert">
+            <li>The styleSheets length attribute must reflect the number of sheets at page load and after dynamically</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="ttwf-cssom-doc-ext-load-tree-order-5.2.2" class="dom script">
+        <td>
+            <a href="ttwf-cssom-doc-ext-load-tree-order.xht">ttwf-cssom-doc-ext-load-tree-order</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM - Extensions to the Document Interface: Stylesheet header load order
+          <ul class="assert">
+            <li>Document's style sheets created from HTTP Link headers are first in list and loaded in header order</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="ttwf-cssom-document-extension-5.2.2" class="dom script">
+        <td>
+            <a href="ttwf-cssom-document-extension.xht">ttwf-cssom-document-extension</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM - Extensions to the Document Interface: StyleSheetList length is 0 when no sheets loaded
+          <ul class="assert">
+            <li>The styleSheets attribute must return a StyleSheetList sequence representing the document style sheets.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.2.2.#dom-stylesheetlist-item">
       <!-- 0 tests -->
@@ -685,7 +762,40 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.2.3">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#extensions-to-the-document-interface">5.2.3 Extensions to the Document Interface</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 3 tests -->
+      <tr id="ttwf-cssom-doc-ext-load-count-5.2.3" class="dom script">
+        <td>
+            <a href="ttwf-cssom-doc-ext-load-count.xht">ttwf-cssom-doc-ext-load-count</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM - Extensions to the Document Interface: StyleSheetList length reflects dynamically loaded and unloaded sheets
+          <ul class="assert">
+            <li>The styleSheets length attribute must reflect the number of sheets at page load and after dynamically</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="ttwf-cssom-doc-ext-load-tree-order-5.2.3" class="dom script">
+        <td>
+            <a href="ttwf-cssom-doc-ext-load-tree-order.xht">ttwf-cssom-doc-ext-load-tree-order</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM - Extensions to the Document Interface: Stylesheet header load order
+          <ul class="assert">
+            <li>Document's style sheets created from HTTP Link headers are first in list and loaded in header order</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="ttwf-cssom-document-extension-5.2.3" class="dom script">
+        <td>
+            <a href="ttwf-cssom-document-extension.xht">ttwf-cssom-document-extension</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM - Extensions to the Document Interface: StyleSheetList length is 0 when no sheets loaded
+          <ul class="assert">
+            <li>The styleSheets attribute must return a StyleSheetList sequence representing the document style sheets.</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.2.3.#dom-document-stylesheets">
       <!-- 0 tests -->
@@ -904,7 +1014,29 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.4">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#css-rules">5.4 CSS Rules</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 2 tests -->
+      <tr id="cssimportrule-5.4" class="dom script">
+        <td>
+            <a href="cssimportrule.xht">cssimportrule</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM CSSRule CSSImportRule interface
+          <ul class="assert">
+            <li>All properties for this CSSImportRule instance of CSSRule are initialized correctly</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="cssstylerule-5.4" class="dom script">
+        <td>
+            <a href="cssstylerule.xht">cssstylerule</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM CSSRule CSSStyleRule interface
+          <ul class="assert">
+            <li>All properties for this CSSStyleRule instance of CSSRule are initialized correctly</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.4.#concept-css-rule-child-css-rules">
       <!-- 0 tests -->
@@ -1018,7 +1150,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.4.1">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#the-cssrulelist-interface">5.4.1 The CSSRuleList Interface</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="index-003-5.4.1" class="dom script">
+        <td>
+            <a href="index-003.xht">index-003</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSS OM: CSS Values
+          <ul class="assert">
+            <li>Testing Serialization of Style Rules</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.4.1.#cssrulelist">
       <!-- 0 tests -->
@@ -1063,7 +1206,40 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.4.2">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#the-cssrule-interface">5.4.2 The CSSRule Interface</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 3 tests -->
+      <tr id="cssimportrule-5.4.2" class="dom script">
+        <td>
+            <a href="cssimportrule.xht">cssimportrule</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM CSSRule CSSImportRule interface
+          <ul class="assert">
+            <li>All properties for this CSSImportRule instance of CSSRule are initialized correctly</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="cssstylerule-5.4.2" class="dom script">
+        <td>
+            <a href="cssstylerule.xht">cssstylerule</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM CSSRule CSSStyleRule interface
+          <ul class="assert">
+            <li>All properties for this CSSStyleRule instance of CSSRule are initialized correctly</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="style-sheet-interfaces-002-5.4.2" class="dom script">
+        <td>
+            <a href="style-sheet-interfaces-002.xht">style-sheet-interfaces-002</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM StyleSheet Modify Rule List
+          <ul class="assert">
+            <li>StyleSheet and CSSStyleSheet objects have the properties specified in their interfaces</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.4.2.#cssrule">
       <!-- 0 tests -->
@@ -1195,7 +1371,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.4.3">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#the-cssstylerule-interface">5.4.3 The CSSStyleRule Interface</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="cssstylerule-5.4.3" class="dom script">
+        <td>
+            <a href="cssstylerule.xht">cssstylerule</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM CSSRule CSSStyleRule interface
+          <ul class="assert">
+            <li>All properties for this CSSStyleRule instance of CSSRule are initialized correctly</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.4.3.#concept-declarations-specified-order">
       <!-- 0 tests -->
@@ -1255,7 +1442,18 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.4.4">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#the-cssimportrule-interface">5.4.4 The CSSImportRule Interface</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="cssimportrule-5.4.4" class="dom script">
+        <td>
+            <a href="cssimportrule.xht">cssimportrule</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM CSSRule CSSImportRule interface
+          <ul class="assert">
+            <li>All properties for this CSSImportRule instance of CSSRule are initialized correctly</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.4.4.#cssimportrule">
       <!-- 0 tests -->
@@ -1681,7 +1879,61 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.6.1">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#the-cssstyledeclaration-interface">5.6.1 The CSSStyleDeclaration Interface</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 6 tests -->
+      <tr id="computed-style-001-5.6.1" class="dom script">
+        <td>
+            <a href="computed-style-001.xht">computed-style-001</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>getComputedStyle
+          <ul class="assert">
+            <li>getComputedStyle returns a readonly CSSStyleDeclaration with resolved values</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="css-style-declaration-modifications-5.6.1" class="dom script">
+        <td>
+            <a href="css-style-declaration-modifications.xht">css-style-declaration-modifications</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSStyleDeclaration Interface
+          <ul class="assert">
+            <li>CSSStyleDeclaration is properly initialized and can be modified through its interface</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="cssom-cssstyledeclaration-set-5.6.1" class="dom script">
+        <td>
+            <a href="cssom-cssstyledeclaration-set.xht">cssom-cssstyledeclaration-set</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM: CSSStyleDeclaration on HTMLElement represents inline style changes
+        </td>
+      </tr>
+      <tr id="cssom-csstext-serialize-5.6.1" class="dom script">
+        <td>
+            <a href="cssom-cssText-serialize.xht">cssom-csstext-serialize</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>getting cssText must return the result of serializing the CSS declaration blocks.
+        </td>
+      </tr>
+      <tr id="cssom-setproperty-shorthand-5.6.1" class="dom script">
+        <td>
+            <a href="cssom-setProperty-shorthand.xht">cssom-setproperty-shorthand</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM: CSSStyleDeclaration (set|remove)PropertyValue sets/removes shorthand properties
+        </td>
+      </tr>
+      <tr id="cssstyledeclaration-mutability-5.6.1" class="dom script">
+        <td>
+            <a href="cssstyledeclaration-mutability.xht">cssstyledeclaration-mutability</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSSOM: CSSStyleDeclaration is mutable and immutable in various settings
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.6.1.#css-property-to-idl-attribute">
       <!-- 0 tests -->
@@ -2163,7 +2415,29 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.7">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#css-values">5.7 CSS Values</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 2 tests -->
+      <tr id="index-001-5.7" class="dom script">
+        <td>
+            <a href="index-001.xht">index-001</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSS OM: CSS Values
+          <ul class="assert">
+            <li>The style value should be serialized to margin: 20px;</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="index-002-5.7" class="dom script">
+        <td>
+            <a href="index-002.xht">index-002</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>CSS OM: CSS Values
+          <ul class="assert">
+            <li>Testing Serialization of Shorthand Values</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.7.1">
       <tr><th colspan="4" scope="rowgroup">
@@ -2181,7 +2455,40 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s5.7.2">+</a>
         <a href="https://www.w3.org/TR/cssom-1/#serializing-css-values">5.7.2 Serializing CSS Values</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 3 tests -->
+      <tr id="shape-outside-shape-arguments-000-5.7.2" class="dom script">
+        <td>
+            <a href="shape-outside-shape-arguments-000.xht">shape-outside-shape-arguments-000</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>Shape Outside Basic Shape Arguments
+          <ul class="assert">
+            <li>A basic basic shape can contain any length unit type, or percentage</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-shape-arguments-001-5.7.2" class="dom script">
+        <td>
+            <a href="shape-outside-shape-arguments-001.xht">shape-outside-shape-arguments-001</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>Shape Outside Shape Number Values
+          <ul class="assert">
+            <li>The basic shape can contain all valid number formats</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="shape-outside-shape-notation-000-5.7.2" class="dom script">
+        <td>
+            <a href="shape-outside-shape-notation-000.xht">shape-outside-shape-notation-000</a></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>Shape Outside Valid Basic Shape Functional Notation
+          <ul class="assert">
+            <li>Basic shapes use functional notation, and may contain optional whitespace inside the parentheses</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s5.7.2.#issue-30d70c4f">
       <!-- 0 tests -->
