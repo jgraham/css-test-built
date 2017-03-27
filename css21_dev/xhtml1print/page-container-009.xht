@@ -4,7 +4,7 @@
   <title>CSS Test: Paged Media Body Background</title>
   <style type="text/css">
     @page { font: italic 8pt sans-serif; color: gray;
-            
+            margin: 7%;
             counter-increment: page;
             @top-left { content: "CSS 2.1 Conformance Test Suite"; }
             @top-right { content: "Test page-container-009"; }
@@ -17,9 +17,6 @@
   <meta name="flags" content="paged"/>
   <meta name="assert" content="For documents in the html namespace, a background on 'body' will cover the page area."/>
   <style type="text/css">
-    @page {
-        margin: 7%;
-    }
     html {
         background-color: inherit;
         background-image: inherit;

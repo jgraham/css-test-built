@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Transforms Module Level 1 CR Test Suite</h1>
-  <h2>The transform Property (104 tests)</h2>
+  <h2>The transform Property (105 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -31,23 +31,23 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s7">+</a>
         <a href="https://www.w3.org/TR/css-transforms-1/#transform-property">7 The transform Property</a></th></tr>
-      <!-- 103 tests -->
-      <tr id="2d-rotate-001-7" class="svg">
+      <!-- 104 tests -->
+      <tr id="2d-rotate-001-7" class="css3, rotate, svg">
         <td>
             <a href="2d-rotate-001.xht">2d-rotate-001</a></td>
         <td><a href="reference/2d-rotate-ref.xht">=</a> <a href="reference/2d-rotate-notref.xht">&#x2260;</a> </td>
-        <td><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
+        <td><abbr class="css3," title=""></abbr><abbr class="rotate," title=""></abbr><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
         <td>CSS Transform using 2d rotate()
           <ul class="assert">
             <li>asserting that you can rotate an element with CSS</li>
           </ul>
         </td>
       </tr>
-      <tr id="2d-rotate-js-7" class="svg script">
+      <tr id="2d-rotate-js-7" class="css3, rotate, svg">
         <td>
             <a href="2d-rotate-js.xht">2d-rotate-js</a></td>
         <td></td>
-        <td><abbr class="svg" title="Requires SVG support">SVG</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td><abbr class="css3," title=""></abbr><abbr class="rotate," title=""></abbr><abbr class="svg" title="Requires SVG support">SVG</abbr></td>
         <td>Rotate via javascript must show the correct computed rotation
           <ul class="assert">
             <li>Asserting that you can rotate an element with JS and it show up in CSS computed values not as a matrix but as the rotation</li>
@@ -998,6 +998,17 @@
         <td>transform translate
           <ul class="assert">
             <li>Check if transform supports translate(0, 0)</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="transforms-rotate-degree-45-7" class="primary">
+        <td><strong>
+            <a href="transforms-rotate-degree-45.xht">transforms-rotate-degree-45</a></strong></td>
+        <td><a href="reference/transforms-rotate-degree-45-ref.xht">=</a> </td>
+        <td></td>
+        <td>transform property with rotate function and one parameter
+          <ul class="assert">
+            <li>If the rotate and scale with parameter not provided, greenSquare will not cover redSquare.</li>
           </ul>
         </td>
       </tr>

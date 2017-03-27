@@ -1,22 +1,5 @@
 
 border-collapse-005.xht == reference/border-collapse-005-ref.xht
-character-encoding-041.xht == reference/character-encoding-041-ref.xht
-characters-0080-009F-001.xht == reference/characters-0080-009F-001-ref.xht
-escaped-url-001.xht == reference/escaped-url-001-ref.xht
-fixed-pos-stacking-001.xht == reference/fixed-pos-stacking-001-ref.xht
-height-computed-001.xht == reference/height-computed-001-ref.xht
-height-computed-002.xht == reference/height-computed-002-ref.xht
-height-percentage-004.xht == reference/height-percentage-004-ref.xht
-inherit-computed-001.xht == reference/inherit-computed-001-ref.xht
-inherit-computed-002.xht == reference/inherit-computed-002-ref.xht
-inline-formatting-context-001.xht == reference/inline-formatting-context-001-ref.xht
 left-offset-position-fixed-001.xht == reference/left-offset-position-fixed-001-ref.xht
-malformed-decl-block-001.xht == reference/malformed-decl-block-001-ref.xht
-margin-collapse-min-height-001.xht == reference/margin-collapse-min-height-001-ref.xht
-margin-collapse-min-height-002.xht == reference/margin-collapse-min-height-002-ref.xht
-min-width-tables-001.xht == reference/ref-filled-green-100px-square.xht
-overflow-applies-to-001.xht == reference/overflow-applies-to-001-ref.xht
+min-width-tables-001.xht == ref.xht
 right-offset-position-fixed-001.xht == reference/right-offset-position-fixed-001-ref.xht
-scientific-notation-001.xht == reference/scientific-notation-001-ref.xht
-signed-numbers-001.xht == reference/signed-numbers-001-ref.xht
-signed-numbers-002.xht == reference/signed-numbers-001-ref.xht
