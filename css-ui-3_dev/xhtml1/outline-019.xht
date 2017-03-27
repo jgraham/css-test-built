@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8" />
+  <title>CSS-UI test: outline currentColor inheritance</title>
+  <link href="https://florian.rivoal.net" rel="author" title="Florian Rivoal" />
+  <meta content="" name="flags" />
+  <meta content="currentColor is inherited as a keyword" name="assert" />
+  <link href="https://drafts.csswg.org/css-ui-3/#outline-props" rel="help" />
+  <link href="https://drafts.csswg.org/css-color-4/#resolve-color-values" rel="help" />
+  <link href="reference/ref-filled-green-100px-square.xht" rel="match" />
+<style>
+body &gt; div {
+  color: red;
+  outline-color: currentcolor;
+  display: table-cell; /*BFC*/
+}
+
+div &gt; div {
+  width: 0; height: 0;
+  margin-left: 50px;
+  margin-top: 50px;
+  color: green;
+  outline-color: inherit;
+  outline-width: 50px;
+  outline-style: solid;
+}
+</style>
+
+  </head><body><p>Test passes if there is a filled green square and <strong>no red</strong>.</p>
+  <div><div></div></div>
+
+</body></html>

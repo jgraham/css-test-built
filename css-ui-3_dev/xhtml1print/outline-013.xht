@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8" />
+  <title>CSS-UI test: outline-offset width negative values</title>
+  <link href="http://florian.rivoal.net" rel="author" title="Florian Rivoal" />
+  <meta content="should" name="flags" />
+  <meta content="Negative values on outline-offset should not cause the height and the width of outside of the shape drawn by the outline to become smaller than twice the computed value of the outline-width property" name="assert" />
+  <link href="reference/ref-filled-green-100px-square.xht" rel="match" />
+  <link href="https://drafts.csswg.org/css-ui-3/#outline-props" rel="help" />
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  outline: solid 50px green;
+  outline-offset: -150px;
+}
+</style>
+
+  </head><body><p>Test passes if there is a filled green square and <strong>no red</strong>.</p>
+  <div></div>
+
+</body></html>

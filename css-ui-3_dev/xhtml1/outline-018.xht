@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8" />
+<title>CSS Basic User Interface Test: non interpolable outline-style animation</title>
+<link href="http://florian.rivoal.net" rel="author" title="Florian Rivoal" />
+<link href="https://drafts.csswg.org/css-ui-3/#propdef-outline-style" rel="help" />
+<link href="https://www.w3.org/TR/web-animations-1/#dom-animatable-animate" rel="help" />
+<script src="/resources/testharness.js"></script>
+<script src="/resources/testharnessreport.js"></script>
+<style>
+@keyframes outline-anim {
+  from {
+    outline: solid 1px black;
+  }
+  to {
+    outline: dotted 1px black;
+  }
+}
+
+#test {
+  animation: outline-anim 3s -1.5s paused linear;
+  outline: solid 1px black;
+}
+</style>
+</head><body>
+  <div id="test"></div>
+  <div id="log"></div>
+
+  <script>
+    test(
+      function(){
+        var test = document.getElementById("test");
+
+        test.style.animation = "outline-anim 3s 0s paused linear"
+        assert_equals(getComputedStyle(test).outlineStyle, 'solid');
+        test.style.animation = "outline-anim 3s -1s paused linear"
+        assert_equals(getComputedStyle(test).outlineStyle, 'solid');
+        test.style.animation = "outline-anim 3s -2s paused linear"
+        assert_equals(getComputedStyle(test).outlineStyle, 'dotted');
+        test.style.animation = "outline-anim 3s 0s paused reverse-linear"
+        assert_equals(getComputedStyle(test).outlineStyle, 'dotted');
+      }, "outline-style is animated as a discrete type");
+</script>
+
+</body></html>

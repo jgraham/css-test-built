@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8" />
+  <title>CSS-UI test: outline-color:invert</title>
+  <link href="http://florian.rivoal.net" rel="author" title="Florian Rivoal" />
+  <meta content="" name="flags" />
+  <meta content="outline-color:invert must do pixel-level color invertion OR fail to parse, in which case the initial value must be currentcolor" name="assert" />
+  <link href="reference/outline-006-ref.xht" rel="match" />
+  <link href="https://drafts.csswg.org/css-ui-3/#outline-props" rel="help" />
+<style>
+body &gt; div {
+  width: 100px;
+  height: 100px;
+  display: table-cell; /* Make a BFC */
+  background: rgb(255,128,255); /* inverse of rgb(0,127,0) */
+}
+div &gt; div {
+  color: rgb(0,127,0);
+  background: rgb(0,127,0);
+  margin: 25px;
+  width: 50px;
+  height: 50px;
+  outline: solid 25px;
+  outline-color: invert;
+}
+
+</style>
+
+  </head><body><p>Test passes if there is a filled green square and <strong>no pink</strong>.</p>
+  <div><div></div></div>
+
+</body></html>

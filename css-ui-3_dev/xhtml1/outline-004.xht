@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8" />
+  <title>CSS-UI test: connected outline parts</title>
+  <link href="http://florian.rivoal.net" rel="author" title="Florian Rivoal" />
+  <meta content="ahem should" name="flags" />
+  <meta content="Each part of the outline should be fully connected rather than open on some sides" name="assert" />
+  <link href="reference/ref-filled-green-100px-square.xht" rel="match" />
+  <link href="https://drafts.csswg.org/css-ui-3/#outline-props" rel="help" />
+<style>
+span {
+  outline: solid green 10px;
+  color: green;
+}
+div {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  line-height: 40px;
+  font-size: 40px;
+  background: red;
+  font-family: ahem;
+}
+</style>
+
+  </head><body><p>Test passes if there is a filled green square and <strong>no red</strong>.</p>
+  <div><span>xx<br />xx</span></div>
+
+</body></html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+  <title>CSS-UI test: computed values ouf outline-width when outline-style is none</title>
+  <link href="http://florian.rivoal.net" rel="author" title="Florian Rivoal">
+  <meta content="" name="flags">
+  <meta content="outline-width computes to 0 when outline-style is none" name="assert">
+  <link href="reference/ref-filled-green-100px-square.htm" rel="match">
+  <link href="https://drafts.csswg.org/css-ui-3/#outline-props" rel="help">
+<style>
+body {
+  outline-width: 10px;
+  outline-style: none;
+
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: green;
+
+  outline-width: inherit;
+  outline-style: solid;
+  outline-color: red;
+}
+</style>
+
+  </head><body><p>Test passes if there is a filled green square and <strong>no red</strong>.</p>
+  <div></div>
+
+</body></html>

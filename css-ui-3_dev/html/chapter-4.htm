@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSS Basic User Interface Module Level 3 CR Test Suite</h1>
-  <h2>Outline properties (9 tests)</h2>
+  <h2>Outline properties (26 tests)</h2>
   <table width="100%">
     <col id="test-column">
     <col id="refs-column">
@@ -31,7 +31,172 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4">+</a>
         <a href="https://www.w3.org/TR/css3-ui/#outline-props">4 Outline properties</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 15 tests -->
+      <tr id="outline-003-4" class="primary">
+        <td><strong>
+            <a href="outline-003.htm">outline-003</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td></td>
+        <td>outline &amp; layout
+          <ul class="assert">
+            <li>Outline does not influence size or position, and has no impact on layout.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-004-4" class="primary ahem should">
+        <td><strong>
+            <a href="outline-004.htm">outline-004</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td><abbr class="ahem" title="Requires Ahem font">Ahem</abbr><abbr class="should" title="Behavior tested is recommended but not required">Recommend</abbr></td>
+        <td>connected outline parts
+          <ul class="assert">
+            <li>Each part of the outline should be fully connected rather than open on some sides</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-005-4" class="primary should">
+        <td><strong>
+            <a href="outline-005.htm">outline-005</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td><abbr class="should" title="Behavior tested is recommended but not required">Recommend</abbr></td>
+        <td>outline &amp; border-radius
+          <ul class="assert">
+            <li>To the extent that the outline follows the border edge, it should follow the border-radius curve.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-006-4" class="primary">
+        <td><strong>
+            <a href="outline-006.htm">outline-006</a></strong></td>
+        <td><a href="reference/outline-006-ref.htm">=</a> </td>
+        <td></td>
+        <td>outline-color:invert
+          <ul class="assert">
+            <li>outline-color:invert must do pixel-level color invertion OR fail to parse, in which case the initial value must be currentcolor</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-007-4" class="primary">
+        <td><strong>
+            <a href="outline-007.htm">outline-007</a></strong></td>
+        <td><a href="reference/outline-007-ref.htm">&#x2260;</a> </td>
+        <td></td>
+        <td>outline-style: auto
+          <ul class="assert">
+            <li>outline-style:auto allows the UA to display any outline it wants, but it must display something.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-008-4" class="primary">
+        <td><strong>
+            <a href="outline-008.htm">outline-008</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td></td>
+        <td>computed values ouf outline-width
+          <ul class="assert">
+            <li>outline-width values compute to absolute lengths</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-009-4" class="primary">
+        <td><strong>
+            <a href="outline-009.htm">outline-009</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td></td>
+        <td>computed values ouf outline-width when outline-style is none
+          <ul class="assert">
+            <li>outline-width computes to 0 when outline-style is none</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-010-4" class="primary">
+        <td><strong>
+            <a href="outline-010.htm">outline-010</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td></td>
+        <td>computed values ouf outline-width
+          <ul class="assert">
+            <li>outline-offset values compute to absolute lengths</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-011-4" class="primary">
+        <td><strong>
+            <a href="outline-011.htm">outline-011</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td></td>
+        <td>outline-color: currentcolor
+          <ul class="assert">
+            <li>currentcolor computes to currentcolor on outline-color</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-012-4" class="primary">
+        <td><strong>
+            <a href="outline-012.htm">outline-012</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td></td>
+        <td>outline-offset width negative values
+          <ul class="assert">
+            <li>Negative values on outline-offset must cause the outline to shrink into the border box.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-013-4" class="primary should">
+        <td><strong>
+            <a href="outline-013.htm">outline-013</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td><abbr class="should" title="Behavior tested is recommended but not required">Recommend</abbr></td>
+        <td>outline-offset width negative values
+          <ul class="assert">
+            <li>Negative values on outline-offset should not cause the height and the width of outside of the shape drawn by the outline to become smaller than twice the computed value of the outline-width property</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-014-4" class="primary should">
+        <td><strong>
+            <a href="outline-014.htm">outline-014</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td><abbr class="should" title="Behavior tested is recommended but not required">Recommend</abbr></td>
+        <td>outline-offset width negative values &amp;#8212; long box
+          <ul class="assert">
+            <li>Negative values on outline-offset should not cause the height and the width of outside of the shape drawn by the outline to become smaller than twice the computed value of the outline-width property, applying this constrain independenly in each direction.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-015-4" class="primary should">
+        <td><strong>
+            <a href="outline-015.htm">outline-015</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td><abbr class="should" title="Behavior tested is recommended but not required">Recommend</abbr></td>
+        <td>outline-offset width negative values &amp;#8212; long box
+          <ul class="assert">
+            <li>Negative values on outline-offset should not cause the height and the width of outside of the shape drawn by the outline to become smaller than twice the computed value of the outline-width property, applying this constrain independenly in each direction.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-016-4" class="primary should">
+        <td><strong>
+            <a href="outline-016.htm">outline-016</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td><abbr class="should" title="Behavior tested is recommended but not required">Recommend</abbr></td>
+        <td>outline-offset width negative values &amp;#8212; long box
+          <ul class="assert">
+            <li>Negative values on outline-offset should not cause the height and the width of outside of the shape drawn by the outline to become smaller than twice the computed value of the outline-width property, applying this constrain separately for each shape if there are several shapes.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="outline-019-4" class="primary">
+        <td><strong>
+            <a href="outline-019.htm">outline-019</a></strong></td>
+        <td><a href="reference/ref-filled-green-100px-square.htm">=</a> </td>
+        <td></td>
+        <td>outline currentColor inheritance
+          <ul class="assert">
+            <li>currentColor is inherited as a keyword</li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.1">
       <tr><th colspan="4" scope="rowgroup">
@@ -139,7 +304,23 @@
       </tr>
     </tbody>
     <tbody id="s4.3.#propdef-outline-style">
-      <!-- 0 tests -->
+      <!-- 2 tests -->
+      <tr id="outline-017-4.3.#propdef-outline-style" class="primary script">
+        <td><strong>
+            <a href="outline-017.htm">outline-017</a></strong></td>
+        <td></td>
+        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>interpolable outline-* properties animation
+        </td>
+      </tr>
+      <tr id="outline-018-4.3.#propdef-outline-style" class="primary script">
+        <td><strong>
+            <a href="outline-018.htm">outline-018</a></strong></td>
+        <td></td>
+        <td><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>non interpolable outline-style animation
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.3.#ref-for-propdef-outline-style-2">
       <!-- 0 tests -->
