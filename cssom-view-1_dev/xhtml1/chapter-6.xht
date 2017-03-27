@@ -13,7 +13,7 @@
  <body>
 
   <h1>CSSOM View Module Level 1 Test Suite</h1>
-  <h2>Extensions to the Element Interface (6 tests)</h2>
+  <h2>Extensions to the Element Interface (7 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -71,7 +71,7 @@
       </tr>
     </tbody>
     <tbody id="s6.#dom-element-getclientrects">
-      <!-- 2 tests -->
+      <!-- 3 tests -->
       <tr id="cssom-getboundingclientrect-002-6.#dom-element-getclientrects" class="dom script">
         <td>
             <a href="cssom-getBoundingClientRect-002.xht">cssom-getboundingclientrect-002</a></td>
@@ -91,6 +91,17 @@
         <td>getClientRects of element outside DOM
           <ul class="assert">
             <li>Calling getClientRects on an element that is outside of the DOM (and therefore does not have an associated layout box) should result in an empty DOMRectList and should definitely not throw an error.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="ttwf-js-cssomview-getclientrects-length-6.#dom-element-getclientrects" class="primary dom script">
+        <td><strong>
+            <a href="ttwf-js-cssomview-getclientrects-length.xht">ttwf-js-cssomview-getclientrects-length</a></strong></td>
+        <td></td>
+        <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr><abbr class="script" title="Executes tests in script">Script</abbr></td>
+        <td>the length of getClientRects
+          <ul class="assert">
+            <li>getClientRects will return rects of the correct number</li>
           </ul>
         </td>
       </tr>

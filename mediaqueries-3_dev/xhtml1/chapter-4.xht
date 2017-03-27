@@ -13,7 +13,7 @@
  <body>
 
   <h1>Media Queries Level 3 Conformance Test Suite</h1>
-  <h2>Media features (14 tests)</h2>
+  <h2>Media features (16 tests)</h2>
   <table width="100%">
     <col id="test-column"></col>
     <col id="refs-column"></col>
@@ -37,7 +37,7 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.1">+</a>
         <a href="https://www.w3.org/TR/css3-mediaqueries/#width">4.1 width</a></th></tr>
-      <!-- 4 tests -->
+      <!-- 5 tests -->
       <tr id="calc-in-media-queries-001-4.1" class="">
         <td>
             <a href="calc-in-media-queries-001.xht">calc-in-media-queries-001</a></td>
@@ -60,10 +60,18 @@
           </ul>
         </td>
       </tr>
+      <tr id="media-queries-002-4.1" class="primary">
+        <td><strong>
+            <a href="media-queries-002.xht">media-queries-002</a></strong></td>
+        <td></td>
+        <td></td>
+        <td>The 'width' media feature (for visual devices with desktop viewport widths)
+        </td>
+      </tr>
       <tr id="min-width-001-4.1" class="">
         <td>
             <a href="min-width-001.xht">min-width-001</a></td>
-        <td><a href="ref.xht">=</a> </td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
         <td></td>
         <td>min-width length value approximation
           <ul class="assert">
@@ -74,7 +82,7 @@
       <tr id="min-width-tables-001-4.1" class="dom">
         <td>
             <a href="min-width-tables-001.xht">min-width-tables-001</a></td>
-        <td><a href="ref.xht">=</a> </td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
         <td><abbr class="dom" title="Requires Document Object Model support">DOM/JS</abbr></td>
         <td>Table Layout and Viewport Resizing
           <ul class="assert">
@@ -115,7 +123,7 @@
       <tr id="aspect-ratio-001-4.6" class="">
         <td>
             <a href="aspect-ratio-001.xht">aspect-ratio-001</a></td>
-        <td></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
         <td></td>
         <td>min-aspect-ratio - 59/79 ('aspect-ratio' property with prefix 'min')
           <ul class="assert">
@@ -126,7 +134,7 @@
       <tr id="aspect-ratio-002-4.6" class="">
         <td>
             <a href="aspect-ratio-002.xht">aspect-ratio-002</a></td>
-        <td></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
         <td></td>
         <td>min-aspect-ratio - 0/0 ('aspect-ratio' property with prefix 'min')
           <ul class="assert">
@@ -137,7 +145,7 @@
       <tr id="aspect-ratio-003-4.6" class="">
         <td>
             <a href="aspect-ratio-003.xht">aspect-ratio-003</a></td>
-        <td></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
         <td></td>
         <td>max-aspect-ratio - 1280/720 ('aspect-ratio' property with prefix 'max')
           <ul class="assert">
@@ -148,7 +156,7 @@
       <tr id="aspect-ratio-004-4.6" class="">
         <td>
             <a href="aspect-ratio-004.xht">aspect-ratio-004</a></td>
-        <td></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
         <td></td>
         <td>max-aspect-ratio - 0/0 ('aspect-ratio' property with prefix 'max')
           <ul class="assert">
@@ -165,7 +173,7 @@
       <tr id="device-aspect-ratio-001-4.7" class="">
         <td>
             <a href="device-aspect-ratio-001.xht">device-aspect-ratio-001</a></td>
-        <td></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
         <td></td>
         <td>max-device-aspect-ratio - 1281/1024 ('device-aspect-ratio' property with prefix 'max')
           <ul class="assert">
@@ -176,7 +184,7 @@
       <tr id="device-aspect-ratio-002-4.7" class="">
         <td>
             <a href="device-aspect-ratio-002.xht">device-aspect-ratio-002</a></td>
-        <td></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
         <td></td>
         <td>max-device-aspect-ratio - 0/0 ('device-aspect-ratio' property with prefix 'max')
           <ul class="assert">
@@ -187,7 +195,7 @@
       <tr id="device-aspect-ratio-003-4.7" class="">
         <td>
             <a href="device-aspect-ratio-003.xht">device-aspect-ratio-003</a></td>
-        <td></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
         <td></td>
         <td>min-device-aspect-ratio - 1279/1024 ('device-aspect-ratio' property with prefix 'min')
           <ul class="assert">
@@ -198,7 +206,7 @@
       <tr id="device-aspect-ratio-004-4.7" class="">
         <td>
             <a href="device-aspect-ratio-004.xht">device-aspect-ratio-004</a></td>
-        <td></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
         <td></td>
         <td>min-device-aspect-ratio - 0/0 ('device-aspect-ratio' property with prefix 'min')
           <ul class="assert">
@@ -209,7 +217,7 @@
       <tr id="device-aspect-ratio-005-4.7" class="">
         <td>
             <a href="device-aspect-ratio-005.xht">device-aspect-ratio-005</a></td>
-        <td></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
         <td></td>
         <td>device-aspect-ratio - 1280/1024 (basic)
           <ul class="assert">
@@ -220,7 +228,7 @@
       <tr id="device-aspect-ratio-006-4.7" class="">
         <td>
             <a href="device-aspect-ratio-006.xht">device-aspect-ratio-006</a></td>
-        <td></td>
+        <td><a href="reference/ref-filled-green-100px-square.xht">=</a> </td>
         <td></td>
         <td>device-aspect-ratio - 0/0 (invalid)
           <ul class="assert">
@@ -233,7 +241,15 @@
       <tr><th colspan="4" scope="rowgroup">
         <a href="#s4.8">+</a>
         <a href="https://www.w3.org/TR/css3-mediaqueries/#color">4.8 color</a></th></tr>
-      <!-- 0 tests -->
+      <!-- 1 tests -->
+      <tr id="media-queries-003-4.8" class="primary">
+        <td><strong>
+            <a href="media-queries-003.xht">media-queries-003</a></strong></td>
+        <td></td>
+        <td></td>
+        <td>The 'color' media feature (for color devices with bit depth less than 4096 bits per pixel)
+        </td>
+      </tr>
     </tbody>
     <tbody id="s4.9">
       <tr><th colspan="4" scope="rowgroup">
